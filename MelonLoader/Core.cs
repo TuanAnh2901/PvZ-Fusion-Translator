@@ -107,4 +107,3 @@ namespace PvZ_Fusion_Translator
 		}
 	}
 }
-

@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace PvZ_Fusion_Translator
 {
-    public static class ModFeatures
+	public static class ModFeatures
 	{
 		public enum ModType
 		{

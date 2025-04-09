@@ -2,7 +2,7 @@
 using MelonLoader;
 using Newtonsoft.Json.Linq;
 using PvZ_Fusion_Translator.AssetStore;
-using PvZ_Fusion_Translator.Patches;
+using PvZ_Fusion_Translator.Patches.OtherManagers;
 using System.Text.Encodings.Web;
 using System.Text.Json;
 using UnityEngine;
@@ -210,7 +210,6 @@ namespace PvZ_Fusion_Translator
 			{
 				foreach (string filepath in Directory.EnumerateFiles(texturePackDir, "*.png", SearchOption.AllDirectories))
 				{
-
 					#if OBFUSCATE
 					if (CheckSumStore.IsModified(filepath))
 					{

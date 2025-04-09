@@ -164,7 +164,6 @@ namespace PvZ_Fusion_Translator__BepInEx_
 			{
 				foreach (string filepath in Directory.EnumerateFiles(textureDefaultDir, "*.png", SearchOption.AllDirectories))
 				{
-
 					#if OBFUSCATE
 					if (CheckSumStore.IsModified(filepath))
 					{
@@ -197,7 +196,6 @@ namespace PvZ_Fusion_Translator__BepInEx_
 			{
 				foreach (string filepath in Directory.EnumerateFiles(texturePackDir, "*.png", SearchOption.AllDirectories))
 				{
-
 					#if OBFUSCATE
 					if (CheckSumStore.IsModified(filepath))
 					{

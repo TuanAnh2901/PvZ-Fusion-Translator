@@ -30,12 +30,9 @@ public class Core : BasePlugin
 
 	public override void Load()
 	{
-
 		Instance = this;
 		MonoInstance = AddComponent<UnityCoroutineHelper>();
-
 		Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
-
 		LoadConfig();
 
 		FileLoader.LoadLanguage();
@@ -48,9 +45,9 @@ public class Core : BasePlugin
 		InitCoroutine();
 	}
 
-    public override bool Unload()
-    {
-        if (replaceTextureRoutine != null)
+	public override bool Unload()
+	{
+		if (replaceTextureRoutine != null)
 		{
 			MonoInstance.StopCoroutine(replaceTextureRoutine);
 			Log.LogDebug("Coroutine Stopped");
@@ -62,8 +59,8 @@ public class Core : BasePlugin
 		#endif
 
 		return true;
-    }
-    public void InitCoroutine()
+	}
+	public void InitCoroutine()
 	{
 		if (replaceTextureRoutine != null) return;
 		replaceTextureRoutine = MonoInstance.StartCoroutine(TextureStore.ReplaceTexturesCoroutine());
@@ -121,8 +118,8 @@ public class UnityCoroutineHelper : MonoBehaviour
 {
 	public static UnityCoroutineHelper Instance { get; private set; }
 
-    public void Awake()
-    {
-	    Instance = this;
-    }
+	public void Awake()
+	{
+		Instance = this;
+	}
 }

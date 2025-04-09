@@ -8,9 +8,9 @@ using UnityEngine.Experimental.Rendering;
 
 namespace PvZ_Fusion_Translator__BepInEx_
 {
-    public class Utils
-    {
-        internal static bool TryReplaceTexture2D(Texture2D ogTexture)
+	public class Utils
+	{
+		internal static bool TryReplaceTexture2D(Texture2D ogTexture)
 		{
 			if (ogTexture != null)
 			{
@@ -124,5 +124,5 @@ namespace PvZ_Fusion_Translator__BepInEx_
 
 			LANG_END
 		}
-    }
+	}
 }
