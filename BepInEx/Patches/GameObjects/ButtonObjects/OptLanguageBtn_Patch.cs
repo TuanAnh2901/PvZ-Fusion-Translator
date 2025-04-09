@@ -3,6 +3,7 @@ using PvZ_Fusion_Translator__BepInEx_;
 using PvZ_Fusion_Translator__BepInEx_.AssetStore;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using TMPro;
 using UnityEngine;
@@ -12,94 +13,144 @@ public class OptionButtonData
 {
 	public OptionBtn Button { get; set; }
 	public Vector3 Position { get; set; }
-	public Utils.LanguageEnum Language { get; set; }
+	public Utils.LanguageEnum? Language { get; set; } // Null if it's the "Next" button
+	public bool IsNextButton { get; set; }
 }
 
 namespace PvZ_Fusion_Translator__BepInEx_.Patches.GameObjects.ButtonObjects
 {
 	internal class OptLanguageBtn_Patch
 	{
-		public static Dictionary<int, OptionButtonData> LanguageBtnDict = [];
-		private static bool buttonsCreated = false; // Prevent duplicate creation
+		public static Dictionary<int, OptionButtonData> LanguageBtnDict = new();
+		private static bool buttonsCreated = false;
 		private static OptionBtn cachedTemplateButton;
+
+		private const float startX = 4.3241f + 2.56f;
+		private const float startY = 2.7769f;
+		private const float ySpacing = 1.2505f;
+
+		private static List<Utils.LanguageEnum> AvailableLanguages;
+		private const int LanguagesPerPage = 5;
+		private static int currentPage = 0;
+		private static OptionBtn[] buttonSlots = new OptionBtn[6]; // 5 language buttons + 1 next button
 
 		public static void CreateLanguageButtons(OptionBtn templateButton)
 		{
-			if (buttonsCreated) return; // Avoid duplicate calls
+			if (buttonsCreated) return;
 			buttonsCreated = true;
-			cachedTemplateButton = templateButton; // Cache for re-creation
+			cachedTemplateButton = templateButton;
 
-			float startX = 4.3241f; // Starting X position
-			float startY = 2.7769f; // Starting Y position
-			float xSpacing = 2.56f; // Horizontal spacing between columns
-			float ySpacing = 1.2505f; // Vertical spacing between rows
-			int buttonsPerColumn = 6; // Number of buttons per column
-			int buttonType = 80; // Starting optionType for buttons
+			AvailableLanguages = Enum.GetValues(typeof(Utils.LanguageEnum))
+				.Cast<Utils.LanguageEnum>()
+				.Where(lang => lang != Utils.LanguageEnum.LANG_END)
+				.ToList();
 
-			int i = 0; // Index for languages
-
-			foreach (Utils.LanguageEnum language in Enum.GetValues(typeof(Utils.LanguageEnum)))
+			for (int i = 0; i < 6; i++)
 			{
-				if (language == Utils.LanguageEnum.LANG_END) continue; // Skip invalid language
+				var newButton = Object.Instantiate(templateButton, templateButton.transform.parent);
+				newButton.optionType = 80 + i;
 
-				// Clone the button
-				OptionBtn newButton = Object.Instantiate(templateButton, templateButton.transform.parent);
-				newButton.optionType = buttonType++; // Assign a unique optionType
+				float yPos = startY - i * ySpacing;
+				Vector3 pos = new(startX, yPos);
+				newButton.transform.position = pos;
 
-				// Calculate column and row
-				int column = i / buttonsPerColumn;
-				int row = i % buttonsPerColumn;
-
-				// Position the button
-				float xPos = startX + column * xSpacing; // Calculate column position
-				float yPos = startY - row * ySpacing; // Calculate row position
-				newButton.transform.position = new Vector3(xPos, yPos);
+				buttonSlots[i] = newButton;
 
 				LanguageBtnDict[newButton.GetInstanceID()] = new OptionButtonData
 				{
-					Button = newButton, 
-					Position = newButton.transform.position,
-					Language = language,
+					Button = newButton,
+					Position = pos
 				};
-
-				// Update button text
-				UpdateButtonText(newButton, language.ToString());
-
-				i++; // Increment index
 			}
+
+			UpdatePage();
+		}
+
+		private static void UpdatePage()
+		{
+			int startIndex = currentPage * LanguagesPerPage;
+			int langCount = AvailableLanguages.Count;
+
+			for (int i = 0; i < 5; i++)
+			{
+				var btn = buttonSlots[i];
+				var data = LanguageBtnDict[btn.GetInstanceID()];
+
+				if (startIndex + i < langCount)
+				{
+					var lang = AvailableLanguages[startIndex + i];
+					data.Language = lang;
+					data.IsNextButton = false;
+					btn.gameObject.SetActive(true);
+					UpdateButtonText(btn, lang.ToString());
+				}
+				else
+				{
+					data.Language = null;
+					data.IsNextButton = false;
+					btn.gameObject.SetActive(false);
+				}
+			}
+
+			// "Next" button always visible at index 5
+			var nextBtn = buttonSlots[5];
+			var nextData = LanguageBtnDict[nextBtn.GetInstanceID()];
+			nextData.Language = null;
+			nextData.IsNextButton = true;
+			nextBtn.gameObject.SetActive(true);
+			UpdateButtonText(nextBtn, "Next");
 		}
 
 		public static void UpdateButtonText(OptionBtn button, string languageName)
 		{
 			TMP_FontAsset defaultAsset = FontStore.LoadTMPFont("English");
 
-			// Update text in all child transforms
-			for (int i = 0; i < 3; i++) // Assuming 3 child text objects
+			for (int i = 0; i < 3; i++)
 			{
 				Transform textTransform = button.transform.GetChild(i);
 				if (textTransform != null)
 				{
-
 					if (i == 0) textTransform.gameObject.SetActive(false);
 
 					TextMeshProUGUI text = textTransform.GetComponent<TextMeshProUGUI>();
 					if (text != null)
 					{
-						if (i == 0) 
+						if (i == 0)
 						{
-							text.text = "Language Changed!";
+							text.text = "";
 							text.color = Color.red;
-							
 						}
-						else 
+						else
 						{
-							text.text = languageName; // Update language name
+							text.text = languageName;
 						}
 						text.fontSize = 16;
 						text.font = defaultAsset;
 						text.autoSizeTextContainer = false;
 					}
 				}
+			}
+		}
+
+		private static void FlashMessage(OptionBtn button, string message)
+		{
+			var child = button.transform.GetChild(0);
+			if (child != null)
+			{
+				var text = child.GetComponent<TextMeshProUGUI>();
+				if (text != null)
+				{
+					text.text = message;
+				}
+				child.gameObject.SetActive(true);
+
+				Task.Delay(1000).ContinueWith(_ =>
+				{
+					if (button != null && child != null && child.gameObject.activeSelf)
+					{
+						child.gameObject.SetActive(false);
+					}
+				});
 			}
 		}
 
@@ -110,10 +161,9 @@ namespace PvZ_Fusion_Translator__BepInEx_.Patches.GameObjects.ButtonObjects
 			[HarmonyPostfix]
 			private static void Awake(OptionBtn __instance)
 			{
-				// Reset flag when UI is reinitialized
 				if (!buttonsCreated || cachedTemplateButton == null)
 				{
-					buttonsCreated = false; // Reset to allow button recreation
+					buttonsCreated = false;
 					CreateLanguageButtons(__instance);
 				}
 			}
@@ -122,25 +172,29 @@ namespace PvZ_Fusion_Translator__BepInEx_.Patches.GameObjects.ButtonObjects
 			[HarmonyPrefix]
 			private static void OnMouseUpAsButton(OptionBtn __instance)
 			{
-				if (LanguageBtnDict.TryGetValue(__instance.GetInstanceID(), out var languageButton))
+				if (LanguageBtnDict.TryGetValue(__instance.GetInstanceID(), out var btnData))
 				{
-					Utils.ChangeLanguage(languageButton.Language.ToString()); // Change language
-					Debug.Log($"Language changed to: {languageButton.Language.ToString()}");
-
-					var child = languageButton.Button.transform.GetChild(0);
-					if (child != null)
+					if (btnData.IsNextButton)
 					{
-						child.gameObject.SetActive(true);
+						currentPage = (currentPage + 1) % (int)Math.Ceiling((float)AvailableLanguages.Count / LanguagesPerPage);
+						UpdatePage();
+						return;
+					}
 
-						// Use a delayed action with a safer check
-						Task.Delay(1000).ContinueWith(task =>
+					if (btnData.Language is Utils.LanguageEnum selectedLang)
+					{
+						string currentLang = Utils.Language.ToString();
+
+						if (currentLang == selectedLang.ToString())
 						{
-							// Ensure the button is still valid before attempting to deactivate the child
-							if (languageButton.Button != null && child != null && child.gameObject.activeSelf)
-							{
-								child.gameObject.SetActive(false);
-							}
-						});
+							FlashMessage(btnData.Button, "Already Selected!");
+						}
+						else
+						{
+							Utils.ChangeLanguage(selectedLang.ToString());
+							Debug.Log($"Language changed to: {selectedLang}");
+							FlashMessage(btnData.Button, "Language Changed!");
+						}
 					}
 				}
 			}
@@ -149,11 +203,9 @@ namespace PvZ_Fusion_Translator__BepInEx_.Patches.GameObjects.ButtonObjects
 			[HarmonyPostfix]
 			private static void Update(OptionBtn __instance)
 			{
-				// Ensure buttons maintain their positions
-				if (LanguageBtnDict.TryGetValue(__instance.GetInstanceID(), out var languageButton))
+				if (LanguageBtnDict.TryGetValue(__instance.GetInstanceID(), out var btnData))
 				{
-					// just reuse already calculated positions on creating
-					languageButton.Button.transform.position = languageButton.Position;
+					btnData.Button.transform.position = btnData.Position;
 				}
 			}
 		}
