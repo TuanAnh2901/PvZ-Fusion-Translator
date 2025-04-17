@@ -5,12 +5,12 @@ using PvZ_Fusion_Translator.AssetStore;
 
 namespace PvZ_Fusion_Translator.Patches.Managers
 {
-    [HarmonyPatch(typeof(InGameUIMgr))]
+    [HarmonyPatch(typeof(InGameUI))]
 	public static class InGameUIMgr_Patch
 	{
-		[HarmonyPatch(nameof(InGameUIMgr.Start))]
+		[HarmonyPatch(nameof(InGameUI.Start))]
 		[HarmonyPostfix]
-		private static void Start(InGameUIMgr __instance)
+		private static void Start(InGameUI __instance)
 		{
 			TextMeshProUGUI[] array = new TextMeshProUGUI[]
 			{

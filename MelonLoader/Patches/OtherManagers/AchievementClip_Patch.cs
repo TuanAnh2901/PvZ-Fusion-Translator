@@ -4,7 +4,7 @@ using Il2CppTMPro;
 using Newtonsoft.Json;
 using PvZ_Fusion_Translator.AssetStore;
 using static PvZ_Fusion_Translator.FileLoader;
-using static PvZ_Fusion_Translator.Patches.Managers.AlmanacMgr_Patch;
+using static PvZ_Fusion_Translator.Patches.Managers.AlmanacPlantBank_Patch;
 
 namespace PvZ_Fusion_Translator.Patches.OtherManagers
 {

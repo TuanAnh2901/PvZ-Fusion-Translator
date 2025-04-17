@@ -117,7 +117,7 @@ namespace PvZ_Fusion_Translator.AssetStore
 		public static void WarningLoad()
 		{
 			GameAPP.theGameStatus = -2;
-			GameObject gameObject = UnityEngine.Object.Instantiate<GameObject>(Resources.Load<GameObject>("UI/MainMenu/HelpMenu"), GameAPP.canvas.transform);
+			GameObject gameObject = UnityEngine.Object.Instantiate<GameObject>(Resources.Load<GameObject>("UI/MainMenu/NoticePauseMenu"), GameAPP.canvas.transform);
 			gameObject.name = "WarningMessage";
 			TextMeshProUGUI warning = gameObject.transform.GetChild(0).GetChild(0).GetComponent<TextMeshProUGUI>();
 			TextMeshProUGUI warningShadow = gameObject.transform.GetChild(0).GetChild(1).GetComponent<TextMeshProUGUI>();

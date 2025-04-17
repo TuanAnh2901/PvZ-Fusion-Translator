@@ -6,12 +6,12 @@ using UnityEngine;
 
 namespace PvZ_Fusion_Translator.Patches.GameObjects
 {
-    [HarmonyPatch(typeof(Help_))]
-	public class Help__Patch
+    [HarmonyPatch(typeof(NoticeMenu))]
+	public class NoticePauseMenu_Patch
 	{
 		[HarmonyPostfix]
-		[HarmonyPatch(nameof(Help_.Start))]
-		private static void Start(Help_ __instance)
+		[HarmonyPatch(nameof(NoticeMenu.Start))]
+		private static void Start(NoticeMenu __instance)
 		{
 			TMP_FontAsset fontAsset = FontStore.LoadTMPFont(Utils.Language.ToString());
 			Transform warningTransform = __instance.transform.GetChild(0);

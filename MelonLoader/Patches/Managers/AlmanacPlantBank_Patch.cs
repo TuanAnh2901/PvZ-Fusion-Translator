@@ -7,12 +7,12 @@ using static PvZ_Fusion_Translator.FileLoader;
 
 namespace PvZ_Fusion_Translator.Patches.Managers
 {
-	[HarmonyPatch(typeof(AlmanacMgr))]
-	public static partial class AlmanacMgr_Patch
+	[HarmonyPatch(typeof(AlmanacPlantBank))]
+	public static partial class AlmanacPlantBank_Patch
 	{
-		[HarmonyPatch(nameof(AlmanacMgr.InitNameAndInfoFromJson))]
+		[HarmonyPatch(nameof(AlmanacPlantBank.InitNameAndInfoFromJson))]
 		[HarmonyPrefix]
-		private static bool InitNameAndInfoFromJson(AlmanacMgr __instance)
+		private static bool InitNameAndInfoFromJson(Il2Cpp.AlmanacPlantBank __instance)
 		{
 			#if MULTI_LANGUAGE
 			string currentLanguage = Utils.Language.ToString();
@@ -54,14 +54,14 @@ namespace PvZ_Fusion_Translator.Patches.Managers
 			TMP_FontAsset fontAsset = FontStore.LoadTMPFont();
 			#endif
 
-			TextMeshPro component = __instance.info.GetComponent<TextMeshPro>();
+			TextMeshPro component = __instance.introduce.GetComponent<TextMeshPro>();
 			TextMeshPro component2 = __instance.plantName.GetComponent<TextMeshPro>();
 			TextMeshPro component3 = __instance.plantName.transform.GetChild(0).GetComponent<TextMeshPro>();
 			TextMeshPro component4 = __instance.cost.GetComponent<TextMeshPro>();
 
-			AlmanacMgr.PlantData plantData = JsonUtility.FromJson<AlmanacMgr.PlantData>(json);
+            Il2Cpp.AlmanacPlantBank.PlantData plantData = JsonUtility.FromJson<Il2Cpp.AlmanacPlantBank.PlantData>(json);
 
-			foreach (AlmanacMgr.PlantInfo plantInfo in plantData.plants)
+			foreach (Il2Cpp.AlmanacPlantBank.PlantInfo plantInfo in plantData.plants)
 			{
 				if (plantInfo.seedType == __instance.theSeedType)
 				{
@@ -92,11 +92,11 @@ namespace PvZ_Fusion_Translator.Patches.Managers
 			return true;
 		}
 
-		[HarmonyPatch(nameof(AlmanacMgr.OnMouseDown))]
+		[HarmonyPatch(nameof(AlmanacPlantBank_Patch.OnMouseDown))]
 		[HarmonyPrefix]
-		private static bool OnMouseDown(AlmanacMgr __instance)
+		private static bool OnMouseDown(Il2Cpp.AlmanacPlantBank __instance)
 		{
-			TextMeshPro component = __instance.info.GetComponent<TextMeshPro>();
+			TextMeshPro component = __instance.introduce.GetComponent<TextMeshPro>();
 			if (component != null)
 			{
 				component.pageToDisplay = component.pageToDisplay > component.m_pageNumber ? 1 : component.pageToDisplay + 1;

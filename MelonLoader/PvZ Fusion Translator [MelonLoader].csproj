@@ -13,7 +13,7 @@
 		<LangVersion>latest</LangVersion>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Configurations>Debug;DebugEnglish;ReleaseMulti;ReleaseEnglish;DebugTesting;ReleaseOther;DebugObfuscate;ReleaseObfuscate</Configurations>
-		<GamePath>D:\Games\[Series] PvZ Mods\(Fangame) Fusion\Plants vs Zombies Fusion - Version 2.3.1 (Chinese)[PC]</GamePath>
+		<GamePath>D:\Games\[Series] PvZ Mods\(Fangame) Fusion\Plants vs Zombies Fusion - Version 2.4 (Chinese)[PC]</GamePath>
 		<Platforms>AnyCPU;ARM64;x64</Platforms>
 	</PropertyGroup>
 
@@ -448,15 +448,24 @@
 		<Compile Include="Log.cs" />
 		<Compile Include="ModFeatures.cs" />
 		<Compile Include="AssetStore\AudioStore.cs" />
+		<Compile Include="Patches\GameObjects\ButtonObjects\AbyssBuffButton_Patch.cs" />
+		<Compile Include="Patches\GameObjects\ButtonObjects\AbyssButton_Patch.cs" />
+		<Compile Include="Patches\GameObjects\ButtonObjects\BaseMenu_Patch.cs" />
+		<Compile Include="Patches\GameObjects\ButtonObjects\SaveMenuBtn_Patch.cs" />
 		<Compile Include="Patches\GameObjects\MinorObjects\DY_Patch.cs" />
 		<Compile Include="Patches\GameObjects\MinorObjects\LanternUmbrella_Patch.cs" />
 		<Compile Include="Patches\GameObjects\MinorObjects\MagnetBox_Patch.cs" />
 		<Compile Include="Patches\GameObjects\MinorObjects\MagnetInterface_Patch.cs" />
 		<Compile Include="Patches\GameObjects\MinorObjects\Money_Patch.cs" />
+		<Compile Include="Patches\Managers\AbyssDevelopMenu_Patch.cs" />
+		<Compile Include="Patches\Managers\AbyssMenu2_Patch.cs" />
+		<Compile Include="Patches\Managers\AbyssMenu_Patch.cs" />
+		<Compile Include="Patches\Managers\CustomLevelShower_Patch.cs" />
+		<Compile Include="Patches\Managers\SaveMenu_Patch.cs" />
 		<Compile Include="Patches\OtherManagers\AchievementClip_Patch.cs" />
 		<Compile Include="Patches\GameObjects\ButtonObjects\Advanture_Btn_Patch.cs" />
 		<Compile Include="Patches\Managers\AlmanacMgrZombie_Patch.cs" />
-		<Compile Include="Patches\Managers\AlmanacMgr_Patch.cs" />
+		<Compile Include="Patches\Managers\AlmanacPlantBank_Patch.cs" />
 		<Compile Include="Patches\Managers\DifficultyMgr_Patch.cs" />
 		<Compile Include="Patches\Managers\EndlessMgr_Patch.cs" />
 		<Compile Include="Patches\GameObjects\ButtonObjects\EveBtn_Patch.cs" />
@@ -465,7 +474,7 @@
 		<Compile Include="Patches\GameObjects\CustomSettings_Patch.cs" />
 		<Compile Include="Patches\GameObjects\CustomSun_Patch.cs" />
 		<Compile Include="Patches\OtherManagers\GardenUI_Patch.cs" />
-		<Compile Include="Patches\GameObjects\Help__Patch.cs" />
+		<Compile Include="Patches\GameObjects\NoticePauseMenu_Patch.cs" />
 		<Compile Include="Patches\GameObjects\ButtonObjects\InGameBtn_Patch.cs" />
 		<Compile Include="Patches\BaseTextObjects\InGameText_Patch.cs" />
 		<Compile Include="Patches\Managers\InGameUIMgr_Patch.cs" />

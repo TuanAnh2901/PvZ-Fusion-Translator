@@ -8,13 +8,13 @@ namespace PvZ_Fusion_Translator.Patches.BaseTextObjects
 	[HarmonyPatch(typeof(InGameText))]
 	public static class InGameText_Patch
 	{
-		[HarmonyPatch(nameof(InGameText.EnableText), new Type[] { typeof(string), typeof(float), typeof(bool) })]
+		[HarmonyPatch(nameof(InGameText.ShowText), new Type[] { typeof(string), typeof(float), typeof(bool) })]
 		[HarmonyPrefix]
-		private static void EnableText(InGameText __instance, ref string text) => text = StringStore.TranslateText(text, true);
+		private static void ShowText(InGameText __instance, ref string text) => text = StringStore.TranslateText(text, true);
 
-		[HarmonyPatch(nameof(InGameText.EnableText), new Type[] { typeof(string), typeof(float), typeof(bool) })]
+		[HarmonyPatch(nameof(InGameText.ShowText), new Type[] { typeof(string), typeof(float), typeof(bool) })]
 		[HarmonyPostfix]
-		private static void EnableText(InGameText __instance)
+		private static void ShowText(InGameText __instance)
 		{
 
 			#if MULTI_LANGUAGE
@@ -22,9 +22,12 @@ namespace PvZ_Fusion_Translator.Patches.BaseTextObjects
 			#else
 			TMP_FontAsset fontAsset = FontStore.LoadTMPFont();
 			#endif
-
-			__instance.t.text = StringStore.TranslateText(__instance.t.text, true);
-			__instance.t.font = fontAsset;
+			
+			foreach (TextMeshProUGUI txt in __instance.textMeshes)
+			{
+				txt.text = StringStore.TranslateText(txt.text, true);
+                txt.font = fontAsset;
+			}
 		}
 	}
 }

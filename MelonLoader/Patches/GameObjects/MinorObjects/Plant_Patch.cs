@@ -1,4 +1,5 @@
-﻿using HarmonyLib;
+﻿#if FIX
+using HarmonyLib;
 using Il2Cpp;
 using PvZ_Fusion_Translator.AssetStore;
 using UnityEngine;
@@ -20,3 +21,4 @@ namespace PvZ_Fusion_Translator.Patches.GameObjects.MinorObjects
 		}
 	}
 }
+#endif

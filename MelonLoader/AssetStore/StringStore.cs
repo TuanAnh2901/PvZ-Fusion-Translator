@@ -147,7 +147,7 @@ namespace PvZ_Fusion_Translator.AssetStore
 			{ @"^坚果台球(\d+)?" , "Wall-nut Billiards {0}" },
 			{ @"^旅行冒险：第(\d+)关" , "Odyssey Adventure: Level {0}" },
 			{ @"^剩余积分：(\d+)点" , "Remaining Points: {0}" },
-			{ @"但(.*)" , "Odyssey Negative Modifier | {0}" },
+			{ @"^但(.*)" , "Odyssey Negative Modifier | {0}" },
 			{ @"^成功击败领袖，获得(\d+)积分" , "Supreme Zombie successfully defeated. You have earned {0} Points." },
 			{ @"^大招需要(\d+)金币" , "Using the Ultimate requires {0} Coins." },
 
@@ -639,18 +639,18 @@ namespace PvZ_Fusion_Translator.AssetStore
 			// Strings - Mini Games
 			{ "-------Strings - Mini Games" , "Strings - Mini Games-------" },
 			{ "这一关只能种植或融合小喷菇！" , "In this level, you can only grow or fuse Puff-shrooms." }, // Compact Planting
-			{ "击败僵尸以获取阳光" , "Zombies will only move on the darkened soil, so plan your defenses accordingly.\n You can only obtain Sun by defeating zombies." }, // ZombiesTD
+			{ "击败僵尸以获取阳光" , "Zombies will only move on the darkened soil, so plan your\ndefenses accordingly. You can only obtain Sun by defeating zombies." }, // ZombiesTD
 			{ "这关手套没有冷却，请放心使用" , "The Glove's cooldown is reduced to 0. Use it effectively to win this mini-game." }, // The Gods
 			{ "右键拖拽移动屏幕，滚轮缩放屏幕" , "Hold your right mouse key and drag to move the screen.\n Use your scroll wheel to zoom in or zoom out." }, // Preview 10.0
 			{ "向狙击豌豆售卖机枪来获得奖励" , "Drag over a Gatling Pea on top of a Sniper Pea to spawn another Sniper Pea." }, // ZombiesTD 3
 			{ "无法抓取下半部分植物" , "You can only grab plants from the top half of the lawn." }, // Mirrors Like You See 'Em
 			{ "只能在上半地图放植物" , "You can only place plants on the upper half of the lawn." }, // Mirrors Like You See 'Em
-			{ "保护你的吸金磁" , "Protect your Gold Magnet from the zombies. If the plant is destroyed, the game will end." }, // Protect The Gold Magnet
+			{ "保护你的吸金磁" , "Protect your Gold Magnet from the zombies.\nIf the plant is destroyed, the game will end." }, // Protect The Gold Magnet
 			{ "使用豌豆、双发、裂荚、机枪来传递胆小菇的子弹", "Use your Scaredy-shroom to make your Peashooters, Repeaters,\nSplit Peas and Gatling Pea shoot peas. When your peas hit other\nprojectile-firing plants, they will also fire their projectiles at a constant rate." }, // Scaredy's Dream
 			
 			// Strings - Garden Defense
 			{ "-------Strings - Garden Defense" , "Strings - Garden Defense-------" },
-			{ "使用花园中第1页第4行的植物参战！" , "Only the plants in the 1st page, 4th row of your Zen Garden can be used in this mode.\nTake care of your plants and they will return the favor in your lawn!" },
+			{ "使用花园中第1页第4行的植物参战！" , "Only the plants in the 1st page, 4th row of your Zen Garden \ncan be used in this mode.\nTake care of your plants and they will return the favor in your lawn!" },
 
 			// Strings - Odyssey Mode
 			{ "-------Strings - Odyssey Mode" , "Strings - Odyssey Mode-------" },
