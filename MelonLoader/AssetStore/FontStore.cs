@@ -31,7 +31,7 @@ namespace PvZ_Fusion_Translator.AssetStore
 					}
 				}
 			}
-
+				
 			InitFallback();
 			#else
 			string defaultFontDir = Path.Combine("PvZ_Fusion_Translator", "[Custom Fonts]", "English.ttf");
@@ -132,13 +132,6 @@ namespace PvZ_Fusion_Translator.AssetStore
 		{
 			TMP_FontAsset defaultFont = fontAssetDict["English"];
 			return defaultFont;
-		}
-
-		// Add overload that accepts a language parameter but ignores it in non-MULTI_LANGUAGE mode
-		public static TMP_FontAsset LoadTMPFont(string language)
-		{
-			// In non-MULTI_LANGUAGE mode, we always return the English font regardless of the language parameter
-			return LoadTMPFont();
 		}
 		#endif
 

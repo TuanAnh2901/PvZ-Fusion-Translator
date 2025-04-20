@@ -61,36 +61,36 @@ namespace PvZ_Fusion_Translator.Patches.Managers
 
             Il2Cpp.AlmanacPlantBank.PlantData plantData = JsonUtility.FromJson<Il2Cpp.AlmanacPlantBank.PlantData>(json);
 
-			foreach (Il2Cpp.AlmanacPlantBank.PlantInfo plantInfo in plantData.plants)
-			{
-				if (plantInfo.seedType == __instance.theSeedType)
-				{
-					component.text = plantInfo.cost + "\n\n" + plantInfo.info + "\n\n" + plantInfo.introduce;
-					component.overflowMode = TextOverflowModes.Page;
-					component2.text = plantInfo.name;
-					component2.autoSizeTextContainer = true;
-					component3.text = Utils.RemoveColorTags(plantInfo.name);
-					component3.autoSizeTextContainer = true;
-					//component4.text = plantInfo.cost; //TODO: This make a showing bug
-					//component4.autoSizeTextContainer = true;
+            foreach (Il2Cpp.AlmanacPlantBank.PlantInfo plantInfo in plantData.plants)
+            {
+                if (plantInfo.seedType == __instance.theSeedType)
+                {
+                    component.text = plantInfo.cost + "\n\n" + plantInfo.info + "\n\n" + plantInfo.introduce;
+                    component.overflowMode = TextOverflowModes.Page;
+                    component2.text = plantInfo.name;
+                    component2.autoSizeTextContainer = true;
+                    component3.text = Utils.RemoveColorTags(plantInfo.name);
+                    component3.autoSizeTextContainer = true;
+                    //component4.text = plantInfo.cost; //TODO: This make a showing bug
+                    //component4.autoSizeTextContainer = true;
 
                     if (hasAlmanacFont)
-					{
-						component.font = almanacFontAsset;
-						component4.font = almanacFontAsset; //TODO: may mannually set the font for cost
+                    {
+                        component.font = almanacFontAsset;
+                        component4.font = almanacFontAsset; //TODO: may mannually set the font for cost
                     }
-					else
-					{
-						component.font = fontAsset;
-						component4.font = fontAsset;
-					}
-					component2.font = fontAsset;
-					component3.font = fontAsset;
-					return false;
-				}
-			}
+                    else
+                    {
+                        component.font = fontAsset;
+                        component4.font = fontAsset;
+                    }
+                    component2.font = fontAsset;
+                    component3.font = fontAsset;
+                    return false;
+                }
+            }
 
-			return true;
+            return true;
 		}
 
 		[HarmonyPatch(nameof(AlmanacPlantBank_Patch.OnMouseDown))]

@@ -18,53 +18,53 @@
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugEnglish|AnyCPU'">
-		<GamePath>D:\PvZ Fusion\Game Files</GamePath>
+		<GamePath>D:\Games\[Series] PvZ Mods\(Fangame) Fusion\(Latest - Solo)\Game Files</GamePath>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugEnglish|x64'">
-	  <GamePath>D:\PvZ Fusion\Game Files</GamePath>
+	  <GamePath>D:\Games\[Series] PvZ Mods\(Fangame) Fusion\(Latest - Solo)\Game Files</GamePath>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugEnglish|ARM64'">
-	  <GamePath>D:\PvZ Fusion\Game Files</GamePath>
+	  <GamePath>D:\Games\[Series] PvZ Mods\(Fangame) Fusion\(Latest - Solo)\Game Files</GamePath>
 	</PropertyGroup>
-
+		
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseEnglish|AnyCPU'">
-		<GamePath>D:\PvZ Fusion\Game Files</GamePath>
+		<GamePath>D:\Games\[Series] PvZ Mods\(Fangame) Fusion\(Latest - Solo)\Game Files</GamePath>
 	</PropertyGroup>
-
+		
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseEnglish|x64'">
-	  <GamePath>D:\PvZ Fusion\Game Files</GamePath>
+	  <GamePath>D:\Games\[Series] PvZ Mods\(Fangame) Fusion\(Latest - Solo)\Game Files</GamePath>
 	</PropertyGroup>
-
+		
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseEnglish|ARM64'">
-	  <GamePath>D:\PvZ Fusion\Game Files</GamePath>
+	  <GamePath>D:\Games\[Series] PvZ Mods\(Fangame) Fusion\(Latest - Solo)\Game Files</GamePath>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseOther|AnyCPU'">
-	  <GamePath>D:\PvZ Fusion\Game Files</GamePath>
+	  <GamePath>D:\Games\[Series] PvZ Mods\(Fangame) Fusion\(Latest - Solo)\Game Files</GamePath>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseOther|x64'">
-	  <GamePath>D:\PvZ Fusion\Game Files</GamePath>
+	  <GamePath>D:\Games\[Series] PvZ Mods\(Fangame) Fusion\(Latest - Solo)\Game Files</GamePath>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseOther|ARM64'">
-	  <GamePath>D:\PvZ Fusion\Game Files</GamePath>
+	  <GamePath>D:\Games\[Series] PvZ Mods\(Fangame) Fusion\(Latest - Solo)\Game Files</GamePath>
 	</PropertyGroup>
-
+	
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseMulti|AnyCPU'">
-		<GamePath>D:\PvZ Fusion\Game Files</GamePath>
+		<GamePath>D:\Games\[Series] PvZ Mods\(Fangame) Fusion\(Latest - Multi)\Game Files</GamePath>
 	</PropertyGroup>
-
+	
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseMulti|x64'">
-	  <GamePath>D:\PvZ Fusion\Game Files</GamePath>
+	  <GamePath>D:\Games\[Series] PvZ Mods\(Fangame) Fusion\(Latest - Multi)\Game Files</GamePath>
 	</PropertyGroup>
-
+	
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseMulti|ARM64'">
-	  <GamePath>D:\PvZ Fusion\Game Files</GamePath>
+	  <GamePath>D:\Games\[Series] PvZ Mods\(Fangame) Fusion\(Latest - Multi)\Game Files</GamePath>
 	</PropertyGroup>
-
+	
 	<ItemGroup>
 	  <EmbeddedResource Remove="Instantiation\**" />
 	  <EmbeddedResource Remove="Storage_Strings\**" />
@@ -75,12 +75,12 @@
 	  <None Remove="Storage_Textures\**" />
 	  <None Remove="Translation Files\**" />
 	</ItemGroup>
-
+	
 	<ItemGroup>
 	  <None Remove=".gitattributes" />
 	  <None Remove=".gitignore" />
 	</ItemGroup>
-
+		
 	<ItemGroup>
 		<Reference Include="AudioImportLib">
 			<HintPath>$(GamePath)\Mods\AudioImportLib.dll</HintPath>
@@ -108,9 +108,6 @@
 		</Reference>
 		<Reference Include="Il2Cpp__Generated">
 			<HintPath>$(GamePath)\MelonLoader\Il2CppAssemblies\Il2Cpp__Generated.dll</HintPath>
-		</Reference>
-		<Reference Include="Newtonsoft.Json">
-		  <HintPath>Newtonsoft.Json\Newtonsoft.Json.dll</HintPath>
 		</Reference>
 		<Reference Include="Unity.2D.Animation.Runtime">
 			<HintPath>$(GamePath)\MelonLoader\Il2CppAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
@@ -410,15 +407,15 @@
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugEnglish|ARM64'">
 	  <DefineConstants>$(DefineConstants);CHEAT;DEBUG</DefineConstants>
 	</PropertyGroup>
-
+	
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseMulti|AnyCPU'">
 		<DefineConstants>$(DefineConstants);MULTI_LANGUAGE;OBFUSCATE</DefineConstants>
 	</PropertyGroup>
-
+	
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseMulti|x64'">
 	  <DefineConstants>$(DefineConstants);MULTI_LANGUAGE;OBFUSCATE</DefineConstants>
 	</PropertyGroup>
-
+	
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseMulti|ARM64'">
 	  <DefineConstants>$(DefineConstants);MULTI_LANGUAGE;OBFUSCATE</DefineConstants>
 	</PropertyGroup>
@@ -452,20 +449,22 @@
 		<Compile Include="ModFeatures.cs" />
 		<Compile Include="AssetStore\AudioStore.cs" />
 		<Compile Include="Patches\GameObjects\ButtonObjects\AbyssBuffButton_Patch.cs" />
-		<Compile Include="Patches\GameObjects\ButtonObjects\AbyssButton_Patch.cs" />
+		<Compile Include="Patches\GameObjects\ButtonObjects\AbyssLevelEnter_Patch.cs" />
 		<Compile Include="Patches\GameObjects\ButtonObjects\BaseMenu_Patch.cs" />
 		<Compile Include="Patches\GameObjects\ButtonObjects\SaveMenuBtn_Patch.cs" />
+		<Compile Include="Patches\GameObjects\MainMenu_Patch.cs" />
+		<Compile Include="Patches\GameObjects\MinorObjects\AbyssGoods_Patch.cs" />
 		<Compile Include="Patches\GameObjects\MinorObjects\DY_Patch.cs" />
 		<Compile Include="Patches\GameObjects\MinorObjects\LanternUmbrella_Patch.cs" />
 		<Compile Include="Patches\GameObjects\MinorObjects\MagnetBox_Patch.cs" />
 		<Compile Include="Patches\GameObjects\MinorObjects\MagnetInterface_Patch.cs" />
 		<Compile Include="Patches\GameObjects\MinorObjects\Money_Patch.cs" />
-		<Compile Include="Patches\Managers\AbyssDevelopMenu_Patch.cs" />
-		<Compile Include="Patches\Managers\AbyssMenu2_Patch.cs" />
-		<Compile Include="Patches\Managers\AbyssMenu_Patch.cs" />
-		<Compile Include="Patches\Managers\AbyssLevelEnter_Patch.cs" />
+		<Compile Include="Patches\GameObjects\AbyssDevelopMenu_Patch.cs" />
+		<Compile Include="Patches\GameObjects\AbyssMenu2_Patch.cs" />
+		<Compile Include="Patches\GameObjects\AbyssMenu_Patch.cs" />
 		<Compile Include="Patches\Managers\CustomLevelShower_Patch.cs" />
 		<Compile Include="Patches\Managers\SaveMenu_Patch.cs" />
+		<Compile Include="Patches\GameObjects\TravelBuffOptionButton_Patch.cs" />
 		<Compile Include="Patches\OtherManagers\AchievementClip_Patch.cs" />
 		<Compile Include="Patches\GameObjects\ButtonObjects\Advanture_Btn_Patch.cs" />
 		<Compile Include="Patches\Managers\AlmanacMgrZombie_Patch.cs" />
@@ -495,7 +494,6 @@
 		<Compile Include="Patches\BaseTextObjects\TMP_InputField_Patch.cs" />
 		<Compile Include="Patches\Managers\TravelBuffMgr_Patch.cs" />
 		<Compile Include="Patches\GameObjects\TravelBuff_Patch.cs" />
-		<Compile Include="Patches\Managers\TravelMenuMgr_Patch.cs" />
 		<Compile Include="Patches\GameObjects\TravelRefresh_Patch.cs" />
 		<Compile Include="Patches\GameObjects\TravelStore_Patch.cs" />
 		<Compile Include="Patches\GameObjects\UIDifficulty_Patch.cs" />
@@ -508,6 +506,10 @@
 		<Compile Include="Utils.cs" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	</ItemGroup>
+	
 	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
 		<Exec Command="COPY &quot;$(TargetPath)&quot; &quot;$(GamePath)\Mods&quot;" />
 		<!-- Copy essential folders and files -->

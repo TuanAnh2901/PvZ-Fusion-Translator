@@ -1,4 +1,4 @@
-﻿
+﻿#if FIX
 using HarmonyLib;
 using Il2Cpp;
 using Il2CppTMPro;
@@ -10,9 +10,9 @@ namespace PvZ_Fusion_Translator.Patches.GameObjects.ButtonObjects
     [HarmonyPatch(typeof(AbyssBuffButton))]
     public static class AbyssBuffButton_Patch
     {
-        [HarmonyPatch(nameof(AbyssBuffButton.SetType))]
+        [HarmonyPatch(nameof(AbyssBuffButton.Start))]
         [HarmonyPostfix]
-        private static void SetType(AbyssBuffButton __instance)
+        private static void Start(AbyssBuffButton __instance)
         {
             TMP_FontAsset fontAsset = FontStore.LoadTMPFont(Utils.Language.ToString());
 
@@ -21,3 +21,4 @@ namespace PvZ_Fusion_Translator.Patches.GameObjects.ButtonObjects
         }
     }
 }
+#endif
