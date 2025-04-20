@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/MelonLoader/Newtonsoft.Json
+/backup_code.ps1
+/MelonLoader/MelonLoader.sln

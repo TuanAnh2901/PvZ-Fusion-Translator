@@ -28,5 +28,22 @@ namespace PvZ_Fusion_Translator.Patches.GameObjects
 				}
 			}
 		}
+
+		[HarmonyPostfix]
+		[HarmonyPatch(nameof(NoticeMenu.Start))]
+		private static void FixWarningMessage(NoticeMenu __instance)
+		{
+			try
+			{
+				//Log.LogInfo("NoticeMenu.OnMouseUp called");
+
+				GameAPP.theGameStatus = 0;
+			}
+			catch (System.Exception ex)
+			{
+				Log.LogError($"Error in NoticeMenu.OnMouseUp: {ex.Message}");
+				Log.LogError($"Stack trace: {ex.StackTrace}");
+			}
+		}
 	}
 }

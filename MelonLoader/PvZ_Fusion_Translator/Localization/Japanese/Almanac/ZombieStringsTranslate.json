@@ -1,0 +1,520 @@
+{
+    "zombies": [
+        {
+            "theZombieType": 0,
+            "name": "ゾンビ",
+            "introduce": "<size=36><color=black>Zombie hates how his name makes him seem like an ordinary, well, zombie. He doesn't think of himself as some unnamed enemy or just another common corpse. He's an individual, damn it! And he's going to do something extraordinary, even if it kills you.</color>",
+            "info": "<size=36>普通のゾンビ。\n\n<color=black>耐久力：</color><color=#4B0082>270</color>"
+        },
+        {
+            "theZombieType": 2,
+            "name": "コーンゾンビ",
+            "introduce": "<size=36><color=black>The Conehead Zombie has no clue what a traffic cone is. To it, it looks like an ice cream cone, and when it finds out it can't eat it, it just sticks it on its head.</color>",
+            "info": "<size=36>交通コーンのおかげで、彼は普通のゾンビよりもタフになっている。\n\n<color=black>耐久力：</color><color=#4B0082>270+370</color>"
+        },
+        {
+            "theZombieType": 3,
+            "name": "棒高跳びゾンビ",
+            "introduce": "<size=36><color=black>Once the best high jumper in his town, Pole Vaulting Zombie's career took a turn the day he forgot to set up the cushions behind the high jump stand.</color>",
+            "info": "<size=36>棒高跳びゾンビは棒を使って跳び越えます。\n\n<color=black>耐久力：</color><color=#4B0082>720</color>\n<color=black>スペシャル：</color><color=#4B0082>最初にぶつかった植物を飛び越えます。</color>"
+        },
+        {
+            "theZombieType": 4,
+            "name": "バケツゾンビ",
+            "introduce": "<size=34><color=black>Once upon a time, Buckethead Zombie, who was merely a painter, was hailed as a genius among zombies for his creative use of a bucket. Years have passed, and now the zombies wonder if he still has some secret killer tricks up his sleeve. Is he running out of ideas, or is he hiding something? Who knows?</color>",
+            "info": "<size=34>バケットハットのおかげでダメージに対する耐性が非常に高い。\n\n<color=black>耐久力：</color><color=#4B0082>270+1100</color>"
+        },
+        {
+            "theZombieType": 5,
+            "name": "新聞ゾンビ",
+            "introduce": "<size=36><color=black>\"You can't fault him for being frustrated; he was just about to finish the crossword puzzle (vertical word number 23 is 'Brains'), which explains why he was holding the paper upside down.\"</color>",
+            "info": "<size=36>彼の新聞は限定的な防御力を提供します。\n\n<color=black>耐久力：</color><color=#4B0082>270+200</color>\n<color=black>スペシャル：</color><color=#4B0082>最初は普通の速度で移動しますが、新聞を失うと速度が上がります。</color>"
+        },
+        {
+            "theZombieType": 6,
+            "name": "おどつてるゾンビ",
+            "introduce": "<size=36><color=black>Dancing Zombie's athletic skills are average by zombie standards. On the advice of the Backup Dancers, he decided to pursue the idol path. Now, his pop song \"Just Brains,\" a collaboration with Michael Jackson, is becoming a hit.</color>",
+            "info": "<size=36>跳び越えた後、バックダンサーを呼びます。\n\n<color=black>耐久力：</color><color=#4B0082>720</color>\n<color=black>スペシャル：</color><color=#4B0082>バックダンサーを4体召喚します。</color>"
+        },
+        {
+            "theZombieType": 7,
+            "name": "バックダンサー",
+            "introduce": "<size=36><color=black>The four brothers, once troubled orphans, developed twisted personalities and bullied others at the Zombie Academy. One day, they saw Dancing Zombie performing joyfully on stage, and it changed them. From that moment, they joined him in performing on stage together.</color>",
+            "info": "<size=36>植物を乗り越える。\n\n<color=black>耐久力：</color><color=#4B0082>270</color>"
+        },
+        {
+            "theZombieType": 8,
+            "name": "網戸ゾンビ",
+            "introduce": "<size=34><color=black>Screen Door Zombie, once an FBI task force member with a bad temper but a righteous heart, never negotiated with robbers—he'd just break down doors to save hostages. After becoming a zombie, his kind heart stayed the same. When he saw zombies kidnapping a little ghost zombie, he tried to break in, but they coated the door with glue, trapping his hand.</color>",
+            "info": "<size=34>前方から飛んでくる弾丸をブロックできます。\n\n<color=black>耐久力：</color><color=#4B0082>270+1100</color>"
+        },
+        {
+            "theZombieType": 9,
+            "name": "ラグビーゾンビ",
+            "introduce": "<size=36><color=black>Football Zombie is a sports star among zombies, admired by many for his heroic presence on the field. Many companies want to hire him, but his salary demands are steep—an annual pay of 10,000 brains.</color>",
+            "info": "<size=36>非常に速く走ります。\n\n<color=black>耐久力：</color><color=#4B0082>270+1400</color>"
+        },
+        {
+            "theZombieType": 10,
+            "name": "マイケルゾンビ",
+            "introduce": "<size=36><color=black>Black suit, black hat—he's not here for a funeral. He's just a dancer, and you can call him Michael Zombie.</color>",
+            "info": "<size=36>華麗なダンスムーブで突撃を先導します。\n\n<color=black>耐久力：</color><color=#4B0082>720</color>\n<color=black>スペシャル：</color><color=#4B0082>一度に 4 体のおどつてるゾンビを召喚します。</color>"
+        },
+        {
+            "theZombieType": 11,
+            "name": "Duck Zombie NOT IN GAME",
+            "introduce": "<size=32><color=black>只有特定的僵尸才能成为鸭子救生圈僵尸，不是每只僵尸都能胜任。有些救生圈有点漏气，他们却处理不了，脱身后永远放弃了对脑子的渴求。</color>",
+            "info": "<size=32>可以在水里移动。\n\n<color=black>耐久力：</color><color=#4B0082>270</color>"
+        },
+        {
+            "theZombieType": 12,
+            "name": "Coneduck Zombie NOT IN GAME",
+            "introduce": "<size=32><color=black>都说差生文具多，但是路障鸭子并不这么认为，毕竟他不想承认他是个差生。</color>",
+            "info": "<size=32>可以在水里移动。\n\n<color=black>耐久力：</color><color=#4B0082>270</color>"
+        },
+        {
+            "theZombieType": 13,
+            "name": "Bucketduck Zombie NOT IN GAME",
+            "introduce": "<size=32><color=black>铁桶鸭子本不想带上那个漏气的游泳圈的，但是没办法，谁叫他戴着那个容易生锈的铁桶呢。</color>",
+            "info": "<size=32>可以在水里移动。\n\n<color=black>耐久力：</color><color=#4B0082>270</color>"
+        },
+        {
+            "theZombieType": 14,
+            "name": "潜水艦ゾンビ",
+            "introduce": "<size=36><color=black>The formidable Zombarine, designed based on bionic principles, is both majestic and intimidating—a coveted war weapon for zombies. \"Now we just need to tackle the issue of seaweed getting tangled in the propeller,\" said Dr. Edgar.</color>",
+            "info": "<size=36>水生植物に対するゾンビの主力の乗り物。\n\n<color=black>耐久力：</color><color=#4B0082>1350</color>"
+        },
+        {
+            "theZombieType": 15,
+            "name": "学者ゾンビ",
+            "introduce": "<size=32><color=black>As a leading authority in the academic realm, Scholar Zombie is frequently seen in the library. His passion for reading runs deep, and disturbing him while he reads can spark his fury. This old gentleman will make sure you understand the true meaning of \"knowledge is power.\"</color>",
+            "info": "<size=32>頑丈な本と共に大きなダメージを与える。\n\n<color=black>ダメージ：</color><color=#4B0082>400</color>\n<color=black>耐久力：</color><color=#4B0082>720+1100</color>\n<color=black>スペシャル：</color><color=#4B0082>本が壊れた後、短期間の無敵状態と移動速度が増加する。</color>"
+        },
+        {
+            "theZombieType": 16,
+            "name": "ゾンボニ",
+            "introduce": "<size=36><color=black>The zombie driving is an excellent driver, especially considering that few zombies can navigate from the ice rink to the grass field. Now, he must go pay the fine. The ice machine he operates isn't a Zamboni; it's a Zomboni produced by Company B.</color>",
+            "info": "<size=36>ゾンボニーは氷、蒸気、圧力を植物にかけます。\n\n<color=black>耐久力：</color><color=#4B0082>1350</color>"
+        },
+        {
+            "theZombieType": 17,
+            "name": "シュノーケルゾンビ",
+            "introduce": "<size=36><color=black>Snorkel Zombie may have a broken mask, but that doesn't hinder his ability to dive and float in the water. His so-called \"sinking\" isn't due to his diving skills; he simply doesn't require air to breathe.</color>",
+            "info": "<size=36>スノーケルゾンビは水中を泳げます。\n\n<color=black>耐久力：</color><color=#4B0082>270</color>\n<color=black>スペシャル：</color><color=#4B0082>飛んでくる弾丸を避けるために水中に潜ります。</color>"
+        },
+        {
+            "theZombieType": 18,
+            "name": "ボブスレーゾンビ",
+            "introduce": "<size=36><color=black>This car, designed by ski enthusiasts, drives smoothly on snow and ice, even achieving higher speeds than on grass. Unfortunately, it has a flaw: it can only be started on icy surfaces.</color>",
+            "info": "<size=36>フィールドに氷があるときだけ現れます。\n\n<color=black>耐久力：</color><color=#4B0082>2700</color>\n<color=black>スペシャル：</color><color=#4B0082>氷の上では非常に速く動きます。</color>"
+        },
+        {
+            "theZombieType": 19,
+            "name": "イルカ乗りゾンビ",
+            "introduce": "<size=36><color=black>Dolphin Rider Zombie is a part-time performer and dolphin keeper at an aquarium. The dolphin he rides is a zombie, but unlike typical zombies, this \"zombie dolphin\" has no desire for brains.</color>",
+            "info": "<size=36>イルカ乗りゾンビはイルカを使って防御を突破します。\n\n<color=black>耐久力：</color><color=#4B0082>720</color>\n<color=black>スペシャル：</color><color=#4B0082>最初にぶつかる植物を飛び越えます。</color>"
+        },
+        {
+            "theZombieType": 20,
+            "name": "トライデントゾンビ",
+            "introduce": "<size=32><color=black>Trident Zombie was originally just a regular javelin thrower who became a fisherman after retiring. However, when he went to the river to fish, he sank because he couldn't swim. When he came ashore, he realized he had become what he is now.</color>",
+            "info": "<size=32>トライデントを投げて植物を攻撃します。\n\n<color=black>耐久力：</color><color=#4B0082>720</color>\n<color=black>スペシャル：</color><color=#4B0082>トライデントを投げ、植物の現在の耐久力の20%（最低60）のダメージを与えます。</color>\n<color=black>探索範囲：</color><color=#4B0082>前方3.5グリッド以上</color>"
+        },
+        {
+            "theZombieType": 21,
+            "name": "ダイモンド箱のゾンビ",
+            "introduce": "<size=33><color=black>Tonight, Diamond-box Zombies will unveil their dazzling world. Their eyes shine like the brightest stars in the night sky, and the golden light appears to flow like a river through time, illuminating the uncertain path ahead. Each time the lid of the box is gently opened, it feels like unlocking a door to another realm.</color>",
+            "info": "<size=33>これは…コーンヘッドゾンビですか？ \n\n<color=black>耐久力：</color><color=#4B0082>4400</color>\n<color=black>スペシャル：</color><color=#4B0082>倒れると金箱のゾンビに変わります。</color>"
+        },
+        {
+            "theZombieType": 22,
+            "name": "金箱のゾンビ",
+            "introduce": "<size=36><color=black>\"Underneath the golden box, other boxes in different colors await. Can you guess what the box inside is made from?\"</color>",
+            "info": "<size=36>これは…コーンヘッドゾンビですか？ \n\n<color=black>耐久力：</color><color=#4B0082>2200</color>\n<color=black>スペシャル：</color><color=#4B0082>倒れると銀箱のゾンビに変わります。</color>"
+        },
+        {
+            "theZombieType": 23,
+            "name": "銀箱のゾンビ",
+            "introduce": "<size=36><color=black>Silver-box Zombie thinks of the box on his head as a pot, so it must be one. Given his mindset, why don't you grasp his perspective? And you do see the exclamation mark on his box, right?</color>",
+            "info": "<size=36>これは…コーンヘッドゾンビですか？ \n\n<color=black>耐久力：</color><color=#4B0082>1100</color>\n<color=black>スペシャル：</color><color=#4B0082>倒れるとコーンヘッドゾンビに変わります。</color>"
+        },
+        {
+            "theZombieType": 24,
+            "name": "ピエロゾンビ",
+            "introduce": "<size=36><color=black>Although Jack-in-the-Box Zombie is a mental patient, the circus welcomed his application. Be wary of what's in his toy box; it's sure to scare you.</color>",
+            "info": "<size=36>このゾンビは爆発物を持っています。\n\n<color=black>耐久力：</color><color=#4B0082>720</color>\n<color=black>スペシャル：</color><color=#4B0082>時々爆発して周囲の植物を即死させます。</color>"
+        },
+        {
+            "theZombieType": 25,
+            "name": "風船ゾンビ",
+            "introduce": "<size=33><color=black>Balloon Zombie, one of the Zomppelin creators, frequently gets asked why he's tied balloons to himself. His usual reply is, \"That was my conclusion.\" However, the truth is that the balloons simply got tangled by chance.</color>",
+            "info": "<size=33>風船ゾンビは戦闘の上空を浮遊し、ほとんどの攻撃に免疫があります。\n\n<color=black>耐久力：</color><color=#4B0082>270+20</color>\n<color=black>スペシャル：</color><color=#4B0082>飛行中はほとんどの植物からダメージを受けません。</color>"
+        },
+        {
+            "theZombieType": 26,
+            "name": "飛空艇ゾンビ",
+            "introduce": "<size=32><color=black>The Zomppelin, Dr. Edgar's latest creation, is quickly becoming the zombies' trusted ally. Speculation abounds about who will pilot this powerful weapon—perhaps the imp or even the airship itself? \"It's just a balloon,\" Dr. Edgar remarked. \"Zombies need to keep up with the times. I'm even considering turning it into a drone to avoid embarrassment when defeated by plants.\"</color>",
+            "info": "<size=32>植物の上を飛ぶと、致命的な爆弾を落とします。\n\n<color=black>ダメージ：</color><color=#4B0082>1000</color>\n<color=black>耐久力：</color><color=#4B0082>1350</color>"
+        },
+        {
+            "theZombieType": 27,
+            "name": "クジラ乗りゾンビ",
+            "introduce": "<size=30><color=black>The white whale that Yeti Zombie rides has impressive jumping skills. Dolphin Rider Zombie is quite envious and has always wanted to borrow it for a ride, but Yeti Zombie refuses each time. \"Yeti Zombie has no control over his white whale,\" Dr. Edgar said. \"He always wants to hide behind me, but the white whale ends up going the other way.\"</color>",
+            "info": "<size=30>3グリッド前方にジャンプしてから戻り、後ろから植物を攻撃します。\n\n<color=black>耐久力：</color><color=#4B0082>720</color>\n<color=black>スペシャル：</color><color=#4B0082>背の高いナッツではブロックできません。</color>"
+        },
+        {
+            "theZombieType": 28,
+            "name": "掘り手ゾンビ",
+            "introduce": "<size=34><color=black>A long time ago, Digger Zombies despised Magnet-shrooms for constantly confiscating their tools. Now, they hate Miner Pumpkins even more. \"My head keeps getting hit, which makes me feel even worse,\" he laments.</color>",
+            "info": "<size=34>このゾンビは掘って防御を回避します。\n\n<color=black>耐久力：</color><color=#4B0082>720</color>\n<color=black>スペシャル：</color><color=#4B0082>地下を掘り進み、芝生の左側に現れます。磁石キノコに弱いです。</color>"
+        },
+        {
+            "theZombieType": 29,
+            "name": "バックコプターゾンビ",
+            "introduce": "<size=34><color=black>\"Friends, did you know about the Berlin airship? It inspired my design…\" All the zombies want to hide from Buckecopter Zombie, not only because he talks too much about the airship, but also because the noise from his balloon's propeller is unbearable.</color>",
+            "info": "<size=34>バケコプターゾンビはブロバーを恐れません！\n\n<color=black>耐久力：</color><color=#4B0082>270+2200+500</color>\n<color=black>スペシャル：</color><color=#4B0082>上部のプロペラがブロバーの風を打ち消します。</color>"
+        },
+        {
+            "theZombieType": 30,
+            "name": "キングピエロゾンビ",
+            "introduce": "<size=31><color=black>For every clown zombie, self-destruction is the highest form of art, and King Clown excels above all. \"King Clown will never take off his mask or let go of the gift box in his hand!\"</color>",
+            "info": "<size=31>キングピエロゾンビは死後に爆発することがあります！\n\n<color=black>耐久力：</color><color=#4B0082>720+370</color>\n<color=black>スペシャル：</color><color=#4B0082>爆発後、暴力的になり、速度が倍増します。また、自己破壊してピエロゾンビに変身することがあります。爆発が早いほど、死亡する確率が高くなります。</color>"
+        },
+        {
+            "theZombieType": 31,
+            "name": "カタパルトゾンビ",
+            "introduce": "<size=36><color=black>Nobody knows how Catapult Zombie manages to throw with such precision, but one thing's for sure—if you see him, cover your head quickly!</color>",
+            "info": "<size=36>あなたの植物を攻撃するためにバスケットボールを発射します。\n\n<color=black>耐久力：</color><color=#4B0082>850</color>\n<color=black>スペシャル：</color><color=#4B0082>バスケットボールを投げて、60ダメージを与えます。</color>"
+        },
+        {
+            "theZombieType": 32,
+            "name": "ポゴゾンビ",
+            "introduce": "<size=36><color=black>Pogo Zombie love to hop around, thinking that jumping toward the sky is as close as they'll ever get to flying. But no one told them not to use a trampoline on the roof...</color>",
+            "info": "<size=36>防御を飛び越えることができるゾンビです。\n\n<color=black>耐久力：</color><color=#4B0082>720</color>\n<color=black>スペシャル：</color><color=#4B0082>植物を飛び越えることができます。</color>"
+        },
+        {
+            "theZombieType": 33,
+            "name": "梯子ゾンビ",
+            "introduce": "<size=32><color=black>Ladder Zombie heard online that with a ladder and some work clothes, he could sneak past any defenses. Armed with a ladder and dressed like a worker, he sets out to conquer the plant defenses.\nPeashooter's comment: \"Didn't anyone tell him that his zombie skin is way too noticeable...?\"</color>",
+            "info": "<size=32>このゾンビは梯子を使って障害物を回避します。\n\n<color=black>耐久力：</color><color=#4B0082>720+720</color>\n<color=black>スペシャル：</color><color=#4B0082>梯子を使って植物の防御を無視することができます。</color>"
+        },
+        {
+            "theZombieType": 34,
+            "name": "ポゴスイカゾンビ",
+            "introduce": "<size=32><color=black>Quote: \"It's highly unlikely for shells to explode in the same crater twice! This is what ‘Crater Theory' states.\" Pogo Melon Zombie says while adjusting his melon peel hat. However, no one told him that his red-and-green color scheme stands out a bit too much in a crowd of zombies.</color>",
+            "info": "<size=32>このゾンビはチャージして防御に飛び込んできます！\n\n<color=black>耐久力：</color><color=#4B0082>270+2200</color>\n<color=black>スペシャル：</color><color=#4B0082>5秒間チャージしてから、大きなジャンプをします。</color>"
+        },
+        {
+            "theZombieType": 35,
+            "name": "ガーガンチュア",
+            "introduce": "<size=36><color=black>The Gargantuar is like a massive, clumsy beast, its size an advantage at the cost of intelligence. It doesn't understand plants or brains; it only knows how to move forward, relentlessly. </color>",
+            "info": "<size=36>巨大で遅いゾンビで、その巨大な体で全てを押しつぶします。\n\n<color=black>耐久力：</color><color=#4B0082>3000</color>"
+        },
+        {
+            "theZombieType": 36,
+            "name": "超級ガーガンチュア",
+            "introduce": "<size=36><color=black>Although the Giga-gargantuar wreaks havoc on the battlefield, its blood-red eyes instilling fear in all who face it, there's a little-known secret: the monster is perpetually irritable due to chronic sleep deprivation.</color>",
+            "info": "<size=36>怒ったガーガンチュアは、恐ろしい力で道を踏み潰します。\n\n<color=black>耐久力：</color><color=#4B0082>6000</color>"
+        },
+        {
+            "theZombieType": 37,
+            "name": "インプ",
+            "introduce": "<size=36><color=black>Imps enjoy sneaking through tight spaces, often causing mischief. Don't be surprised if you see one bouncing around unexpectedly!</color>",
+            "info": "<size=36>小さくてこっそりしたインプは、狭い場所にすばやく入り込むのが得意で、敏捷でターゲットにしにくいです。\n\n<color=black>耐久力：</color><color=#4B0082>270</color>"
+        },
+        {
+            "theZombieType": 38,
+            "name": "メカ・ガーガンチュア",
+            "introduce": "<size=36><color=black>A zombie from the popular Plant Girls vs Zombies.</color>",
+            "info": "<size=36>ドクター・ゾンボスの別の発明で、凍結には免疫があり、躊躇せずに防御に突進します。\n\n<color=black>耐久力：</color><color=#4B0082>3000</color>\n<color=black>スペシャル：</color><color=#4B0082>コントロール効果に免疫があり、撃退されても動き続けますが、磁石キノコには弱いです。</color>"
+        },
+        {
+            "theZombieType": 39,
+            "name": "メカ・超級ガーガンチュア",
+            "introduce": "<size=36><color=black>A zombie from the popular Plant Girls vs Zombies.</color>",
+            "info": "<size=36>ドクター・ゾンボスの最新の発明で、この機械化されたバージョンは凍結に免疫があり、防御に直接突進します。\n\n<color=black>耐久力：</color><color=#4B0082>6000</color>\n<color=black>スペシャル：</color><color=#4B0082>コントロール効果に免疫があり、撃退されても動き続けますが、磁石キノコには弱いです。</color>"
+        },
+        {
+            "theZombieType": 40,
+            "name": "メカボーリングゾンビ",
+            "introduce": "<size=32>",
+            "info": "<size=29.5>ゾンビ側の転がるボウリングボール。\n\n<color=black>耐久力：</color><color=#4B0082>1350</color>\n<color=black>スペシャル：</color><color=#4B0082>植物に当たると方向を変え、坂を下ると速くなります。1000ヘルス以下の植物を押しつぶし、強靭な植物には1000ダメージを与え、曲がると減速します。傘の葉の融合で止めることができます。倒れると5匹のインプを召喚します。</color>\n<color=black>ドロップ：</color><color=#4B0082>1/3の確率で氷ボール、炎ボール、またはメカ断片をドロップします。</color>\n\n<color=black>ボールは植物を押しつぶし、最大30発の弾丸をブロックするか、30秒間持続します。氷属性または火属性の植物融合で対抗可能です。</color>"
+        },
+        {
+            "theZombieType": 100,
+            "name": "エンドウシューターゾンビ",
+            "introduce": "<size=36><color=black>The ability of Peashooter Zombie to engage from a distance often frightens the plants. However, the real panic lies with the zombies, who fear that those fighting in front of him will be targeted from behind.</color>",
+            "info": "<size=36>植物を攻撃するためにエンドウ豆を発射します。\n\n<color=black>ダメージ：</color><color=#4B0082>20</color>\n<color=black>耐久力：</color><color=#4B0082>270</color>"
+        },
+        {
+            "theZombieType": 101,
+            "name": "チェリーシューターゾンビ",
+            "introduce": "<size=36><color=black>Cherryshooter Zombie is a 17-year-old high school student with a plant head growing from his neck. His favorite fruit is cherries, and due to his papal family background, the zombies affectionately refer to him as the \"Leaf King.\"</color>",
+            "info": "<size=36>植物を攻撃するためにチェリー弾を発射します。\n<color=black>ダメージ：</color><color=#4B0082>60</color>\n<color=black>耐久力：</color><color=#4B0082>500</color>"
+        },
+        {
+            "theZombieType": 102,
+            "name": "チェリー爆弾シューターゾンビ",
+            "introduce": "<size=36><color=black>Explod-o-shooter Zombie loves listening to \"Cherry Bomb\" by The Runaways, which might explain his fiery passion. However, no one knows how he learned to ignite fireworks with his mouth.</color>",
+            "info": "<size=36>植物を攻撃するために爆発チェリーを発射します。\n<color=black>ダメージ：</color><color=#4B0082>1000</color>\n<color=black>耐久力：</color><color=#4B0082>500</color>"
+        },
+        {
+            "theZombieType": 103,
+            "name": "ナッツゾンビ",
+            "introduce": "<size=36><color=black>Following an assault by the plants, Wall-nut Zombie displayed bite marks on his head instead of bullet holes. When interviewed, he said, \"Perhaps my comrades were simply hungry.\"</color>",
+            "info": "<size=36>動くナッツです。\n\n<color=black>耐久力：</color><color=#4B0082>270+1100</color>"
+        },
+        {
+            "theZombieType": 104,
+            "name": "チェリー新聞ゾンビ",
+            "introduce": "<size=30><color=black>This zombie's favorite fruit is cherries, and even his newspaper is cherry-flavored. The newspaper he holds is the only thing that can temper his rage.</color>",
+            "info": "<size=30>新聞が壊れると爆発チェリーの弾幕を展開します。\n\n<color=black>耐久力：</color><color=#4B0082>1500+720</color>\n<color=black>スペシャル：</color><color=#4B0082>新聞が壊れた後、一時的に無敵になり、0.75秒ごとに爆発チェリーを発射します。</color>\n<color=black>爆発範囲： </color><color=#4B0082>クロススプラッシュ、ナッツで吸収可能。</color>"
+        },
+        {
+            "theZombieType": 105,
+            "name": "謎の箱ゾンビ",
+            "introduce": "<size=36><color=black>？？？</color>",
+            "info": "<size=36>箱の中に何が隠れているのかは誰にもわかりません。\n\n<color=black>耐久力：</color><color=#4B0082>270+370</color>\n<color=black>スペシャル：</color><color=#4B0082>箱が落ちた後、元のゾンビの耐久力の20%/40%/60%/80%/100%のランダムなゾンビを召喚します。</color>"
+        },
+        {
+            "theZombieType": 106,
+            "name": "バックナッツゾンビ",
+            "introduce": "<size=35><color=black>Why is Buck-nut Zombie's head made of iron? It's because everyone said that eating walnuts nourishes the brain, but he didn't realize that the walnuts he consumed were packed with too much iron. However, it might not be so bad—at least now he has developed an iron head.</color>",
+            "info": "<size=35>動くバッカーナッツです。\n\n<color=black>耐久力：</color><color=#4B0082>270+2200</color>\n<color=black>スペシャル：</color><color=#4B0082>弾丸で倒されるとバケツが落ちます。</color>"
+        },
+        {
+            "theZombieType": 107,
+            "name": "チェリーナッツゾンビ",
+            "introduce": "<size=36><color=black>Real men never turn around to watch explosions, and Cherry-nut Zombie certainly fits the bill, as he often catches bombs with his face.</color>",
+            "info": "<size=36>爆発弾に対して若干の耐性があります。\n\n\n<color=black>耐久力：</color><color=#4B0082>270+1100</color>\n<color=black>スペシャル：</color><color=#4B0082>爆発による最大ダメージは150です。.</color>"
+        },
+        {
+            "theZombieType": 108,
+            "name": "バックシューターゾンビ",
+            "introduce": "<size=36><color=black>Last year, Buckshooter Zombie drew a tarot card that read \"The Emperor.\" Since then, he has been able to shoot iron bullets at will.</color>",
+            "info": "<size=36>高ダメージの弾丸を発射します。\n\n<color=black>ダメージ：</color><color=#4B0082>80</color>\n<color=black>耐久力：</color><color=#4B0082>270+1350</color>\n<color=black>スペシャル：</color><color=#4B0082>弾丸で倒されるとバケツが落ちます。</color>"
+        },
+        {
+            "theZombieType": 109,
+            "name": "ラグビーナッツゾンビ",
+            "introduce": "<size=35><color=black>Rugby-nut Zombie was once just an ordinary Football Zombie, until one day he collided with a nut that was spreading fertilizer. \"I don't know how this guy ended up on my head; it's suffocating me!\" lamented Rugby-nut Zombie.</color>",
+            "info": "<size=35>非常に速く走ることができる高耐久ゾンビ。\n\n<color=black>耐久力：</color><color=#4B0082>270+4400</color>\n<color=black>スペシャル：</color><color=#4B0082>弾丸で倒されるとラグビーヘルメットが落ちます。</color>"
+        },
+        {
+            "theZombieType": 110,
+            "name": "金の謎の箱ゾンビ",
+            "introduce": "<size=36><color=black>？？！</color>",
+            "info": "<size=36>ゴールドのもの!? このミステリーボックスの中身は何だろう…\n\n<color=black>耐久力：</color><color=#4B0082>270+720</color>\n<color=black>スペシャル：</color><color=#4B0082>箱が落ちた後、完全な耐久力を持つランダムなゾンビを召喚します。</color>"
+        },
+        {
+            "theZombieType": 111,
+            "name": "氷ナッツゾンビ",
+            "introduce": "<size=32><color=black>Frost-nut Zombie's head has sparked numerous opinions in the zombie world. Some say he aims to distance himself from the cold world, while others suspect it relates to Dr. Edgar's wild experiments. Yet, only he knows that this headgear appeared after he ate a specific blue mushroom.</color>",
+            "info": "<size=32>アイスプロジェクタイルによるダメージを無効化できる頑丈なゾンビ。\n\n<color=black>耐久力：</color><color=#4B0082>270+2200</color>\n<color=black>スペシャル：</color><color=#4B0082>氷や氷のプロジェクタイルに対する免疫。.</color>"
+        },
+        {
+            "theZombieType": 112,
+            "name": "チェリーボムパルトゾンビ",
+            "introduce": "<size=35><color=black>Warning: Before he uses up all his basketballs, make sure to run, as his explosive basketballs will cause chaos!</color>",
+            "info": "<size=35>爆発的なバスケットボールを投げて防御を破壊します！\n<color=black>耐久力：</color><color=#4B0082>1350</color>\n<color=black>スペシャル：</color><color=#4B0082>5つのバスケットボールを投げた後、爆発的なバスケットボールを発射します。爆発的なバスケットボールはアンブレラプラントに100ダメージを与えます。.</color>"
+        },
+        {
+            "theZombieType": 113,
+            "name": "クジラ乗りシューター",
+            "introduce": "<size=36><color=black>What makes this fella special compared to the whale rider yeti? Pea Rider replies, I just really enjoy playing Boomerang.</color>",
+            "info": "<size=36>クジラ乗りゾンビのバリエーション！\n\n<color=black>耐久力：</color><color=#4B0082>720</color>\n<color=black>スペシャル：</color><color=#4B0082>ジャンプ前後でエンドウ豆を植物に発射します。</color>"
+        },
+        {
+            "theZombieType": 200,
+            "name": "ロボ魚",
+            "introduce": "<size=36><color=black>\"An excellent diver should not only be able to dive but also drive a super submarine!\" declared Sharkmarine Zombie as he increased the submarine's horsepower by one gear.</color>",
+            "info": "<size=36>このゾンビはあるロボット魚に関連していると聞きました。\n\n<color=black>耐久力：</color><color=#4B0082>3000</color>"
+        },
+        {
+            "theZombieType": 201,
+            "name": "マイケルゾンボニ",
+            "introduce": "<size=30><color=black>Michael Zomboni is not just one zombie; it's a team effort. Zomboni sets up the venue, Bobsled Zombie provides the visual effects, and Michael Zombie... was compelled to leave the car because it didn't have a driver's license to greet its passionate plant fans, but the peas seemed a little too excited.</color>",
+            "info": "<size=30>非常に高い防御力とスロー耐性。\n<color=black>耐久力：</color><color=#4B0082>12000</color>\n<color=black>スペシャル：</color><color=#4B0082>死亡時に自動的にマイケルゾンビ、ゾンボニ、ボブスレーゾンビを召喚します。</color>"
+        },
+        {
+            "theZombieType": 202,
+            "name": "超級トライデントゾンビ",
+            "introduce": "<size=31.5><color=black>\"Giga-trident Zombie is a skilled fisherman known for his exceptional accuracy with the four tridents he throws, earning him the title of the king of fishermen.\" \"In fact, I used to be a part-time javelin thrower...\" Giga-trident Zombie admitted.</color>",
+            "info": "<size=31.5>一度に大量のトライデントを植物に投げます。\n<color=black>耐久力：</color><color=#4B0082>270+7500</color>\n<color=black>スペシャル：</color><color=#4B0082>4つのトライデントを投げ、それぞれが植物に現在の耐久力の20%（最低60）のダメージを与えます。</color>"
+        },
+        {
+            "theZombieType": 203,
+            "name": "ガトリング新聞ゾンビ",
+            "introduce": "<size=28><color=black>\"I'm getting old...\" Gatling Cherry Newspaper Zombie lamented while walking through the street. Despite containing his pressure, it was enough to keep both plants and zombies down. \"Only that guy can still inspire me to fight...\" he muttered as he put away the newspaper and ambled on.</color>",
+            "info": "<size=29>莫大なダメージを与える。\n\n<color=black>ダメージ：</color><color=#4B0082>400→1000（激怒された）</color>\n<color=black>耐久力：</color><color=#4B0082>1500+1500</color>\n<color=black>スペシャル：</color><color=#4B0082>新聞が破られると一時的に無敵になり、0.125秒ごとに爆発性のサクランボを発射します。</color>"
+        },
+        {
+            "theZombieType": 204,
+            "name": "超級ラグビーナッツゾンビ",
+            "introduce": "<size=32><color=black>Stepping out of the shadows, the Giga Rugby-nut Zombie radiates power, coldness, and a sinister vibe. He adamantly keeps the secret of his strength to himself, asserting that only the darkest darkness can create a being as formidable as he. \"Where is my paint?\" Dr. Edgar asked, looking perplexed in his laboratory.</color>",
+            "info": "<size=32>古い友人？もしかして、以前に会ったことがあるかもしれません。\n\n<color=black>ダメージ：</color><color=#4B0082>100</color>\n<color=black>耐久力：</color><color=#4B0082>3000+12000</color>"
+        },
+        {
+            "theZombieType": 205,
+            "name": "キーロフ飛空艇",
+            "introduce": "<size=28><color=black>Was that a huge flying object? No, it was actually a gigantic airship, featuring a sturdy shell and the ability to release a squadron of fighters. Even when destroyed, the airship could still wreak havoc on surrounding creatures, causing other zombies to keep their distance, fearing that a crash might send them to their demise.</color>",
+            "info": "<size=32>キーロフ出撃！\n\n<color=black>耐久力：</color><color=#4B0082>3000</color>\n<color=black>スペシャル：</color><color=#4B0082>毎秒キーロフドローンを召喚します。死亡時に墜落し、植物に大きなダメージを与えます。</color>"
+        },
+        {
+            "theZombieType": 206,
+            "name": "キーロフドローン",
+            "introduce": "<size=35><color=black>This is no ordinary aircraft; it is a special plane that has been compressed through water pressure. While the exact method of compression remains a mystery, its battlefield strength rivals that of conventional bombers.</color>",
+            "info": "<size=35>キーロフドローンは高速で飛び、飛行中に植物に爆弾を落とします。\n\n<color=black>ダメージ：</color><color=#4B0082>1000</color>\n<color=black>耐久力：</color><color=#4B0082>200</color>"
+        },
+        {
+            "theZombieType": 207,
+            "name": "スーパースターマイケル",
+            "introduce": "<size=30><color=black>Superstar Zombie, a legendary idol in the zombie world, has extremely high standards for himself. After completing his studies at Edgar's Dance Academy, he mastered the Super Moonwalk, which was named \"The Sixth Wonder of the Zombie World,\" earning him a large fanbase.</color>",
+            "info": "<size=32>防御に滑り込む高速ゾンビ。強力な敵です。\n\n<color=black>耐久力：</color><color=#4B0082>3000</color>\n<color=black>スペシャル：</color><color=#4B0082>戦場に滑り込む際にダメージを90%軽減します。その後、おどつてるゾンビを召喚します。</color>"
+        },
+        {
+            "theZombieType": 208,
+            "name": "不死の幽霊",
+            "introduce": "<size=30><color=black>This monster survived the harshest conditions and possesses enormous strength. It avoids brains and roams the world in search of a secluded place.</color>",
+            "info": "<size=30>千年前の亡霊、非常に強力な存在。\n\n<color=black>耐久力：</color><color=#4B0082>3000</color>\n<color=black>ダメージ：</color><color=#4B0082>500</color>\n<color=black>スペシャル：</color><color=#4B0082>時折短い距離をダッシュし、通過した植物に500ダメージを与えます。死亡時には3×3の範囲で植物に500ダメージを与えます（カボチャで守られた植物を除く）。</color>"
+        },
+        {
+            "theZombieType": 209,
+            "name": "ポゴキングピエロ",
+            "introduce": "<size=36><color=black>\"I just wanted to follow the trend with this look,\" Pogo King Clown says with a shrug whenever his cool appearance comes up. But everyone knows he once had a love story that left a deep mark on him.</color></size>",
+            "info": "<size=36>ポゴスティックに爆弾が隠されています。\n<color=black>耐久力：</color><color=#4B0082>270+4400</color>\n<color=black>スペシャル：</color><color=#4B0082>跳躍中に死亡すると爆発し、キングピエロゾンビに変身します。</color></size>"
+        },
+        {
+            "theZombieType": 210,
+            "name": "超級メカボーリング",
+            "introduce": "<size=36><color=black>\"Fish balls? Mecha armor? That’s all that matters,\" says Giga Mecha-nut Zombie. Sporting an impressive mechanical suit, he feels that’s all he really needs.</color></size>",
+            "info": "<size=36>超級メカボーリングは方向を変えることができます。\n\n<color=black>耐久力：</color><color=#4B0082>1350</color></size>"
+        },
+        {
+            "theZombieType": 43,
+            "name": "装甲ガーガンチュア",
+            "introduce": "<size=26><color=black>The Armored Gargantuar is a big fan of a skin called 'Cavalier' from his favorite game. So, he spent a fortune custom-ordering a set of medieval armor tailored just for him. However, when he tried to take it off, he found it was stuck for good... And that's how he ended up with a permanent 'Cadavelier' skin.</color>",
+            "info": "<size=28>メイスで地面を叩くたびにインプを召喚します！\n\n<color=black>耐久力：</color><color=#4B0082>8000+24000</color>\n<color=black>スペシャル：</color><color=#4B0082>通常のガーグの半分の速度で移動し、一撃で5000以上のダメージを受けません。魅了効果の持続時間は半分、HPが半分になるとメカナットボールを投げ、地面を叩くたびに1～3体のインプを召喚します。</color>"
+        },
+        {
+            "theZombieType": 212,
+            "name": "黒曜石ガーガンチュア",
+            "introduce": "<size=26><color=black>By ancient writ, it is recorded that the abyssal obsidian armor may only be borne by a body tempered through trials of bitter frost and searing flame. When the kin of zombies art plunged into utmost peril, his visage may yet appear at the heart of the dreadest battlefield. 'Stir not great commotion, lest ye rouse the giant that slumbereth beneath the earth.' A warning to the plants.</color>",
+            "info": "<size=30>古代で邪悪かつ不気味な脅威。\n\n<color=black>耐久力：</color><color=#4B0082>8000+24000</color>\n<color=black>スペシャル：</color><color=#4B0082>画面上のすべてのゾンビに90%のダメージ軽減を提供し、地面を叩くたびにシャドウインプを召喚します。また、装甲ガーグの他のスペシャルも引き継ぎます。</color>"
+        },
+        {
+            "theZombieType": 213,
+            "name": "シャドウインプ",
+            "introduce": "<size=35><color=black>With a flashy entrance featuring winged blades and a death roll, the Abyssal Imp meticulously designed this stunt for the mini-pterosaur's role in Hollytomb's latest hit Jurassic Zombies. Little does anyone know, he was actually just accidentally flung out.</color>",
+            "info": "<size=35>シャドウインプは簡単に防御を突破できます。\n\n<color=black>ダメージ：</color><color=#4B0082>200</color>\n<color=black>耐久力：</color><color=#4B0082>1500</color>"
+        },
+        {
+            "theZombieType": 214,
+            "name": "クジラ乗りガトリング",
+            "introduce": "<size=32><color=black>Gatling Explod-o-rider Zombie always wakes up in a terrible mood — especially when a whale riding colleague drags him to work. Fueled by rage, he's ready to blow away any plants in his path before heading back for a nap.</color>",
+            "info": "<size=32>ジャンプして防御を破壊し、爆発性のサクランボを発射します！\n\n<color=black>耐久力：</color><color=#4B0082>1500</color>\n<color=black>スペシャル：</color><color=#4B0082>芝生に侵入して3秒後に爆発性のチェリー爆弾を発射し始めます。</color>"
+        },
+        {
+            "theZombieType": 215,
+            "name": "ダイヤモンドの謎の箱",
+            "introduce": "<size=36><color=black>！！！</color>",
+            "info": "<size=36>悪夢か、あるいは祝福をランダムに召喚します...？\n\n<color=black>耐久力：</color><color=#4B0082>20000+1100</color>"
+        },
+        {
+            "theZombieType": 45,
+            "name": "バンジーゾンビ",
+            "introduce": "<color=black>バンジーゾンビはリスクを取るのが大好きだ。だって、ちょっとくらい生き生きしなきゃ、死んでる意味がないだろ？</color>",
+            "info": "<size=36>空から降下し、植物を奪う。\n\n<color=black>耐久力：</color><color=#4B0082>720</color>"
+        },
+        {
+            "theZombieType": 114,
+            "name": "網戸バックシューター",
+            "introduce": "<color=black>網戸バックシューターは、いつも鉄の装備を山ほど積み込むため、他のゾンビたちは呆れている。「磁石キノコが頭まで引っこ抜くなら、最初から金属をもっと持てばいいんじゃね？」その突飛な理論は、一見正しいように思えた——磁力ブロバーに出会うまでは。</color>",
+            "info": "<size=36>「バックシューターゾンビが装備を獲得: 鉄の網戸！」\n\n<color=black>ダメージ：</color><color=#4B0082>80</color>\n<color=black>耐久力：</color><color=#4B0082>270+1250+1100+1100</color>\n<color=black>スペシャル：</color><color=#4B0082>鉄のエンドウ豆を絶え間なく発射しながら、そこそこの耐久力を持つ。<</color>"
+        },
+        {
+            "theZombieType": 115,
+            "name": "スクワッシュゾンビ",
+            "introduce": "<color=black>「ん？ んん！」スクワッシュゾンビは、一切迷うことなく突撃し、道を阻む植物を押し潰す。その自己犠牲的な姿勢に、他のゾンビたちは感動している。しかし、実際のところ彼らはただの猫スクワッシュのファンなのだ。彼女がエンドフレイムを粉砕するのを見てしまったが最後、真似せずにはいられなかったのである。</color>",
+            "info": "<size=36>最寄りの植物を押し潰し、即死する。\n\n<color=black>耐久力：</color><color=#4B0082>500</color>\n<color=black>スペシャル：</color><color=#4B0082>最初に遭遇した植物を押し潰す。</color>"
+        },
+        {
+            "theZombieType": 116,
+            "name": "辛いスクワッシュゾンビ",
+            "introduce": "<color=black>辛いスクワッシュゾンビは、ゾンビの中でも最も血の気の多い存在だ。出現した瞬間にやることは？ もちろん、他のゾンビを蹴散らすことだ！ 本当は目立つ場所に立ち、「塵は塵に！」と叫ぶ予定だった。しかし、彼の頭のほうがさらに熱かったため、叫ぶ前にすっ飛んでしまった。</color>",
+            "info": "<size=36>ジャンプして、一レーンの全体の植物を破壊！\n\n<color=black>耐久力：</color><color=#4B0082>1500</color>\n<color=black>スペシャル：</color><color=#4B0082>最初に遭遇した植物を押し潰し、一レーンの全体を炎上させ、すべての植物を焼き尽くす。ただし、冷却状態では炎上しない。 \nシークレットゾンビ。特定のレベルでのみ出現。</color>"
+        },
+        {
+            "theZombieType": 117,
+            "name": "ハラペーニョゾンビ",
+            "introduce": "<color=black>チリゾンビは燃え上がる情熱でプールにダイブする。しかし、他のゾンビたちはうんざりしている。「おいおい、これじゃただの激辛スープじゃねえか……」</color>",
+            "info": "<size=36>しばらくすると爆発し、レーンの全体の植物を破壊する。\n\n<color=black>耐久力：</color><color=#4B0082>500</color>\n<color=black>スペシャル：</color><color=#4B0082>一定時間後に爆発し、レーンの全体の植物を破壊する。</color>"
+        },
+        {
+            "theZombieType": 118,
+            "name": "エンドウ大将ラグビー",
+            "introduce": "<color=black>エンドウ大将ラグビーが死ぬ前の最後の記憶は、ベジタリアン向けのバッティングセンターに迷い込み、ピッチングマシンを誤って丸呑みしたことだった。今となっては、止まることなくエンドウ豆を撃ち出し続けるしかない。</color>",
+            "info": "<size=36>防衛線に容赦ないエンドウ豆の猛攻を浴びせる！\n\n<color=black>耐久力：</color><color=#4B0082>270+1400</color>\n<color=black>スペシャル：</color><color=#4B0082>絶え間なくエンドウ豆の弾幕を発射する。</color>"
+        },
+        {
+            "theZombieType": 216,
+            "name": "トライデントの火車",
+            "introduce": "<color=black>トライデントの火車ゾンビは、不死族の「完璧主義者」だ。彼は自分の乗り物がちょっとみすぼらしいと思い、トライデントを積み始めた。そして、完璧を求めるあまり、すべてのスロットが埋まるまで止まらなかった。</color>",
+            "info": "<size=36>一斉射撃で防衛を粉砕する！\n\n<color=black>耐久力：</color><color=#4B0082>1350+4400</color>\n<color=black>スペシャル：</color><color=#4B0082>1回の攻撃で14本のトライデントを連続発射し、少し間を置いてさらに14本発射する（合計2回の連射）。トライデントは植物を直接狙わず、固定の角度と速度で飛び、当たった植物にダメージを与える。</color>"
+        },
+        {
+            "theZombieType": 217,
+            "name": "超級おどつてるゾンビ",
+            "introduce": "<color=black>超級おどつてるゾンビの驚異的な棒高跳びスキルに、すべてのゾンビが驚嘆する。「ああ、これは俺の才能さ」と彼は言う。しかし真実は、彼が毎日二つの仕事を掛け持ちしていることにある。「仕事が2倍なら、ジャンプも2倍さ」</color>",
+            "info": "<size=36>2タイルを飛び越えられる。\n\n<color=black>耐久力：</color><color=#4B0082>3000</color>Traits: </color><color=#4B0082>2タイルを飛び越えられるが、背の高いナッツによって阻止できる。</color>"
+        },
+        {
+            "theZombieType": 218,
+            "name": "腐潮ゾンビ王",
+            "introduce": "<color=black></color>",
+            "info": "<size=32>神のトライデントを投げつけて防衛を破壊する！\n\n<color=black>耐久力：</color><color=#4B0082>8000+24000</color>\n<color=black>スペシャル：</color><color=#4B0082>煉獄モードで対応する効果を選択した場合のみ出現。ヒプノやチョンパーに無効化されず、1回の攻撃で5000以上のダメージを受けない。出現中、超級トライデントゾンビが継続的に攻撃し、すべてのトライデントのダメージが5倍になる。彼の投げるトライデントは固定の角度で飛び、多くの植物を即死させる（ダメージの転送が可能）。着弾後は最大300発の飛び道具をブロックし、30秒後に消滅するか、破壊されない場合は周囲の植物に大ダメージを与える。</color>"
+        },
+        {
+            "theZombieType": 219,
+            "name": "究極メカボーリング",
+            "introduce": "<size=30><color=black>究極メカボーリングは、元々超級メカボーリング小型で精密なバージョンとして設計された。しかし、設計図の寸法にミスがあり…結果としてとんでもなく巨大なものが生まれた。技術者たちは失敗に気づいたものの、もう手遅れだったので、そのまま「転」がるように受け入れた。</color>",
+            "info": "<size=32>フィールド上のすべてのゾンビの盾となる！\n\n<color=black>耐久力：</color><color=#4B0082>12000</color>\n<color=black>スペシャル：</color><color=#4B0082>煉獄モードで対応する効果を選択した場合のみ出現。ヒプノやチョンパーに無効化され、1回の攻撃で5000以上のダメージを受けない。フィールド上のすべてのゾンビ（謎の箱ゾンビたちを除く）に対してダメージを肩代わりする。無敵フレームを持ち、0.2秒ごとに1回のみダメージを受ける。</color>"
+        },
+        {
+            "theZombieType": 220,
+            "name": "<size=28>究極ラグビーストライカー",
+            "introduce": "<color=black></color>",
+            "info": "<size=31>究極ラグビーストライカーが防衛を容易に打ち崩す！\n\n<color=black>ダメージ：</color><color=#4B0082>200</color>\n<color=black>耐久力：</color><color=#4B0082>8000+24000</color>\n<color=black>スペシャル：</color><color=#4B0082>撃退、ヒプノ、チョンパーに無効化され、1回の攻撃で5000以上のダメージを受けない。出現中、すべての植物は回復不能になり、回復を試みるとその回復量の0.1倍のダメージをギガラグビーストライカーに与える。非防衛系の植物を噛みつくと即死させ、通常のギガラグビーナッツゾンビに変える。3秒ごとに以下の能力を獲得する（重複可）：\n1. 攻撃力が2倍になる。\n2. 防具の耐久力を6000回復する。 \n3. 移動速度が0.3上昇（最大3まで）。（出現時のゾンビ速度範囲：0.9 - 1.8）</color>"
+        },
+        {
+            "theZombieType": 221,
+            "name": "裂空者メカ",
+            "introduce": "<color=black></color>",
+            "info": "<size=32>裂空者メカは爆弾を投下し、キーロフを召喚して防衛を壊滅させる。\n\n<color=black>耐久力：</color><color=#4B0082>12000</color>\n<color=black>スペシャル：</color><color=#4B0082>煉獄モードで対応する効果を選択した場合のみ出現。撃退、ヒプノ、チョンパー、そして磁力サボテンによる航空機撃墜に無効化され、1回の攻撃で5000以上のダメージを受けない。地上にいる間は高速で突進し、通過した植物を粉砕する（粉砕のメカニズムはゾンボニーと同様）。耐久力が2/3を下回ると、一時的な無敵フレームを得て飛行を開始し、3秒ごとにキーロフ飛空艇を召喚。爆弾を投下し、着弾時に3×3範囲にダメージを与える（ダメージタイプはピエロ箱の爆発と同じ、ピエロのパンプキンには無効）。</color>"
+        },
+        {
+            "theZombieType": 222,
+            "name": "<size=26>マイケルのスーパーライブ移動車",
+            "introduce": "<color=black>この精巧に作られたステージでは、ジャクソン・ワールドワイドがあらゆる批判を無視し、パフォーマンスに完全に没頭できる。植物とゾンビの両方に最後の歌とダンスを披露した後、ステージは崩れ去る。</color>",
+            "info": "<size=30>ジャクソン・ワールドワイドは、舞台とツアーへの情熱に生涯を捧げてきた。\n\n<color=black>耐久力：</color><color=#4B0082>32000</color>\n<color=black>スペシャル：</color><color=#4B0082>煉獄モードで対応する効果を選択した際にのみ登場。ヒプノスやチョンパーの効果を受けず、ダメージ軽減計算前の一撃で受けるダメージは最大5000まで。周囲のゾンビに冷凍無効を付与し、数秒ごとスーパースターマイケルを4体召喚する。倒されると、マイケルゾンボニニ2体とスーパースターマイケル1体をスポーンする。</color>"
+        },
+        {
+            "theZombieType": 223,
+            "name": "チェリーズ教授",
+            "introduce": "<color=black></color>",
+            "info": "<size=32>チェリーズ教授は科学的な遺物、特に爆発物の研究に執着している。チェリージラはもともと彼の発明だったという噂も…\n\n<color=black>耐久力：</color><color=#4B0082>1200+12000+1500</color>\n<color=black>スペシャル：</color><color=#4B0082>煉獄モードで対応する効果を選択した際にのみ登場。撃退、ヒプノ、チョンパーの影響を受けず、一撃で受けるダメージは最大5000まで。新聞が破壊されるまでは無敵状態。新聞を失うと短時間無敵になり、最大30体のゾンビを怒れるチェリーシューター新聞ゾンビに変化させる。その後、チェリーの弾幕を放ち、最終列へチェリーを発射しながら突進する。スパイクウィードに触れると即座に新聞を失う（未破壊の場合）。</color>"
+        },
+        {
+            "theZombieType": 47,
+            "name": "イエティゾンビ",
+            "introduce": "<size=36>",
+            "info": "<size=36>イエティゾンビは時々逃げることがある。\n\n<color=black>耐久力：</color><color=#4B0082>1350</color>\n<color=black>スペシャル：</color><color=#4B0082>周囲3×3範囲の植物を凍結・停止させる。</color>"
+        },
+        {
+            "theZombieType": 48,
+            "name": "オニゾンビ",
+            "introduce": "<size=36>",
+            "info": "<size=36>オニゾンビは強固な装甲を持つ。\n\n<color=black>耐久力：</color><color=#4B0082>8888+8888</color>\n<color=black>弱点：</color><color=#4B0082>爆竹</color>"
+        }
+    ]
+}

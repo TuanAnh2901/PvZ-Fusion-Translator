@@ -1,0 +1,436 @@
+{
+	"zombies": [
+		{
+			"theZombieType": 0,
+			"name": "Zombi",
+			"introduce": "<size=34><color=black>Uno zombi che adora i cervelli e non è mai soddisfatto. Cervelli, cervelli, cervelli, giorno e notte... Poco importa se sono vecchi e puzzolenti, marci e palesemente scaduti da tempo, lo zombi li vuole tutti!</color>",
+			"info": "<size=34>Comune zombi da giardino.\n\n<color=black>Resistenza: </color><color=#4B0082>270</color>"
+		},
+		{
+			"theZombieType": 2,
+			"name": "Zombi Segnaletico",
+			"introduce": "<size=34><color=black>All'inizio lo zombi segnaletico si trascinava noncurante come gli altri zombi. A un certo punto, però, si è fermato per raccogliere un cono segnaletico e metterselo in testa. Eh sì, gli dona proprio!</color>",
+			"info": "<size=34>Il cono segnaletico che porta sulla testa lo rende due volte più resistente rispetto allo zombi comune.\n\n<color=black>Resistenza: </color><color=#4B0082>270+370</color>"
+		},
+		{
+			"theZombieType": 3,
+			"name": "Zombi Atleta",
+			"introduce": "<size=34><color=black>Alcuni zombi si spingono oltre, hanno forti ambizioni e mettono se stessi alla prova per superare la mediocrità e raggiungere la grandezza. Lo zombi atleta è proprio uno di questi!</color>",
+			"info": "<size=34>Lo zombi atleta è in grado di saltare gli ostacoli.\n\n<color=black>Resistenza: </color><color=#4B0082>720</color>\n<color=black>Caratteristiche: </color><color=#4B0082>Salta la prima pianta che incontra.</color>"
+		},
+		{
+			"theZombieType": 4,
+			"name": "Zombi Secchione",
+			"introduce": "<size=34><color=black>Lo zombi secchione porta il suo secchio sulla testa da sempre. In parte si tratta di un modo per distinguersi in un mondo crudele e indifferente. Principalmente, però, si è semplicemente dimenticato di averlo.</color>",
+			"info": "<size=34>Il secchio che porta in testa lo rende estremamente resistente.\n\n<color=black>Resistenza: </color><color=#4B0082>270+1100</color>"
+		},
+		{
+			"theZombieType": 5,
+			"name": "Zombi Informato",
+			"introduce": "<size=34><color=black>Allo zombi informato mancava \"tanto così\" per finire il suo sudoku. La sua reazione, quindi, è più che comprensibile.</color>",
+			"info": "<size=34>Il suo giornale lo difende per un po'.\n\n<color=black>Resistenza: </color><color=#4B0082>270+200</color>\n<color=black>Caratteristiche: </color><color=#4B0082>All'inizio viaggia normalmente, ma accelera dopo aver perso il giornale.</color>"
+		},
+		{
+			"theZombieType": 6,
+			"name": "Zombi Disco",
+			"introduce": "<size=34><color=black>Le abilità atletiche dello Zombi Disco sono nella media per gli standard degli zombie. Su consiglio degli Zombi Ballerini, ha deciso di seguire la strada dell'idolo. Ora, la sua canzone pop \"Solo Cervelli,\" una collaborazione con Michael Jackson, sta diventando un successo.</color>",
+			"info": "<size=34>Dopo aver saltato l'ostacolo, evoca i suoi Zombi Ballerini.\n\n<color=black>Resistenza: </color><color=#4B0082>720</color>\n<color=black>Caratteristiche: </color><color=#4B0082>Evoca 4 Zombi Ballerini.</color>"
+		},
+		{
+			"theZombieType": 7,
+			"name": "Zombi Ballerino",
+			"introduce": "<size=34><color=black>I quattro fratelli, un tempo orfani problematici, svilupparono personalità contorte e bullizzavano gli altri all'Accademia degli Zombie. Un giorno videro lo Zombi Disco esibirsi gioiosamente sul palco, e questo li cambiò. Da quel momento, si unirono a lui per esibirsi insieme sul palco.</color>",
+			"info": "<size=34>Scalano una pianta.\n\n<color=black>Resistenza: </color><color=#4B0082>270</color>"
+		},
+		{
+			"theZombieType": 8,
+			"name": "Zombi con Porta",
+			"introduce": "<size=32><color=black>Lo Zombi con Porta, un tempo membro di una task force dell'FBI con un brutto carattere ma un cuore giusto, non negoziava mai con i rapinatori—abbatteva le porte per salvare gli ostaggi. Dopo essere diventato uno zombie, il suo cuore gentile è rimasto lo stesso. Quando vide zombie rapire un piccolo zombi fantasma, cercò di irrompere, ma gli incollarono la mano alla porta ricoperta di colla.</color>",
+			"info": "<size=32>Può bloccare i proiettili provenienti dal fronte.\n\n<color=black>Resistenza: </color><color=#4B0082>270+1100</color>"
+		},
+		{
+			"theZombieType": 9,
+			"name": "Zombi Rugbista",
+			"introduce": "<size=34><color=black>Lo Zombi Rugbista è una star sportiva tra gli zombie, ammirato da molti per la sua presenza eroica sul campo. Molte aziende vogliono assumerlo, ma le sue richieste salariali sono esorbitanti: un compenso annuale di 10.000 cervelli.</color>",
+			"info": "<size=34>Corre super veloce.\n\n<color=black>Resistenza: </color><color=#4B0082>270+1400</color>"
+		},
+		{
+			"theZombieType": 10,
+			"name": "Zombi Michael",
+			"introduce": "<size=34><color=black>Abito nero, cappello nero—non è qui per un funerale. È solo un ballerino, e puoi chiamarlo Zombi Michael.</color>",
+			"info": "<size=34>Guida la carica con i suoi incredibili passi di danza.\n\n<color=black>Resistenza: </color><color=#4B0082>720</color>\n<color=black>Caratteristiche: </color><color=#4B0082>Evoca 4 Zombi Disco alla volta.</color>"
+		},
+		{
+			"theZombieType": 11,
+			"name": "Duck Zombie NOT IN GAME",
+			"introduce": "<size=32><color=black>只有特定的僵尸才能成为鸭子救生圈僵尸，不是每只僵尸都能胜任。有些救生圈有点漏气，他们却处理不了，脱身后永远放弃了对脑子的渴求。</color>",
+			"info": "<size=32>可以在水里移动。\n\n<color=black>Resistenza: </color><color=#4B0082>270</color>"
+		},
+		{
+			"theZombieType": 12,
+			"name": "Coneduck Zombie NOT IN GAME",
+			"introduce": "<size=32><color=black>都说差生文具多，但是路障鸭子并不这么认为，毕竟他不想承认他是个差生。</color>",
+			"info": "<size=32>可以在水里移动。\n\n<color=black>Resistenza: </color><color=#4B0082>270</color>"
+		},
+		{
+			"theZombieType": 13,
+			"name": "Bucketduck Zombie NOT IN GAME",
+			"introduce": "<size=32><color=black>铁桶鸭子本不想带上那个漏气的游泳圈的，但是没办法，谁叫他戴着那个容易生锈的铁桶呢。</color>",
+			"info": "<size=32>可以在水里移动。\n\n<color=black>Resistenza: </color><color=#4B0082>270</color>"
+		},
+		{
+			"theZombieType": 14,
+			"name": "Zombarino",
+			"introduce": "<size=34><color=black>Il formidabile Zombarino, progettato secondo principi bionici, è maestoso e intimidatorio—un'arma da guerra ambita dagli zombie. \"Ora dobbiamo solo risolvere il problema delle alghe che si aggrovigliano nell'elica,\" ha detto il dottor Edgar.</color>",
+			"info": "<size=34>Il veicolo d'élite degli zombie contro le piante acquatiche.\n\n<color=black>Resistenza: </color><color=#4B0082>1350</color>"
+		},
+		{
+			"theZombieType": 15,
+			"name": "Zombi Erudito",
+			"introduce": "<size=30><color=black>In qualità di autorità di spicco nel mondo accademico, lo Zombi Erudito è spesso visto in biblioteca. La sua passione per la lettura è profonda, e disturbarlo mentre legge può scatenare la sua furia. Questo vecchio gentiluomo ti farà capire il vero significato di \"la conoscenza è potere.\"</color>",
+			"info": "<size=30>Infligge enormi danni con i suoi robusti libri.\n\n<color=black>Danno: </color><color=#4B0082>400</color>\n<color=black>Resistenza: </color><color=#4B0082>720+1100</color>\n<color=black>Caratteristiche: </color><color=#4B0082>Invincibilità temporanea e aumento della velocità di movimento dopo che il libro viene distrutto.</color>"
+		},
+		{
+			"theZombieType": 16,
+			"name": "Zomboni",
+			"introduce": "<size=34><color=black>Lo zombie al volante è un eccellente guidatore, soprattutto considerando che pochi zombie riescono a navigare dalla pista di ghiaccio al campo d'erba. Ora deve andare a pagare la multa. La macchina del ghiaccio che usa non è una Zamboni, ma una Zomboni prodotta dalla Compagnia B.</color>",
+			"info": "<size=34>Lo Zomboni applica ghiaccio, vapore e pressione alle tue piante.\n\n<color=black>Resistenza: </color><color=#4B0082>1350</color>"
+		},
+		{
+			"theZombieType": 17,
+			"name": "Zombi Sommozzatore",
+			"introduce": "<size=34><color=black>Lo Zombi Sommozzatore potrebbe avere una maschera rotta, ma ciò non gli impedisce di immergersi e galleggiare nell'acqua. Il suo cosiddetto \"affondare\" non è dovuto alle sue abilità di immersione; semplicemente non ha bisogno di respirare aria.</color>",
+			"info": "<size=34>Lo Zombi Sommozzatore può nuotare sott'acqua.\n\n<color=black>Resistenza: </color><color=#4B0082>270</color>\n<color=black>Caratteristiche: </color><color=#4B0082>Si immerge per evitare attacchi con proiettili.</color>"
+		},
+		{
+			"theZombieType": 18,
+			"name": "Zombi Bobbisti",
+			"introduce": "<size=34><color=black>Questa macchina, progettata dagli appassionati di sci, scivola senza problemi su neve e ghiaccio, raggiungendo persino velocità superiori rispetto all'erba. Sfortunatamente, ha un difetto: può essere avviata solo su superfici ghiacciate.</color>",
+			"info": "<size=34>Appare solo quando c'è ghiaccio sul campo.\n\n<color=black>Resistenza: </color><color=#4B0082>2700</color>\n<color=black>Caratteristiche: </color><color=#4B0082>Si muove molto velocemente quando si trova sopra il ghiaccio.</color>"
+		},
+		{
+			"theZombieType": 19,
+			"name": "Zombi Cavalcadelfini",
+			"introduce": "<size=32><color=black>Lo Zombi Cavalcadelfini è un performer part-time e custode di delfini in un acquario. Il delfino su cui cavalca è uno zombie, ma a differenza degli zombie tipici, questo \"delfino zombie\" non ha alcun desiderio di cervelli.</color>",
+			"info": "<size=32>Lo Zombi Cavalcadelfini usa i delfini per superare la tua difesa.\n\n<color=black>Resistenza: </color><color=#4B0082>720</color>\n<color=black>Caratteristiche: </color><color=#4B0082>Salta sopra la prima pianta che incontra.</color>"
+		},
+		{
+			"theZombieType": 20,
+			"name": "Zombi Tridente",
+			"introduce": "<size=30><color=black>Lo Zombi Tridente era originariamente solo un lanciatore di giavellotto che divenne pescatore dopo il ritiro. Tuttavia, quando andò al fiume a pescare, affondò perché non sapeva nuotare. Quando arrivò a riva, si rese conto di essere diventato ciò che è ora.</color>",
+			"info": "<size=30>Lancia un tridente per attaccare le tue piante.\n\n<color=black>Resistenza: </color><color=#4B0082>720</color>\n<color=black>Caratteristiche: </color><color=#4B0082>Lancia un tridente, causando danni alle piante pari al 20% (minimo 20) della loro resistenza attuale.</color>\n<color=black>Raggio di ricerca: </color><color=#4B0082>3,5 caselle davanti</color>"
+		},
+		{
+			"theZombieType": 21,
+			"name": "Zombi Scatola di Diamante",
+			"introduce": "<size=30><color=black>Questa sera, gli Zombi Scatola di Diamante sveleranno il loro mondo abbagliante. I loro occhi brillano come le stelle più luminose nel cielo notturno, e la luce dorata sembra scorrere come un fiume attraverso il tempo, illuminando il cammino incerto che li attende. Ogni volta che il coperchio della scatola viene aperto delicatamente, sembra sbloccare una porta verso un altro regno.</color>",
+			"info": "<size=30>È forse.. uno Zombi Segnaletico?\n\n<color=black>Resistenza: </color><color=#4B0082>4400</color>\n<color=black>Caratteristiche: </color><color=#4B0082>Si trasforma in uno Zombi Scatola d'Oro alla morte.</color>"
+		},
+		{
+			"theZombieType": 22,
+			"name": "Zombi Scatola d'Oro",
+			"introduce": "<size=34><color=black>\"Sotto la scatola d'oro, altre scatole di colori diversi attendono. Riuscite a indovinare cosa c'è dentro la scatola?\"</color>",
+			"info": "<size=34>È forse.. uno Zombi Segnaletico?\n\n<color=black>Resistenza: </color><color=#4B0082>2200</color>\n<color=black>Caratteristiche: </color><color=#4B0082>Si trasforma in uno Zombi Scatola d'Argento alla morte.</color>"
+		},
+		{
+			"theZombieType": 23,
+			"name": "Zombi Scatola d'Argento",
+			"introduce": "<size=34><color=black>Lo Zombi Scatola d'Argento pensa alla scatola sulla sua testa come a un vaso, quindi deve essere così. Visto il suo punto di vista, perché non provi a metterti nei suoi panni? E noti il punto esclamativo sulla sua scatola, vero?</color>",
+			"info": "<size=34>È forse.. uno Zombi Segnaletico?\n\n<color=black>Resistenza: </color><color=#4B0082>1100</color>\n<color=black>Caratteristiche: </color><color=#4B0082>Si trasforma in uno Zombi Segnaletico alla morte.</color>"
+		},
+		{
+			"theZombieType": 24,
+			"name": "Zombi con Sorpresa",
+			"introduce": "<size=34><color=black>Sebbene lo Zombi con Sorpresa sia un paziente psichiatrico, il circo ha accolto la sua candidatura. Fai attenzione a cosa c'è nella sua scatola dei giocattoli; sicuramente ti spaventerà.</color>",
+			"info": "<size=34>Questo zombie porta una sorpresa esplosiva.\n\n<color=black>Resistenza: </color><color=#4B0082>720</color>\n<color=black>Caratteristiche: </color><color=#4B0082>A volte esplode e uccide istantaneamente le piante circostanti.</color>"
+		},
+		{
+			"theZombieType": 25,
+			"name": "Zombi Aerostatico",
+			"introduce": "<size=32><color=black>Lo Zombi Aerostatico, uno dei creatori dello Zomppelin, viene frequentemente chiesto perché si sia legato dei palloncini. La sua risposta usuale è: \"Quella è stata la mia conclusione.\" Tuttavia, la verità è che i palloncini si sono semplicemente impigliati per caso.</color>",
+			"info": "<size=32>Lo Zombi Aerostatico fluttua sopra la mischia, immune alla maggior parte degli attacchi.\n\n<color=black>Resistenza: </color><color=#4B0082>270+20</color>\n<color=black>Caratteristiche: </color><color=#4B0082>Non può essere danneggiato dalla maggior parte delle piante mentre vola.</color>"
+		},
+		{
+			"theZombieType": 26,
+			"name": "Zomppelin",
+			"introduce": "<size=30><color=black>Lo Zomppelin, ultima creazione del Dr. Edgar, sta rapidamente diventando un alleato fidato degli zombie. Si susseguono le speculazioni su chi piloterà questa potente arma—forse l'imp o addirittura la stessa nave? \"È solo un pallone,\" ha commentato il Dr. Edgar. \"Gli zombie devono stare al passo con i tempi. Sto anche considerando di trasformarlo in un drone per evitare imbarazzi quando viene sconfitto dalle piante.\"</color>",
+			"info": "<size=30>Rilascerà bombe mortali mentre sorvola le tue piante.\n\n<color=black>Danno della bomba: </color><color=#4B0082>1000</color>\n<color=black>Resistenza: </color><color=#4B0082>1350</color>"
+		},
+		{
+			"theZombieType": 27,
+			"name": "Yeti Cavalcabalena",
+			"introduce": "<size=30><color=black>La balena bianca dello Zombi Yeti ha incredibili abilità di salto, suscitando l'invidia dello Zombi Cavalcadelfini, che vorrebbe provarla, ma viene sempre rifiutato. \"Lo Zombi Yeti non controlla davvero la sua balena,\" dice il Dr. Edgar. \"Vuole nascondersi, ma lei va sempre altrove.\"</color>",
+			"info": "<size=30>Salta in avanti di tre caselle e poi si gira, attaccando le tue piante da dietro.\n\n<color=black>Resistenza: </color><color=#4B0082>720</color>\n<color=black>Caratteristiche: </color><color=#4B0082>Non può essere bloccato dai Tall-nut.</color>"
+		},
+		{
+			"theZombieType": 28,
+			"name": "Zombi Minatore",
+			"introduce": "<size=34><color=black>Molto tempo fa, gli Zombi Minatori disprezzavano i Magnet-shroom per aver confiscato continuamente i loro attrezzi. Ora, odiano ancora di più le Zucche Minatrici. \"La mia testa continua a essere colpita, il che mi fa sentire ancora peggio,\" si lamenta.</color>",
+			"info": "<size=34>Questo zombie scava per aggirare le tue difese.\n\n<color=black>Resistenza: </color><color=#4B0082>720</color>\n<color=black>Caratteristiche: </color><color=#4B0082>Scava sottoterra e appare sul lato sinistro del prato. Vulnerabile ai Magnet-shroom.</color>"
+		},
+		{
+			"theZombieType": 29,
+			"name": "Zombi Secchicottero",
+			"introduce": "<size=34><color=black>\"Amici, sapevate dell'aria di Berlino? Ha ispirato il mio design…\" Tutti gli zombi vogliono nascondersi dallo Zombi Secchicottero, non solo perché parla troppo dell'aria di Berlino, ma anche perché il rumore dell'elica del suo pallone è insopportabile.</color>",
+			"info": "<size=34>Lo Zombi Secchicottero non ha paura del Blover!\n\n<color=black>Resistenza: </color><color=#4B0082>270+2200+500</color>\n<color=black>Caratteristiche: </color><color=#4B0082>L'elica sopra di lui può contrastare i venti del Blover.</color>"
+		},
+		{
+			"theZombieType": 30,
+			"name": "Zombi di Re Pagliaccio",
+			"introduce": "<size=30><color=black>Per gli zombi clown, l'autodistruzione è un'arte, e il Re Zombi Clown è il maestro. \"Non toglierà mai la maschera né lascerà il suo regalo!\"</color>",
+			"info": "<size=30>Il Re Zombi Clown potrebbe anche esplodere dopo la sua morte!\n\n<color=black>Resistenza: </color><color=#4B0082>720+370</color>\n<color=black>Caratteristiche: </color><color=#4B0082>Diventa violento dopo l'esplosione, raddoppiando la sua velocità. Ha anche una possibilità di autodistruggersi e trasformarsi in uno Zombi con Sorpresa. Più velocemente esplode, maggiore è la possibilità che muoia.</color>"
+		},
+		{
+			"theZombieType": 100,
+			"name": "Zombi Sparasemi",
+			"introduce": "<size=34><color=black>L'abilità dello Zombi Sparasemi di attaccare da lontano spaventa spesso le piante. Tuttavia, il vero panico risiede negli zombi, che temono che quelli che combattono davanti a lui vengano presi di mira da dietro.</color>",
+			"info": "<size=34>Spara piselli per attaccare le tue piante.\n\n<color=black>Danno: </color><color=#4B0082>20</color>\n<color=black>Resistenza: </color><color=#4B0082>270</color>"
+		},
+		{
+			"theZombieType": 101,
+			"name": "Zombi Sparaciliegia",
+			"introduce": "<size=34><color=black>Zombi Sparaciliegia è uno studente liceale di 17 anni con una testa di pianta che cresce dal suo collo. Il suo frutto preferito sono le ciliegie e, grazie alle sue origini familiari papali, gli zombi lo chiamano affettuosamente il \"Re Foglia.\"</color>",
+			"info": "<size=34>Spara proiettili di ciliegia per attaccare le tue piante.\n\n<color=black>Danno: </color><color=#4B0082>60</color>\n<color=black>Resistenza: </color><color=#4B0082>500</color>"
+		},
+		{
+			"theZombieType": 102,
+			"name": "Zombi Esplosparatore",
+			"introduce": "<size=34><color=black>Zombi Esplosparatore adora ascoltare \"Cherry Bomb\" dei The Runaways, forse a causa della sua passione esplosiva. Tuttavia, nessuno sa come abbia imparato ad accendere fuochi d'artificio con la bocca.</color>",
+			"info": "<size=34>Spara ciliegie esplosive per attaccare le tue piante.\n\n<color=black>Danno: </color><color=#4B0082>1000</color>\n<color=black>Resistenza: </color><color=#4B0082>500</color>"
+		},
+		{
+			"theZombieType": 103,
+			"name": "Zombi Muro di Noce",
+			"introduce": "<size=34><color=black>Dopo un attacco delle piante, Zombi Muro di Noce ha mostrato segni di morsi sulla testa invece di fori di proiettile. Intervistato, ha detto: \"Forse i miei compagni erano semplicemente affamati.\"</color>",
+			"info": "<size=34>È una noce in movimento.\n\n<color=black>Resistenza: </color><color=#4B0082>270+1100</color>"
+		},
+		{
+			"theZombieType": 104,
+			"name": "<size=31>Zombi Sparaciliegia Informato",
+			"introduce": "<size=30><color=black>Il frutto preferito di questo zombi sono le ciliegie, e persino il suo giornale ha un sapore di ciliegia. Il giornale che tiene in mano è l'unica cosa che può placare la sua ira.</color>",
+			"info": "<size=30>Scatena una pioggia di ciliegie esplosive quando il suo giornale viene distrutto.\n\n<color=black>Resistenza: </color><color=#4B0082>1500+720</color>\n<color=black>Caratteristiche: </color><color=#4B0082>Diventa temporaneamente invincibile dopo la rottura del giornale, quindi inizia a sparare ciliegie esplosive ogni 0,75 secondi dopo la rottura del giornale.</color>\n<color=black>Raggio di Esplosione: </color><color=#4B0082>Esplosione a croce, può essere assorbita dalle noci.</color>"
+		},
+		{
+			"theZombieType": 105,
+			"name": "Zombi Misteri",
+			"introduce": "<size=34><color=black>？？？</color>",
+			"info": "<size=34>Nessuno sa cosa si nasconde dentro la scatola.\n\n<color=black>Resistenza: </color><color=#4B0082>270+370</color>\n<color=black>Caratteristiche: </color><color=#4B0082>Dopo che la scatola cade, evoca uno zombi casuale con il 20%/40%/60%/80%/100% della Resistenza originale dello zombi.</color>"
+		},
+		{
+			"theZombieType": 106,
+			"name": "Zombi Nociblocco",
+			"introduce": "<size=32><color=black>Perché la testa dello Zombi Nociblocco è fatta di ferro? È perché tutti dicevano che mangiare noci fa bene al cervello, ma non si è accorto che le noci che ha mangiato erano troppo ricche di ferro. Tuttavia, forse non è così male—almeno ora ha sviluppato una testa di ferro.</color>",
+			"info": "<size=32>È un Nociblocco in movimento.\n\n<color=black>Resistenza: </color><color=#4B0082>270+2200</color>\n<color=black>Caratteristiche: </color><color=#4B0082>Un pezzo di ferro cadrà quando ucciso dai proiettili.</color>"
+		},
+		{
+			"theZombieType": 107,
+			"name": "Zombi Muro di Ciliegia",
+			"introduce": "<size=34><color=black>I veri uomini non si girano mai per guardare le esplosioni, e lo Zombi Muro di Ciliegia ne è un esempio perfetto, visto che spesso para le bombe con la faccia.</color>",
+			"info": "<size=34>Ha una leggera resistenza contro i proiettili esplosivi.\n\n<color=black>Resistenza: </color><color=#4B0082>270+1100</color>\n<color=black>Caratteristiche: </color><color=#4B0082>Subisce un massimo di 150 danni dalle esplosioni.</color>"
+		},
+		{
+			"theZombieType": 108,
+			"name": "Zombi Sparabecchio",
+			"introduce": "<size=34><color=black>Lo scorso anno, lo Zombi Sparabecchio ha pescato una carta dei tarocchi con scritto \"L’Imperatore.\" Da allora, è in grado di sparare proiettili di ferro a volontà.</color>",
+			"info": "<size=34>Spara proiettili ad alto danno.\n\n<color=black>Danno: </color><color=#4B0082>80</color>\n<color=black>Resistenza: </color><color=#4B0082>270+1350</color>\n<color=black>Caratteristiche: </color><color=#4B0082>Un pezzo di ferro cadrà quando ucciso dai proiettili.</color>"
+		},
+		{
+			"theZombieType": 109,
+			"name": "Zombi Barriera di Rugby",
+			"introduce": "<size=32><color=black>Lo Zombi Barriera di Rugby era una volta un semplice Zombi Rugbista, finché un giorno si scontrò con una noce che stava spargendo fertilizzante. \"Non so come questo tipo sia finito sulla mia testa; mi sta soffocando!\" si lamentò lo Zombi Barriera di Rugby.</color>",
+			"info": "<size=32>Zombi con alta armatura che può anche correre molto velocemente.\n\n<color=black>Resistenza: </color><color=#4B0082>270+4400</color>\n<color=black>Caratteristiche: </color><color=#4B0082>Un Casco da Rugby cadrà quando ucciso dai proiettili.</color>"
+		},
+		{
+			"theZombieType": 110,
+			"name": "Zombi Misteri Dorati",
+			"introduce": "<size=34><color=black>？？！</color>",
+			"info": "<size=34>Una dorata!? Chissà cosa c'è dentro questa Scatola Misteriosa...\n\n<color=black>Resistenza: </color><color=#4B0082>270+720</color>\n<color=black>Caratteristiche: </color><color=#4B0082>Dopo che la scatola cade, evoca uno zombi casuale con Resistenza piena.</color>"
+		},
+		{
+			"theZombieType": 111,
+			"name": "Zombi Barriera di Gelo",
+			"introduce": "<size=30><color=black>La testa dello Zombi Barriera di Gelo ha suscitato numerose opinioni nel mondo degli zombi. Alcuni dicono che voglia distanziarsi dal mondo gelido, mentre altri sospettano che sia legato agli esperimenti folli del Dottor Edgar. Eppure, solo lui sa che questo copricapo è apparso dopo che ha mangiato un particolare fungo blu.</color>",
+			"info": "<size=30>Un robusto zombi che può anche annullare i danni dai proiettili di ghiaccio.\n\n<color=black>Resistenza: </color><color=#4B0082>270+2200</color>\n<color=black>Caratteristiche: </color><color=#4B0082>Immunità contro i proiettili congelanti o di ghiaccio.</color>"
+		},
+    {
+      "theZombieType": 112,
+      "name": "Zombi Catapulta Esplosiva",
+      "introduce": "<size=35><color=black>Attenzione: Before he uses up all his basketballs, make sure to run, as his explosive basketballs will cause chaos!</color>",
+      "info": "<size=35>Lancia palle da basket esplosive per distruggere le tue difese!\n\n<color=black>Toughness: </color><color=#4B0082>1350</color>\n<color=black>Traits: </color><color=#4B0082>Throws 5 basketballs, then launches explosive basketballs. Explosions deal 100 damage to Umbrella plants.</color>"
+    },
+    {
+      "theZombieType": 113,
+      "name": "Pea Rider Zombie",
+      "introduce": "<size=36><color=black>What makes this fella special compared to the whale rider yeti? Pea Rider replies, I just really enjoy playing Boomerang.</color>",
+      "info": "<size=36>A variant of the Whale Rider Yeti!\n\n<color=black>Toughness: </color><color=#4B0082>720</color>\n<color=black>Traits: </color><color=#4B0082>Shoots peas at your plants before and after jumping.</color>"
+    },
+    {
+      "theZombieType": 114,
+      "name": "Screen Door Buckshooter",
+      "introduce": "<color=black>Screen Door Buckshooter always piles on iron gear, baffling the other zombies. \"If Magnet-shrooms can just snag off our heads, why don't we just bring more metal?\" His outlandish logic remained valid — until he met the Magblover.</color>",
+      "info": "The Buckshooter Zombie has acquired the equipment: a Screen Door!\n\n<color=black>Damage: </color><color=#4B0082>80</color>\n<color=black>Toughness: </color><color=#4B0082>270+1250+1100+1100</color>\n<color=black>Traits: </color><color=#4B0082>Cosntantly shoots iron peas at your plants whilst having decent defense.</color>"
+    },
+    {
+      "theZombieType": 115,
+      "name": "Squash Zombie",
+      "introduce": "<color=black>\"Hmm? Hmm!\" The Squash Zombies always charge forward without hesitation, crushing any plant in their path, and all the zombies are moved by their selflessness. But the Squash Zombies are simply fans of the Neko Squash, and when they saw her crush the Endoflame, they couldn't resist the urge to mimic and crush plants.</color>",
+      "info": "Crushes the first plant nearby and dies.\n\n<color=black>Toughness: </color><color=#4B0082>500</color>\n<color=black>Traits: </color><color=#4B0082>Crushes the first plants it encounters.</color>"
+    },
+    {
+      "theZombieType": 116,
+      "name": "Spicy Squash Zombie",
+      "introduce": "<color=black>The Spicy Squash Zombie is the most hot-headed one among the zombies. What’s the first thing he does when he appears? Of course, he shovels other zombies out of the way! Initially, he planned to stand in a prominent spot and shout, \"Ashes to ashes!\" But his head was even hotter than he was, so it ended up flying off first.</color>",
+      "info": "Leaps and destroys a whole lane of plants!\n\n<color=black>Toughness: </color><color=#4B0082>1500</color>\n<color=black>Traits: </color><color=#4B0082>Crushes the first plant it encounters and sets the whole lane on fire burns, destroying all plants affected. Does not set fire if chilled. \nEaster egg zombie, only appears in special levels.</color>"
+    },
+    {
+      "theZombieType": 117,
+      "name": "Jalapeno Zombie",
+      "introduce": "<color=black>The Chili Zombie dives into the pool with fiery enthusiasm. Other zombies, however, aren't thrilled. \"Great, now the pool feels like spicy soup...\"</color>",
+      "info": "This zombie explodes and destroys a whole lane of plants after a while.\n\n<color=black>Toughness: </color><color=#4B0082>500</color>\n<color=black>Traits: </color><color=#4B0082>Explodes and destroys a whole lane of plants after a while.</color>"
+    },
+    {
+      "theZombieType": 118,
+      "name": "Pea Commando Rugby",
+      "introduce": "<color=black>The last thing Pea Commando Rugby remembers before he died is that he had wandered into a vegetarian batting cage and accidentally swallowed a pitching machine. Now, he can’t stop firing peas at blistering speeds.</color>",
+      "info": "Relentlessly unleashes barrages of peas at your defenses!\n\n<color=black>Toughness: </color><color=#4B0082>270+1400</color>\n<color=black>Traits: </color><color=#4B0082>Constantly shoots volleys of peas at your plants.</color>"
+    },
+    {
+      "theZombieType": 200,
+      "name": "Sharkmarine",
+      "introduce": "<size=36><color=black>\"An excellent diver should not only be able to dive but also drive a super submarine!\" declared Sharkmarine Zombie as he increased the submarine's horsepower by one gear.</color>",
+      "info": "<size=36>I heard that this zombie is related to a certain robot fish.\n\n<color=black>Toughness: </color><color=#4B0082>3000</color>"
+    },
+    {
+      "theZombieType": 201,
+      "name": "Michael Zomboni",
+      "introduce": "<size=30><color=black>Michael Zomboni is not just one zombie; it's a team effort. Zomboni sets up the venue, Bobsled Zombie provides the visual effects, and Michael Zombie... was compelled to leave the car because it didn't have a driver's license to greet its passionate plant fans, but the peas seemed a little too excited.</color>",
+      "info": "<size=30>Extremely high defense and immunity to slow.\n\n<color=black>Toughness: </color><color=#4B0082>15000</color>\n<color=black>Traits: </color><color=#4B0082>Upon death, automatically spawns a Michael Zombie, Zomboni, and Bobsled Zombie.</color>"
+    },
+    {
+      "theZombieType": 202,
+      "name": "Giga-trident Zombie",
+      "introduce": "<size=31.5><color=black>\"Giga-trident Zombie is a skilled fisherman known for his exceptional accuracy with the four tridents he throws, earning him the title of the king of fishermen.\" \"In fact, I used to be a part-time javelin thrower...\" Giga-trident Zombie admitted.</color>",
+      "info": "<size=31.5>Throws a large number of tridents at your plants at once.\n\n<color=black>Toughness: </color><color=#4B0082>270+7500</color>\n<color=black>Traits: </color><color=#4B0082>Throws 4 tridents, each causing damage to plants equal to 20% (minimum of 60) of their current toughness.</color>"
+    },
+    {
+      "theZombieType": 203,
+      "name": "<size=31>Gatling Cherry Newspaper Zombie",
+      "introduce": "<size=28><color=black>\"I'm getting old...\" Gatling Cherry Newspaper Zombie lamented while walking through the street. Despite containing his pressure, it was enough to keep both plants and zombies down. \"Only that guy can still inspire me to fight...\" he muttered as he put away the newspaper and ambled on.</color>",
+      "info": "<size=29>Deals immense damage.\n\n<color=black>Damage:</color><color=#4B0082>400 → 1000 (Enraged)</color>\n<color=black>Toughness: </color><color=#4B0082>1500+1500</color>\n<color=black>Traits: </color><color=#4B0082>Becomes temporarily invincible after its newspaper's broken, proceeding to shoot explosive cherries every 0.125 seconds.</color>"
+    },
+    {
+      "theZombieType": 204,
+      "name": "Giga Rugby-nut Zombie",
+      "introduce": "<size=32><color=black>Stepping out of the shadows, the Giga Rugby-nut Zombie radiates power, coldness, and a sinister vibe. He adamantly keeps the secret of his strength to himself, asserting that only the darkest darkness can create a being as formidable as he. \"Where is my paint?\" Dr. Edgar asked, looking perplexed in his laboratory.</color>",
+      "info": "<size=32>An old friend? Maybe, perhaps we have met him before.\n\n<color=black>Damage: </color><color=#4B0082>100</color>\n<color=black>Toughness: </color><color=#4B0082>3000+12000</color>"
+    },
+    {
+      "theZombieType": 205,
+      "name": "Kirov Zomppelin",
+      "introduce": "<size=28><color=black>Was that a huge flying object? No, it was actually a gigantic airship, featuring a sturdy shell and the ability to release a squadron of fighters. Even when destroyed, the airship could still wreak havoc on surrounding creatures, causing other zombies to keep their distance, fearing that a crash might send them to their demise.</color>",
+      "info": "<size=32>Kirov Reporting!\n\n<color=black>Toughness: </color><color=#4B0082>3000</color>\n<color=black>Traits: </color><color=#4B0082>Summons a Kirov Drone into action every second. Crashlands upon death, dealing immense damage to plants on impact.</color>"
+    },
+    {
+      "theZombieType": 206,
+      "name": "Kirov Drone",
+      "introduce": "<size=35><color=black>This is no ordinary aircraft; it is a special plane that has been compressed through water pressure. While the exact method of compression remains a mystery, its battlefield strength rivals that of conventional bombers.</color>",
+      "info": "<size=35>Kirov drones fly faster, releasing bombs over the plants they fly over.\n\n<color=black>Bomb Damage: </color><color=#4B0082>1000</color>\n<color=black>Toughness: </color><color=#4B0082>200</color>"
+    },
+    {
+      "theZombieType": 207,
+      "name": "Superstar Zombie",
+      "introduce": "<size=30><color=black>Superstar Zombie, a legendary idol in the zombie world, has extremely high standards for himself. After completing his studies at Edgar's Dance Academy, he mastered the Super Moonwalk, which was named \"The Sixth Wonder of the Zombie World,\" earning him a large fanbase.</color>",
+      "info": "<size=32>A fast-moving zombie that slides into your defense, a tough opponent to face.\n\n<color=black>Toughness: </color><color=#4B0082>3000</color>\n<color=black>Traits: </color><color=#4B0082>Slips into the battlefield, reduces damage by 90% while sliding, then summons Dancing Zombies.</color>"
+    },
+    {
+      "theZombieType": 208,
+      "name": "Undying Wraith",
+      "introduce": "<size=30><color=black>This monster survived the harshest conditions and possesses enormous strength. It avoids brains and roams the world in search of a secluded place.</color>",
+      "info": "<size=30>A wraith from a thousand years ago, with immense strength.\n\n<color=black>Toughness: </color><color=#4B0082>3000</color>\n<color=black>Damage: </color><color=#4B0082>500</color>\n<color=black>Traits: </color><color=#4B0082>Occasionally dashes a short distance, dealing 500 damage to plants in its path and again when exiting. Upon death, deals 500 damage to plants in a 3×3 area, excluding Pumpkin-protected plants.</color>"
+    },
+    {
+      "theZombieType": 209,
+      "name": "Pogo King Clown</size>",
+      "introduce": "<size=36><color=black>\"I just wanted to follow the trend with this look,\" Pogo King Clown says with a shrug whenever his cool appearance comes up. But everyone knows he once had a love story that left a deep mark on him.</color></size>",
+      "info": "<size=36>The bomb is hidden in his pogo stick.\n\n<color=black>Toughness: </color><color=#4B0082>720+4400</color>\n<color=black>Traits: </color><color=#4B0082>If he dies while hopping, he'll explode and transform into a King Clown-in-the-Box Zombie.</color></size>"
+    },
+    {
+      "theZombieType": 210,
+      "name": "Giga Mecha-nut Zombie</size>",
+      "introduce": "<size=36><color=black>\"Fish balls? Mecha armor? That’s all that matters,\" says Giga Mecha-nut Zombie. Sporting an impressive mechanical suit, he feels that’s all he really needs.</color></size>",
+      "info": "<size=36>The Giga Mecha-nut Zombie can change direction.\n\n<color=black>Toughness: </color><color=#4B0082>1350</color></size>"
+    },
+    {
+      "theZombieType": 212,
+      "name": "Abyssal Gargantuar",
+      "introduce": "<size=26><color=black>By ancient writ, it is recorded that the abyssal obsidian armor may only be borne by a body tempered through trials of bitter frost and searing flame. When the kin of zombies art plunged into utmost peril, his visage may yet appear at the heart of the dreadest battlefield. 'Stir not great commotion, lest ye rouse the giant that slumbereth beneath the earth.' A warning to the plants.</color>",
+      "info": "<size=30>An ancient, eldritch and insidious threat.\n\n<color=black>Toughness: </color><color=#4B0082>8000+24000</color>\n<color=black>Traits: </color><color=#4B0082>Provides a 90% damage reduction to all zombies on screen, spawns Abyssal Imps when he smashes the ground, and inherits other traits of the Armored Gargantuar.</color>"
+    },
+    {
+      "theZombieType": 213,
+      "name": "Abyssal Imp",
+      "introduce": "<size=35><color=black>With a flashy entrance featuring winged blades and a death roll, the Abyssal Imp meticulously designed this stunt for the mini-pterosaur's role in Hollytomb's latest hit Jurassic Zombies. Little does anyone know, he was actually just accidentally flung out.</color>",
+      "info": "<size=35>Abyssal Imp can easily infiltrate your defense.\n\n<color=black>Damage: </color><color=#4B0082>200</color>\n<color=black>Toughness: </color><color=#4B0082>1500</color>"
+    },
+    {
+      "theZombieType": 214,
+      "name": "Gatling Explod-o-rider Zombie",
+      "introduce": "<size=32><color=black>Gatling Explod-o-rider Zombie always wakes up in a terrible mood — especially when a whale riding colleague drags him to work. Fueled by rage, he's ready to blow away any plants in his path before heading back for a nap.</color>",
+      "info": "<size=32>Jumps into and demolishes from behind your defense by shooting explosive cherries!\n\n<color=black>Toughness: </color><color=#4B0082>1500</color>\n<color=black>Traits: </color><color=#4B0082>Starts to shoot explosive cherries 3 seconds after entering your lawn.</color>"
+    },
+    {
+      "theZombieType": 215,
+      "name": "Diamond Mystery-box Zombie",
+      "introduce": "<size=36><color=black>！！！</color>",
+      "info": "<size=36>Randomly spawns one of your worst nightmares, or a blessing perhaps?.\n\n<color=black>Toughness: </color><color=#4B0082>20000+1100</color>"
+    },
+    {
+      "theZombieType": 216,
+      "name": "Tridente di Hwacha",
+      "introduce": "<color=black>Lo zombi con il Tridente di Hwacha è un \"perfezionista\" dei non morti. Lui pensa che il suo veicolo non ha abbastanza, quindi lo riempe di tridenti. Ma per la sua natura da perfezionista, non si fermerà finche gli slot non sono riempiti.</color>",
+      "info": "Launches a salvo of tridents at your defense each volley!\n\n<color=black>Toughness: </color><color=#4B0082>1350+4400</color>\n<color=black>Traits: </color><color=#4B0082>Each attack launches 14 tridents in quick succession, then after a brief pause, he fires another 14 tridents, for a total of two volleys. The tridents don’t target plants directly; instead, they are launched at a fixed angle and speed, dealing damage to any plants they hit.</color>"
+    },
+    {
+      "theZombieType": 217,
+      "name": "Super Zombi Ballerino",
+      "introduce": "<color=black>Tutti gli zombi sono stupefatti alle grandi competenze del Super Zombi Ballerino sui suoi salti con il palo. \"Oh, è solo il mio talento,\" Dice il super Zombi ballerino. Ma la verità è, che lui lavora da due posti diversi nello stesso giorno, e co0me loro dicono, \"Doppio il lavoro, doppio il salto.\"</color>",
+      "info": "Can jump over two tiles.\n\n<color=black>Toughness: </color><color=#4B0082>3000</color>Traits: </color><color=#4B0082>Can jump over 2 tiles but is blockable by Tall-nuts</color>"
+    },
+    {
+      "theZombieType": 218,
+      "name": "Poseidone",
+      "introduce": "<color=black></color>",
+      "info": "Lancia il suo tridente divino alle tue difese!\n\n<color=black>Toughness: </color><color=#4B0082>8000+24000</color>\n<color=black>Traits: </color><color=#4B0082>Appears only in Purgatory mode after selecting its corresponding effect, immune to Hypnos and Chompers, and takes no more than 5000 damage each hit. While present, all Giga-trident Zombies will continuously attack, and all tridents now deal 5 times the damage. His tridents are thrown at a fixed angle, can instantly kill most plants (the damage can be redirected) and upon landing block projectiles up to a maximum of 300 shots, or disappear after 30 seconds. If not destroyed, they deal a high amount of damage to nearby plants upon disappearance.</color>"
+    },
+    {
+      "theZombieType": 219,
+      "name": "Ultra Mecha-nut",
+      "introduce": "<color=black>The Ultra Mecha-Nut was originally designed as a miniature, more precise version of the Giga Mecha-Nut, but a mix-up in the blueprint's measurements resulted in something... much bigger. The engineers, realizing their mistake too late, decided to roll with it — literally.</color>",
+      "info": "Tanks damage for all zombies on your lawn!\n\n<color=black>Toughness: </color><color=#4B0082>12000</color>\n<color=black>Traits: </color><color=#4B0082>Appears only in Purgatory mode after selecting its corresponding effect, immune to Hypnos and Chompers, and takes no more than 5000 damage each hit. The Ultra Mecha-Nut Zombie provides damage soaking for all zombies (except Mystery-box Zombies). It has an invincibility frame, taking damage only once every 0.2 seconds.</color>"
+    },
+    {
+      "theZombieType": 220,
+      "name": "Giga Rugby Striker",
+      "introduce": "<color=black></color>",
+      "info": "Giga Rugby Striker puà spezzare le tue difese senza alcuna difficolta!\n\n<color=black>Damage: </color><color=#4B0082>200</color>\n<color=black>Toughness: </color><color=#4B0082>8000+24000</color>\n<color=black>Traits: </color><color=#4B0082>Immune to knock-backs, Hypnos and Chompers, and takes no more than 5000 damage each hit. While present, all plants are unable to heal, and any healing attempt will deal 0.1x of the healing amount as damage to the Giga Rugby Striker. When biting non-defensive plants, it instantly kills them and transforms them into regular Giga Rugby-nut Zombies. Every 3 seconds, the Giga Rugby Striker gains the following abilities (stackable): \n1. Doubles attack power. \n2. Restores 6000 health to his armor. \nIncreases speed by 0.3 (up to a maximum of 3). (Zombie speed range on spawn: 0.9 - 1.8)</color>"
+    },
+    {
+      "theZombieType": 221,
+      "name": "Mecha Cavalca-Cieli",
+      "introduce": "<color=black></color>",
+      "info": "Il Mecha Cavalca-Cieli lancia bombe ed evoca dei Kirov spianando mondizzia sulle tue difese.\n\n<color=black>Toughness: </color><color=#4B0082>12000</color>\n<color=black>Traits: </color><color=#4B0082>Appears only in Purgatory mode after selecting its corresponding effect, immune to knock-backs, Hypnos and Chompers and aircraft downing from Magnethorn, and takes no more than 5000 damage each hit. When appearing on land, it charges forward at high speed, crushing plants it passes (crushing mechanics similar to Zomboni); upon reaching 2/3 health, it gains brief invincibility frame and takes off, summoning a Kirov Zompellins every 3 seconds and launching bombs that explode upon landing, dealing damage to plants in a 3x3 area (damage type identical to Jack-in-the-Box explosions, ineffective against Joker Pumpkin).</color>"
+    },
+    {
+      "theZombieType": 222,
+      "name": "Jackson Mondiale",
+      "introduce": "<color=black>Questo palco meticolosamente realizzato è il luogo in cui Jackson Mondiale può finalmente ignorare ogni critica e immergersi completamente nella sua esibizione, consegnando un ultima canzone e un ultimo ballo per le piante e per gli zombi prima che il set crolla a pezzi.</color>",
+      "info": "Jackson Worldwide has dedicated its entire life to the passion of stage performance and touring.\n\n<color=black>Toughness: </color><color=#4B0082>32000</color>\n<color=black>Traits: </color><color=#4B0082>Appears only in Purgatory mode after selecting its corresponding effect, immune to Hypnos and Chompers and takes no more than 5000 damage each hit before taking damage reduction in account. Grants cryo-immunity to zombies nearby and summons 4 Superstar Zombies every few seconds. Spawns 2 Michael Zombonis and a Superstar Zombie on death.</color>"
+    },
+    {
+      "theZombieType": 223,
+      "name": "Professor Ciliezio",
+      "introduce": "<color=black></color>",
+      "info": "Prof. Ciliezio è ossessionato dallo studio di artefatti scientifici, specialmente quelli esplosivi; si dice in giro che Cherrizilla era originariamente una sua creazione...\n\n<color=black>Toughness: </color><color=#4B0082>1200+12000+1500</color>\n<color=black>Traits: </color><color=#4B0082>Appears only in Purgatory mode after selecting its corresponding effect, immune to knock-backs, Hypnos and Chompers and takes no more than 5000 damage each hit. Professor Cherryz is invulnerable until his newspaper is destroyed; upon losing the newspaper, he gains brief invincibility and converts up to 30 zombies present into enraged Cherryshooter Newspaper Zombies. He then shoots out a barrage of cherries and catapults cherries to the last column while accelerating forward. He only stops if he encounters Spikeweed, instantly losing his newspaper if it has not been destroyed.</color>"
+    }
+  ]
+}

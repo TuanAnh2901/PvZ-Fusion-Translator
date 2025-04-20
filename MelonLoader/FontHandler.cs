@@ -31,6 +31,7 @@ namespace PvZ_Fusion_Translator
 			return fontAsset;
 		}
 
+		// Original method with two parameters
 		public static TMP_FontAsset LoadTMPFont(this string pathFromModsFolder, bool throwException)
 		{
 			Font font = pathFromModsFolder.LoadFont(throwException);
@@ -38,6 +39,12 @@ namespace PvZ_Fusion_Translator
 				return null;
 			TMP_FontAsset fontAsset = font.ConvertToTMP();
 			return fontAsset;
+		}
+
+		// New overload with one parameter - default throwException to true
+		public static TMP_FontAsset LoadTMPFont(this string pathFromModsFolder)
+		{
+			return LoadTMPFont(pathFromModsFolder, true);
 		}
 	}
 }

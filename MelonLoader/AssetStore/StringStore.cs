@@ -17,7 +17,7 @@ namespace PvZ_Fusion_Translator.AssetStore
 			{ @"^(\d+)轮" , "{0} Flags" },
 			{ @"^开发人员名单\s+", "<size=16>Credits\r\nProgram, Director: 蓝飘飘fly\r\nAnimation: 蓝飘飘fly\r\nArtist, Visual Director: 机鱼吐司\r\nVideo Editor: 梦珞\r\nAnimation Helper: 射命丸文\r\nArt Helper: 蓝蝶</size>" },
 			{ @"第(\d+)已完成" , "Level {0} Completed" },
-			{ @"^确定退出吗？\s+" , "Are you sure you want to exit?\r\nProgress will not be saved!\r\nExcept for Survival Mode." },			
+			{ @"^确定退出吗？\s+" , "Are you sure you want to exit?\r\nProgress will not be saved!\r\nExcept for Survival Mode." },
 			{ @"下一阶段：(\d+)分(\d+)秒\s+当前水分：(\d+)/100\s+当前成长阶段：(\d+)/2\s+成长值：(\d+)/100" , "<size=40>Cooldown: {0}:{1}\nHydration: {2}/100\nStage: {3}/2\nFavorability: {4}/100" },
 
 			// UI - Buttons
@@ -53,7 +53,7 @@ namespace PvZ_Fusion_Translator.AssetStore
 			{ @"^经典塔防(\d+)?" , "ZombiesTD {0}" },
 			// { @"^经典塔防([\s\n]*?(?:[\s：]))([^\s：]+)" , "ZombiesTD{0}{1}" },
 			//// Garden Defense
-			{ @"^花园保卫战(\d+)?" , "Garden Defense {0}" },	
+			{ @"^花园保卫战(\d+)?" , "Garden Defense {0}" },
 
 			// UI - Puzzle Mode
 			{ @"-------UI - Puzzle Mode" , "UI - Puzzle Mode-------" },
@@ -95,7 +95,7 @@ namespace PvZ_Fusion_Translator.AssetStore
 			{ @"^保存成功，前往我是僵尸的自定义关卡游玩\s+" , "<size=14>Level saved successfully! Go to Custom Level of I, Zombie to play it.\r\nThe zombies that can be used in the level is the zombies that are currently on the loadout, and the initial Sun is the Sun currently on the level.\r\nThe name of the file level is CustomIZ.json." },
 			// UI - Almanac
 			{ @"^图鉴————(.*)" , "The Suburban Almanac — {0}" },
-			
+
 			// UI - Settings
 			{ @"-------UI - Settings" , "UI - Settings-------" },
 			{ @"当前大小：([^\s]+)" , "Current Zoom: {0}" },
@@ -305,7 +305,7 @@ namespace PvZ_Fusion_Translator.AssetStore
 			{ "切换小地图" , "Minimap" },
 			{ "可以优化性能" , "<size=14>Impacts Performance</size>" },
 
-			// UI - Modes	
+			// UI - Modes
 			{ "-------UI - Modes" , "UI - Modes-------" },
 			{ "冒险模式" , "Adventure Mode" },
 			{ "挑战模式" , "Challenge Mode" },
@@ -321,19 +321,19 @@ namespace PvZ_Fusion_Translator.AssetStore
 
 			// UI - Fusion Challenge
 			{ "-------UI - Fusion Challenge" , "UI - Fusion Challenge-------" },
-			{ "挑战关卡" , "Challenge" },			
+			{ "挑战关卡" , "Challenge" },
 			{ "超级樱桃射手\n挑战关卡" , "<size=12> Explod-o-shooter</size>\nChallenge" },
 			{ "樱桃射手" , "Explod-o-shooter" },
 			{ "超级大嘴花\n挑战关卡" , "<size=12>Chewzilla</size>\nChallenge" },
 			{ "大嘴花" , "Chewzilla" },
 			{ "超级魅惑菇\n挑战关卡" , "<size=12>Charm-shroom</size>\nChallenge" },
-			{ "魅惑菇" , "Charm-shroom" },			
+			{ "魅惑菇" , "Charm-shroom" },
 			{ "超级大喷菇\n挑战关卡" , "<size=12>Doomberg-shroom</size>\nChallenge" },
 			{ "大喷菇" , "Doomberg-shroom" },
 			{ "超级火炬\n挑战关卡" , "<size=12>Infernowood</size>\nChallenge" },
 			{ "火炬" , "Infernowood" },
 			{ "超级窝草\n挑战关卡" , "<size=12>Krakerberus</size>\nChallenge" },
-			{ "窝草" , "Krakerberus" },			
+			{ "窝草" , "Krakerberus" },
 			{ "超级南瓜\n挑战关卡" , "<size=12>Bloverthorn Pumpkin</size>\nChallenge" },
 			{ "南瓜" , "Bloverthorn Pumpkin" },
 			{ "超级杨桃\n挑战关卡" , "<size=12>Stardrop</size>\nChallenge" },
@@ -391,7 +391,7 @@ namespace PvZ_Fusion_Translator.AssetStore
 			{ "魅惑坚果" , "Hypno-tism!" },
 			{ "保卫吸金磁" , "Protect the \nGold Magnet" },
 			{ "合理密植2" , "Compact Planting 2" },
-			
+
 			// UI - Puzzle
 			{ "-------UI - Puzzle" , "UI - Puzzle-------" },
 			{ "我是僵尸！" , "<size=14>I, Zombie" },
@@ -449,7 +449,7 @@ namespace PvZ_Fusion_Translator.AssetStore
 
 			// UI - Odyssey Mode
 			{ "-------UI - Odyssey Mode" , "UI - Odyssey Mode-------"},
-			{ "究极模式" , "The Odyssey" }, 
+			{ "究极模式" , "The Odyssey" },
 			{ "--- OM - Category" , "OM - Category ---"},
 			{ "旅行模式" , "Odyssey Mode" },
 			{ "随机模式" , "Odyssey Gacha" }, // Category
@@ -515,12 +515,12 @@ namespace PvZ_Fusion_Translator.AssetStore
 			{ "地刺王作为紫卡只能放在地刺上" , "Spikerocks can only be planted on top of existing Spikeweed." },
 			{ "海光菇的效率似乎比阳光菇还要高" , "Sea Sun-shroom, when fully grown, can release 50 Suns per output.\nTry planting a couple or more to boost your efficiency." },
 			{ "猫尾草作为紫卡只能放在睡莲上" , "Cattail can only be planted on top of existing Lily Pads." },
-			{ "路灯花会为周围3*3范围格子提供1点光照等级" , "Plantern can provide 1 Lumos Level in a 3x3 Grid."}, 
+			{ "路灯花会为周围3*3范围格子提供1点光照等级" , "Plantern can provide 1 Lumos Level in a 3x3 Grid."},
 			{ "光系植物随着所在格子的光照等级增加而变强" , "Lumos plants become stronger as the Lumos Level of the grid they are on increases." },
 			{ "木锤会送一只僵尸归西" , "The Mallet can send a group of zombies towards their doom." },
 			{ "试试将磁力菇吸到的物体放到磁力南瓜或磁力杨桃上" , "Try placing the objects attracted by the Magnet-shroom\nonto the Pumpkin Lure or Starlure." },
 			{ "注意到磁力菇边上白色的线了吗，将他们都连起来" , "Did you notice the white lines next to the Magnet-shroom? Connect them all together\n to strengthen some of your Magnet-shroom fusions." },
-			{ "使用金盏花赚钱！对金银植物使用咖啡豆吧！花钱也送阳光！" , "Use Marigolds to earn money!\nUse Coffee Beans on Gold and Silver Plants!\nSpending Coins earns you Sun!" },	
+			{ "使用金盏花赚钱！对金银植物使用咖啡豆吧！花钱也送阳光！" , "Use Marigolds to earn money!\nUse Coffee Beans on Gold and Silver Plants!\nSpending Coins earns you Sun!" },
 			{ "--- AM - New Version" , "AM - New Version ---" },
 			// Level 1
 			{ "--- AM - Level 1" , "AM - Level 1 ---" },
@@ -629,7 +629,7 @@ namespace PvZ_Fusion_Translator.AssetStore
 			{ "超级大嘴花+樱桃大嘴花" , "Fusion Formula: Chewzilla + Cherry Chomper" },
 			{ "超级杨桃+磁力仙人掌" , "Fusion Formula: Stardrop + Magnethorn" },
 			{ "超级大喷菇+寒冰忧郁菇" , "Fusion Formula: Doomberg-shroom + Snowgloom-shroom" },
-			{ "超级南瓜+磁力三叶草" , "Fusion Formula: Bloverthorn Pumpkin + Magblover" },	
+			{ "超级南瓜+磁力三叶草" , "Fusion Formula: Bloverthorn Pumpkin + Magblover" },
 			{ "超级投手+蒜瓜" , "Fusion Formula: Salad-pult + Garlic-pult" },
 			{ "寒冰加农炮+寒冰毁灭菇" , "Fusion Formula: Cryo Cannon + Cryodoom-shroom" },
 			{ "超级伞+菜伞" , "Fusion Formula: Alchemist Umbrella + Umbrella Kale" },
@@ -647,7 +647,7 @@ namespace PvZ_Fusion_Translator.AssetStore
 			{ "只能在上半地图放植物" , "You can only place plants on the upper half of the lawn." }, // Mirrors Like You See 'Em
 			{ "保护你的吸金磁" , "Protect your Gold Magnet from the zombies.\nIf the plant is destroyed, the game will end." }, // Protect The Gold Magnet
 			{ "使用豌豆、双发、裂荚、机枪来传递胆小菇的子弹", "Use your Scaredy-shroom to make your Peashooters, Repeaters,\nSplit Peas and Gatling Pea shoot peas. When your peas hit other\nprojectile-firing plants, they will also fire their projectiles at a constant rate." }, // Scaredy's Dream
-			
+
 			// Strings - Garden Defense
 			{ "-------Strings - Garden Defense" , "Strings - Garden Defense-------" },
 			{ "使用花园中第1页第4行的植物参战！" , "Only the plants in the 1st page, 4th row of your Zen Garden \ncan be used in this mode.\nTake care of your plants and they will return the favor in your lawn!" },
@@ -778,7 +778,7 @@ namespace PvZ_Fusion_Translator.AssetStore
 			{ "-------Strings - ZombiesTD 4" , "Strings - ZombiesTD 4" },
 			{ "保护你的胆小菇" , "Protect your Shivery-shroom from the zombies. If the plant is destroyed, the game will end." },
 			{ "你证明了你的实力，为了迎接血量不断增加的僵尸，现在可以使用究极植物了" , "You've proven your worth, now you can use the Odyssey Plants." },
-			
+
 			// Strings - ZombiesTD 5
 			{ "-------Strings - ZombiesTD 5" , "Strings - ZombiesTD 5" },
 			{ "保护你的超级保龄球坚果" , "Protect your Mecha-nuts from the zombies. If the plants are destroyed, the game will end." },
@@ -1002,7 +1002,7 @@ namespace PvZ_Fusion_Translator.AssetStore
 			{ "究极随机" , "Odyssey Gacha - 12 Lane" },
 			{ "超级随机模式" , "Ten Flag: Odyssey Gacha" },
 			{ "积分不足\t\t\t\t\t\t\t\t\t\t积分不足" , "You have insufficient points." },
-			{ "未选取此植物" , "This Weak Odyssey Fusion was not selected in the Initial Selection Phase. You can't fuse this plant." }, 
+			{ "未选取此植物" , "This Weak Odyssey Fusion was not selected in the Initial Selection Phase. You can't fuse this plant." },
 
 			{ "排山倒海：一种种一列" , "Enable Column Planting" },
 			{ "解锁究极卷心菜，阳光卷心菜+金卷心菜" , "Unlock Helios Cabbage: Solar-pult + Golden Cabbage" },
@@ -1042,12 +1042,12 @@ namespace PvZ_Fusion_Translator.AssetStore
 			{ "-------Strings - No Clue" , "Strings - No Clue-------"},
 			{ "错误：尝试生成不存在的植物！" , "Error: Attempting to spawn a plant that doesn't exist." },
 			{ "错误：尝试生成不存在的植物！用豌豆代替" , "Error: Attempting to spawn a plant that doesn't exist. Use Peashooters instead." },
-			{ "错误：尝试生成不存在的种植预览！" , "Error: Trying to generate a planting preview that doesn't exist." },			
+			{ "错误：尝试生成不存在的种植预览！" , "Error: Trying to generate a planting preview that doesn't exist." },
 			{ "已解锁全部植物" , "All Plants Unlocked" },
 			{ "数据异常" , "Data Anomalies" },
 			{ "模式" , "Mode" },
 			{ "需要" , "Required" },
-			{ "不需要" , "Not Required" },	
+			{ "不需要" , "Not Required" },
 			{ "轮已经完成" , "The round is completed." },
 			{ "究极植物" , "Odyssey Plants"},
 			{ "究极词条" , "Odyssey Modifiers"},
@@ -1062,6 +1062,11 @@ namespace PvZ_Fusion_Translator.AssetStore
 			{ "-------Translation Doesn't Work" , "Needs Patching-------" },
 			{ "植物掉落阳光数" , "Sun Drop Multiplier" },
 			{ "僵尸血量倍率" , "Zombie HP Multiplier" },
+
+			// Vietnamese translations
+			{ "特殊环境" , "Môi trường đặc biệt" },
+			{ "出怪加速" , "Tốc độ xuất quái tăng" },
+			{ "减伤强度" , "Cường độ giảm sát thương" },
 
 			{ "-------Outdated Strings Below" , "You Can Safely Ignore or Delete-------"},
 			#endif
@@ -1169,7 +1174,7 @@ namespace PvZ_Fusion_Translator.AssetStore
 			}
 			#endif
 			checkText = text;
-			
+
 			return checkText;
 
 		}
@@ -1351,7 +1356,7 @@ namespace PvZ_Fusion_Translator.AssetStore
 
 			shadowTransform = baseTransform.Find("text1/shadow");
 			if (shadowTransform) ProcessTextTransform(shadowTransform);
-			
+
 			#if TESTING
 			Transform childTransform = baseTransform.GetChild(0);
 			if (childTransform) ProcessTextTransform(childTransform);

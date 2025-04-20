@@ -65,19 +65,20 @@ namespace PvZ_Fusion_Translator.Patches.Managers
 			{
 				if (plantInfo.seedType == __instance.theSeedType)
 				{
-					component.text = plantInfo.info + "\n\n" + plantInfo.introduce;
+					component.text = plantInfo.cost + "\n\n" + plantInfo.info + "\n\n" + plantInfo.introduce;
 					component.overflowMode = TextOverflowModes.Page;
 					component2.text = plantInfo.name;
 					component2.autoSizeTextContainer = true;
 					component3.text = Utils.RemoveColorTags(plantInfo.name);
 					component3.autoSizeTextContainer = true;
-					component4.text = plantInfo.cost;
+					//component4.text = plantInfo.cost; //TODO: This make a showing bug
+					//component4.autoSizeTextContainer = true;
 
-					if (hasAlmanacFont)
+                    if (hasAlmanacFont)
 					{
 						component.font = almanacFontAsset;
-						component4.font = almanacFontAsset;
-					}
+						component4.font = almanacFontAsset; //TODO: may mannually set the font for cost
+                    }
 					else
 					{
 						component.font = fontAsset;

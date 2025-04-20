@@ -1,0 +1,1719 @@
+{
+	"plants": [
+		{
+			"seedType": 0,
+			"name": "Sparasemi",
+			"introduce": "<size=36><color=black>Come fa una pianta a crescere e sparare così tanti semi, così in fretta e tutta da sola? La sparasemi risponde così: \"Quando ci sono l'impegno, la dedizione e una colazione sana ed equilibrata, ricca di raggi solari e fibre al biossido di carbonio, si può fare qualsiasi cosa\".</color></size>",
+			"info": "<size=36>La sparasemi è la tua risorsa più importante da prima linea. Spara semi contro gli zombi all'attacco.\n\n<color=black>Danno: </color><color=#8B0000>20/1.5 Secondi</color></size>",
+			"cost": "<size=36>Costo: <color=#8B0000>100</color>\nRicarica: <color=#8B0000>7.5 Secondi</color></size>"
+		},
+		{
+			"seedType": 1,
+			"name": "Girasole",
+			"introduce": "<size=36><color=black>Il girasole non riesce a trattenersi: deve muoversi sempre a ritmo. Di che ritmo stiamo parlando? Ma del frizzante ritmo vitale della Terra, un ritmo che solo questa pianta può sentire.</color></size>",
+			"info": "<size=36>Il girasole è essenziale per produrre sfere solari aggiuntive. Cerca di piantarne più che puoi!\n\n<color=black>Produzione di Sfere </color><color=#8B0000>25/25 Secondi</color></size>",
+			"cost": "<size=36>Costo: <color=#8B0000>50</color>\nRicarica: <color=#8B0000>7.5 Secondi</color></size>"
+		},
+		{
+			"seedType": 2,
+			"name": "Ciliegia Esplosiva",
+			"introduce": "<size=36><color=black>\"Ho voglia di esplodere\", dice la prima ciliegia. \"No, saltiamo in aria\", dice sua sorella. E, dopo un'intensa consultazione, decidono di esplodere in aria.</color></size>",
+			"info": "<size=36>Le ciliegie esplosive fanno saltare in aria gli zombi. Esplodono in pochi secondi, perciò piantale vicino ai bersagli.\n\n<color=black>Danno: </color><color=#8B0000>1800 (Incenerimento)</color></size>",
+			"cost": "<size=36>Costo: <color=#8B0000>150</color>\nRicarica: <color=#8B0000>50 Secondi</color></size>"
+		},
+		{
+			"seedType": 3,
+			"name": "Muro di Noce",
+			"introduce": "<size=36><color=black>\"La gente si chiede cosa provi a essere preso continuamente a morsi dagli zombi\", dice il muro di noci. \"Quello che non sanno è che i miei sensi sono limitati e quindi avverto solo un po' di solletico, quasi come fosse un massaggio rilassante.\"</color></size>",
+			"info": "<size=36>Grazie al guscio resistente di cui è munito, il muro di noce può proteggere le altre piante.\n\n<color=black>Resistenza: </color><color=#8B0000>4000</color></size>",
+			"cost": "<size=36>Costo: <color=#8B0000>50</color>\nRicarica: <color=#8B0000>30 Secondi</color></size>"
+		},
+		{
+			"seedType": 4,
+			"name": "Tubero Esplosivo",
+			"introduce": "<size=36><color=black>Secondo alcuni, il tubero è una pianta pigra che si riduce sempre all'ultimo minuto.Lui non ribatte: è troppo preso a elaborare strategie di \"investimento\".</color></size>",
+			"info": "<size=36>Il tubero esplosivo è potente, ma il suo innesco richiede tempo. Piantalo con anticipo. Esplode al contatto.\n\n<color=black>Danno: </color><color=#8B0000>1800</color></size>",
+			"cost": "<size=36>Costo: <color=#8B0000>25</color>\nRicarica: <color=#8B0000>30 Secondi</color></size>"
+		},
+		{
+			"seedType": 5,
+			"name": "Venera Masticazombi",
+			"introduce": "<size=36><color=black>La venere masticazombi era stata scelta come controfigura per un noto film prodotto ad Hollywood, ma il suo agente ha chiesto troppo e l'affare è sfumato. Per fortuna lei l'ha presa bene.</color></size>",
+			"info": "<size=36>La venere divora uno zombi intero, ma è vulnerabile mentre mastica.\n\n<color=black>Danno: </color><color=#8B0000> Uccisione Istantanea</color></size>",
+			"cost": "<size=36>Costo: <color=#8B0000>150</color>\nRicarica: <color=#8B0000>7.5 Secondi</color></size>"
+		},
+		{
+			"seedType": 6,
+			"name": "Malporcino",
+			"introduce": "<size=36><color=black>\"Ho scoperto l'esistenza degli zombi solo di recente\", ci svela il malporcino. \"Come molti altri funghi, pensavo che fossero solo leggende o invenzioni per il cinema. Partecipare a questa esperienza mi ha davvero aperto gli occhi.\"</color></size>",
+			"info": "<size=36>Il malporcino è gratis, ma può colpire solo a breve distanza.\n\n<color=black>Danno: </color><color=#8B0000>20/1.5 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>Può essere impilato fino a tre volte.</color></size>",
+			"cost": "<size=36>Costo: <color=#8B0000>0</color>\nRicarica: <color=#8B0000>7.5 Secondi</color></size>"
+		},
+		{
+			"seedType": 7,
+			"name": "Fumporcino",
+			"introduce": "<size=36><color=black>\"Producevo spore per la fermentazione in un panificio, ma era un lavoro senza prospettive\", dice il fumporcino. \"Poi malporcino, Dio lo benedica, mi ha parlato di questa opportunità di combattere gli zombi: ora mi sento davvero realizzato.\"</color></size>",
+			"info": "<size=36>Il fumporcino genera nubi di fumo che passano attraverso le porte.\n\n<color=black>Danno: </color><color=#8B0000>20/1.5 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>Può perforare.</color></size>",
+			"cost": "<size=36>Costo: <color=#8B0000>75</color>\nRicarica: <color=#8B0000>7.5 Secondi</color></size>"
+		},
+		{
+			"seedType": 8,
+			"name": "Ipnofungo",
+			"introduce": "<size=36><color=black>\"Gli zombi sono nostri amici\", afferma l'ipnofungo. \"Si tratta di creature incomprese, con un ruolo prezioso nell'ecosistema. Dobbiamo fare di più per avvicinarli al nostro modo di pensare.\"</color></size>",
+			"info": "<size=36>L'ipnofungo induce lo zombi che lo divora a voltare faccia e combattere per te.\n\n<color=black>Speciale: </color><color=#8B0000>Ti offre un singolo combattimento contro gli zombi.</color></size>",
+			"cost": "<size=36>Costo: <color=#8B0000>75</color>\nRicarica: <color=#8B0000>30 Secondi</color></size>"
+		},
+		{
+			"seedType": 9,
+			"name": "Porcino Tiratore",
+			"introduce": "<size=36><color=black>\"Chi è?\", sussurra il porcino tiratore, tanto piano che lo si sente appena. \"Andate via, non voglio vedere nessuno... a meno che non si tratti dell'uomo del circo.\"</color></size>",
+			"info": "<size=36>Il porcino tiratore colpisce a lunga distanza e si nasconde quando il nemico si avvicina.\n\n<color=black>Danno: </color><color=#8B0000>20/1.5 Secondi</color></size>",
+			"cost": "<size=36>Costo: <color=#8B0000>25</color>\nRicarica: <color=#8B0000>7.5 Secondi</color></size>"
+		},
+		{
+			"seedType": 10,
+			"name": "Brinporcino",
+			"introduce": "<size=36><color=black>Il brinporcino aggrotta le sopracciglia non perché insoddisfatto o contrariato, ma per il peso delle lastre di ghiaccio che porta sulla testa.</color></size>",
+			"info": "<size=36>Il brinporcino paralizza temporaneamente tutti gli zombi sullo schermo.\n\n<color=black>Danno: </color><color=#8B0000>20</color>\n<color=black>Speciale: </color><color=#8B0000>Congela tutti gli zombie sul posto.</color></size>",
+			"cost": "<size=36>Costo: <color=#8B0000>75</color>\nRicarica: <color=#8B0000>50 Secondi</color></size>"
+		},
+		{
+			"seedType": 11,
+			"name": "Atomporcino",
+			"introduce": "<size=36><color=black>\"Siete fortunati a essere dalla mia parte\", sostiene. \"Sono in grado di distruggere tutto ciò che amate.\"</color></size>",
+			"info": "<size=36>L'atomporcino distrugge qualsiasi cosa in una vasta area. Inoltre crea un cratere in cui non cresce più nulla.\n\n<color=black>Danno: </color><color=#8B0000>1800 (Incenerimento)</color>\n<color=black>Speciale: </color><color=#8B0000>Lascia un cratere.</color></size>",
+			"cost": "<size=36>Costo: <color=#8B0000>125</color>\nRicarica: <color=#8B0000>50 Secondi</color></size>"
+		},
+		{
+			"seedType": 12,
+			"name": "Foglia di Ninfea",
+			"introduce": "<size=33><color=black>La foglia di ninfea non si lamenta mai e non vuole mai sapere cosa succede. Mettile sopra un'altra pianta e non dirà nulla. Cova forse sconvolgenti segreti o idee rivoluzionarie? Nessuno lo sa: la ninfea si tiene tutto dentro.</color></size>",
+			"info": "<size=33>La foglia di ninfea può ospitare piante non acquatiche.\n\n<color=black>Speciale: </color><color=#8B0000>Vi si possono piantare piante non acquatiche. Quando vengono posizionate piante specifiche, Foglia di Ninfea si trasforma in una sua variante in grado di piantare automaticamente la pianta che l'ha trasformata ogni 90 secondi.</color></size>",
+			"cost": "<size=33>Costo: <color=#8B0000>25</color>\nRicarica: <color=#8B0000>7.5 Secondi</color></size>"
+		},
+		{
+			"seedType": 13,
+			"name": "Schiacciazombi",
+			"introduce": "<size=36><color=black>\"Sono pronto!\", dice l'amico schiacciazombi. \"Forza, piantami in campo! Non c'è nessuno che possa battermi! Sono quello che fa per te! Allora, cosa aspetti?\"</color></size>",
+			"info": "<size=36>Lo schiacciazombi schiaccia il primo zombi che gli si avvicina.\n\n<color=black>Danno: </color><color=#8B0000>1800</color></size>",
+			"cost": "<size=36>Costo: <color=#8B0000>50</color>\nRicarica: <color=#8B0000>30 Secondi</color></size>"
+		},
+		{
+			"seedType": 14,
+			"name": "Tripla Sparasemi",
+			"introduce": "<size=36><color=black>La tripla sparasemi ama il backgammon, la lettura e starsene immobile nel parco ore e ore. Le piace molto andare ai concerti, specialmente quelli di jazz moderno. \"Sto semplicemente cercando una persona speciale\", ci dice. Il suo numero preferito è il 5.</color></size>",
+			"info": "<size=36>La tripla sparasemi spara semi lungo tre file.\n\n<color=black>Danno: </color><color=#8B0000>20*3/1.5 Secondi</color></size>",
+			"cost": "<size=36>Costo: <color=#8B0000>275</color>\nRicarica: <color=#8B0000>7.5 Secondi</color></size>"
+		},
+		{
+			"seedType": 15,
+			"name": "Alga Kombu",
+			"introduce": "<size=36><color=black>\"Sono totalmente invisibile\", pensa tra sé l'alga kombu. \"Rimarrò nascosta sotto la superficie e nessuno mi noterà.\" Le amiche continuano a dirle che la vedono benissimo, ma lei non cambia idea.</color></size>",
+			"info": "<size=36>L'alga kombu è una pianta acquatica che trascina negli abissi il primo zombi che capita a tiro.\n\n<color=black>Danno: </color><color=#8B0000> Uccisione Istantanea</color></size>",
+			"cost": "<size=36>Costo: <color=#8B0000>25</color>\nRicarica: <color=#8B0000>50 Secondi</color></size>"
+		},
+		{
+			"seedType": 16,
+			"name": "Jalapeño",
+			"introduce": "<size=36><color=black>\"GNNNNNNNNN!!!\", dice il jalapeño. Non sta per esplodere, non adesso, ma comunque molto presto. Ormai ci siamo, lo sa, lo sente: ha vissuto tutta la sua vita in funzione di questo momento.</color></size>",
+			"info": "<size=36>Il jalapeño spazza via un'intera fila di zombi.\n\n<color=black>Danno: </color><color=#8B0000>1800 (Incenerimento)</color></size>",
+			"cost": "<size=36>Costo: <color=#8B0000>125</color>\nRicarica: <color=#8B0000>50 Secondi</color></size>"
+		},
+		{
+			"seedType": 17,
+			"name": "Rovo",
+			"introduce": "<size=36><color=black>Questa pianta è ossessionata dall'hockey. Va alle partite, si tiene informata sui giocatori e in ufficio vince sempre al fantahockey. Unico problema: è terrorizzata dai dischi di gomma.</color></size>",
+			"info": "<size=36>Il rovo buca le gomme e danneggia gli zombi che lo calpestano.\n\n<color=black>Danno: </color><color=#8B0000>20/1 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>Uccisione istantanea di Veicoli Zombie</color></size>",
+			"cost": "<size=36>Costo: <color=#8B0000>100</color>\nRicarica: <color=#8B0000>7.5 Secondi</color></size>"
+		},
+		{
+			"seedType": 18,
+			"name": "Tronco in Fiamme",
+			"introduce": "<size=36><color=black>Il tronco in fiamme è amato e rispettato da tutti per la sua integrità, l'amicizia sincera e la capacità di aumentare notevolmente la potenza dei semi. Ma anche lui ha un segreto: non sa leggere.</color></size>",
+			"info": "<size=36>Il tronco in fiamme trasforma i semi che gli passano attraverso in palle di fuoco che infliggono il doppio dei danni.\n\n<color=black>Speciale: </color><color=#8B0000>Incendia i piselli che lo attraversano, aumentandone i danni.</color></size>",
+			"cost": "<size=36>Costo: <color=#8B0000>175</color>\nRicarica: <color=#8B0000>7.5 Secondi</color></size>"
+		},
+		{
+			"seedType": 19,
+			"name": "Fungo di Mare",
+			"introduce": "<size=36><color=black>Il fungo di mare non ha mai visto il mare. Fa parte del suo nome, ne ha sentito tanto parlare, ma non ha mai trovato il tempo per andarci. Un giorno però lo farà...</color></size>",
+			"info": "<size=36>Il fungo di mare è una pianta acquatica che spara spore dalla lunga portata.\n\n<color=black>Danno: </color><color=#8B0000>20/1.5 Secondi</color></size>",
+			"cost": "<size=36>Costo: <color=#8B0000>0</color>\nRicarica: <color=#8B0000>7.5 Secondi</color></size>"
+		},
+		{
+			"seedType": 20,
+			"name": "Pianterna",
+			"introduce": "<size=33><color=black>La pianterna sfida la scienza: mentre le altre piante assorbono la luce ed emettono ossigeno, lei assorbe l'oscurità e genera luce. Spiega reticente: \"Non si tratta di stregoneria né di forze oscure, è solo che... Beh, ho detto abbastanza\".</color></size>",
+			"info": "<size=33>La pianterna illumina un'area in modo che tu veda attraverso la nebbia.\n\n<color=black>Speciale: </color><color=#8B0000>Dissipa la nebbia con la luce.</color>\n<color=#99582a>Sistema Luminoso: </color><color=#8B0000>Fornisce 1 Livello Luminoso in una Griglia 3x3, che può essere impilata per fornire forza ad altre Piante Luminose. Fare riferimento alle sue fusioni per l'elenco delle piante interessate.</color></size>",
+			"cost": "<size=33>Costo: <color=#8B0000>25</color>\nRicarica: <color=#8B0000>15 Secondi</color></size>"
+		},
+		{
+			"seedType": 21,
+			"name": "Cactus",
+			"introduce": "<size=36><color=black>Il cactus è senza dubbio pungente, ma dietro gli aculei si cela un cuore tenero, pieno d'amore. Vuole solo dare e ricevere abbracci. I più fanno fatica a prestarsi, ma il cactus non si perde d'animo. Da poco frequenta un armadillo e sembra che le cose vadano bene.</color></size>",
+			"info": "<size=36>Il cactus spara spine che colpiscono bersagli a terra e in volo.\n\n<color=black>Danno: </color><color=#8B0000>20/1.5 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>Può attaccare gli zombie volanti.</color></size>",
+			"cost": "<size=36>Costo: <color=#8B0000>100</color>\nRicarica: <color=#8B0000>7.5 Secondi</color></size>"
+		},
+		{
+			"seedType": 22,
+			"name": "Trifogliatore",
+			"introduce": "<size=36><color=black>Il trifogliatore ricevette una splendida torta per il suo quinto compleanno. Espresso il desiderio, soffiò con forza, ma spense solo il 60% delle candeline. Invece di scoraggiarsi, da allora ha fatto di tutto per migliorare.</color></size>",
+			"info": "<size=36>Il trifogliatore soffia via tutti gli zombi aerostatici e la nebbia.\n\n<color=black>Speciale: </color><color=#8B0000>Allontana la nebbia e i palloncini zombie. Spinge leggermente indietro gli Zomppelin.</color></size>",
+			"cost": "<size=36>Costo: <color=#8B0000>100</color>\nRicarica: <color=#8B0000>15 Secondi</color></size>"
+		},
+		{
+			"seedType": 23,
+			"name": "Frutto a Stella",
+			"introduce": "<size=36><color=black>\"Oh, cavolo...\", dice il frutto a stella. \"L'altro giorno sono andato dal dentista e mi ha detto che ho quattro carie. Io, però, ho UN solo dente... contate pure. Quattro carie in un dente? Come può essere?\"</color></size>",
+			"info": "<size=36>Il frutto a stella spara stelle in cinque direzioni.\n\n<color=black>Danno: </color><color=#8B0000>20*5/1.5 Secondi</color></size>",
+			"cost": "<size=36>Costo: <color=#8B0000>125</color>\nRicarica: <color=#8B0000>7.5 Secondi</color></size>"
+		},
+		{
+			"seedType": 24,
+			"name": "Zucca",
+			"introduce": "<size=36><color=black>Negli ultimi tempi la zucca non ha avuto più notizie da suo cugino. Pare sia diventato una grande star, una specie di leggenda sportiva... un campione di Peggle... La zucca è perplessa e preferisce ignorare la faccenda. </color></size>",
+			"info": "<size=36>La zucca protegge le piante che si trovano al suo interno.\n\n<color=black>Resistenza: </color><color=#8B0000>4000</color>\n<color=black>Fusion Priority: </color><color=#8B0000>Lowest</color></size>",
+			"cost": "<size=36>Costo: <color=#8B0000>125</color>\nRicarica: <color=#8B0000>30 Secondi</color></size>"
+		},
+		{
+			"seedType": 25,
+			"name": "Calamifungo",
+			"introduce": "<size=30><color=black>Il magnetismo è una forza potente, molto potente, tanto da spaventare un po' lo stesso calamifungo a volte. Non sempre, infatti, è sicuro di essere all'altezza di tale responsabilità.</color></size>",
+			"info": "<size=30>Il calamifungo rimuove elmetti e altri oggetti metallici dagli zombi.\n\n<color=black>Speciale: </color><color=#8B0000>Può attrarre oggetti metallici.</color>\nSe c'è una pianta magnetica nelle 8 direzioni adiacenti a un'altra pianta magnetica, esse saranno connesse tramite il \"Sistema Magnetico\". Il \"Sistema Magnetico\" non ha limiti al numero di connessioni e aumenterà la forza di alcune piante magnetiche in base alla quantità. Consulta le sue fusioni per l'elenco delle piante interessate.</size>",
+			"cost": "<size=30>Costo: <color=#8B0000>100</color>\nRicarica: <color=#8B0000>7.5 Secondi</color></size>"
+		},
+		{
+			"seedType": 26,
+			"name": "Cavolpulta",
+			"introduce": "<size=36><color=black>Scagliare dei cavoli contro gli zombi non è un problema per la cavolpulta: in fondo è pagata per questo e sa fare bene il suo lavoro. Ciò che non capisce è come abbiano fatto gli zombi ad arrivare sul tetto.</color>",
+			"info": "<size=36>La cavolpulta scaglia cavoli contro il nemico.\n\n<color=black>Danno: </color><color=#8B0000>40/3 Secondi</color>\n<color=black>",
+			"cost": "<size=36>Costo: <color=#8B0000>100</color>\nRicarica: <color=#8B0000>7.5 Secondi</color>"
+		},
+		{
+			"seedType": 27,
+			"name": "Vaso",
+			"introduce": "<size=36><color=black>\"Sono un vaso per piante, ma sono anche una pianta. HAI IL CERVELLO GIÀ IN PAPPA?\"</color>",
+			"info": "<size=36>Il vaso consente di piantare semi sul tetto.\n\n<color=black>Speciale: </color><color=#8B0000>Consente di piantare piante sui tetti.</color>",
+			"cost": "<size=36>Costo: <color=#8B0000>25</color>\nRicarica: <color=#8B0000>7.5 Secondi</color>"
+		},
+		{
+			"seedType": 28,
+			"name": "Chiccopulta",
+			"introduce": "<size=36><color=black>Chiccopulta è il più anziano dei fratelli Pulta. Inoltre è il solo che si ricorda sempre il compleanno degli altri due e non manca di prenderli in giro ogni tanto per questo motivo.</color>",
+			"info": "<size=36>La chiccopulta lancia chicchi di mais e burro contro gli zombi.\n\n<color=black>Danno: </color><color=#8B0000>20/3 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>Ha una probabilità di 1/4 di lanciare burro, infliggendo 40 danni e immobilizzando gli zombi per 4 secondi.<color=#8B0000></color>",
+			"cost": "<size=36>Costo: <color=#8B0000>100</color>\nRicarica: <color=#8B0000>7.5 Secondi</color>"
+		},
+		{
+			"seedType": 29,
+			"name": "Aglio",
+			"introduce": "<size=36><color=black>Per l'aglio la deviazione non è solo un mestiere, ma una passione. Ha addirittura conseguito un dottorato in tecniche devianti a Bruxelles. A volte parla di vettori e matrici di repulsione per intere giornate. Eppure la moglie ancora lo sopporta.</color>",
+			"info": "<size=36>L'aglio induce gli zombi a cambiare fila.\n\n<color=black>Speciale: </color><color=#8B0000>Gli zombie che lo mordono cambiano corsia.</color>",
+			"cost": "<size=36>Costo: <color=#8B0000>50</color>\nRicarica: <color=#8B0000>7.5 Secondi</color>"
+		},
+		{
+			"seedType": 30,
+			"name": "Rapa Ombrello",
+			"introduce": "<size=36><color=black>\"SPROING!\", dice la rapa ombrello. \"Ti è piaciuto? Posso rifarlo. SPROING! Oooh! Sono io, mentre spunto per proteggere le cose che mi circondano. Sì, è così. PROPRIO così. Credimi.\"</color>",
+			"info": "<size=36>La rapa ombrello protegge le piante vicine da zombi d'assalto e catapulte.\n\n<color=black>Resistenza: </color><color=#8B0000>1000</color>\n<color=black>Speciale: </color><color=#8B0000>Riesce a respingere i palloni da basket all'interno di un'area di 3×3.</color>",
+			"cost": "<size=36>Costo: <color=#8B0000>75</color>\nRicarica: <color=#8B0000>7.5 Secondi</color>"
+		},
+		{
+			"seedType": 31,
+			"name": "Calendula",
+			"introduce": "<size=34><color=black>La calendula passa molto tempo a decidere se donare una moneta d'oro o d'argento. Ci pensa su, guarda ogni aspetto, conduce una ricerca approfondita e si aggiorna con le pubblicazioni più recenti in materia. È così che rimane sempre sulla cresta dell'onda.</color>",
+			"info": "<size=34>La calendula dona monete d'oro e d'argento.\n\n<color=black>Intervallo di Produzione: </color><color=#8B0000>25 Secondi</color>\n<color=black>Quantità di Monete:\n</color><color=#8B0000>75% di Probabilità = 100 Monete\n20% di Probabilità = 300 Monete\n5% di Probabilità = 1000 Monete</color>",
+			"cost": "<size=34>Costo: <color=#8B0000>25</color>\nRicarica: <color=#8B0000>7.5 Secondi</color>"
+		},
+		{
+			"seedType": 32,
+			"name": "Cocopulta",
+			"introduce": "<size=36><color=black>Non c'è falsa modestia nelle parole della cocopulta. \"Guardando al rapporto sole/danni, assicuro il danno più pesante di tutto il prato\", ci spiega \"Non mi sto vantando. Fate i calcoli e vedete voi.\"</color>",
+			"info": "<size=36>La cocopulta danneggia gravemente gruppi di zombi.\n\n<color=black>Danno: </color><color=#8B0000>80/3 Secondi</color>",
+			"cost": "<size=36>Costo: <color=#8B0000>300</color>\nRicarica: <color=#8B0000>7.5 Secondi</color>"
+		},
+		{
+			"seedType": 245,
+			"name": "Clone",
+			"introduce": "<size=34><color=black>\"Ai tempi de 'Le notti del terrore', nell'80...\", esordisce il clone con la voce roca di chi ha vissuto a lungo, \"... non avevamo tutti questi favolosi sparasemi e jalapeño. Avevamo solo tanto fegato, per combattere quei mostri come... corrosi dal tempo\".</color>",
+			"info": "<size=34>Il clone consente di utilizzare due piante dello stesso tipo durante un livello!\n\n<color=black>Speciale: </color><color=#8B0000>Pianta Clone su una pianta o una fusione per ricevere una bustina di semi gratuita di quella pianta, non può imitare vasi, cuscinetti, zucche o droni.</color>",
+			"cost": "<size=34>Costo: <color=#8B0000>0</color>\nRicarica: <color=#8B0000>5 Minutes</color>"
+		},
+		{
+			"seedType": 248,
+			"name": "Gatto Sganciato",
+			"introduce": "<size=33><color=black>La grazia di un gatto e la goffaggine di una zucca creano una bellezza unica, mormora Gatto Sganciato. 'Quando padroneggierò entrambi, sconvolgerò questo prato.' Regola il suo cappello e incrocia lo sguardo con uno zombi ignaro nelle vicinanze.</color>",
+			"info": "<size=33>Super Nyanko, Gatto Sganciato!\n\n<color=black>Danno: </color><color=#8B0000>1800</color>\n<color=black>Speciale: </color><color=#8B0000>Si lancia se non colpisce nulla. Per ogni zombi schiacciato, lascia cadere un pacchetto di semi Schiacciazombi, fino a un massimo di 3. Schiacciare 3 o più zombi farà cadere un pacchetto di semi Schiacciafiamme aggiuntivo.</color>",
+			"cost": "<size=34>Costo: <color=#8B0000>125</color>\nRicarica: <color=#8B0000>30 Secondi</color>"
+		},
+		{
+			"seedType": 249,
+			"name": "Spadaccino Fruttoso",
+			"introduce": "<size=31><color=black>\"Ho combattuto per 3.000 miglia di campo di battaglia, la mia lama ha fermato milioni sul loro cammino.\" Lo Spadaccino Fruttoso, amante delle bevande raffinate e della poesia, è molto orgoglioso delle sue abilità di cosplay impeccabili. Con un sorriso furbo, aggiunge: \"La mia spada non sanguina, è solo una decorazione.\"</color></size>",
+			"info": "<size=31>Un ospite da lontano, penso che vorrai diventare suo amico.\n\n<color=black>Danno: </color><color=#8B0000>200*5+30*20/6 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>Ogni attacco lancia 5 spade che perforano all'infinito, causando 200 danni ciascuna. Inoltre, infligge 600 danni a tutti gli zombi all'interno della griglia circostante, ripetendo l'azione 20 volte.</color></size>",
+			"cost": "<size=31>Costo: <color=#8B0000>325</color>\nRicarica: <color=#8B0000>30 Secondi</color></size>"
+		},
+		{
+			"seedType": 250,
+			"name": "Regalo di Zombi",
+			"introduce": "<size=36><color=black>Presentiamo il Regalo di Zombi—il punto di ingresso degli zombi nel mondo della finanza. Come prodotto finanziario ad alto rischio, viene fornito con un promemoria: \"Investire comporta rischi intrinseci; procedi con cautela. Sponsor: Dr. Yan Wang.\" Queste informazioni vitali sono astutamente nascoste sotto il coperchio della scatola.</color></size>",
+			"info": "<size=36>Guadagna 100 Sole, ma genera uno Zombi Misteri Dorati.\n\n<color=black>Speciale: </color><color=#8B0000>Genera uno Zombi Misteri Dorati.</color></size>",
+			"cost": "<size=36>Costo: <color=#8B0000>-100</color>\nRicarica: <color=#8B0000>50 Secondi</color></size>"
+		},
+		{
+			"seedType": 251,
+			"name": "Giant-nut Spawn",
+			"introduce": "<size=30><color=black>阳光父子坚果说付我500阳光，让我帮他个忙，所以我来了。能难到哪里去呢？总不可能是冲进僵尸堆里吧？</color></size>",
+			"info": "<size=30>碾压僵尸。\n\n<color=black>Danno: </color><color=#8B0000>1800</color></size>",
+			"cost": "<size=36>"
+		},
+		{
+			"seedType": 252,
+			"name": "Ragazza Coda di Gatto",
+			"introduce": "<size=36><color=black>\"I gatti di solito hanno paura dell'acqua, ma io sono una ragazza gatto magica, quindi non ho paura,\" disse entusiasta, mentre gli altri gatti la guardavano con ammirazione. In realtà, adora l'acqua e l'ha detto solo per distinguersi.</color></size>",
+			"info": "<size=36>La Ragazza Coda di Gatto attaccherà automaticamente tutti gli zombi che appaiono sulla mappa.\n\n<color=black>Danno: </color><color=#8B0000>40*2/1.5 Secondi</color></size>",
+			"cost": "<size=36>Costo: <color=#8B0000>125</color>\nRicarica: <color=#8B0000>50 Secondi</color></size>"
+		},
+		{
+			"seedType": 253,
+			"name": "Orzo",
+			"introduce": "<size=36><color=black>Orzo si definisce un tuttofare, ma le altre piante lo considerano solo una comparsa — \"In fin dei conti, sono sempre le altre piante a fare il lavoro, no?\"</color></size>",
+			"info": "<size=36>Orzo può trasformarsi in qualsiasi pianta base, fusa o definitiva.\n\n<color=black>Speciale: </color><color=#8B0000>Si trasforma in una pianta casuale ogni 30 secondi.</color></size>",
+			"cost": "<size=36>Costo: <color=#8B0000>50</color>\nRicarica: <color=#8B0000>30 Secondi</color></size>"
+		},
+		{
+			"seedType": 254,
+			"name": "Fiammalba",
+			"introduce": "<size=33><color=black>Si dice che i piccoli fiori come lei non oserebbero mai sognare di produrre Sole — la Fiammalba inizialmente voleva candidarsi per il ruolo di Girasole, ma ha capito che la sua luce splenderebbe solo nel momento della sua distruzione. Tutti dicono che la fiamma sulla sua testa è la più luminosa, ma lei sa che sono i suoi occhi ardenti di determinazione la vera fonte della sua forza.</color></size>",
+			"info": "<size=33>Fiammalba può assorbire i proiettili e produrre Sole.\n\n<color=black>Speciale: </color><color=#8B0000>Ogni proiettile riduce la resistenza di 50 e produce 25 Sole. Produce un Fertilizzante alla sua morte.</color></size>",
+			"cost": "<size=33>Costo: <color=#8B0000>125</color>\nRicarica: <color=#8B0000>50 Secondi</color></size>"
+		},
+		{
+			"seedType": 255,
+			"name": "Noce Gigante",
+			"introduce": "<size=36><color=black>\"Sono invincibile sul campo di battaglia, e i miei compagni non riescono a staccare gli occhi dalla mia figura maestosa!\" si vantò la Noce Gigante. \"Un anno dopo essere stato cacciato dal Club dei Tumbler del Muro di Noce, ho finalmente trovato un lavoro che mi si addice davvero.\"</color></size>",
+			"info": "<size=36>La Noce Gigante rotolerà in avanti e abbatterà qualsiasi zombie incontri.\n\n<color=black>Danno: </color><color=#8B0000>1800</color>\n<color=black>Speciale: </color><color=#8B0000>Rotola lungo la corsia, eliminando tutti gli zombie sul suo percorso.</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Muro di Noce + Muro di Noce</color>"
+		},
+		{
+			"seedType": 256,
+			"name": "Regalo di Pianta",
+			"introduce": "<size=32><color=black>Nessuno capisce davvero perché il Regalo di Pianta combatta al fianco delle piante contro gli zombie. Non sembra affatto una pianta, eppure sembra conoscere ogni abilità delle piante a menadito. \"In realtà, sono solo uno studente universitario appassionato di videogiochi,\" ammette con un sorriso. \"Il professore ha menzionato crediti extra, così eccomi qui.\"</color></size>",
+			"info": "<size=32>Il Regalo di Pianta può essere piantato per produrre piante o fusioni casuali.\n\n<color=black>Speciale: </color><color=#8B0000>Quando posizionato sul terreno o su una Foglia di Ninfea, produce una pianta casuale. Posizionandolo sopra una pianta idonea, può produrre una fusione casuale.</color></size>",
+			"cost": "<size=32>Costo: <color=#8B0000>100</color>\nRicarica: <color=#8B0000>15 Secondi</color></size>"
+		},
+		{
+			"seedType": 900,
+			"name": "Imperatrice-fungo",
+			"introduce": "",
+			"info": "<size=36>Evoca zombie che combatteranno per te.\n\n<color=black>Speciale: </color><color=#8B0000>Seleziona casualmente 1 dei seguenti zombie da evocare:\nZombi Barriera di Rugby | Zombi Sparaciliegia Informato | Zomboni | Zombi Erudito</color>\n<color=black>Buffs dell'Odissea:\n</color><color=#8B0000>1. Intervallo Evocazione → 10 Secondi | Sottospecie Incantatrice-fungo sbloccata\n2. Ora può evocare Zombie Ultimi</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Ipnofungo + Ipnofungo</color>"
+		},
+		{
+			"seedType": 901,
+			"name": "Ciliegia Mitrabomba",
+			"introduce": "<size=34><color=black>\"Non sono sicuro del motivo per cui il Mitragliasemi abbia così tanti fan. Mio fratello ed io possiamo sparare quattro proiettili anche noi,\" ha commentato invidia Ciliegia Mitrabomba. Tuttavia, la verità è che tutti apprezzano Mitragliasemi per la sua gentilezza e i suoi straordinari talenti culinari.</color></size>",
+			"info": "<size=34>Ciliegia Mitrabomba è il più potente infliggente danni sulla terra.\n\n<color=black>Danno: </color><color=#8B0000>300*4/1.5 Secondi</color>\n<color=black>Buffs dell'Odissea:\n</color><color=#8B0000>1. I proiettili di Ciliegia bomba ora infliggono 3 volte più danno\n2. Intervallo d'attacco → 1 Secondo</color></size>",
+			"cost": "\n<size=34>Formula di Fusione: <color=#8B0000>Ciliegia Mitraglia + Esplosparatore</color>"
+		},
+		{
+			"seedType": 902,
+			"name": "Torcia Infernoguazzato",
+			"introduce": "<size=30><color=black>Torcia Infernoguazzato ha un'alta considerazione di sé, ma gli altri piante lo guardano con disprezzo, in particolare quelle della famiglia dei piselli. \"È troppo esigente! Possiede un potere così forte, ma ne beneficia solo la ciliegia\", dicono. Questo infastidisce Torcia Infernoguazzato. \"Sono solo allergico ai piselli…\"</color></size>",
+			"info": "<size=30>Genera un Schiacciafiamme per ogni 20 ciliegie che passano.\n\n<color=black>Speciale: </color><color=#8B0000>I proiettili delle bombe di ciliegia che lo attraversano diventano zucche piccanti rimbalzanti che esplodono dopo ogni rimbalzo. Dopo che 20 di questi proiettili sono passati, genera un Schiacciafiamme davanti a lui.</color>\n<color=black>Buffs dell'Odissea:\n</color><color=#8B0000>1. Proiettili necessari per Schiacciafiamme → 10\n2. Ora genera due Schiacciafiamme</color></size>",
+			"cost": "\n<size=30>Formula di Fusione: <color=#8B0000>Tronco Ardente + Schiacciafiamme</color>"
+		},
+		{
+			"seedType": 903,
+			"name": "Ciliegiosauro",
+			"introduce": "",
+			"info": "<size=32>Ciliegiosauro è la pianta difensiva definitiva sulla terra.\n\n<color=black>Resistenza: </color><color=#8B0000>8000</color>\n<color=black>Speciale: </color><color=#8B0000>Mangiare zombie ripristina 1000 di Resistenza, infligge 1000 danni e sputa ciliegie esplosive. Gli zombie con HP < 2000 vengono uccisi istantaneamente e ripristinano la Resistenza al massimo per Ciliegiosauro. Respinge i veicoli, ricevendo al massimo 1/3 della sua Resistenza massima. Perde il 10% della salute massima se la salute attuale supera quella massima.</color>\n<color=black>Buffs dell'Odissea:\n</color><color=#8B0000>1. Ora può uccidere gli zombie con meno salute di se stesso\n2. Bonus di guarigione del 200% e il danno agli zombie è limitato a 500</color></size>",
+			"cost": "\n<size=32>Formula di Fusione: <color=#8B0000>Masticazilla + Masticaciliegia</color>"
+		},
+		{
+			"seedType": 904,
+			"name": "Funerocapo-fungo",
+			"introduce": "",
+			"info": "<size=36>Funerocapo-fungo infligge danni immensi, allo stesso tempo affascinando e rallentando gli zombie.\n\n<color=black>Danno: </color><color=#8B0000>120/0.5 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>Ha una possibilità di affascinare gli zombie con HP < 50%, creando un'esplosione nella griglia dove si trova lo zombie affascinato, con un danno triplicato rispetto al normale.</color>\n<color=black>Buffs dell'Odissea:\n</color><color=#8B0000>1. I fumi ora infliggono 3 volte il danno\n2. La velocità di Congelamento è aumentata di 3 volte</color></size>",
+			"cost": "<size=36>Formula di Fusione: <color=#8B0000>Porcino Atomberg + Gelatofungo di Velo</color>"
+		},
+		{
+			"seedType": 905,
+			"name": "Muro Solare Gemello",
+			"introduce": "",
+			"info": "<size=36>Muro Solare Gemello produce Sole ogni volta che subisce danno.\n\n<color=black>Resistenza: </color><color=#8B0000>4000</color>\n<color=black>Speciale: </color><color=#8B0000>Indipendentemente dal tipo di danno, ogni attacco subìto riduce solo 50 di Resistenza. Produce 15 Sole dopo ogni colpo. Cliccando su di lui si consumano 500 Sole, fa rotolare una Gigante-noce e ripristina 1500 di Resistenza.</color>\n<color=black>Buffs dell'Odissea:\n</color><color=#8B0000>1. Ripristina completamente la Resistenza invece\n2. Resistenza ridotta per colpo → 10</color></size>",
+			"cost": "<size=36>Formula di Fusione: <color=#8B0000>(Girasole + Muro di Noce) + Muro di Noce</color>"
+		},
+		{
+			"seedType": 906,
+			"name": "Rovo di Ossidiano",
+			"introduce": "<size=32><color=black>Dopo essere stato battezzato dal fuoco e dal ghiaccio, Rovo di Ossidiano è diventato duro come l'acciaio, ma il suo temperamento è anche diventato imprevedibile. Questo cambiamento è probabilmente dovuto all'acciaio che si è condensato nella sua bocca, rendendolo riluttante a parlare.</color></size>",
+			"info": "<size=32>Rovo di Ossidiano può infliggere danni immensi pur essendo in grado di sopportare più danni.\n\n<color=black>Resistenza: </color><color=#8B0000>6000</color>\n<color=black>Danno: </color><color=#8B0000>100*2/1 Secondi</color>\n<color=black>Buffs dell'Odissea:\n</color><color=#8B0000>1. Danno moltiplicato per 5\n2. Ottiene una riduzione dei danni del 95%</color></size>",
+			"cost": "\n<size=32>Formula di Fusione: <color=#8B0000>Rovo di Glaciale + Rovo di Infernale</color>"
+		},
+		{
+			"seedType": 907,
+			"name": "Atomitraglia",
+			"introduce": "",
+			"info": "<size=36>Incarnazione della distruzione. Spara raffiche di distruzione a chiunque sia sfortunato abbastanza da affrontare la sua ira.\n\n<color=black>Danno: </color><color=#8B0000>300*4/1.5 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>Spara un proiettile di distruzione che infligge 1800 danni ogni 4 colpi. Ogni proiettile esplode in un'area ampia, infliggendo danni a più zombie.</color>\n<color=black>Buffs dell'Odissea:\n</color><color=#8B0000>1. Non ci sono più pause tra ogni attacco\n2. Ora può sparare proiettili di distruzione ogni round</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Mitragliasemi + Atomporcino</color>"
+		},
+		{
+			"seedType": 908,
+			"name": "Ghiaccioloporcino Mitraglia",
+			"introduce": "",
+			"info": "<size=36>Può essere impilato fino a tre volte per sparare 12 stalattiti contemporaneamente!\n\n<color=black>Danno: </color><color=#8B0000>20*4*3/1.5 Secondi</color>\n<color=#0077b6>Sistema di Congelamento: </color><color=#8B0000>Ogni colpo aggiunge 5 Punti di Congelamento. Le stalattiti infliggono 4 volte più danno agli nemici congelati. Ogni stalattite può attraversare 3 nemici.</color>\n<color=black>Buffs dell'Odissea:\n</color><color=#8B0000>1. Aumento della penetrazione delle stalattiti a 10 volte\n2. Aumento del danno contro gli zombie congelati di 10x</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Malporcino + Mitragliabrina</color>"
+		},
+		{
+			"seedType": 909,
+			"name": "Magnetar",
+			"introduce": "<size=30><color=black>Nessuno sa da dove venga Magnetar, ma una cosa è certa: non è stato lui il responsabile per i dinosauri. Assolutamente no!</color></size>",
+			"info": "<size=30>Perché diamine c'è un meteorite sul mio prato!?\n\n<color=black>Danno: </color><color=#8B0000>25*5/1.5 Secondi</color>\n<color=#99582a>Sistema Luminoso: </color><color=#8B0000>+20 Danno per Livello Luminoso.</color>\n<color=#495057>Sistema Magnetico: </color><color=#8B0000>+5% Danno per ogni Pianta Magnetica.\n<color=#6A0C9D>Entrambi i sistemi possono aumentare il danno delle stelle fino a un massimo di 300.</color>\n<color=black>Speciale: </color><color=#8B0000>Evoca un meteorite ogni 20 secondi, infliggendo 1800 danni all'impatto. Si divide in più stelle che cercano i nemici e infliggono 100 danni ciascuna.</color></color>\n<color=black>Buffs dell'Odissea:\n</color><color=#8B0000>1. Intervallo di attacco → 0.5 Secondi\n2. Il danno base è raddoppiato e il limite (120) è rimosso</color></size>",
+			"cost": "\n<size=30>Formula di Fusione: <color=#8B0000>Stellacaduta + Magnetspina</color>"
+		},
+		{
+			"seedType": 910,
+			"name": "Granporcino Oblio",
+			"introduce": "<size=29><color=black>\"La deterrenza nucleare è vantaggiosa. Un giorno, gli zombie smetteranno di attaccare per paura della mia formidabile autodistruzione,\" affermò con sicurezza Granporcino Oblio. Tuttavia, era evidente che Granporcino Oblio non aveva capito che gli zombie non avrebbero iniziato una Guerra Fredda solo perché colpiti da aria gelida.</color></size>",
+			"info": "<size=29>Spruzza fumi mortali tutt'intorno, portando distruzione totale. Attenzione!\n\n<color=black>Danno: </color><color=#8B0000>(100+100*8)*4/1.9 Secondi</color>\n<color=black>Raggio di Danno: </color><color=#8B0000>5*5</color>\n<color=black>Raggio di Ricerca: </color><color=#8B0000>5*3</color>\n<color=black>Buffs dell'Odissea:\n</color><color=#8B0000>1. Danno alla morte → 1,000,000\n2. Ora assorbe danni da esplosione. Quando vengono assorbiti 10,000 danni, viene rilasciata un'esplosione di Atomporcino</color></size>",
+			"cost": "\n<size=29>Formula di Fusione: <color=#8B0000>Porcino Atomberg + Granporcino Glaciale</color>"
+		},
+		{
+			"seedType": 911,
+			"name": "Zucca Laser",
+			"introduce": "",
+			"info": "<size=36>Genera droni laser che inseguono i nemici.\n\n<color=black>Resistenza: </color><color=#8B0000>8000</color>\n<color=black>Speciale: </color><color=#8B0000>Ha sempre un Drone Laser come compagno al momento dell'apparizione. Genera regolarmente un Drone Laser su una griglia 3x3.</color>\n<color=black>Buffs dell'Odissea:\n</color><color=#8B0000>1. Numero di compagni → 3\n2. Eredita gli effetti del Joker Zucca quando è nello stesso Sistema Magnetico | Sottospecie Zucca Esplosiva Sbloccata</color></size>",
+			"cost": "<size=36>Formula di Fusione: <color=#8B0000>Zucca Trifogliospina + Trifoglio Magnetico</color>"
+		},
+		{
+			"seedType": 912,
+			"name": "Laser Drones",
+			"introduce": "<size=30><color=black>感谢究极杨桃，现在我们有一整套新装备了！看看这些新奇玩意，复合装甲，电磁高速螺旋桨，还有等离子机炮......等等！不！我最喜欢的花瓶！</color></size>",
+			"info": "<size=30>激光无人机可以发射激光穿透攻击。\n\n<color=black>Danno: </color><color=#8B0000>200/1.5 Secondi (作为植物) 200/1 Secondi(作为僚机)</color></size>",
+			"cost": "<size=36>"
+		},
+		{
+			"seedType": 913,
+			"name": "Barriera di Ossidiana",
+			"introduce": "",
+			"info": "<size=32>La Barriera di Ossidiana ha una resistenza quattro volte superiore a quella di una normale Barriera di Noce.\n\n<color=black>Resistenza: </color><color=#8B0000>32000</color>\n<color=black>Speciale: </color><color=#8B0000>Recupera 1500 HP ogni 15 secondi. Resiste agli investimenti delle auto, subendo un massimo di 200 danni per volta. Quando una Barriera di Ossidiana riceve danno, questo viene condiviso e diviso tra tutte le Barriere di Ossidiana presenti sul prato.</color>\n<color=black>Buffs dell'Odissea:\n</color><color=#8B0000>1. Recupera 10.000 Resistenza se colpita dai Brinporcinos. Resistenza completa se colpita da Jalapeño\n2. Mitigazione del danno per le due piante a sinistra e a destra</color></size>",
+			"cost": "<size=32>Formula di Fusione: <color=#8B0000>Barriera di Gelo + Barriera di Infernale</color>"
+		},
+		{
+			"seedType": 914,
+			"name": "Appassiripulta",
+			"introduce": "<size=32><color=black>Dopo aver superato le difficoltà del passato, Appassiripulta ora aspira a una vita tranquilla. \"Tutto ciò che voglio ora è guardare film classici e vivere in pace.\"</color></size>",
+			"info": "<size=32>Capace di lanciare raffiche rapide e a ventaglio di proiettili.\n\n<color=black>Danno: </color><color=#8B0000>120/2 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>42% di probabilità di fuoco rapido. Ha una probabilità uguale di lanciare un attacco a ventaglio proporzionale al numero di zombie nella sua corsia. I proiettili si dividono in aglio, mais e meloni all'impatto.</color>\n<color=black>Buffs dell'Odissea:\n</color><color=#8B0000>1. Fuoco a ventaglio garantito\n2. Le caratteristiche di Vasomelone sono ora ereditate</color></size>",
+			"cost": "\n<size=32>Formula di Fusione: <color=#8B0000>Insalapulta + Agliopulta</color>"
+		},
+		{
+			"seedType": 915,
+			"name": "Cannone di Obliopannocchie",
+			"introduce": "<size=32><color=black>Vestito di armatura ghiacciata e oscuro come un avvertimento, ogni colpo del Cannone di Obliopannocchie porta distruzione. Gli zombi colpiti non devono prepararsi—nulla rimarrà dopo il lampo.</color>",
+			"info": "<size=32>Possiede un potere che scuote la terra.\n\n<color=black>Danno: </color><color=#8B0000>Esplosione Principale - 1800 in un'area 3x3. Ulteriori 1800 + 30% della vita massima degli zombi su tutto lo schermo. Pistola Laterale: 360*2/1,5 Secondi con Rallentamento </color>\n<color=black>Tempo di Armamento: </color><color=#8B0000>36 Secondi</color>\n<color=black>Buff dell'Odissea:\n<color=#8B0000>1. Il danno dell'Esplosione Principale è moltiplicato per 4\n2. Tempo di Ricarica → 12 Secondi</color>",
+			"cost": "<size=32>Formula di Fusione: <color=#8B0000>Cannone di Gelopannocchie + Atomporcino Ghiacciato</color>"
+		},
+		{
+			"seedType": 916,
+			"name": "Ombrello Smeraldo",
+			"introduce": "",
+			"info": "<size=30>Una combinazione di Ombrello Diamante e Cavolo Ombrello.\n\n<color=black>Resistenza: </color><color=#8B0000>4000</color>\n<color=black>Speciale: </color><color=#8B0000>Ha le caratteristiche di entrambi i suoi materiali. Permette anche ai proiettili di colpire gli zombi nelle due righe sottostanti. Il suo ultimate Coffee Bean può uccidere istantaneamente gli zombi sotto il 50% di vita.</color>\n<color=black>Buffs dell'Odissea:\n<color=#8B0000>1. I proiettili rimbalzano continuamente tra altri Ombrello Smeraldo fino all'ultimo. Ogni rimbalzo aumenta il danno del proiettile di 1.8x.\n2. Attiva automaticamente l'ultimate se gli zombi sono vicini. Ricarica di 7,5 secondi | Sottospecie Ombrello Rubino Sbloccata</color>",
+			"cost": "\n<size=30>Formula di Fusione: <color=#8B0000>Ombrello Diamante + Cavolo Ombrello</color>"
+		},
+		{
+			"seedType": 917,
+			"name": "Incantatrice-fungo",
+			"introduce": "",
+			"info": "<size=36>Evoca Zombi Ciliegia Mitraglia Informato per combattere al tuo fianco.\n\n<color=black>Speciale: </color><color=#8B0000>Identico a Imperatrice-fungo, ma evoca solo Zombi Ciliegia Mitraglia Informato. Beneficia dei buff dell'Imperatrice-fungo e si evoca immediatamente quando un'Imperatrice-fungo muore in un raggio di 3x3, evoca anche l'Imperatrice-fungo se una vicina Incantatrice-fungo muore.</color>",
+			"cost": "<size=36>Formula di Fusione: <color=#8B0000>Imperatrice-fungo + Ciliegia Esplosiva</color>"
+		},
+		{
+			"seedType": 918,
+			"name": "Tripla Semicinerea",
+			"introduce": "<size=36><color=black>Le fiamme consumano il suo corpo spezzato, ogni respiro è un tormento, eppure la Tripla Semicinerea rimane in piedi. Crede che il fuoco che arde dentro di lui raggiunga la gloria eterna in una grandiosa esplosione finale.</color>",
+			"info": "<size=36>La Tripla Semicinerea attende la sua rinascita.\n\n<color=black>Speciale: </color><color=#8B0000>Perde le capacità di attacco dopo essere stata completamente bruciata.</color>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Tripla Semincendiata + Jalapeño</color>"
+		},
+		{
+			"seedType": 919,
+			"name": "Tripla Semifenice",
+			"introduce": "<size=30><color=black>Non si sa se il fuoco porti davvero alla rinascita delle piante—è solo una leggenda. Coloro che l'hanno inseguita sono diventati cenere, fino a quando lui è diventato la nuova leggenda. \"Non so quante volte devo sopportare le fiamme per riuscire, ma per loro, devo farlo.\"</color>",
+			"info": "<size=30>Rinato dal fuoco!\n\n<color=black>Danno: </color><color=#8B0000>160x3/1,5 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>Infiamma tutto il prato all'ingresso, i proiettili infliggono il Debuff Infuocato, perforano tre volte con danno raddoppiato dopo aver attraversato la Torcia Infernoguazzato.</color>\n<color=black>Buffs dell'Odissea:\n<color=#8B0000>1. Moltiplicatore di danno Infuocato → 150%, e i piselli incendiati ora possono infliggere il debuff\n2. I proiettili ora possono perforare all'infinito</color>",
+			"cost": "\n<size=30>Formula di Fusione: <color=#8B0000>Tripla Semicinerea + Jalapeño</color>"
+		},
+		{
+			"seedType": 920,
+			"name": "Gravitron",
+			"introduce": "<size=36><color=black>Il Gravitron ha padroneggiato l'elettromagnetismo con Magnetar. \"Non è scienza missilistica—forza a sinistra, elettricità a destra\", si vantava. \"E non dimenticare il magnete in movimento—fidati della pianta più intelligente in circolazione!\"</color>",
+			"info": "<size=36>Il Gravitron attira le stelle, le accelera e le lancia contro gli zombi con la massima forza.\n\n<color=black>Speciale: </color><color=#8B0000>Limite di Memorizzazione - 60, Tempo di Accelerazione - 1,5 Secondi, Danno - triplo</color>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Magnetar + Trifogliatore</color>"
+		},
+		{
+			"seedType": 921,
+			"name": "Agliosauro",
+			"introduce": "<size=34><color=black>Vestito con abiti semplici e un vistoso dente d'oro, una sua parola fa fuggire gli altri. 'All'aglio, ne ho abbastanza dei riflettori. Distinguermi non mi si addice più—voglio solo una vita tranquilla e semplice.'</color>",
+			"info": "<size=34>Cugino della pianta difensiva definitiva sulla terra.\n\n<color=black>Resistenza: </color><color=#8B0000>8000</color>\n<color=black>Speciale: </color><color=#8B0000>Una variante di Ciliegiosauro che non guarisce più dalle esplosioni di ciliegia, eredita le proprietà dell'aglio e spara proiettili che avvelenano gli zombi. Può essere trasformato in Ciliegiosauro con una Ciliegia Esplosiva e viceversa con un Aglio. Sbloccato insieme a Ciliegiosauro.</color>",
+			"cost": "\n<size=34>Formula di Fusione: <color=#8B0000>Ciliegiosauro + Aglio</color>"
+		},
+		{
+			"seedType": 922,
+			"name": "Zucca Esplosiva",
+			"introduce": "<size=36><color=black>Ciliegia? Zucca? O un ibrido nato dalla fusione? La Zucca Esplosiva non si preoccupa di simili dettagli. Per lui, Halloween significa distribuire ciliegie succose ai bambini buoni e bombe di ciliegia a quelli cattivi—nient'altro conta.</color>",
+			"info": "<size=36>Zucca a prova di esplosione.\n\n<color=black>Resistenza: </color><color=#8B0000>8000</color>\n<color=black>Speciale: </color><color=#8B0000>Non genera più droni volanti, è immune alle esplosioni di ciliegia e si rigenera da esse. Ogni 30 secondi genera un drone kamikaze che cerca gli zombi ed esplode come una Ciliegia Esplosiva.</color>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Zucca Laser + Ciliegia Esplosiva</color>"
+		},
+		{
+			"seedType": 923,
+			"name": "Ombrello Rubino",
+			"introduce": "<size=34><color=black>Molti si chiedono quale sia la relazione tra Ombrello Smeraldo e Ombrello Rubino. 'Siamo fratelli!' dichiara con sicurezza Rubino, battendo il suo baldacchino. 'Il mio caro fratello maggiore sta solo attraversando un momento difficile emotivamente.'</color>",
+			"info": "<size=34>Riflette i proiettili degli zombi.\n\n<color=black>Resistenza: </color><color=#8B0000>4000</color>\n<color=black>Speciale: </color><color=#8B0000>Una variante dell'Ombrello Smeraldo. È possibile passare da uno all'altro con Cocopultas e Cavolpultas. Rubino perde la capacità di potenziare i proiettili lanciati ma guadagna una Riduzione del Danno del 90% e può riflettere i proiettili degli zombi.</color>",
+			"cost": "\n<size=34>Formula di Fusione: <color=#8B0000>Ombrello Smeraldo + Cocopulta</color>"
+		},
+		{
+			"seedType": 924,
+			"name": "Incantatron-fungo",
+			"introduce": "<size=34><color=black></color>",
+			"info": "<size=30>Carisma massimo.\n\n<color=black>Danno: </color><color=#8B0000>80/2 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>I proiettili hanno un raggio di esplosione di 1 casella senza riduzione di danno e non possono essere consumati dagli zombi. Alimentarlo con oggetti metallici fornisce 1 livello di carica per 30 secondi, fino a 2 cariche. Con 1 livello di carica, spara 2 colpi per attacco; con 2 livelli di carica, spara 4 colpi. Ogni pianta nello stesso Sistema Magnetico fornisce un aumento del 5% al danno dei suoi colpi.</color>\n<color=black>Buffs dell'Odissea:\n<color=#8B0000>1. La soglia HP di Charm è aumentata dal 50% al 100%\n2. Ora sempre in uno stato completamente carico | Intervallo di Attacco → 1 Secondo</color>",
+			"cost": "\n<size=30>Formula di Fusione: <color=#8B0000>Incantofungo + Calamifungo Incantato</color>"
+		},
+		{
+			"seedType": 1000,
+			"name": "Sparagirasole",
+			"introduce": "<size=34><color=black>«In realtà, il Girasole dietro di me è mia sorella», spiegò Sparasemi a tutti. «Siamo inseparabili dalla nascita. Lei adora produrre Sole, e io distruggo gli zombie per lei.» Ma tutti conoscono la verità: il gioioso fratello Pisello è un totale \"sorellone\". Dopotutto, ogni zombie che si avvicina troppo a sua sorella finisce misteriosamente vaporizzato dalla luce del sole.</color></size>",
+			"info": "<size=34>Sparagirasole può sparare proiettili di sole che producono Sole.\n\n<color=black>Danno: </color><color=#8B0000>100/5 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>I proiettili lasciano cadere 5 Sole quando colpiscono gli zombi.</size>",
+			"cost": "\n<size=34></color>Formula di Fusione: <color=#8B0000>Sparasemi + Girasole</color>"
+		},
+		{
+			"seedType": 1001,
+			"name": "Sparaciliegia",
+			"introduce": "<size=36><color=black>«Pensate che io abbia problemi di rabbia rovente? Io? Bah! Siete voi quelli rossi e roventi! La vostra intera famiglia è rossa!» Sparaciliegia detestava essere preso in giro per il colore della sua testa. Ma le battute non durarono a lungo. Fu solo un felice incidente. Dopo aver mangiato ciliegie speciali, Sparasemi si ritrovò rosso e rovente, e sorprendentemente poteva sparare ciliegie.</color></size>",
+			"info": "<size=36>Sparaciliegia spara potenti ciliegie.\n\n<color=black>Danno: </color><color=#8B0000>60/1.5 Secondi</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Sparasemi + Ciliegia Esplosiva</color>"
+		},
+		{
+			"seedType": 1002,
+			"name": "Bomba Solare",
+			"introduce": "<size=36><color=black>«Quindi… è ovvio… siamo Pretty Cure, vero?» Le due sorelle Girasole cercarono di contenere la loro eccitazione. «Il mondo ha bisogno di noi per essere salvato!» La loro passione esplose mentre gridavano insieme: «Luce! Illumina questa terra!»</color></size>",
+			"info": "<size=36>Bomba Solare può produrre Sole dopo aver eliminato gli zombie.\n\n<color=black>Danno: </color><color=#8B0000>1800 (Incenerimento)</color>\n<color=black>Speciale: </color><color=#8B0000>Produces 25 Sun for each zombie killed in the explosion.</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Girasole + Ciliegia Esplosiva</color>"
+		},
+		{
+			"seedType": 1003,
+			"name": "Muro di Ciliegia",
+			"introduce": "<size=34><color=black>«Ho sentito alcuni zombie borbottare per la loro incapacità di mangiare ciliegie. Beh, eccomi qui!» Il gioioso Muro di Ciliegia scosse le foglie sulla sua testa, vantandosi del suo sapore di ciliegia puro. «Ma prima, devi promettermi una cosa: quando hai delle ciliegie, condividile con me. Anzi, dammi tutto quello che hai! Sono nato per questo!»</color></size>",
+			"info": "<size=34>Muro di Ciliegia può assorbire i danni da esplosione e ripristinare la resistenza.\n\n<color=black>Resistenza: </color><color=#8B0000>4000</color>\n<color=black>Speciale: </color><color=#8B0000>Assorbe i danni da esplosione di Cherry per ripristinare la resistenza. (Dall'alleato: 25, Dal Nemico: 200)</color></size>",
+			"cost": "\n<size=34>Formula di Fusione: <color=#8B0000>Ciliegia Esplosiva + Muro di Noce</color>"
+		},
+		{
+			"seedType": 1004,
+			"name": "Muro di Pisello",
+			"introduce": "<size=36><color=black>«No... non chiamarmi brutto, altrimenti... aspetta... ti spruzzerò.» Muro di Pisello ha sempre lottato con il suo aspetto \"unico\". Ma crede fermamente che ciò che conta in una pianta sia più ciò che c'è dentro che come appare. In cerca di consiglio, ha umilmente chiesto al veterano Nocciolino di Bowling e alla fine ha padroneggiato la tecnica di lanciare le noci come palle da bowling.</color></size>",
+			"info": "<size=36>Muro di Pisello spara mini-noci che possono penetrare gli zombie.\n\n<color=black>Resistenza: </color><color=#8B0000>4000</color>\n<color=black>Danno: </color><color=#8B0000>20/1.5 Secondi (Perforazione) </color>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Sparasemi + Muro di Noce</color></size>"
+		},
+		{
+			"seedType": 1005,
+			"name": "Esplosparatore",
+			"introduce": "<size=36><color=black>Incontrate Esplosparatore, l'ultimativo killer di piante. È più irritabile che mai—chi avrebbe mai pensato che il caldo e amichevole Sparaciliegia avrebbe inghiottito un'altra ciliegia speciale? Non provate a mettervi contro di lui. Quella ciliegia incastrata nella sua gola potrebbe essere il suo prossimo colpo—il suo viso è già diventato rosso!</color></size>",
+			"info": "<size=36>Esplosparatore spara ciliegie che causano danni da esplosione nell'area. È anche immune all'esplosione delle ciliegie.\n\n<color=black>Danno: </color><color=#8B0000>300/3 Secondi</color></size>",
+			"cost": "<size=36>Formula di Fusione: <color=#8B0000>Sparasemi + Ciliegia Esplosiva + Ciliegia Esplosiva</color>"
+		},
+		{
+			"seedType": 1006,
+			"name": "Muro di Solare",
+			"introduce": "<size=36><color=black>Muro di Solare si vede sempre come un angelo, ignaro del fatto che le altre piante parlano spesso alle sue spalle. «Sai, se aggiungesse qualche linea nera, sembrerebbe proprio una ape!»</color></size>",
+			"info": "<size=36>Muro di Solare produce Sole mentre protegge le tue piante.\n\n<color=black>Resistenza: </color><color=#8B0000>4000</color>\n<color=black>Produzione di Sfere </color><color=#8B0000>25/15 Secondi</color>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Girasole + Muro di Noce</color></size>"
+		},
+		{
+			"seedType": 1007,
+			"name": "Pisello Esplosivo",
+			"introduce": "<size=32><color=black>Pisello Esplosivo potrebbe non avere occhi, ma ha un modo tutto speciale di percepire gli zombie. «Lo sento…» mormorò, «Gli zombie si stanno avvicinando… sempre più vicini…» Il battito del cuore di Pisello Esplosivo accelerò, così come la sua velocità di fuoco. Più veloce, più veloce… fino a che, con un «bang», Pisello Esplosivo esplose in una serie di fuochi d'artificio al sapore di patata.</color></size>",
+			"info": "<size=32>Pisello Esplosivo può attaccare prima di essere disotterrato.\n\n<color=black>Danno: </color><color=#8B0000>20/1.5 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>Attacca più velocemente quando gli zombie si avvicinano. Quando esplode, rilascia 36 proiettili in tutte le direzioni.</color></size>",
+			"cost": "\n<size=32>Formula di Fusione: <color=#8B0000>Sparasemi + Tubero Esplosivo</color>"
+		},
+		{
+			"seedType": 1008,
+			"name": "Super Sparaciliegia",
+			"introduce": "<size=36><color=black>Super Sparaciliegia vive secondo il motto «le cose buone vengono in coppie». Che si tratti di combattere gli zombie o di distribuire regali, fa tutto in due. «Ma dai,» ha preso in giro Super Sparasemi, «quelle tue ciliegie non sono nemmeno lontanamente mature.»</color></size>",
+			"info": "<size=36>Super Sparaciliegia può lanciare due ciliegie alla volta.\n\n<color=black>Danno: </color><color=#8B0000>60*2/1.5 Secondi</color></size>",
+			"cost": "<size=36>Formula di Fusione: <color=#8B0000>Super Sparasemi + Ciliegia Esplosiva</color>"
+		},
+		{
+			"seedType": 1009,
+			"name": "Mina Solare",
+			"introduce": "<size=36><color=black>«Fermati ai semafori rossi, rallenta a quelli gialli, e rispetta le norme stradali!» Mina Solare avverte spesso gli zombie. Ma per gli zombie, tutto ciò che vedono è il disgustoso colore verde davanti a loro. Si stringe le foglie verdi e fa il broncio, desiderando più sole. «Dopotutto, è il sole che ci alimenta tutti!»</color></size>",
+			"info": "<size=36>Mina Solare produce Sole prima e dopo la sua esplosione.\n\n<color=black>Danno: </color><color=#8B0000>1800</color>\n<color=black>Produzione di Sfere </color><color=#8B0000>25/15 Secondi</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Girasole + Tubero Esplosivo</color>"
+		},
+		{
+			"seedType": 1010,
+			"name": "Mina Nocciola",
+			"introduce": "<size=34><color=black>Un tempo considerata piccola e debole, Mina Nocciola ora si erge alta e forte, con un paio di grandi occhi e una polpa robusta. Eppure, sotto quel guscio resistente, si sente fragile e teme di tornare alle sue dimensioni precedenti. Gli zombie scherzano: \"Se dai un altro morso, esploderai!\"  </color></size>",
+			"info": "<size=34>Mina Nocciola può esplodere mentre viene mangiata e una volta quando si rompe.\n\n<color=black>Resistenza: </color><color=#8B0000>4000</color>\n<color=black>Danno: </color><color=#8B0000>500 / Esplosione, 1800 / Morte</color></size>",
+			"cost": "\n<size=34>Formula di Fusione: <color=#8B0000>Muro di Noce + Tubero Esplosivo</color>"
+		},
+		{
+			"seedType": 1011,
+			"name": "Sputazzanna",
+			"introduce": "<size=34><color=black>Venera Masticazombi ha sempre invidiato la capacità di Sputazzanna di sputare i resti degli zombie, e ha cercato di imparare il trucco più di una volta. Non sapeva, però, che il segreto non era un'abilità speciale: era solo che la bocca di Sputazzanna era leggermente deformata, facendo fuoriuscire pezzi di zombie durante la masticazione.</color></size>",
+			"info": "<size=34>Sputazzanna può sparare frammenti dopo aver morso.\n\n<color=black>Danno: </color><color=#8B0000> Uccisione Istantanea</color>\n<color=black>Speciale: </color><color=#8B0000>Dopo il morso sputa parti di zombie rotolanti che infliggono 80 danni.</color></size>",
+			"cost": "\n<size=34>Formula di Fusione: <color=#8B0000>Sparasemi + Venera Masticazombi</color>"
+		},
+		{
+			"seedType": 1012,
+			"name": "Masticanoce",
+			"introduce": "<size=36><color=black>Da giovane, Masticanoce era schizzinosa col cibo, rifiutandosi di ingoiare gli zombie interi, per la frustrazione dei suoi genitori. Dopo insistenze, ha imparato: \"Non sono schizzinosa! Voglio solo imitare come mangiano gli zombie. Non è certo perché non ho un collo!\" disse mentre masticava uno zombie.</color></size>",
+			"info": "<size=36>Masticanoce può recuperare resistenza dopo aver mangiato zombie.\n\n<color=black>Danno: </color><color=#8B0000>Uccisione Istantanea</color>\n<color=black>Resistenza: </color><color=#8B0000>4000</color></size>",
+			"cost": "<size=36>Formula di Fusione: <color=#8B0000>Muro di Noce + Venera Masticazombi</color>"
+		},
+		{
+			"seedType": 1013,
+			"name": "Masticazilla",
+			"introduce": "<size=30><color=black>Masticazilla assapora ogni pasto, nonostante la bocca più piccola. \"Le bocche grandi sono trasandate e non vanno in palestra; crollano in prima linea,\" scherza. \"Io mangio solo l'essenza della carne di zombie e sputo il resto,\" sorride, anche se il suo giardino si sta riempiendo di avanzi.</color></size>",
+			"info": "<size=30>Masticazilla può essere sia una barriera solida che un feroce attaccante.\n\n<color=black>Resistenza: </color><color=#8B0000>4000</color>\n<color=black>Speciale: </color><color=#8B0000>Mangiare zombie ripristina 200 di Resistenza e infligge 200 di Danno sputando pezzi di zombie rotolanti che infliggono 80 di Danno e penetrano all'infinito. Gli zombie con PV < 500 e senza armatura vengono uccisi all'istante, ripristinando 400 di Resistenza e sputando pezzi di zombie rotolanti.</color></size>",
+			"cost": "<size=30>Formula di Fusione: <color=#8B0000>Sparasemi + Muro di Noce + Venera Masticazombi</color>"
+		},
+		{
+			"seedType": 1014,
+			"name": "Masticasole",
+			"introduce": "<size=36><color=black>Tutti erano curiosi di sapere come Masticasole trasformasse gli zombie che divorava in raggi di sole, ma esitava sempre a condividere il suo segreto. Un giorno, il Girasole scoprì che il suo contenuto di clorofilla era significativamente diminuito, rivelando la verità: non stava davvero trasformando gli zombie in luce solare.</color></size>",
+			"info": "<size=36>Masticasole può produrre Sole dopo aver ingerito zombie.\n\n<color=black>Danno: </color><color=#8B0000>Uccisione Istantanea</color>\n<color=black>Speciale: </color><color=#8B0000>Produce 100 Sole dopo aver ingerito zombie.</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Girasole + Venera Masticazombi</color>"
+		},
+		{
+			"seedType": 1015,
+			"name": "Masticamina",
+			"introduce": "<size=34><color=black>Deliziosi e invitanti, i Tuberi Esplosivi hanno il sapore di purè di patate auto-riscaldante, ricevendo recensioni entusiastiche dagli zombie. Tra questi, le patatine fritte sono in cima alla classifica di popolarità. Mentre gli zombie si accalcano attratti dal profumo irresistibile delle patatine, non hanno idea che stanno anche gustando croccanti chips di patate. \"Aspettate e vedrete,\" disse Masticamina con la bocca piena, \"i loro nutrienti diventeranno presto nuove mine.\"</color></size>",
+			"info": "<size=34>Dopo aver inghiottito uno zombie, Masticamina farà crescere un Tubero Esplosivo davanti a sé.\n\n<color=black>Danno: </color><color=#8B0000>Uccisione Istantanea</color>\n<color=black>Speciale: </color><color=#8B0000>Piazza un Tubero Esplosivo davanti a sé dopo aver inghiottito uno zombie.</color></size>",
+			"cost": "\n<size=34>Formula di Fusione: <color=#8B0000>Tubero Esplosivo + Venera Masticazombi</color>"
+		},
+		{
+			"seedType": 1016,
+			"name": "Masticaciliegia",
+			"introduce": "<size=32><color=black>Dopo aver bevuto qualcosa con la Ciliegia Esplosiva, la Venera Masticazombi è diventata un continuo \"brusio.\" È diventata una vera minaccia a ogni pasto. Il rumore di masticazione si è trasformato in scoppi esplosivi mentre piatti e ciotole volavano dappertutto, lasciando tutti riluttanti a mangiare con lei. Dopo una votazione, Masticaciliegia ha finito per mangiare in giardino... almeno ora non deve più comprare nuove stoviglie.</color></size>",
+			"info": "<size=32>Produce un'esplosione di ciliegie dopo aver mangiato uno zombie.\n\n<color=black>Danno: </color><color=#8B0000>Uccisione Istantanea + 1800 (Incenerimento)</color>\n<color=black>Speciale: </color><color=#8B0000>Genera un'esplosione di ciliegie su una griglia 3x3 quando morde.</color></size>",
+			"cost": "<size=32>Formula di Fusione: <color=#8B0000>Ciliegia Esplosiva + Venera Masticazombi</color>"
+		},
+		{
+			"seedType": 1017,
+			"name": "Ciliegia Mitraglia",
+			"introduce": "<size=36><color=black>La canna della Ciliegia Mitraglia era sempre rovente. Assicurava a tutti che fosse preriscaldata per sparare più velocemente. Tutti ci hanno creduto—finché non l'hanno colta a mangiare ciliegie speciali senza neanche rimuovere la canna.</color></size>",
+			"info": "<size=36>La forma finale dello Sparaciliegia!\n\n<color=black>Danno: </color><color=#8B0000>60*4/1,5 Secondi</color></size>",
+			"cost": "<size=36>Formula di Fusione: <color=#8B0000>Mitragliasemi + Ciliegia Esplosiva</color>"
+		},
+		{
+			"seedType": 1018,
+			"name": "Semiporcino",
+			"introduce": "<size=36><color=black>\"Non lasciarti ingannare dalle mie dimensioni; anche un corpo piccolo può contenere molta energia,\" avverte Semiporcino a chi lo sottovaluta. \"Tutti noi siamo partiti come piccoli funghi, facendo progressi un po' alla volta. Con dedizione e una colazione al sole, puoi diventare proprio come me.\"</color></size>",
+			"info": "<size=36>Semiporcino spara più lontano di Malporcino.\n\n<color=black>Danno: </color><color=#8B0000>20/1,5 Secondi</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Malporcino + Sparasemi</color>"
+		},
+		{
+			"seedType": 1019,
+			"name": "Super Semiporcino",
+			"introduce": "<size=36><color=black>\"Chi sono io? La risposta è nel doppio colpo!\" esclama il piccolo Super Semiporcino, mostrando con orgoglio le due foglie sulla sua testa. Con una velocità di fuoco doppia e un entusiasmo raddoppiato, questi esseri vivaci prosperano in gruppo, riversando con gioia il loro fuoco sul campo di battaglia, dimostrando che la dimensione non definisce la loro forza.</color></size>",
+			"info": "<size=36>Super Semiporcino può sparare due piccoli piselli alla volta.\n\n<color=black>Danno: </color><color=#8B0000>20*2/1,5 Secondi</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Malporcino + Sparasemi * 2</color>"
+		},
+		{
+			"seedType": 1020,
+			"name": "Sparabecchio",
+			"introduce": "<size=34><color=black>\"Io incarna lo spirito dei miei antenati; non cadrò qui!\" affermò con fiducia Sparabecchio a chiunque gli si parasse davanti. Quando gli fu fatto notare che il suo elmo somigliava a uno rubato dallo Zombie con il Secchio, rispose: \"Allora invochiamo la loro volontà e cavalchiamo i venti e le onde ancora una volta!\"</color></size>",
+			"info": "<size=34>Sparabecchio ha la capacità di rompere le armature.\n\n<color=black>Resistenza: </color><color=#8B0000>2000</color>\n<color=black>Danno: </color><color=#8B0000>80/1,5 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>Rimbalza al contatto. Infligge danni enormi agli Zombie di Ferro e rompe le porte di ferro.</color></size>",
+			"cost": "\n<size=34>Formula di Fusione: <color=#8B0000>Sparasemi + Secchio</color>"
+		},
+		{
+			"seedType": 1021,
+			"name": "Nociporcino",
+			"introduce": "<size=36><color=black>Noce o fungo? Perché preoccuparsi delle etichette? Nociporcino non ha intenzione di dirti che in realtà è un matsutake travestito.</color></size>",
+			"info": "<size=36>Nociporcino può essere il tuo difensore infallibile nonostante le sue dimensioni.\n\n<color=black>Resistenza: </color><color=#8B0000>2000</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Malporcino + Muro di Noce</color>"
+		},
+		{
+			"seedType": 1022,
+			"name": "Mini Ipnofungo",
+			"introduce": "<size=36><color=black>\"Da bambino, credevo che gli zombie fossero niente più che mostri da favola,\" disse dolcemente Mini Ipnofungo. \"Ora, non fraintendetemi—sto solo riportandoli alla forma da favola che dovevano sempre avere.\"</color></size>",
+			"info": "<size=36>Rende uno zombie più piccolo e lo fa combattere per te!\n\n<color=black>Speciale: </color><color=#8B0000>Rende uno zombie più piccolo (riduce la salute della metà) e lo fa combattere per te.</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Malporcino + Ipnofungo</color>"
+		},
+		{
+			"seedType": 1023,
+			"name": "Profumporcino",
+			"introduce": "<size=34><color=black>Il colorato Profumporcino fa il suo grande debutto! Con un colpo di profumo, può far girare gli zombie in un istante. Alcuni sostengono che sia una tecnica segreta tramandata dalla famiglia dei funghi, mentre altri credono che sia un'arma militare all'avanguardia. Profumporcino sorride e dice: \"È tutto grazie a Ipnofungo che mi aiuta a sciacquarmi la bocca ogni giorno.\"</color></size>",
+			"info": "<size=34>Profumporcino spruzza fumi che possono incantare gli zombie.\n\n<color=black>Danno: </color><color=#8B0000>20/1,5 Secondi (Perforazione)</color>\n<color=black>Speciale: </color><color=#8B0000>Possibilità di incantare gli zombie con <50% di salute. Ipnotizza lo zombie che lo mangia.</color></size>",
+			"cost": "\n<size=34>Formula di Fusione: <color=#8B0000>Fumporcino + Ipnofungo</color>"
+		},
+		{
+			"seedType": 1024,
+			"name": "Ipnoporcino Tiratore",
+			"introduce": "<size=31><color=black>Porcino Tiratore ha sempre avuto paura degli zombie. Per ridurre la sua paura, Ipnofungo le racconta una storia della buonanotte ogni giorno: \"In realtà, ci sono delle buone persone tra gli zombie.\" Col tempo, Porcino Tiratore è stata finalmente lavata il cervello. Ora può usare le spore per lavare il cervello degli zombie. Ovviamente, ha ancora molta paura.</color></size>",
+			"info": "<size=31>Ipnoporcino Tiratore può sparare spore di 7 colori.\n\n<color=black>Danno: </color><color=#8B0000>20/1,5 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>Spara casualmente una delle 7 tipologie di spore. Quando uno zombie viene colpito da tutte e 7 le tipologie di spore, sarà incantato. Ogni volta che viene colpito da una tipologia di spora, aumenta la probabilità di incantare lo zombie per il Profumfungo.</color></size>",
+			"cost": "\n<size=31>Formula di Fusione: <color=#8B0000>Ipnofungo + Porcino Tiratore</color>"
+		},
+		{
+			"seedType": 1025,
+			"name": "Coraggiofungo Tiratore",
+			"introduce": "<size=36><color=black>\"Il coraggio mi riempie, nessuna paura rimane~ Che sia primavera, autunno, inverno o estate~\" Coraggiofungo Tiratore non si ritira più di fronte agli zombie. \"Un tempo tremavo, ma il Senior Fumporcino mi ha detto: 'Se uno zombie si avvicina, spruzza le tue spore. Nascondersi non risolverà nulla.'\"</color></size>",
+			"info": "<size=36>Coraggiofungo Tiratore è pronto a affrontare gli zombie, vicini o lontani!\n\n<color=black>Danno: </color><color=#8B0000>20*2/1,5 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>Quando gli zombie si avvicinano di 3 caselle, spruzza fumi perforanti al loro posto.</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Fumporcino + Porcino Tiratore</color>"
+		},
+		{
+			"seedType": 1026,
+			"name": "Incantofungo",
+			"introduce": "<size=32><color=black>Incantofungo parla con un sorriso dolce: \"Ogni spora porta il mio amore, e quando sbocciano, è come una brezza primaverile che accarezza l'aria.\" Ha persino girato la testa a forma di cuore per esprimere i suoi sentimenti. I suoi occhi brillano di sincerità, sperando che, forse, solo forse, gli zombie possano capire il suo amore.</color></size>",
+			"info": "<size=32>Incantofungo può sparare spore incantatrici esplosive.\n\n<color=black>Danno: </color><color=#8B0000>80 / 1,5 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>40 danni ad area in una griglia 1x1,5. Ha una possibilità di incantare gli zombie con < 50% di salute.</color></size>",
+			"cost": "<size=32>Formula di Fusione: <color=#8B0000>Fumporcino + Porcino Tiratore + Ipnofungo</color>"
+		},
+		{
+			"seedType": 1027,
+			"name": "Barriera di Noce",
+			"introduce": "<size=36><color=black>La gente si chiede se vi sia una rivalità tra il muro e la barriera di noci. Lei ride fragorosamente e ribatte: \"Impossibile, siamo fratelli. Se sapeste quanto il muro di noci ha fatto per me...\". Ci lascia poi con un sguardo carico di significato.</color></size>",
+			"info": "<size=36>La barriera di noce è una pianta difensiva che non può essere scavalcata.\n\n<color=black>Resistenza: </color><color=#8B0000>8000</color></size>",
+			"cost": "<size=36>Costo: <color=#8B0000>125</color>\nRicarica: <color=#8B0000>50 Secondi</color></size>"
+		},
+		{
+			"seedType": 1028,
+			"name": "Barriera di Rugby",
+			"introduce": "<size=34><color=black>Barriera di Rugby sembrava feroce, facendo spaventare alcune piante più piccole che non conoscevano la verità sulla sua natura. Tuttavia, le piante che lo capivano sapevano che dietro la sua facciata seria c'era una forte determinazione a proteggere i suoi compagni. Il casco rubato sicuramente aumentava la sua fiducia.</color></size>",
+			"info": "<size=34>Barriera di Rugby è in grado di sopportare un'enorme quantità di danno.\n\n<color=black>Resistenza: </color><color=#8B0000>16000</color>\n<color=black>Speciale: </color><color=#8B0000>Può mangiare oggetti metallici per ripristinare 500 punti salute.</color></size>",
+			"cost": "\n<size=34>Formula di Fusione: <color=#8B0000>Barriera di Noce + Casco da Rugby</color>"
+		},
+		{
+			"seedType": 1029,
+			"name": "Nociblocco",
+			"introduce": "<size=32><color=black>Le piante hanno sentimenti contrastanti verso Nociblocco. Come soldato esemplare, esegue gli ordini con precisione incrollabile, ma il suo atteggiamento freddo lascia a desiderare. La ruggine agli angoli della bocca suggerisce un passato pieno di storie. Nei momenti di quiete, tuttavia, Nociblocco si tormenta con una preoccupazione inespressa: \"Come posso evitare la ruggine in un giardino umido?\"</color></size>",
+			"info": "<size=32>Nociblocco ostacola l'avanzata degli zombie con un muro di ferro.\n\n<color=black>Resistenza: </color><color=#8B0000>8000</color>\n<color=black>Speciale: </color><color=#8B0000>Può essere nutrito con oggetti metallici per ripristinare 500 punti salute. Questo vale anche per altre Piante Metalliche.</color></size>",
+			"cost": "\n<size=32>Formula di Fusione: <color=#8B0000>Muro di Noce + Secchio</color>"
+		},
+		{
+			"seedType": 1030,
+			"name": "Super Sparasemi",
+			"introduce": "<size=36><color=black>La super sparasemi è una pianta truce. Cresciuta nella strada, non si fa intimidire da nessuno, piante o zombi che siano, e spara semi per tenere chiunque a distanza. Tuttavia, cova segretamente un desiderio d'amore.</color></size>",
+			"info": "<size=36>La super sparasemi spara due semi alla volta.\n\n<color=black>Danno: </color><color=#8B0000>20*2/1.5 Secondi</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Sparasemi + Sparasemi</color>"
+		},
+		{
+			"seedType": 1031,
+			"name": "Buonporcino",
+			"introduce": "<size=36><color=black>Il buonporcino odia il sole. Lo odia così tanto che, quando il suo metabolismo crea delle sfere solari, le espelle subito. Ai suoi occhi il sole è volgare.</color></size>",
+			"info": "<size=36>Il buonporcino dona una piccola sfera solare all'inizio e poi una sfera normale.\n\n<color=black>Produzione di Sfere </color><color=#8B0000>15 (25) / 25 Secondi\n<color=black>Tempo di Crescita: </color><color=#8B0000>120 Secondi</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Malporcino + Girasole</color>"
+		},
+		{
+			"seedType": 1032,
+			"name": "Mitragliasemi",
+			"introduce": "<size=36><color=black>I genitori della mitragliasemi erano un po' preoccupati quando ha dichiarato di voler entrare nell'esercito. \"Ma tesoro, è così pericoloso!\", hanno protestato. Lei, però, non ha voluto sentire ragioni. \"La vita è sempre pericolosa\", ha replicato.</color></size>",
+			"info": "<size=36>La mitragliasemi spara quattro semi per volta.\n\n<color=black>Danno: </color><color=#8B0000>20*4/1.5 Secondi</color></size>",
+			"cost": "<size=36>Formula di Fusione: <color=#8B0000>Sparasemi Bidirezionale + Sparasemi</color>"
+		},
+		{
+			"seedType": 1033,
+			"name": "Girasoli Gemelli",
+			"introduce": "<size=36><color=black>Fu in una folle notte di esperimenti scientifici proibiti che i girasoli gemelli videro la luce.  Il cielo tuonava incessante, strane luci balenavano intermittenti e il vento stesso sembrava sibilare un rabbioso diniego. Ma invano: i girasoli gemelli erano vivi, VIVI!</color></size>",
+			"info": "<size=36>I girasoli gemelli donano il doppio delle sfere solari rispetto ai girasoli normali.\n\n<color=black>Produzione di Sfere </color><color=#8B0000>25*2/20 Secondi</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Girasole + Girasole</color>"
+		},
+		{
+			"seedType": 1034,
+			"name": "Sparabrina",
+			"introduce": "<size=36><color=black>Spesso la gente dice alle sparabrina che sono troppo \"fredde\" e dovrebbero \"sciogliersi\" un po'. Per non parlare di quando vengono invitate a \"rinfrescarsi\" le idee... Ormai si limitano da alzare gli occhi al cielo, tanto le hanno sentite tutte...</color></size>",
+			"info": "<size=36>La sparabrina spara semi congelati che danneggiano e rallentano il nemico.\n\n<color=black>Danno: </color><color=#8B0000>20/1.5 Secondi</color>\n<color=#0077b6>Sistema di Congelamento: </color><color=#8B0000>Ogni proiettile aggiungerà 10 Punti di Congelamento.</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Sparasemi + Brinporcino</color>"
+		},
+		{
+			"seedType": 1035,
+			"name": "Sparaghiacciolo Malporcino",
+			"introduce": "<size=31><color=black>Gli Sparaghiacciolo Malporcino non avevano intenzione di padroneggiare la tecnologia della refrigerazione. Durante un'escursione, si dimenticarono le coperte e passarono tutta una notte congelati sopra una montagna, con la brina che si formava sulle loro teste. Più tardi, Sparabrina, affascinata dal loro aspetto gelido, regalò loro delle stalattiti per completare il loro nuovo look.</color></size>",
+			"info": "<size=31>Sparaghiacciolo Malporcino spara stalattiti che rallentano i nemici.\n\n<color=black>Danno: </color><color=#8B0000>20/1.5 Secondi</color>\n<color=#0077b6>Sistema di Congelamento: </color><color=#8B0000>Aggiunge 5 Punti di Congelamento per ogni colpo di ghiacciolo. Trafigge 3 volte. Ogni ghiacciolo infligge 4 volte più danni a uno zombie congelato.</color></size>",
+			"cost": "\n<size=31>Formula di Fusione: <color=#8B0000>Malporcino + Brinporcino + Sparasemi</color>"
+		},
+		{
+			"seedType": 1036,
+			"name": "Mini Brinporcino",
+			"introduce": "<size=36><color=black>«Più piccolo di dimensioni, ma con le stesse grandi abilità!» La sua tipica faccia da poker di Mini Brinporcino non si rompe mai mentre racconta le sue battute, e forse è proprio per questo che gli zombie si congelano sul posto.</color></size>",
+			"info": "<size=36>Mini Brinporcino può congelare temporaneamente gli zombie con cui entra in contatto.\n\n<color=black>Speciale: </color><color=#8B0000>Freezes zombies that eat it in place.</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Malporcino + Brinporcino</color>"
+		},
+		{
+			"seedType": 1037,
+			"name": "Frosporcino",
+			"introduce": "<size=36><color=black>Frosporcino si distingue tra gli Fumporcini. Il suo periodo di studi all'estero nelle gelide terre dell'Alaska lo ha reso ancora più \"cool\"—letteralmente. Anche se ha studiato solo per pochi anni il design dei capelli, ne è molto orgoglioso.</color></size>",
+			"info": "<size=36>Frosporcino può emettere vapori che attraversano e congelano gli zombie.\n\n<color=black>Danno: </color><color=#8B0000>20/1.5 Secondi (Perforazione) </color>\n<color=#0077b6>Sistema di Congelamento: </color><color=#8B0000> Aggiunge 5 Punti di Congelamento dopo ogni attacco.</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Fumporcino + Brinporcino</color>"
+		},
+		{
+			"seedType": 1038,
+			"name": "Brinporcino Tremolante",
+			"introduce": "<size=33><color=black>Brinporcino Tremolante crede di essere diverso dagli altri \"funghetti paurosi\". A differenza loro, non si ritraggono mai per paura e partecipa a tutte le attività senza esitazioni. Tuttavia, questo accade solo perché, quando si spaventa, l'aria intorno a lui scende di temperatura, lasciando tutti troppo spaventati per spaventarlo.</color></size>",
+			"info": "<size=33>Brinporcino Tremolante spara spore congelanti.\n\n<color=black>Danno: </color><color=#8B0000>20/1.5 Secondi</color>\n<color=#0077b6>Sistema di Congelamento: </color><color=#8B0000>10 Punti di Congelamento per attacco.</color>\n<color=black>Speciale: </color><color=#8B0000>Congela gli zombie vicini quando si avvicinano.</color></size>",
+			"cost": "\n<size=33>Formula di Fusione: <color=#8B0000>Porcino Tiratore + Brinporcino</color>"
+		},
+		{
+			"seedType": 1039,
+			"name": "Barriera di Gelo",
+			"introduce": "<size=30><color=black>Barriera di Gelo alzò le sue punte ghiacciate, pronta a fronteggiare gli zombie. Gli altri commentavano su quanto sembrasse \"fredda\" e \"silenziosa.\" Eppure, la sua espressione rimaneva immutata, risoluta nella difesa contro i non morti. La verità era che il suo viso si era semplicemente congelato.</color></size>",
+			"info": "<size=30>Barriera di Gelo è una pianta barriera pesante. Rallenta gli zombie che la mordono.\n\n<color=black>Resistenza: </color><color=#8B0000>8000</color>\n<color=#0077b6>Sistema di Congelamento: </color><color=#8B0000>Gli zombie che la mordono vengono rallentati e accumulano 10 Punti di Congelamento.</color>\n<color=black>Speciale: </color><color=#8B0000>Quando influenzata dal Brinporcino, recupera 1000 punti di resistenza.</color></size>",
+			"cost": "\n<size=30>Formula di Fusione: <color=#8B0000>Brinporcino + Barriera di Noce</color>"
+		},
+		{
+			"seedType": 1040,
+			"name": "Atomporcino Ghiacciato",
+			"introduce": "<size=36><color=black>\"Congelerò il mondo, e il silenzio regnerà. Il freddo estremo sconvolgerà il sistema termico del tuo corpo, quindi non sarà molto doloroso,\" dichiara Atomporcino Ghiacciato. Appare raramente in battaglia, ma quando lo fa, una tormenta segue le sue tracce. Con un lampo di luce bianca, persino il tempo sembra fermarsi.</color></size>",
+			"info": "<size=36>Atomporcino Ghiacciato può distruggere tutti gli zombie sullo schermo e congelare il tempo.\n\n<color=black>Danno: </color><color=#8B0000>1800 (Incenerimento)</color>\n<color=black>Speciale: </color><color=#8B0000>Congela il livello – nessun nuovo zombie apparirà per 10 secondi.</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Brinporcino + Atomporcino</color>"
+		},
+		{
+			"seedType": 1041,
+			"name": "Gelatofungo di Velo",
+			"introduce": "<size=32><color=black>Un'eleganza gelida? Un misterioso fungo da ammirare? Gelatofungo di Velo non si cura delle etichette. Si occupa con grazia del suo ornamento ghiacciato, sempre pronto a trasformare gli zombie in Barriere di Gelo. \"Un po' di fresco è tutto ciò che serve per calmare la loro furia,\" osserva con un sorriso enigmatico.</color></size>",
+			"info": "<size=32>Quando uno zombie mangia un Gelatofungo di Velo, si trasforma in uno Zombie Barriera di Gelo che combatterà per te.\n\n<color=black>Speciale: </color><color=#8B0000>A contatto trasforma uno zombie in uno Zombie Barriera di Gelo che combatterà per te. Inoltre congela l'intero campo.</color></size>",
+			"cost": "\n<size=32>Formula di Fusione: <color=#8B0000>Ipnofungo + Brinporcino</color>"
+		},
+		{
+			"seedType": 1042,
+			"name": "Pazziaporcino Tiratore",
+			"introduce": "<size=33><color=black>Mentre alcune piante preferiscono nascondersi quando sono nervose, Pazziaporcino Tiratore prospera nell'entusiasmo. L'adrenalina lo travolge, portando i suoi spori a sparare con velocità sempre crescente. È meglio non provocarlo troppo, o potrebbe esplodere per tutta l'energia accumulata.</color></size>",
+			"info": "<size=33>La velocità d'attacco di Pazziaporcino Tiratore aumenta man mano che attacca.\n\n<color=black>Danno: </color><color=#8B0000>20 / 1.5 Secondi (0.5 Massimo)</color>\n<color=black>Speciale: </color><color=#8B0000>Ogni attacco riduce l'intervallo di attacco di 0.1 secondi, fino a un massimo di 0.5 secondi. Si resetta quando gli zombie si avvicinano. Esplode se gli zombie si avvicinano mentre ha raggiunto la velocità massima.</color></size>",
+			"cost": "\n<size=33>Formula di Fusione: <color=#8B0000>Porcino Tiratore + Atomporcino</color>"
+		},
+		{
+			"seedType": 1043,
+			"name": "Fuliggiporcino",
+			"introduce": "<size=36><color=black>Fuliggiporcino, il misantropo stacanovista, non sopporta la vista degli zombie—troppo distraenti per i suoi gusti. Ha una piccola scorta di proiettili, ma sono più che letali. \"Non disturbatemi a meno che non sia urgente. Se volete eliminarli, sparate voi stessi.\" Tuttavia, la sua efficienza impeccabile lo rende un modello per tutti.</color></size>",
+			"info": "<size=36>Fuliggiporcino può distruggere la maggior parte degli zombie davanti a sé.\n\n<color=black>Danno: </color><color=#8B0000>1800/60 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>Clicca manualmente per attaccare tutti gli zombie in una fila.</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Fumporcino + Atomporcino</color>"
+		},
+		{
+			"seedType": 1044,
+			"name": "Mini Atomporcino",
+			"introduce": "<size=36><color=black>Mini Atomporcino può essere piccolo, ma il suo temperamento è esplosivo. Discutere con lui e potrebbe esplodere—non è necessario nemmeno fare contatto visivo. È meglio ammirarlo da lontano—ma non avvicinarti troppo, altrimenti le cose potrebbero mettersi male.</color></size>",
+			"info": "<size=36>Mini Atomporcino esploderà al contatto con uno zombie.\n\n<color=black>Danno: </color><color=#8B0000>1800 (Incenerimento)</color>\n<color=black>Speciale: </color><color=#8B0000>Esplode quando gli zombie si avvicinano.</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Malporcino + Atomporcino</color>"
+		},
+		{
+			"seedType": 1045,
+			"name": "Malefunghetto",
+			"introduce": "<size=32><color=black>Le piante si sono sempre chieste perché gli zombi non possano essere uccisi definitivamente. Recentemente, Malefunghetto ha scoperto il mistero: \"Non ho fatto molto,\" ha detto modestamente. \"Ho solo gentilmente aiutato gli zombi ad attivare la loro fonte di energia nascosta di riserva. Non sembra che quel zombie rosso sia particolarmente innocuo? Però li avevo avvertiti.\"</color></size>",
+			"info": "<size=32>Gli zombi che mangiano il Malefunghetto verranno ipnotizzati e esploderanno dopo la morte.\n\n<color=black>Speciale: </color><color=#8B0000>Gli zombi che mangiano il Malefunghetto verranno incantati per combattere al tuo fianco. Lo zombie maledetto esploderà alla sua morte, causando danni massicci.</color></size>",
+			"cost": "\n<size=32>Formula di Fusione: <color=#8B0000>Ipnofungo + Atomporcino</color>"
+		},
+		{
+			"seedType": 1046,
+			"name": "Porcino Atomberg",
+			"introduce": "<size=30><color=black>Il ghiaccio ha avvolto il suo corpo, privandolo dell'innocenza della giovinezza. I suoi occhi, più freddi e letali di qualsiasi canna di fucile, ora mostrano solo disprezzo per i suoi nemici. È diventato il mietitore, la fine della strada. Chiunque sia preso nel suo gelido sguardo farebbe bene a lasciare un pasto in meno a casa.</color></size>",
+			"info": "<size=30>Porcino Atomberg può sparare coni di ghiaccio esplosivi.\n\n<color=black>Danno: </color><color=#8B0000>20*4/3 Secondi</color>\n<color=#0077b6>Sistema di Congelamento: </color><color=#8B0000>Aggiunge 10 Punti di Congelamento agli zombi ad ogni colpo. Infligge 4 volte il danno agli zombi congelati.</color>\n<color=black>Speciale: </color><color=#8B0000>Penetra 3 nemici. Rilascia 10 danni nell'area di contatto nemico.</color></size>",
+			"cost": "<size=30>Formula di Fusione: <color=#8B0000>Fumporcino + Brinporcino + Atomporcino</color>"
+		},
+		{
+			"seedType": 1047,
+			"name": "Spargi-erbacce",
+			"introduce": "<size=34><color=black>\"Ha tre teste, e la sua base non è nemmeno una foglia! Non sembra affatto un pisello normale!\" Molte piante si rannicchiano alla vista dell'aspetto peculiare di Spargi-erbacce. Eppure, Spargi-erbacce rimane impassibile. Si nutre della sua vita vibrante, combattendo contro gli zombi, leggendo avidamente, giocando a scacchi e vincendo ogni gara di salto nelle piscine.</color></size>",
+			"info": "<size=34>Spargi-erbacce può sparare piccole zucche rimbalzanti.\n\n<color=black>Danno: </color><color=#8B0000>40*3/3 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>Ogni volta che una mini-zucca tocca terra, infligge 40 punti di danno agli zombi vicini.</color></size>",
+			"cost": "\n<size=34>Formula di Fusione: <color=#8B0000>Schiacciazombi + Tripla Sparasemi</color>"
+		},
+		{
+			"seedType": 1049,
+			"name": "Alga Piccante",
+			"introduce": "<size=36><color=black>\"La passione è come il fuoco,\" e Alga Piccante conosce questo detto fin troppo bene. Nessuna quantità di acqua può spegnere le sue fiamme ardenti! Peccato che gli zombi vicini possano solo sentire il calore della \"grigliata\". Guardali, si sono già trasformati in cenere in questo fuoco implacabile!</color></size>",
+			"info": "<size=36>Alga Piccante brucerà l'intera fila di zombi al contatto.\n\n<color=black>Danno: </color><color=#8B0000> Uccisione Istantanea + 1800 (Incenerimento)</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Alga Kombu + Jalapeño</color>"
+		},
+		{
+			"seedType": 1050,
+			"name": "Alga Disordinata",
+			"introduce": "<size=36><color=black>Alga Disordinata si distingue come una vera filosofa tra le piante. Spesso si interroga su domande profonde come: \"Da dove viene l'erba, e dove va?\" Tuttavia, la sua mancanza di cura per l'igiene personale e i capelli trasandati fanno sì che altre piante la evitino, preferendo mantenere le distanze.</color></size>",
+			"info": "<size=36>Alga Disordinata può trascinare tre zombi nell'acqua.\n\n<color=black>Danno: </color><color=#8B0000> Uccisione Istantanea*3</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Alga Kombu + Schiacciazombi</color>"
+		},
+		{
+			"seedType": 1051,
+			"name": "Tripla Sparalga",
+			"introduce": "<size=36><color=black>Tripla Sparalga si crogiolava al sole, i suoi occhi scrutavano l'orizzonte. \"Molte piante hanno paura del mio sguardo,\" ridacchiò. \"Ma capirebbero se dovessero indossare tre paia di occhiali da sole per proteggersi, come faccio io!\"</color></size>",
+			"info": "<size=36>Può sparare alghe che rallentano gli zombi.\n\n<color=black>Danno: </color><color=#8B0000>20*3/1.5 Rallenta + Cumulabile con Congelamento</color>\n<color=black>Debuff Intrecciato: </color><color=#8B0000>Ogni alga infligge danni percentuali aggiuntivi in base al Valore d'Intreccio dello zombi. Lo zombi sarà ucciso istantaneamente quando il Valore d'Intreccio è pieno.</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Tripla Sparasemi + Alga Kombu</color>"
+		},
+		{
+			"seedType": 1052,
+			"name": "Tronco in Inferno",
+			"introduce": "<size=30><color=black>\"Fa un caldo infernale qui fuori!\" sbuffò Tronco in Inferno. Convinto che il clima torrido fosse responsabile della sua pelle, notò come le fiamme sulla sua testa fossero diventate di un rosso vivace. Forse era il momento perfetto per dare inizio a un'avventura estiva chiamata \"Tour sulla Slitta.\"</color></size>",
+			"info": "<size=30>Tronco in Inferno può fornire un potenziamento ancora più forte ai proiettili!\n\n<color=black>Speciale: </color><color=#8B0000>Migliora il danno in base al tipo di proiettile. Esplode alla morte.\nPiselli: 80 | Ciliegie: 120 | Monete: 320 | Luce Solare: 400 | Pisello Triplo: 60\nInfligge 40 danni nel tempo agli zombi nell'area ogni 3 secondi.</color></size>",
+			"cost": "\n<size=30>Formula di Fusione: <color=#8B0000>Tronco in Fiamme + Jalapeño + Jalapeño</color>"
+		},
+		{
+			"seedType": 1053,
+			"name": "Tronco Ardente",
+			"introduce": "<size=36><color=black>Le alte temperature e la piccantezza vanno sempre di pari passo. Tronco Ardente potrebbe non afferrare appieno questo concetto, ma i suoi anni passati a lavorare al banco del barbecue lo hanno certamente infuso di un calore distintivo.</color></size>",
+			"info": "<size=36>I proiettili accesi da Tronco Ardente hanno una potenza notevolmente aumentata.\n\n<color=black>Speciale: </color><color=#8B0000>Migliora il danno in base al tipo di proiettile. Incendia la corsia alla morte.\nPiselli: 60, Ciliegie: 120, Monete: 320, Luce Solare: 400, Pisello Triplo: 45</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Jalapeño + Tronco in Fiamme</color>"
+		},
+		{
+			"seedType": 1054,
+			"name": "Schiacciafiamme",
+			"introduce": "<size=36><color=black>\"Non sono impaziente come mio fratello,\" dichiarò tranquillamente Schiacciafiamme. \"Lui si affretta in tutto, ma ho imparato che il vero successo nasce dalla pazienza e dall'osservazione attenta. A volte è meglio aspettare e lasciare che il fuoco si accenda lentamente.\"</color></size>",
+			"info": "<size=36>Schiacciafiamme può bruciare un'intera fila di zombi.\n\n<color=black>Danno: </color><color=#8B0000> 1800 (Singola Casella) + 1800 (Corsia + Cremazione)</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Schiacciazombi + Jalapeño</color>"
+		},
+		{
+			"seedType": 1055,
+			"name": "Tripla Torcia",
+			"introduce": "<size=36><color=black>\"Perché Tripla Torcia è così ricco?\" si domandavano spesso le piante. \"Oh, niente di speciale,\" rispose con un'alzata di spalle. Poi tirò fuori tre piselli dai suoi capelli e aggiunse: \"Una volta lavoravo come mago in un circo.\"</color></size>",
+			"info": "<size=36>Può trasformare un pisello in tre piselli infuocati.\n\n<color=black>Speciale: </color><color=#8B0000>Divide i piselli che lo attraversano in 3 piccoli piselli infuocati che infliggono 30 danni ad area.</color></size>",
+			"cost": "<size=36>Formula di Fusione: <color=#8B0000>Tripla Sparasemi + Tronco in Fiamme</color>"
+		},
+		{
+			"seedType": 1056,
+			"name": "Alga Torcia",
+			"introduce": "<size=36><color=black>\"Il fuoco fatica a esistere sott'acqua, il che significa che non posso usare le mie fiamme per illuminare il cammino,\" ammise Alga Torcia. \"Ma una volta emersa, le mie fiamme possono brillare di nuovo.\"</color></size>",
+			"info": "<size=36>Accendi i colpi d'alga o trascina gli zombi sott'acqua.\n\n<color=black>Speciale: </color><color=#8B0000>Accende i piselli e i colpi d'alga. I colpi d'alga accesi aggiungono 1 Valore Intrico a tutti gli zombi nell'area di esplosione. Ogni 100 colpi accesi, un'Alga Kombu verrà piantata davanti.</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Alga Kombu + Tronco in Fiamme</color>"
+		},
+		{
+			"seedType": 1057,
+			"name": "Golden Squash",
+			"introduce": "<size=30><color=black>火焰窝瓜总是一个接一个从窝炬里跳出来。\"炼瓜炉里太热了，把我身体都要烤化了！\"几个金色的火焰窝瓜一起喊道。</color></size>",
+			"info": "<size=30>他只是一个金色的窝瓜。\n\n<color=black>Danno: </color><color=#8B0000>1800</color></size>",
+			"cost": "\n<size=36>"
+		},
+		{
+			"seedType": 1058,
+			"name": "Tripla Semincendiata",
+			"introduce": "<size=34><color=black>\"Perché Jalapeño si prende sempre tutto il merito?\" esclamò Tripla Semincendiata, con il fumo che gli usciva dalla bocca. \"Se solo sapessero che fondersi con Jalapeño brucia i tuoi piselli.\" Si girò verso Tronco in Fiamme con uno sguardo serio. \"Credimi, non vorresti mai sgranocchiare piselli carbonizzati!\"</color></size>",
+			"info": "<size=34>Una Tripla Sparasemi che non può fondersi perché è incendiata.\n\n<color=black>Danno: </color><color=#8B0000>20*3/1.5 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>Produce una linea di fiamme che infligge 1800 danni (Incenerimento) su tre corsie quando viene piantata o fusa.</color></size>",
+			"cost": "\n<size=34>Formula di Fusione: <color=#8B0000>Tripla Sparasemi + Jalapeño</color>"
+		},
+		{
+			"seedType": 1059,
+			"name": "Torcia Squassata",
+			"introduce": "<size=34><color=black>\"Fa troppo caldo! Troppo caldo!\" Schiacciazombi urlò, intrappolato tra le fiamme di Tronco in Fiamme. \"Chi mi ha messo qui? Dovrei schiacciare gli zombi, non essere la battuta di una festa barbecue!\" Il calore era insopportabile, e mentre raggiungeva il suo limite, si incendiò, esplodendo fuori dalla torcia per rientrare nella battaglia contro gli zombi.</color></size>",
+			"info": "<size=34>Produce uno Schiacciazombi davanti ogni 60 piselli che lo attraversano.\n\n<color=black>Speciale: </color><color=#8B0000>Ogni volta che 60 piselli vengono incendiati, uno Schiacciazombi verrà piantato davanti.</color></size>",
+			"cost": "<size=34>Formula di Fusione: <color=#8B0000>Schiacciazombi + Tronco in Fiamme</color>"
+		},
+		{
+			"seedType": 1060,
+			"name": "Rovo di Pietra",
+			"introduce": "<size=36><color=black>Il Rovo di Pietra è appena rientrato da un viaggio in Europa. Si è divertito parecchio, ha incontrato gente meravigliosa e ampliato i suoi orizzonti. Non sapeva che vi fossero dei musei così grandi e così pieni di quadri. Un'esperienza davvero sorprendente!</color></size>",
+			"info": "<size=36>Il rovo di pietra buca più gomme simultaneamente e danneggia gli zombi che lo calpestano.\n\n<color=black>Resistenza: </color><color=#8B0000>450</color>\n<color=black>Speciale: </color><color=#8B0000>Può forare le gomme, ma sottrae 50 di Resistenza.</color></size>",
+			"cost": "<size=36>Costo: <color=#8B0000>125</color>\nRicarica: <color=#8B0000>50 Secondi</color></size>"
+		},
+		{
+			"seedType": 1061,
+			"name": "Rovo di Torcia",
+			"introduce": "<size=36><color=black>\"Sono Rovo di Torcia, il passionale chef di barbecue degli zombi! Accendi quel piccolo pisello, e organizzerò una festa barbecue indimenticabile per loro. Tranquilli, sono un professionista—garantisco che sarà croccante fuori e morbido dentro!\"</color></size>",
+			"info": "<size=36>Rovo di Torcia può incendiare i piccoli piselli e perforare i veicoli.\n\n<color=black>Speciale: </color><color=#8B0000>Accende i piccoli piselli per aumentare i danni e causare danni ad area. Ogni volta che 100 piccoli piselli vengono incendiati, un Rovo verrà piantato davanti.</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Rovo + Tronco in Fiamme</color>"
+		},
+		{
+			"seedType": 1062,
+			"name": "Rovo Incendiato",
+			"introduce": "<size=36><color=black>\"Gli studi rivelano che la piccantezza è in realtà una forma di dolore,\" annunciò il Rovo Incendiato, scuotendo le spine rosse sulla sua testa. \"Intendo far vivere questa realtà agli zombi scettici personalmente.\"</color></size>",
+			"info": "<size=36>Rovo Incendiato distrugge le gomme e incendia gli zombi che ci passano sopra.\n\n<color=black>Danno: </color><color=#8B0000>20, Infligge il Debuff Infuocato</color>\n<color=#720026>Debuff Infuocato: </color><color=#8B0000>I danni subiti aumentano del 50%; gli zombi con questo debuff esplodono alla morte, diffondendolo ulteriormente.</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Jalapeño + Rovo</color>"
+		},
+		{
+			"seedType": 1063,
+			"name": "Rovo Schiacciante",
+			"introduce": "<size=36><color=black>\"Eh? Sì.\" Questo tormentone appartiene al Rovo Schiacciante, che parla raramente e lascia spesso gli altri nell'incertezza. Dopo cena, l'argomento delle spine diventa sempre il preferito tra le piante. Si dice che, in un pomeriggio qualunque, mentre Schiacciazombi si preparava a schiacciare uno zombi vicino, abbia ignorato le spine nascoste sotto i suoi piedi.</color></size>",
+			"info": "<size=36>Gli zombi verranno respinti ogni volta che attacca.\n\n<color=black>Danno: </color><color=#8B0000>20/1.5 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>Ogni attacco respinge gli zombi e lancia 1 mini-schiacciazombi rimbalzante.</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Schiacciazombi + Rovo</color>"
+		},
+		{
+			"seedType": 1064,
+			"name": "Tripla Spararovo",
+			"introduce": "<size=36><color=black>\"Era solo forfora che ho buttato via,\" dichiarò Rovo con nonchalance. Tripla Spararovo alzò un sopracciglio, scettico. \"Discorsi da invidiosi, se vuoi sapere la mia,\" rispose. \"Non puoi ingannarmi con quella scusa.\"</color></size>",
+			"info": "<size=36>Spara 3 rovi che infliggono danni potenziati ai veicoli.\n\n<color=black>Danno: </color><color=#8B0000>5*3/1.5 Secondi (Perforazione)</color>\n<color=black>Speciale: </color><color=#8B0000>I rovi infliggono il 30% della Resistenza massima ai veicoli.</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Tripla Sparasemi + Rovo</color>"
+		},
+		{
+			"seedType": 1065,
+			"name": "Mitraglia Semiporcino",
+			"introduce": "<size=36><color=black>\"Siamo pronti per unirci all'esercito!\" gridarono con gioia i tre piccoli funghi. Anche se la loro altezza non soddisfaceva i requisiti e trovare elmetti piccoli era una sfida, niente poteva fermare i Mitraglia Semiporcino. Uniti come uno, puntano a diventare il trio migliore dell'esercito.</color></size>",
+			"info": "<size=36>Può essere impilato tre volte per sparare 12 piccoli semi alla volta!\n\n<color=black>Danno: </color><color=#8B0000>20*4/1.5 Secondi</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Malporcino + Sparasemi * 4</color>"
+		},
+		{
+			"seedType": 1066,
+			"name": "Krakerbero",
+			"introduce": "<size=32><color=black>Krakerbero possiede un cuore contemplativo. Se gli offri un bicchiere di root beer, preparati a una dissertazione sulle opere di Nietzsche o Kant. Nonostante i suoi pensieri profondi, a volte desidera conversazioni più spensierate.</color></size>",
+			"info": "<size=32>Spara alghe che rimbalzano al contatto e rallentano gli zombi acquatici.\n\n<color=black>Danno: </color><color=#8B0000>40*3/3 Secondi</color>\n<color=black>Debuff Intrecciato: </color><color=#8B0000>Le alghe rimbalzano al contatto, infliggendo 40 danni agli zombi vicini quando atterrano. Rallenta i nemici acquatici. Aggiunge 1 Valore d'Intreccio al contatto.</color></size>",
+			"cost": "<size=32>Formula di Fusione: <color=#8B0000>Tripla Sparasemi + Schiacciazombi + Alga Kombu</color>"
+		},
+		{
+			"seedType": 1067,
+			"name": "Coda di Gatto",
+			"introduce": "<size=36><color=black>\"Bau!\" dice Coda di Gatto. \"Bau bau bau! Ti confonde? Ti aspetti che io dica 'Miao' come un gatto perché la parola 'gatto' è nel mio nome e assomiglio anche a un gatto? Non è così che funziona qui. Mi rifiuto di essere etichettato.\"</color></size>",
+			"info": "<size=36>Coda di Gatto può attaccare qualsiasi corsia e abbattere gli zombi con palloncini.\n\n<color=black>Danno: </color><color=#8B0000>20*2/1.5 Secondi</color></size>",
+			"cost": "<size=36>Costo: <color=#8B0000>125</color>\nRicarica: <color=#8B0000>50 Secondi</color></size>"
+		},
+		{
+			"seedType": 1068,
+			"name": "Coda di Gatto Glaciale",
+			"introduce": "<size=36><color=black>\"Non sono solo un gatto... Sono... Sono un super gatto blu!\" dichiarò Coda di Gatto Glaciale. \"Hai un po' di erba gatta ghiacciata...?\" Il suo amore per l'erba gatta è evidente, e ha un'irresistibile passione per tutto ciò che è freddo.</color></size>",
+			"info": "<size=36>Coda di Gatto Glaciale può attaccare qualsiasi zombie nella corsia e rallentarli.\n\n<color=black>Danno: </color><color=#8B0000>20*2/1,5 Secondi (Rallenta) </color>\n<color=#0077b6>Sistema di Congelamento: </color><color=#8B0000>Ogni colpo a uno zombie aggiunge 5 Punti di Congelamento. Inoltre, concentra i suoi attacchi sullo zombie colpito.</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Brinporcino + Coda di Gatto</color>"
+		},
+		{
+			"seedType": 1069,
+			"name": "Coda di Gatto Fiammeggiante",
+			"introduce": "<size=36><color=black>\"Da giovane pensavo che sarei stata una normale Coda di Gatto,\" disse Coda di Gatto Fiammeggiante, scaldandosi la coda con orgoglio. \"Si scopre che sono un'infuocata meraviglia!\" Coda di Gatto Glaciale sospirò da un angolo, borbottando: \"Esibizionista.\"</color></size>",
+			"info": "<size=36>Coda di Gatto Fiammeggiante può attaccare zombie in qualsiasi corsia e infliggere danni elevati.\n\n<color=black>Danno: </color><color=#8B0000>40*2/1,5 Secondi</color>\n<color=#720026>Debuff Infuocato: </color><color=#8B0000>Infligge il triplo dei danni agli zombie incendiati.</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Jalapeño + Coda di Gatto</color>"
+		},
+		{
+			"seedType": 1070,
+			"name": "Gran Fumporcino",
+			"introduce": "<size=36><color=black>\"Ho sempre amato produrre dense cortine di fumo\", dice il gran fumporcino. \"So che a molta gente la cosa non piace. Dicono che non è educato e che fa cattivo odore. Ma io ribatto: preferite farvi mangiare il cervello dagli zombi?\"</color></size>",
+			"info": "<size=36>Il gran fumporcino genera attorno a sé una densa cortina di fumo.\n\n<color=black>Danno: </color><color=#8B0000>20*4/1.9 Secondi</color></size>",
+			"cost": "<size=36>Costo: <color=#8B0000>125</color>\nRicarica: <color=#8B0000>50 Secondi</color></size>"
+		},
+		{
+			"seedType": 1071,
+			"name": "Granporcino Ardente",
+			"introduce": "<size=36><color=black>La capacità del Granporcino Ardente di rilasciare vapore caldo lo ha reso un pasticciere celebre. I suoi pasticcini speziati sono un classico amato da molti, apprezzati per i loro sapori unici.</color></size>",
+			"info": "<size=36>Rilascia fumi incandescenti che infliggono danni elevati intorno a sé.\n\n<color=black>Danno: </color><color=#8B0000>40*4/1,9 Secondi</color>\n<color=#720026>Debuff Infuocato: </color><color=#8B0000>Infligge il Debuff Infuocato attaccando gli zombie.</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Jalapeño + Granporcino</color>"
+		},
+		{
+			"seedType": 1072,
+			"name": "Granporcino Glaciale",
+			"introduce": "<size=36><color=black>Sognando una carriera da fisico, il Granporcino Glaciale dedica le sue giornate a svelare le complessità del mondo, evitando il contatto con le altre piante. \"Perché ho più filamenti di coni di ghiaccio che spuntano dalla mia testa?\" si chiede, l'ultima domanda che occupa i suoi pensieri. È stranamente fermo nel chiamarli \"filamenti.\"</color></size>",
+			"info": "<size=36>Rilascia fumi freddi intorno a sé che possono congelare gli zombie.\n\n<color=black>Danno: </color><color=#8B0000>20*4/1,9 Secondi (Perforazione) </color>\n<color=#0077b6>Sistema di Congelamento: </color><color=#8B0000>Ogni attacco aggiunge 5 Punti di Congelamento.</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Brinporcino + Granporcino</color>"
+		},
+		{
+			"seedType": 1073,
+			"name": "Barriera di Ardente",
+			"introduce": "<size=34><color=black>La Barriera di Ardente è un grande fan delle Olimpiadi e insiste con passione che il Tronco in Fiamme venga scelto come torcia olimpica. Un avvertimento per gli sprovveduti: non provate a mangiarla. Potreste ritrovarvi in fiamme per il calore piccante.</color></size>",
+			"info": "<size=34>Gli zombie si incendiano quando la mordono.\n\n<color=black>Resistenza: </color><color=#8B0000>8000</color>\n<color=#720026>Debuff Infuocato: </color><color=#8B0000>Gli zombie incendiati saranno il 50% più vulnerabili a tutti gli attacchi.</color>\n<color=black>Speciale: </color><color=#8B0000>Quando colpita dal Jalapeño, recupera 1000 di Resistenza. Gli zombie che la attaccano perdono anche 20 Salute per ogni morso.</color></size>",
+			"cost": "\n<size=34>Formula di Fusione: <color=#8B0000>Jalapeño + Barriera di Noce</color>"
+		},
+		{
+			"seedType": 1074,
+			"name": "Rovo di Glaciale",
+			"introduce": "<size=31><color=black>Dopo il suo ritorno dall'Alaska, il Rovo di Glaciale non riusciva a contenere l'entusiasmo. Impaziente di congelare gli zombie sul posto, adorava l'idea del \"ghiaccio\" che esplodeva sotto i loro piedi. Si assicurò che tutti usassero il termine \"ghiaccio.\" La sua pelle portava ancora il gelo della sua avventura artica, e i suoi occhi brillavano con la lucentezza della neve che non si scioglie.</color></size>",
+			"info": "<size=31>Può perforare le gomme e congelare gli zombie.\n\n<color=black>Resistenza: </color><color=#8B0000>450</color>\n<color=black>Danno: </color><color=#8B0000>20*2/1 Secondi (Rallenta) </color>\n<color=#0077b6>Sistema di Congelamento: </color><color=#8B0000>Aggiunge 5 Punti di Congelamento per attacco.</color>\n<color=black>Speciale: </color><color=#8B0000>Può perforare le gomme, eliminando istantaneamente i veicoli.</color></size>",
+			"cost": "\n<size=31>Formula di Fusione: <color=#8B0000>Brinporcino + Rovo di Pietra</color>"
+		},
+		{
+			"seedType": 1075,
+			"name": "Rovo di Infernale",
+			"introduce": "<size=34><color=black>Non molto tempo fa, il Rovo di Infernale viaggiò in Messico e fu travolto dall'entusiasmo vibrante della gente del posto, innamorandosi rapidamente dei tacos. Ora sta dedicando tutte le sue energie a un museo del taco insieme al Rovo di Glaciale, anche se quest'ultimo non sembra condividere lo stesso entusiasmo.</color></size>",
+			"info": "<size=34>Incendia gli zombie che ci camminano sopra e perfora anche i veicoli.\n\n<color=black>Resistenza: </color><color=#8B0000>450</color>\n<color=black>Danno: </color><color=#8B0000>40*2/1 Secondi</color>\n<color=#720026>Debuff Infuocato: </color><color=#8B0000>Applica il Debuff Infuocato attaccando gli zombie.</color></size>",
+			"cost": "\n<size=34>Formula di Fusione: <color=#8B0000>Jalapeño + Rovo di Pietra</color>"
+		},
+		{
+			"seedType": 1076,
+			"name": "Fungo Spinamarino",
+			"introduce": "<size=36><color=black>\"Le persone mi chiedono spesso del mio aspetto, quindi lasciate che chiarisca: vengo dal Deserto del Namib,\" disse Fungo Spinamarino a chiunque lo chiedesse. \"Se conoscete la geografia, saprete che un deserto può trovarsi proprio accanto all'oceano!\"</color></size>",
+			"info": "<size=36>Attacca gli zombie volanti e gli aeroplani, crescendo in dimensioni dopo un po'.\n\n<color=black>Danno: </color><color=#8B0000>20 → 20*4 / 1,5 Secondi</color>\n<color=black>Tempo di Crescita: </color><color=#8B0000>120 Secondi</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Fungo di Mare + Cactus</color>"
+		},
+		{
+			"seedType": 1077,
+			"name": "Buonporcino Marino",
+			"introduce": "<size=36><color=black>\"Purtroppo, sono un fungo, non un fiore, quindi non posso essere chiamato fiore di mare o qualcosa di simile,\" ammise Buonporcino Marino. \"A volte questo mi demoralizza, ma non lasciate che vi disturbi. Potrei non essere un girasole, ma posso comunque usare diverse reazioni fisiche e chimiche nell'acqua per portarvi un po' di sole!\"</color></size>",
+			"info": "<size=36>Produce quantità crescenti di Sole man mano che cresce.\n\n<color=black>Produzione di Sfere </color><color=#8B0000>15 → 25 → 50 / 15 Secondi</color>\n<color=black>Tempo di Crescita: </color><color=#8B0000>20 Secondi → 40 Secondi</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Fungo di Mare + Girasole</color>"
+		},
+		{
+			"seedType": 1078,
+			"name": "Fungo Lampione Marino",
+			"introduce": "<size=31><color=black>\"Sono stato un sistema di luci a una festa in piscina di pirati, ho lavorato per una compagnia di recupero subacqueo nell'Amazonas per tre mesi, e persino usato come esca da pesca notturna mentre dormivo!\" raccontò Fungo Lampione Marino, con un misto di rabbia e orgoglio nella voce. \"Ora sto cercando un lavoro stabile. Zio Dave ha detto che il giardino aveva bisogno di illuminazione, ma si è dimenticato di menzionare che era infestato da zombie!\"</color></size>",
+			"info": "<size=31>Dispella la nebbia e fornisce luce, crescendo in dimensioni dopo un po'.\n\n<color=black>Tempo di Crescita: </color><color=#8B0000>60 Secondi</color>\n<color=#99582a>Sistema Luminoso: </color><color=#8B0000>Fornisce 1 Livello Luminoso in una griglia 3x3, 5x5 dopo la crescita.</color></size>",
+			"cost": "\n<size=31>Formula di Fusione: <color=#8B0000>Fungo di Mare + Pianterna</color>"
+		},
+		{
+			"seedType": 1079,
+			"name": "Lumina Cactus",
+			"introduce": "<size=34><color=black>\"Le mie avventure nel deserto mi hanno reso straordinariamente brillante,\" si vantava Lumina Cactus, ma non dimenticava mai di rifornire l'olio della sua lampada ogni giorno per assicurarsi di continuare a brillare.</color></size>",
+			"info": "<size=34>Scaglia punte perforanti e laser, a seconda del livello di Lumos.\n\n<color=black>Danno: </color><color=#8B0000>20/1,5 Secondi, 20*2/1,5 Secondi (Aereo)</color>\n<color=#99582a>Sistema Luminoso: </color><color=#8B0000>Ottiene i seguenti potenziamenti a seconda del Livello Luminoso:\nLivello 1 = Perfora 3 Volte\nLivello 2 = Perforazione infinita\nLivello 3 = Danno Laser Aereo → 60</color></size>",
+			"cost": "\n<size=34>Formula di Fusione: <color=#8B0000>Pianterna + Cactus</color>"
+		},
+		{
+			"seedType": 1080,
+			"name": "Lumina Trifogliatore",
+			"introduce": "<size=36><color=black>\"La candela d'argento illumina l'autunno, mentre la ventola di seta danza con le lucciole.\" Lumina Trifogliatore ama questa poesia. Fin da piccola, ammira le lucciole di notte, seguendone la luce che sale col vento e si posa sull'erba. Solo gli zombi ignorerebbero tale bellezza.</color></size>",
+			"info": "<size=34>Disperde la nebbia e aumenta il livello Lumos delle Piante Lumiose presenti.\n\n<color=#99582a>Sistema Luminoso: </color><color=#8B0000>Concede 1 Livello Luminoso alle Piante Lumiose nell'intero campo per 30 secondi.</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Pianterna + Trifogliatore</color>"
+		},
+		{
+			"seedType": 1081,
+			"name": "Stellaluce",
+			"introduce": "<size=31><color=black>Le stelle danzano sull'acqua e la marea le fa emergere nel cielo. Da bambina, Stellaluce sognava di raccoglierle, finché Pianterna le insegnò che anche la luce più flebile, come quella delle lucciole, ha il suo calore e la sua bellezza.</color></size>",
+			"info": "<size=31>Spara stelle che possono inseguire gli zombi se c'è luce.\n\n<color=black>Danno: </color><color=#8B0000>40*5/3 Secondi</color>\n<color=#99582a>Sistema Luminoso: </color><color=#8B0000>Ottiene i seguenti potenziamenti: \nLivello 1 = Le stelle ora possono inseguire gli zombi nella stessa fila.\nLivello 2 = Le stelle vengono sparate continuamente indipendentemente dagli zombi.\nLivello 3 = Le stelle inseguono gli zombi ovunque.</color></size>",
+			"cost": "\n<size=31>Formula di Fusione: <color=#8B0000>Pianterna + Frutto a Stella</color>"
+		},
+		{
+			"seedType": 1082,
+			"name": "Pallospino",
+			"introduce": "<size=36><color=black>I Pallospini si muovono sempre in gruppo, cinguettando con arroganza e guardando dall'alto in basso gli altri. Le altre piante sono curiose di cosa possano fare creature così piccole, ma i Pallospini rimangono impassibili: \"Se le farfalle possono scatenare una tempesta, allora naturalmente noi siamo molto più potenti.\"</color></size>",
+			"info": "<size=36>Scaglia spine per attaccare gli zombi nel cielo. Non occupa nessuna griglia.\n\n<color=black>Danno: </color><color=#8B0000>20*2 / 1.5 secondi (Pianta), 20*2 / 1 secondo (Compagno volante)</color>\n<color=black>Speciale: </color><color=#8B0000>Può essere piantato sopra un'altra pianta.</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Cactus + Trifogliatore</color>"
+		},
+		{
+			"seedType": 1083,
+			"name": "Stellamarino",
+			"introduce": "<size=36><color=black>\"Anche se il mio nome somiglia a quello di un animale, è solo un nome d'arte,\" spiegò Stellamarino. \"Sono un mago che può espellere spore di varie forme.\" Nutre un profondo disprezzo per gli zombi subacquei, temendo che possano scoprire la verità: è semplicemente un fungo marino con una pistola ad acqua a forma di stella sulla testa.</color></size>",
+			"info": "<size=36>Attacca due volte quando completamente cresciuto.\n\n<color=black>Danno: </color><color=#8B0000>20*5 → 20*5*2 / 1.5 secondi</color>\n<color=black>Tempo di Crescita: </color><color=#8B0000>60 secondi</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Fungo di Mare + Frutto a Stella</color>"
+		},
+		{
+			"seedType": 1084,
+			"name": "Stellatrifoglio",
+			"introduce": "<size=36><color=black>\"Raccogli le stelle intorno a me e donale a chi esprime un desiderio su una stella cadente,\" dichiara orgogliosamente Stellatrifoglio, credendo che sia una missione nobile. Tuttavia, non tutti lo apprezzano—specialmente quando la pioggia di stelle arriva direttamente verso di loro.</color></size>",
+			"info": "<size=36>Attira le stelle a ruotare intorno a sé e le lancia fuori.\n\n<color=black>Speciale: </color><color=#8B0000>Attira i proiettili stellari nelle vicinanze. Dopo 6 secondi, li spara come proiettili che inseguono gli zombi, con il doppio della velocità e del danno. Attira un massimo di 20 stelle.</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Trifogliatore + Frutto a Stella</color>"
+		},
+		{
+			"seedType": 1085,
+			"name": "Stellaspina",
+			"introduce": "<size=36><color=black>Stellaspina è sempre stata una piccola stranezza. Le piante scherzano, \"Sta sempre a terra ma combatte solo contro gli zombi volanti. Perché non attacca quelli a terra?\" Stellaspina, sempre paziente, non dice nulla, proteggendo in silenzio il suo segreto: la sua vista debole gli permette di vedere solo il cielo quando è sdraiata.</color></size>",
+			"info": "<size=36>Può attaccare solo gli zombi nel cielo.\n\n<color=black>Danno: </color><color=#8B0000>20*5/1.5 secondi</color>\n<color=black>Speciale: </color><color=#8B0000>Le stelle spinose inseguono gli zombi volanti su tutto il campo.</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Cactus + Frutto a Stella</color>"
+		},
+		{
+			"seedType": 1086,
+			"name": "Fungo Soffiomarino",
+			"introduce": "<size=36><color=black>Fungo Soffiomarino ha aspirazioni grandi come quelle di un drago. Avendo padroneggiato l'antica arte del \"Feng Shui\" orientale, conosce bene le posizioni favorevoli e sfavorevoli. Comprendendo che vento e acqua si completano a vicenda, spera di tenere lontane le disgrazie, sia volando nel cielo che scivolando nell'acqua.</color></size>",
+			"info": "<size=36>Dissipa la nebbia e respinge gli zombi nell'acqua.\n\n<color=black>Speciale: </color><color=#8B0000>Dissipa la nebbia e respinge gli zombi acquatici.</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Fungo di Mare + Trifogliatore</color>"
+		},
+		{
+			"seedType": 1087,
+			"name": "Lanterna di Jack",
+			"introduce": "<size=36><color=black>Lanterna di Jack insiste di incontrare spesso fantasmi, ma esistono davvero? Chi può dirlo con certezza? Forse è stato semplicemente trascinato in un altro giro di festeggiamenti di Halloween da qualcuno desideroso di un bel brivido.</color></size>",
+			"info": "<size=36>In una piccola area, dissipa la nebbia e aumenta il Livello Luminoso per le Piante Lumiose al suo interno.\n\n<color=black>Resistenza: </color><color=#8B0000>4000</color>\n<color=#99582a>Sistema Luminoso: </color><color=#8B0000>Fornisce 1 Livello Luminoso in una griglia 3x3. Ripristina 150 Resistenza per Livello Luminoso ogni 15 secondi.</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Pianterna + Zucca</color>"
+		},
+		{
+			"seedType": 1088,
+			"name": "Zuccaspina",
+			"introduce": "<size=36><color=black>Zuccaspina potrebbe sembrare un lontano parente della Zucca, ma la sua forma attuale deriva da un'avventura nel deserto con il Trifogliatore. Stranamente, non sembra avere spine visibili, eppure le piante che cercano di saltarci sopra finiscono sempre punte, lasciandole a chiedersi come sia possibile.</color></size>",
+			"info": "<size=36>Contrattacca gli zombi che lo mordono.\n\n<color=black>Resistenza: </color><color=#8B0000>4000</color>\n<color=black>Speciale: </color><color=#8B0000>Danneggia i nemici che attaccano.</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Cactus + Zucca</color>"
+		},
+		{
+			"seedType": 1089,
+			"name": "Zuccastella",
+			"introduce": "<size=36><color=black>Le persone si chiedono spesso quante lingue debba conoscere Zuccastella per comunicare facilmente con tutte le piante. Zuccastella sorride e dice: \"In realtà parlo solo la lingua del Frutto a Stella, dato che è l'unico con cui lavoro a stretto contatto.\"</color></size>",
+			"info": "<size=36>Aiuta Stellatrifoglio a trattenere più stelle.\n\n<color=black>Resistenza: </color><color=#8B0000>4000</color>\n<color=black>Speciale: </color><color=#8B0000>Aumenta il limite di stoccaggio di Stellatrifoglio a 60.</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Frutto a Stella + Zucca</color>"
+		},
+		{
+			"seedType": 1090,
+			"name": "Sparasemi Bidirezionale",
+			"introduce": "<size=36><color=black>I fratelli Sparasemi Bidirezionale litigavano sempre sulla direzione migliore per sparare: in avanti o indietro. Ma ora hanno trovato una soluzione ingegnosa: basta far rimbalzare i piselli. Problema risolto!</color></size>",
+			"info": "<size=36>Gli Sparasemi Bidirezionale sparano piselli in avanti e indietro.\n\n<color=black>Danno: </color><color=#8B0000>20*3/1.5 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>I piselli sparati all'indietro rimbalzano e si muovono in avanti.</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Super Sparasemi + Sparasemi</color>"
+		},
+		{
+			"seedType": 1091,
+			"name": "Zuccavento",
+			"introduce": "<size=36><color=black>Per Zuccavento, apparire al meglio è una priorità assoluta. Non esce mai di casa senza prima passare almeno mezz'ora a sistemare le foglie sulla sua testa, assicurandosi che il suo stile sia impeccabile.</color></size>",
+			"info": "<size=36>Ogni tanto genera un Trifogliatore per spazzare via la nebbia.\n\n<color=black>Resistenza: </color><color=#8B0000>4000</color>\n<color=black>Speciale: </color><color=#8B0000>Produce un Trifogliatore ogni 30 secondi.</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Trifogliatore + Zucca</color>"
+		},
+		{
+			"seedType": 1092,
+			"name": "Zucca Magnetica",
+			"introduce": "<size=32><color=black>Andare a cena fuori fa venire i brividi a Zucca Magnetica. Ha sempre paura che le posate di ferro si attacchino magicamente al suo viso, trasformando un pasto piacevole in un'esperienza imbarazzante.</color></size>",
+			"info": "<size=32>Può fondersi con materiali metallici dei zombie per assorbirne le proprietà.\n\n<color=black>Resistenza: </color><color=#8B0000>4000</color>\n<color=black>Sistema Magnetico: </color><color=#8B0000>Questa pianta infliggerà:\n(20 * Numero di Piante Magnetiche nel Sistema * Velocità degli Zombie) a specifici zombie ogni 6 secondi. Solo gli zombie con materiali magnetizzabili O veicoli meccanici possono essere danneggiati in questo modo. Inoltre, non devono essere né in cielo né sottoterra.</color></size>",
+			"cost": "\n<size=32>Formula di Fusione: <color=#8B0000>Zucca + Calamifungo</color>"
+		},
+		{
+			"seedType": 1093,
+			"name": "Catturastelle",
+			"introduce": "<size=36><color=black>Catturastelle coltiva un sogno di una vita: aspirare le stelle dal cielo. Ogni notte fissa i cieli stellati, immaginando il giorno in cui il suo sogno diventerà realtà.</color></size>",
+			"info": "<size=36>Può fondersi con materiali metallici degli zombie per assorbirne le proprietà.\n\n<color=black>Danno: </color><color=#8B0000>20*5/1.5 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>Infligge il doppio dei danni agli zombie metallici.</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Frutto a Stella + Calamifungo</color>"
+		},
+		{
+			"seedType": 1094,
+			"name": "Stelloclown",
+			"introduce": "<size=34><color=black>Stelloclown portava spesso il peso di essere visto come un clown da circo, il che lo rendeva scontento. \"Posso sembrare comico, ma in realtà sono un supereroe,\" dichiarò. \"Ho preso il Jack-in-the-Box degli zombie e ho indossato il costume da eroe al suo interno!\" Forse il Calamifungo che lo ha aiutato nel colpo non ha mai detto da dove proveniva la scatola.</color></size>",
+			"info": "<size=34>Spara stelle che esplodono al contatto.\n\n<color=black>Danno: </color><color=#8B0000>40*5/3 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>Le stelle esplodono causando piccoli danni ad area al contatto.</color></size>",
+			"cost": "<size=34>Formula di Fusione: <color=#8B0000>(Frutto a Stella + Calamifungo) + Jack-in-the-Box</color>"
+		},
+		{
+			"seedType": 1095,
+			"name": "Stelloscavatore",
+			"introduce": "<size=34><color=black>\"Somiglia incredibilmente a un piccone,\" commentò Stelloscavatore con un accenno di divertimento. \"Sento una parte di me accoccolata nel terreno, ed è piuttosto piacevole—tranne quando ci sono insetti come i centopiedi.\" Con un sorriso malizioso, lanciò una sfida: \"Perché non provi a togliermi il cappello? Scoprirai che assomiglio ancora di più a un piccone!\"</color></size>",
+			"info": "<size=34>Stelloscavatore si nasconde sottoterra: gli zombie non lo attaccheranno.\n\n<color=black>Danno: </color><color=#8B0000>20*5/1.5 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>Non può essere attaccato.</color></size>",
+			"cost": "<size=34>Formula di Fusione: <color=#8B0000>(Frutto a Stella + Calamifungo) + Piccone</color>"
+		},
+		{
+			"seedType": 1096,
+			"name": "Stellacciaio",
+			"introduce": "<size=34><color=black>Spesso le persone usano i ritratti di Stellacciaio e Stelluresca per creare hype sulla loro relazione, il che li mette in forte imbarazzo. In realtà, Stellacciaio desidera soltanto essere se stesso: una stella con un cuore di pietra, difficile da arrugginire.</color></size>",
+			"info": "<size=34>Spara stelle rivestite di uno strato metallico.\n\n<color=black>Resistenza: </color><color=#8B0000>2000</color>\n<color=black>Danno: </color><color=#8B0000>40*5/1.5 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>Spinge indietro i nemici al contatto. Infligge danni enormi agli Zombie di Ferro e distrugge porte di ferro.</color></size>",
+			"cost": "<size=34>Formula di Fusione: <color=#8B0000>(Frutto a Stella + Calamifungo) + Secchio</color>"
+		},
+		{
+			"seedType": 1097,
+			"name": "Zucca d'Acciaio",
+			"introduce": "<size=36><color=black>\"Vorrei essere più forte,\" riflette la Zucca d'Acciaio. \"Forse se fossi fatta di diamante...\" Stellacciaio sorride e risponde: \"Nemmeno quello basterebbe! Dovresti essere di netherite!\" Nel loro vivace scambio di battute, dimenticano una verità fondamentale: possono incantare la loro forza.</color></size>",
+			"info": "<size=36>Protegge le tue piante con un robusto strato di ferro.\n\n<color=black>Resistenza: </color><color=#8B0000>8000</color></size>",
+			"cost": "<size=36>Formula di Fusione: <color=#8B0000>(Zucca + Calamifungo) + Secchio</color>"
+		},
+		{
+			"seedType": 1098,
+			"name": "Zucca Giullare",
+			"introduce": "<size=36><color=black>\"Ogni volta che appaio, annuncio l'arrivo del clown. Tutti si chiedono cosa si nasconda nella sua scatola, ma il risultato resta un mistero. Una volta ho dato una sbirciata, e quel momento ha cambiato tutto per me.\"</color></size>",
+			"info": "<size=36>Può bloccare le esplosioni causate dagli Zombi con Jack-in-the-Box.\n\n<color=black>Resistenza: </color><color=#8B0000>4000</color>\n<color=black>Speciale: </color><color=#8B0000>Annulla i danni da esplosione del Jack-in-the-Box, proteggendo la pianta al suo interno.</color></size>",
+			"cost": "<size=36>Formula di Fusione: <color=#8B0000>(Zucca + Calamifungo) + Jack-in-the-Box</color>"
+		},
+		{
+			"seedType": 1099,
+			"name": "Zucca Minatore",
+			"introduce": "<size=34><color=black>La Zucca viene spesso usata per proteggere le piante sul retro dagli attacchi degli Zombi Minatore. Curioso di impedire ai minatori di scavare, ha preso in mano i loro Picconi e li ha studiati. Alla fine, ha sviluppato una nuova tecnologia che costringe i minatori a emergere in anticipo.</color></size>",
+			"info": "<size=34>Può bloccare i tentativi di scavo degli Zombi Minatore.\n\n<color=black>Resistenza: </color><color=#8B0000>4000</color>\n<color=black>Speciale: </color><color=#8B0000>Costringe gli Zombi Minatore a emergere prematuramente.</color></size>",
+			"cost": "\n<size=34>Formula di Fusione: <color=#8B0000>(Zucca + Calamifungo) + Piccone</color>"
+		},
+		{
+			"seedType": 1100,
+			"name": "Lumina Magnetica",
+			"introduce": "",
+			"info": "<size=36>L'intervallo di attrazione e il raggio migliorano in base al Livello Luminoso.\n\n<color=black>Intervallo Magnetico: </color><color=#8B0000>15 Secondi (LL0) → 11 Secondi → 7.5 Secondi → 5 Secondi (LL3)</color>\n<color=black>Raggio Magnetico: </color><color=#8B0000>+1 (LL1) → +2 → +3</color>\n<color=#99582a>Sistema Luminoso: </color><color=#8B0000>Livelli Luminosi più alti riducono significativamente l'intervallo di attrazione e aumentano il raggio di attrazione. Al Livello Luminoso 2, l'attrazione infligge 200 danni agli zombi vicini al bersaglio dell'attrazione.</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Pianterna + Calamifungo</color>"
+		},
+		{
+			"seedType": 1101,
+			"name": "Magnefungo di Mare",
+			"introduce": "<size=36><color=black>Gli altri funghi marini non riuscivano a capire come il Magnefungo di Mare riuscisse ad assorbire il ferro per diventare più grande e alto. \"È semplice: E=mc²,\" spiegò, anche se la maggior parte dell'energia veniva dispersa nell'aria e non veniva mai utilizzata.</color></size>",
+			"info": "<size=36>È strano... Perché anche il magnete cresce mentre lui cresce?\n\n<color=black>Intervallo del Magnete: </color><color=#8B0000>15 Secondi → 10 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>Cresce dopo aver attirato 3 volte.</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Fungo di Mare + Calamifungo</color>"
+		},
+		{
+			"seedType": 1102,
+			"name": "Trifoglio Magnetico",
+			"introduce": "<size=36><color=black>Le piante chiamano spesso il Trifoglio Magnetico \"Magneto.\" Lui lancia con sicurezza il suo incantesimo preferito, \"Disarmo!\" contro gli zombi, anche se non ha idea di come funzioni la conversione dell'energia del vento in energia magnetica dietro le quinte.</color></size>",
+			"info": "<size=36>Risucchia tutti gli oggetti di ferro presenti.\n\n<color=black>Speciale: </color><color=#8B0000>Attrae fino a 10 oggetti di ferro.</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Trifogliatore + Calamifungo</color>"
+		},
+		{
+			"seedType": 1103,
+			"name": "Magnetspina",
+			"introduce": "<size=32><color=black>Magnetspina ha trascorso del tempo studiando le interferenze nelle comunicazioni all'Accademia della Forza Aerea, vantandosi spesso con i suoi amici dei suoi ottimi voti. Ciò che non si rende conto è che il suo successo è dovuto principalmente a suo padre, un alto comandante della Forza Aerea che manovrava dietro le quinte.</color></size>",
+			"info": "<size=32>Può causare danni elevati agli oggetti volanti.\n\n<color=black>Danno: </color><color=#8B0000>20/1.5 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>Causa il doppio del danno a corazze metalliche. Causare una certa quantità di danno alle Navi Volanti può farle schiantare, infliggendo 1000 danni agli zombi nelle vicinanze del sito dell'incidente.</color></size>",
+			"cost": "\n<size=32>Formula di Fusione: <color=#8B0000>Cactus + Calamifungo</color>"
+		},
+		{
+			"seedType": 1104,
+			"name": "Stellacaduta",
+			"introduce": "<size=30><color=black></color></size>",
+			"info": "<size=28>Evoca un meteorite che infligge danni devastanti.\n\n<color=black>Danno: </color><color=#8B0000>60*5/3 Secondi</color>\n<color=#99582a>Sistema Luminoso: </color><color=#8B0000>I livelli Lumos da 1 a 3 hanno lo stesso effetto di Stellaluce. Al raggiungimento del Livello Luminoso 4, evoca un altro tipo di meteorite con un tempo di ricarica separato dal meteorite originale.</color>\n<color=#495057>Sistema Magnetico: </color><color=#8B0000>Ogni pianta connessa al Sistema Magnetico aumenta il danno delle stelle del 5%.\n<color=#6A0C9D>Entrambi i sistemi possono aumentare il danno delle stelle fino a un massimo di 120.</color>\n<color=black>Speciale: </color><color=#8B0000>Evoca un meteorite che colpisce il terreno ed esplode in stelle ogni 60 secondi. Il tempo di ricarica può essere ridotto collegando altri Stellacaduti insieme, fino a un massimo di 13 per un tempo di ricarica migliorato di 25 secondi.</color>\n<color=black>Buff Esclusivo Odyssey: </color><color=#8B0000>Il tempo di ricarica di tutti i meteoriti è dimezzato | Sottospecie Gravitron Sbloccata</color></size>",
+			"cost": "\n<size=28>Formula di Fusione: <color=#8B0000>Pianterna + Calamifungo + Frutto a Stella</color>"
+		},
+		{
+			"seedType": 1105,
+			"name": "Super Sparabrina",
+			"introduce": "<size=36><color=black>\"Cosa ti è successo?\" chiese una pianta curiosa a Super Sparabrina. Lui rise dolcemente e rispose, \"Sono ancora un Super Sparasemi nel cuore. Ho solo dimenticato di rannicchiarmi sotto una coperta durante le notti invernali.\"</color></size>",
+			"info": "<size=36>Spara due piselli congelati in successione.\n\n<color=black>Danno: </color><color=#8B0000>20*2/1.5 Secondi</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Super Sparasemi + Brinporcino</color>"
+		},
+		{
+			"seedType": 1106,
+			"name": "Mitragliabrina",
+			"introduce": "<size=36><color=black>\"Le sue mani sono fredde, il suo viso è freddo, il suo cuore è freddo, e anche il suo sangue è freddo… È congelato?\" si chiese qualcuno ad alta voce. Mitragliabrina si scosse, rassicurando le piante preoccupate, \"Non sono congelato! La canna della mia mitragliatrice è ancora ardentemente calda!\"</color></size>",
+			"info": "<size=36>Mitragliabrina spara quattro piselli congelati alla volta.\n\n<color=black>Danno: </color><color=#8B0000>20*4/1.5 Secondi</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Mitragliasemi + Brinporcino</color>"
+		},
+		{
+			"seedType": 1107,
+			"name": "Sparabrina Bidirezionale",
+			"introduce": "<size=36><color=black>\"Non lasciarti ingannare dalla sua facciata di ghiaccio; potrebbe esserci un calore nascosto,\" suggerì qualcuno. Ma Zombi Minatore snobbò, \"Non fare supposizioni stupide. Questo tipo ha solo lati freddi!\"</color></size>",
+			"info": "<size=36>Spara piselli congelati in avanti e indietro.\n\n<color=black>Danno: </color><color=#8B0000>20*3/1.5 Secondi</color></size>",
+			"cost": "<size=36>Formula di Fusione: <color=#8B0000>Sparasemi Bidirezionale + Brinporcino</color>"
+		},
+		{
+			"seedType": 1108,
+			"name": "Sparaciliegia Bidirezionale",
+			"introduce": "<size=36><color=black>Sparaciliegia strisciò fuori dalla trincea, confuso. \"Chi ha lanciato quella bomba?\" chiese. \"Scusa, fratello,\" rispose imbarazzato Sparaciliegia Bidirezionale, \"Ti ho visto puntare la tua arma verso di noi e pensavo fossi uno zombi.\"</color></size>",
+			"info": "<size=36>Sparaciliegia Bidirezionale spara ciliegie in avanti e indietro.\n\n<color=black>Danno: </color><color=#8B0000>60*3/1.5 Secondi</color></size>",
+			"cost": "<size=36>Formula di Fusione: <color=#8B0000>Sparasemi Bidirezionale + Ciliegia Esplosiva</color>"
+		},
+		{
+			"seedType": 1109,
+			"name": "Pisello Cecchino",
+			"introduce": "<size=36><color=black>Amato per la sua vista acuta e la sua forza robusta, Pisello Cecchino è adorato dai suoi compagni Piselli. Tuttavia, durante le loro marce in formazione, la canna della sua arma finisce spesso nella parte posteriore delle loro teste, creando momenti di tensione lungo il cammino.</color></size>",
+			"info": "<size=36>Spara zombi su tutta la mappa infliggendo danni enormi.\n\n<color=black>Danno: </color><color=#8B0000>500/3 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>Colpo alla testa ogni 6 attacchi, uccidendo istantaneamente gli zombi.</color></size>",
+			"cost": "<size=36><color=#6A0C9D>Condizione di Utilizzo: Modalità Torre di Difesa su Mappe Grandi</color></size>"
+		},
+		{
+			"seedType": 1110,
+			"name": "Zucca Trifogliospina",
+			"introduce": "<size=32><color=black>La Zucca Trifogliospina ha sempre tenuto tre libri sulla sua mensola, i cui titoli erano nascosti agli occhi curiosi delle altre piante. Un giorno, la curiosità di un Pallospino lo portò nello studio, dove scoprì i titoli: \"Guida alla Coltivazione delle Piante Succulente,\" \"Cura Post-Parto per le Zucche,\" e \"Tutorial Volo Rapido per Cactus in 30 Secondi.\" Il Pallospino rise di quella collezione inaspettata.</color></size>",
+			"info": "<size=32>Evoca un Pallospino che si muove per il campo per attaccare gli zombi volanti.\n\n<color=black>Resistenza: </color><color=#8B0000>4000</color>\n<color=black>Speciale: </color><color=#8B0000>Ha sempre un Pallospino come compagno quando appare. Evoca un Pallospino sopra una griglia 3x3 regolarmente.</color></size>",
+			"cost": "\n<size=32>Formula di Fusione: <color=#8B0000>Zucca + Cactus + Trifogliatore</color>"
+		},
+		{
+			"seedType": 1111,
+			"name": "Solarepulta",
+			"introduce": "<size=34><color=black>Alcune persone si chiedono perché i piccoli Soletti di Solarepulta scompaiano quando vengono lanciati sul lato destro del tetto. Solarepulta sorride e dice: \"Da dove pensate che vengano i Soletti del giardino davanti?\"</color></size>",
+			"info": "<size=34>Lancia cavoli solari per attaccare gli zombi e può anche generare Sole.\n\n<color=black>Danno: </color><color=#8B0000>50/5 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>Restituisce 100 Sole alla fusione. Ogni colpo rimbalza una volta dopo aver colpito uno zombi. Per ogni 200 Sole, può rimbalzare un'altra volta; quando colpisce uno zombi o il terreno, rilascia 5 Sole.</color></size>",
+			"cost": "\n<size=34>Formula di Fusione: <color=#8B0000>Cavolpulta + Girasole</color>"
+		},
+		{
+			"seedType": 1112,
+			"name": "Vasocavolo",
+			"introduce": "<size=36><color=black>\"Non sono solo un vaso per tenere i cavoli, e Cavolpulta non è la pianta più debole! Cavolpulta ed io siamo migliori amici,\" dice con sicurezza Vasocavolo. La loro amicizia potrebbe essere nata perché... uno di loro è calvo, e l'altro lo è già da tempo.</color></size>",
+			"info": "<size=36>Fornisce un bonus del 50% alla velocità d'attacco per le piante di tipo Cavolo sopra di esso.\n\n<color=black>Speciale: </color><color=#8B0000>Concede un aumento del 50% alla velocità d'attacco delle piante di tipo Cavolo.</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Cavolpulta + Vaso</color>"
+		},
+		{
+			"seedType": 1113,
+			"name": "Taco-pulta",
+			"introduce": "<size=36><color=black>Taco-pulta si chiede sempre perché, nonostante abbia imparato abilità da Chiccopulta e si comporti bene in battaglia, Dave trovi difficile guardarlo e lo eviti persino. In realtà, è perché Taco-pulta somiglia troppo a un taco, e ogni volta che Dave lo vede, ha solo voglia di prenderlo e mangiarlo.</color></size>",
+			"info": "<size=36>Lancia tacos che possono rimbalzare una volta e può anche lanciare burro.\n\n<color=black>Danno: </color><color=#8B0000>60/3 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>I proiettili rimbalzano una volta. Ha una probabilità di 1/4 di lanciare burro, causando 80 danni e immobilizzando gli zombi per 4 secondi.</color>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Cavolpulta + Chiccopulta</color>"
+		},
+		{
+			"seedType": 1114,
+			"name": "Vasochicco",
+			"introduce": "<size=36><color=black>Vasochicco crede di essere più di un semplice contenitore delizioso. Secondo lui, il mais burroso fornisce più nutrienti del terreno, specialmente per i funghi. La pianta preferita di Vasochicco è la Chiccopulta, il suo cibo preferito è il burro, il suo contenitore preferito è una tazza e la sua canzone preferita è \"Buttercup\".</color></size>",
+			"info": "<size=36>Aumenta la probabilità di burro di tutte le piante di tipo Chicco sopra di esso dal 25% al 50%.\n\n<color=black>Speciale: </color><color=#8B0000>Aumenta la probabilità di burro da 1/4 a 1/2.</color></size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Vaso + Chiccopulta</color>"
+		},
+		{
+			"seedType": 1115,
+			"name": "Buccia Ombrello",
+			"introduce": "<size=32><color=black>\"Proteggere le piante che mi circondano è il mio dovere.\" Come cosplayer professionista, \"Buccia Ombrello\" è così abile che nessuno si accorge che in realtà è una pannocchia di mais con una parrucca di burro, che ama stare in equilibrio sulla testa.</color></size>",
+			"info": "<size=32>Scaglia gli zombi che cercano di avvicinarsi e li immobilizza con il burro.\n\n<color=black>Resistenza: </color><color=#8B0000>1000</color>\n<color=black>Speciale: </color><color=#8B0000>Scaglia gli zombi vicini e li immobilizza per 4 secondi; il colpo riduce la sua Resistenza:\n1 Zombi: -100 HP\n2~4 Zombi: -150 HP\n5 o più Zombi: -250 HP</color>",
+			"cost": "\n<size=32>Formula di Fusione: <color=#8B0000>Chiccopulta + Rapa Ombrello</color>"
+		},
+		{
+			"seedType": 1116,
+			"name": "Cocomero Invernale",
+			"introduce": "<size=36><color=black>Cocomero Invernale una volta confessò a Cocopulta: \"Non sono sempre stato così gelido. Un giorno sono andato nel congelatore per un ghiacciolo e… beh, eccomi qui.\" </color></size>",
+			"info": "<size=36>Lancia meloni ghiacciati che rallentano gli zombi.\n\n<color=black>Danno: </color><color=#8B0000>80/3 Secondi</color>\n<color=#0077b6>Sistema di Congelamento: </color><color=#8B0000>Applica 50 Punti di Congelamento agli zombi colpiti. Gli zombi nel raggio dell'esplosione guadagnano 5 Punti di Congelamento. Infligge 4x danno agli zombi Congelati.</color>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Cocopulta + Brinporcino</color>"
+		},
+		{
+			"seedType": 1117,
+			"name": "Spicchiopulta",
+			"introduce": "",
+			"info": "<size=32>Ha una probabilità di lanciare burro all'aglio che immobilizza per 4 secondi e costringe gli zombi a cambiare corsia, accumulando Punti Veleno per applicare il Debuff Velenoso.\n\n<color=black>Danno: </color><color=#8B0000>20/3 Secondi</color>\n<color=black>Sistema Velenoso: </color><color=#8B0000>Ciascun attacco accumula 1 Punti Veleno, con un massimo di 5. Al raggiungimento di 5 punti, viene applicato il Debuff Velenoso. Ha una probabilità di 1/4 di lanciare burro all'aglio, immobilizzando gli zombi per 4 secondi, costringendoli a cambiare corsia e rimuovendo il limite sui Punti Veleno. Gli zombi perdono (20 × Punti Veleno) HP / secondo mentre sono avvelenati.</color>",
+			"cost": "\n<size=32>Formula di Fusione: <color=#8B0000>Chiccopulta + Aglio</color>"
+		},
+		{
+			"seedType": 1118,
+			"name": "Cavogliopulta",
+			"introduce": "<size=32><color=black>\"La combinazione di cavolo e aglio è fresca, deliziosa e salutare, ed è semplice da preparare. Aggiungere qualche spicchio d'aglio prima di servire ne esalta il sapore,\" spiega Chef Aglio. Si dice anche che mangiare aglio abbia un certo effetto nel prevenire la caduta dei capelli.</color></size>",
+			"info": "<size=32>Lancia un proiettile che rimbalza una volta e, ogni volta che colpisce un zombie con Punti Veleno maggiori di 0, può rimbalzare di nuovo. Non c'è limite al numero di rimbalzi, e ogni colpo aggiunge 1 Punto Veleno.\n\n<color=black>Danno: </color><color=#8B0000>40/3 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>Ogni zombie colpito aggiunge 1 Punto Veleno. Consulta Spicchiopulta per i dettagli.</color></size>",
+			"cost": "\n<size=32>Formula di Fusione: <color=#8B0000>Cavolpulta + Aglio</color>"
+		},
+		{
+			"seedType": 1119,
+			"name": "Agliopulta",
+			"introduce": "<size=34><color=black>In pochi osano mettersi in mostra di fronte a Agliopulta. La maggior parte fa un giro largo quando lo vede, anche se non ha intenzione di essere intimidatorio. Non cerca più la popolarità che aveva come cuoco, ma spera di fare amicizie che apprezzino i benefici dell'aliicina. Ora, le piante finalmente abbracciano il suo fascino unico, aglio incluso.</color>",
+			"info": "<size=34>Accumula 1 Punto Veleno per tutti gli zombi nel raggio d'azione dello splash dell'aglio; ogni Punto Veleno aggiunge 5 danni agli attacchi splash.\n\n<color=black>Danno: </color><color=#8B0000>80/3 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>Ogni colpo aggiunge 1 Punto Veleno al bersaglio; fare riferimento a Spicchiopulta.</color>",
+			"cost": "\n<size=34>Formula di Fusione: <color=#8B0000>Aglio + Cocopulta</color>"
+		},
+		{
+			"seedType": 1120,
+			"name": "Sparapannocchie",
+			"introduce": "<size=32><color=black>Sparapannocchie è un vero e proprio cervellone—si dice che abbia studiato ad Harvard e che un tempo abbia lavorato in un prestigioso studio legale a New York. Conosciuto per la sua enorme potenza, un singolo colpo di Sparapannocchie può devastare una vasta area di zombi. Tuttavia, la vera fonte della sua formidabile energia rimane un mistero.</color>",
+			"info": "<size=32>Può essere sparato manualmente per lanciare pannocchie mortali che causano danni da incenerimento.\n\n<color=black>Danno: </color><color=#8B0000>1800 (Incenerimento)</color>\n<color=black>Tempo di Caricamento: </color><color=#8B0000>36 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>Deve essere piantato sopra due Chiccopulte.</color>",
+			"cost": "<size=32>Costo: <color=#8B0000>300</color>\nRicarica: <color=#8B0000>50 Secondi</color>"
+		},
+		{
+			"seedType": 1121,
+			"name": "Maispulta",
+			"introduce": "<size=34><color=black>Maispulta è spesso visto con una smorfia. Quando gli si chiede il motivo, non dice nulla. \"La gente continua a chiedermi se il Mais Burro è appiccicoso o dolce,\" sospira Maispulta. \"Perché chiedere a me? Io non lo mangio. Solo gli zombi potrebbero saperlo.\"</color>",
+			"info": "<size=34>Lancia grandi pannocchie di mais contro gli zombi; a volte sono imburrate.\n\n<color=black>Danno: </color><color=#8B0000>100/3 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>Ha 1/4 di probabilità di lanciare un Mais Burro, immobilizzando il bersaglio principale per 4 secondi e gli zombi nel raggio di splash per (4 / dispersione totale dello splash) secondi (minimo di 0.5).</color>",
+			"cost": "\n<size=34>Formula di Fusione: <color=#8B0000>Cocopulta + Chiccopulta</color>"
+		},
+		{
+			"seedType": 1122,
+			"name": "Cannone di Fuocopannocchie",
+			"introduce": "<size=36><color=black>Cannone di Fuocopannocchie ha un'attività di popcorn in pieno boom. L'aroma infuocato fa fuggire gli zombi, aggiungendo un tocco di sfrigolio ad ogni evento. Sta anche pensando di organizzare una sessione di hot pot con Jalapeño a breve.</color>",
+			"info": "<size=36>Usato manualmente per sparare un proiettile esplosivo ad alto danno che brucia gli zombi e infonde le piante vicine con Jalapeño.\n\n<color=black>Danno: </color><color=#8B0000>3600 (Incenerimento), infligge il Debuff Infuocato</color>\n<color=black>Speciale: </color><color=#8B0000>Infonde le piante nel raggio di esplosione con Jalapeño.</color>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Sparapannocchie + Jalapeño</color>"
+		},
+		{
+			"seedType": 1123,
+			"name": "Cannone di Gelopannocchie",
+			"introduce": "<size=36><color=black>Nonostante il suo aspetto gelido, Cannone di Gelopannocchie è dal cuore caldo, specialmente con gli amici. Nel tempo libero, gli piace sciare, suonare la batteria ed esplorare caverne. Il suo trucco migliore per le feste? Una battuta fredda per \"raffreddare\" la folla.</color>",
+			"info": "<size=36>Usato manualmente per sparare un proiettile congelante che danneggia gli zombi e infonde le piante con Brinporcino.\n\n<color=black>Danno: </color><color=#8B0000>1800 (Incenerimento), Rallenta</color>\n<color=black>Speciale: </color><color=#8B0000>Infonde le piante nel raggio di esplosione con Brinporcino.</color>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Sparapannocchie + Brinporcino</color>"
+		},
+		{
+			"seedType": 1124,
+			"name": "Melone Ripieno",
+			"introduce": "<size=36><color=black>\"Sbuccia l'esterno verde, e troverai un cuore di rose all'interno.\" Questa frase significa non entrare in una barberia sconosciuta senza pensare—sarà una decisione sorprendente.\n\nVaso di Melone: \"Dopo aver finito un cocomero, indossare la sua buccia sulla testa è qualcosa che tutti facevano da bambini.\" Vaso commenta, \"Onestamente, è un po' sciocco.\"</color>",
+			"info": "<size=36>Spara meloni che rimbalzano una volta.\n\n<color=black>Danno: </color><color=#8B0000>120/3 Secondi</color>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Cavolpulta + Cocopulta</color>"
+		},
+		{
+			"seedType": 1125,
+			"name": "Vasomelone",
+			"introduce": "<size=36><color=black>Il parsimonioso Vasomelone non sopporta vedere Cocopulta lanciare meloni senza pensare al costo, quindi, dopo aver sconfitto gli zombi, Vasomelone raccoglie di nascosto i frammenti di melone sparsi per terra. \"Questo si chiama coltivazione senza suolo,\" ha spiegato Vasomelone. \"Non tutte le piante possono essere coltivate nel terreno qui; ogni centimetro di terra è prezioso.\"</color></size>",
+			"info": "<size=36>Raddoppia il danno ad area dei meloni sopra di esso, senza decrescita; il danno rimane al 2/3 del danno base.</size>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Vaso + Cocopulta</color>"
+		},
+		{
+			"seedType": 1126,
+			"name": "Insalapulta",
+			"introduce": "<size=36><color=black>\"Quando ero piccolo, tutti mi chiedevano che tipo di Pult volevo essere,\" dice Insalapulta. \"Pensavano che non potessi avere tutto. Ma ho deciso che volevo tutto—già allora.\"</color>",
+			"info": "<size=36>Può catapultare proiettili misti in rapida successione.\n\n<color=black>Danno: </color><color=#8B0000>140/5 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>42% di probabilità di sparare rapidamente. I proiettili si dividono in una miscela di chicchi di mais (1/4 di probabilità per il burro) e cavoli quando colpiscono gli zombi.</color>",
+			"cost": "<size=36>Formula di Fusione: <color=#8B0000>Cavolpulta + Chiccopulta + Cocopulta</color>"
+		},
+		{
+			"seedType": 1127,
+			"name": "Spicchio Ombrello",
+			"introduce": "<size=34><color=black>\"Vieni, dai un abbraccio a Spicchio Ombrello. Tu concentrati sull'aprire la porta; lascia che Spicchio Ombrello si occupi del resto! Il camper non conta; è il cervello dentro che fa la differenza!\" dice Spicchio Ombrello. \"E un'altra cosa—combatti gli zombi con gli zombi! E versa un po' di tè per Spicchio Ombrello mentre ci sei! Zombi, zombi, andate via!\"</color>",
+			"info": "<size=34>Spinge indietro gli zombi e li costringe a cambiare corsia.\n\n<color=black>Resistenza: </color><color=#8B0000>1000</color>\n<color=black>Speciale: </color><color=#8B0000>Spinge gli zombi vicini, costringendoli a cambiare corsia; ogni spinta riduce la sua Resistenza. Vedi Rapa Ombrello.</color>",
+			"cost": "\n<size=34>Formula di Fusione: <color=#8B0000>Aglio + Rapa Ombrello</color>"
+		},
+		{
+			"seedType": 1128,
+			"name": "Cavolo Ombrello",
+			"introduce": "<size=34><color=black>Quando le è stato chiesto quale fosse il suo segreto del successo, Cavolo Ombrello ha risposto: \"In realtà, mi piace molto lasciare che le palline riposino sulla mia testa.\" Si è fermata, \"Ma le altre piante mi lodano come una protettrice di prima classe.\"</color>",
+			"info": "<size=34>Può rimbalzare i proiettili tipo catapulta. Se non ci sono zombi, può conservare i proiettili per un po' e aumenta significativamente il loro danno.\n\n<color=black>Resistenza: </color><color=#8B0000>1000</color>\n<color=black>Speciale: </color><color=#8B0000>È prioritaria per le catapulte nel targeting e aumenta il danno dei proiettili dell'80%, respinge gli zombi in avvicinamento e perde Resistenza ogni volta. Vedi Rapa Ombrello.</color>",
+			"cost": "\n<size=34>Formula di Fusione: <color=#8B0000>Cavolpulta + Rapa Ombrello</color>"
+		},
+		{
+			"seedType": 1129,
+			"name": "Muro Meccanico",
+			"introduce": "<size=28><color=black>Alcuni potrebbero non rendersene conto, ma i Muri di Noci hanno inventori nella loro comunità. Ispirati dalle armi dei zombie, hanno costruito le loro macchine da guerra. \"La tecnologia degli zombie, ironicamente, distrugge solo se stessa,\" dice Muro Meccanico.</color>",
+			"info": "<size=28>Può ricevere attributi da Jalapeño o Brinporcino, con effetti alla morte.\n\n<color=black>Resistenza: </color><color=#8B0000>8000</color>\n<color=black>Speciale: </color><color=#8B0000>Cambia forma quando influenzato da Brinporcino o Jalapeño, guarendo 3000 Resistenza al momento della trasformazione; rilascia gli effetti della forma attuale alla morte. Assorbe danni per le piante circostanti in un raggio di 3x3 e la guarigione può superare la salute massima (fino a 4 volte). Ripristina 1000 HP per ogni Muro Meccanico quando le gocce di zombie spariscono e non ci sono Muri di Giga-meccanico presenti.</color>",
+			"cost": "\n<size=28>Formula di Fusione: <color=#8B0000>Muro di Noce + Frammenti Meccanici</color>"
+		},
+		{
+			"seedType": 1130,
+			"name": "Vasoglio",
+			"introduce": "<size=32><color=black>Vasoglio ha da tempo desiderato aiutare le piante nel suo vaso a ottenere una sterilizzazione completa, specialmente quelle in prima linea a contatto diretto con gli zombi. Tuttavia, sembra che solo le piante di tipo aglio siano disposte a crescere nel suo vaso. \"Alcune piante preferirebbero affrontare gli zombi piuttosto che sentire il mio odore di aglio,\" ha sospirato Vasoglio. \"Ora posso solo usare l'aglio per disinfettare l'aglio, e loro dicono che è un abbinamento perfetto.\"</color></size>",
+			"info": "<size=32>Riduce il danno da morso subito dalle piante di tipo aglio sopra di esso e ha un effetto aglio.</size>\n\n<color=black>Speciale: </color><color=#8B0000>Costringe gli zombi a muoversi verso la fila centrale.</color>",
+			"cost": "\n<size=32>Formula di Fusione: <color=#8B0000>Vaso + Aglio</color>"
+		},
+		{
+			"seedType": 1131,
+			"name": "Corteccia Ombrello",
+			"introduce": "<size=30><color=black>\"Dammi un melone; ti ripagherò con gentilezza.\" Corteccia Ombrello ha sempre ammirato questo detto della poesia antica. Le piante non devono corromperlo per chiedere aiuto—qualsiasi cosa gli diano, lui la restituisce. Beh, tranne che con i palloni da basket. È un grande fan del basket.</color>",
+			"info": "<size=30>Deflette i palloni da basket e restituisce un melone catapultato.\n\n<color=black>Resistenza: </color><color=#8B0000>2000</color>\n<color=black>Speciale: </color><color=#8B0000>Può riflettere i proiettili degli zombi, comprese le esplosioni, ma perde 200 salute ogni volta. Ogni riflessione immagazzina energia pari al danno del proiettile, rilasciandola su gli zombi per danno extra quando avviene la spinta; con ogni spinta perde anche Resistenza. Vedi Rapa Ombrello.</color>",
+			"cost": "\n<size=30>Formula di Fusione: <color=#8B0000>Rapa Ombrello + Cocopulta</color>"
+		},
+		{
+			"seedType": 1132,
+			"name": "Cannone di Meloni",
+			"introduce": "<size=36><color=black>Cannone di Meloni è un fervente sostenitore della dottrina della \"potenza di fuoco travolgente\": \"Se un colpo non basta, prova due, tre, o anche quattro!\" Questo approccio lo ha reso una potenza sul campo di battaglia—e un successo alle feste estive.</color>",
+			"info": "<size=36>Usa manualmente per lanciare una raffica di meloni dall'alto.\n\n<color=black>Danno: </color><color=#8B0000>200 / Melone. Fino a 40 meloni in un'area 3x3 senza riduzione. Colpisce casualmente all'interno di una griglia 5x3.</color>\n<color=black>Tempo di Armamento: </color><color=#8B0000>36 Secondi</color>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Sparapannocchie + Cocopulta</color>"
+		},
+		{
+			"seedType": 1133,
+			"name": "Vaso Ombrello",
+			"introduce": "<size=32><color=black>Gli altri vasi da fiori sono perplessi dalla folta vegetazione di Vaso Ombrello, ma Vaso Ombrello semplicemente dice: \"Ho appena letto il libro <i>La Guida del Vaso alla Cura dei Capelli</i>.\"</color>",
+			"info": "<size=32>Potenzia le piante di tipo ombrello.\n\n<color=black>Buccia Ombrello:</color> <color=#8B0000>+2 Secondi di immobilizzazione, +50% di distanza di respinta</color>\n<color=black>Corteccia Ombrello:</color> <color=#8B0000>Raddoppia il danno dei proiettili riflessi</color>\n<color=black>Spicchio Ombrello, Ombrello Argento/Dorato, Ombrello Diamante & Ombrello Smeraldo: </color><color=#8B0000>Raddoppia la distanza di respinta</color>\n<color=black>Cavolo Ombrello:</color> <color=#8B0000>Può attaccare gli zombi nelle corsie adiacenti</color>",
+			"cost": "\n<size=32>Formula di Fusione: <color=#8B0000>Vaso + Rapa Ombrello</color>"
+		},
+		{
+			"seedType": 1134,
+			"name": "Cavolo Argento",
+			"introduce": "<size=36><color=black>Oltre a una brillante superficie argentata, Cavolo Argento ha anche un cuore d'argento. Cavolo Argento sogna di diventare un insegnante e ha già una frase da dire in mente: \"Istruttore Cavolo Argento, al vostro servizio.\"</color>",
+			"info": "<size=36>Lancia cavoli argentati per attaccare gli zombi.\n\n<color=black>Danno: </color><color=#8B0000>80/3 Secondi</color>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Calendula + Cavolpulta</color>"
+		},
+		{
+			"seedType": 1135,
+			"name": "Cavolo Dorato",
+			"introduce": "<size=36><color=black>Cavolo Dorato non è solo per il suo aspetto abbagliante—ha anche un cuore d'oro puro. Ama combattere al fianco delle piante contro gli zombi e sogna un giorno di essere onorato come il \"Cavolo Eroico d'Oro.\"</color>",
+			"info": "<size=36>Attacca gli zombi lanciando cavoli dorati. La sua Abilità Finale scatena cavoli su tutti gli zombi!\n\n<color=black>Danno: </color><color=#8B0000>120/3 Secondi</color>\n<color=black>Abilità Finale: </color><color=#8B0000>Costa 1000 Monete; lancia un cavolo su ogni zombie, uccidendo istantaneamente quelli con salute inferiore a 300.</color>",
+			"cost": "\n<size=36>Upgrade Costo: </color><color=#8B0000>1000 Monete</color>"
+		},
+		{
+			"seedType": 1136,
+			"name": "Vaso Argento",
+			"introduce": "<size=36><color=black>\"La gente continua a dire 'oro questo, argento quello', come se avessimo una gerarchia,\" ha detto Vaso Argento. \"La Calendula è argento, eppure è ancora chiamata Mari<i>giallo</i>.\" Le sue parole sarebbero state più convincenti se il suo sguardo non fosse fisso sul chicco di caffè al bordo del tetto.</color>",
+			"info": "<size=36>Genera monete extra per te.\n\n<color=black>Produzione di Monete: </color><color=#8B0000>25/25 Secondi</color>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Vaso + Calendula</color>"
+		},
+		{
+			"seedType": 1137,
+			"name": "Vaso Dorato",
+			"introduce": "<size=36><color=black>\"Molti ricchi trattano i soldi come sporcizia, ma io sono diverso,\" spiega Vaso Dorato. \"È così che sono diventato ricco in primo luogo.\"</color>",
+			"info": "<size=36>Genera monete extra e amplifica l'abilità finale di qualsiasi pianta dorata sopra di esso.\n\n<color=black>Speciale: </color><color=#8B0000>Quando attivi l'abilità finale di una Pianta Dorata sopra di esso, tutte le Piante Dorate su altri Vasi Dorati con un costo di abilità finale uguale o inferiore attiveranno le loro abilità finali anch'esse.</color>",
+			"cost": "<size=36>Upgrade Costo: </color><color=#8B0000>2000 Monete; ogni Vaso Dorato esistente aumenterà il costo esponenzialmente.</color>"
+		},
+		{
+			"seedType": 1138,
+			"name": "Chicco Argento",
+			"introduce": "<size=30><color=black>\"Perché lanciare monete d'argento contro gli zombi? Perché, perché? Anche se gli zombi sono solo dati di gioco, dovremmo comunque rendergli i dovuti rispetti finali.\" Chicco Argento era un bigliettaio in un teatro, ma dopo aver scoperto la sua inclinazione per le conferenze, è entrato nel mondo del parlare in pubblico, portando con sé il suo burro e i chicchi di mais.</color>",
+			"info": "<size=30>Lancia chicchi d'argento e sacchetti di monete d'argento per attaccare gli zombi, con una possibilità di guadagnare monete.\n\n<color=black>Danno: </color><color=#8B0000>40/3 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>Ha una probabilità di 1/4 di lanciare un sacchetto di monete d'argento, infliggendo 60 danni, immobilizzando lo zombi per 4 secondi e facendo cadere 25 monete.</color>",
+			"cost": "\n<size=30>Formula di Fusione: <color=#8B0000>Chiccopulta + Calendula</color>"
+		},
+		{
+			"seedType": 1139,
+			"name": "Chicco Dorato",
+			"introduce": "<size=33><color=black>Chicco Dorato riflette su parole come \"frasi dorate\" e \"gemme preziose\". Ma forse il vero tesoro si trova nel burro importato e nei missili d'oro... o \"Solo Oro\".</color>",
+			"info": "<size=33>Lancia chicchi dorati e burro contro gli zombi, con una probabilità di generare monete. La sua abilità finale lancia popcorn dorati contro gli zombi.\n\n<color=black>Danno: </color><color=#8B0000>60/3 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>25% di probabilità di lanciare un sacchetto di monete, infliggendo 80 danni, stordendo gli zombi per 4 secondi e facendo cadere 100 monete.</color>\n<color=black><color=black>Abilità Finale: </color><color=#8B0000>Costa 3500 Monete; lancia quattro bombe di mais dorato, ciascuna infliggendo 450 danni in un'area 3x3 senza riduzione del danno.</color>",
+			"cost": "\n<size=33>Upgrade Costo: </color><color=#8B0000>2000 Monete</color>"
+		},
+		{
+			"seedType": 1140,
+			"name": "Calendula Gemella",
+			"introduce": "<size=36><color=black>\"È il momento di fare monete d'oro!\" dichiara una delle sorelle di Calendula Gemella. Ma l'altra sorella insite, \"Ora è il momento perfetto per una moneta d'argento!\" Poiché non riescono mai a mettersi d'accordo, ognuna produce la sua parte in modo indipendente, il che potrebbe essere effettivamente la cosa migliore. \"Due opinioni, doppia efficienza—non è così?\"</color>",
+			"info": "<size=36>Produce il doppio delle monete!\n\n<color=black>Produzione di Monete: </color><color=#8B0000>Genera monete due volte ogni 20 secondi, altrimenti identica a Calendula.</color>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Calendula + Calendula</color>"
+		},
+		{
+			"seedType": 1141,
+			"name": "Melone Argento",
+			"introduce": "<size=36><color=black>Melone Argento a volte si considera il melone più prezioso—fino a quando non ricorda il più prestigioso Melone Dorato. \"Un melone è un melone, che sia argento, dorato o fatto con aglio o oro,\" ride Melone Argento. \"Tutti abbiamo il nostro posto nel terreno.\"</color>",
+			"info": "<size=36>Lancia meloni d'argento per attaccare i zombie.\n\n<color=black>Danno: </color><color=#8B0000>160/3 Secondi</color>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Calendula + Cocopulta</color>"
+		},
+		{
+			"seedType": 1142,
+			"name": "Melone Dorato",
+			"introduce": "<size=36><color=black>Melone Dorato non si preoccupa delle domande sul suo guscio dorato e semi, ma mai chiedergli se è senza semi—non ha pazienza per quella domanda.</color>",
+			"info": "<size=36>Scaglia meloni dorati contro i zombie; la sua abilità finale fa piovere meloni dorati sullo schermo.\n\n<color=black>Danno: </color><color=#8B0000>240/3 Secondi</color>\n<color=black>Abilità Finale: </color><color=#8B0000>Costi 2500 Monete; lancia 60 meloni dorati, ognuno causando 120 danni, atterrando casualmente sullo schermo.</color>",
+			"cost": "\n<size=36>Upgrade Costo: </color><color=#8B0000>3000 Monete</color>"
+		},
+		{
+			"seedType": 1143,
+			"name": "Ombrello Argento",
+			"introduce": "<size=34><color=black>Ombrello Argento è sempre ansioso che qualcuno rubi i suoi soldi quando è via, quindi porta la sua fortuna ovunque—anche nella battaglia contro i zombie. Pensa che questo mantenga al sicuro la sua ricchezza, ma aggiunge solo nuovi rischi. \"Questi sono i miei soldi; non potete prenderli!\" si lamenta, anche se nessuno lo ascolta.</color>",
+			"info": "<size=34>Genera denaro extra quando respinge i palloni da basket.\n\n<color=black>Resistenza: </color><color=#8B0000>1000</color>\n<color=black>Speciale: </color><color=#8B0000>Rilascia 25 monete ogni volta che si attiva, respinge i zombie in avvicinamento e perde Resistenza ogni volta. Vedi Buccia Ombrello.</color>",
+			"cost": "\n<size=34>Formula di Fusione: <color=#8B0000>Rapa Ombrello + Calendula</color>"
+		},
+		{
+			"seedType": 1144,
+			"name": "Ombrello Dorato",
+			"introduce": "<size=32><color=black>Ombrello Dorato non ama questo posto—dopo un disguido nell'acqua, è stato spedito qui insieme a Ombrello Argento. Il ricordo lo frustra ancora. \"È ingiusto! Perché sono io quello gratis qui?\"</color>",
+			"info": "<size=32>Respinge i palloni da basket, generando monete extra, e la sua Abilità Finale può respingere gli imp in volo e respingere tutti i zombie nelle vicinanze.\n\n<color=black>Resistenza: </color><color=#8B0000>1000</color>\n<color=black>Speciale: </color><color=#8B0000>Rilascia 50 Monete ogni volta che respinge un pallone da basket, respinge i zombie in avvicinamento e perde Resistenza ogni volta. Vedi Buccia Ombrello.</color>\n<color=black>Abilità Finale: </color><color=#8B0000>Costi 2000 monete; respinge tutti i zombie nelle vicinanze, rilascia 25 monete / zombie, respinge gli imp in volo e rilascia 3 diamanti.</color>",
+			"cost": "\n<size=32>Upgrade Costo: </color><color=#8B0000>1000 Monete</color>"
+		},
+		{
+			"seedType": 1145,
+			"name": "Aglio Argento",
+			"introduce": "<size=36><color=black>Un aglio fatto d'argento ha ancora lo stesso odore di aglio? Probabilmente no, ma né le piante né i zombie erano ansiosi di provarlo. Tuttavia, i zombie presto si pentirono della loro curiosità dopo averne assaporato il gusto!</color>",
+			"info": "<size=36>Probabilmente un aglio ancora più pungente? Forse.\n\n<color=black>Resistenza: </color><color=#8B0000>600</color>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Calendula + Aglio</color>"
+		},
+		{
+			"seedType": 1146,
+			"name": "Aglio Dorato",
+			"introduce": "<size=36><color=black>Sotto la sua lucente superficie si nasconde un odore insopportabile di aglio. Aglio Dorato riflette: \"Il vero valore sta solo nell'aspetto, non nei dettagli.\" Ma tutti sanno che questo \"aglio dorato\" è solo un normale aglio con un rivestimento lucido.</color>",
+			"info": "<size=36>Un aglio più forte, con un profumo dorato, che può costringere tutti i zombie davanti a lui a cambiare corsia con la sua Abilità Finale.\n\n<color=black>Resistenza: </color><color=#8B0000>900</color>\n<color=black>Abilità Finale: </color><color=#8B0000>Costi 1000 Monete; costringe tutti i zombie nella sua corsia a cambiare corsia.</color>",
+			"cost": "\n<size=36>Upgrade Costo: </color><color=#8B0000>1000 Monete</color>"
+		},
+		{
+			"seedType": 1147,
+			"name": "Muro di Ipnosi",
+			"introduce": "<size=30><color=black>Muro di Ipnosi ha un debole per gli zombie: \"C'è qualcosa di stranamente piacevole nel modo in cui mi mordicchiano. Non è come grattarsi un prurito… diciamo che è affetto da un contatto prolungato,\" dice, filosoficamente.</color>",
+			"info": "<size=30>Affascina gli zombie e evoca uno Zombi Misteri Incantato ogni 30 secondi!\n\n<color=black>Resistenza: </color><color=#8B0000>4000</color>\n<color=black>Speciale: </color><color=#8B0000>Ogni volta che viene morso, c'è una probabilità del 4% di affascinare lo zombie. Inoltre, può recuperare 100 salute quando colpito da una spora di Ipnoporcino Tiratore e immagazzina una spora di quel colore ogni volta che viene colpito (fino a 3). Quando raccoglie 7 colori di spora diversi, consuma una di ciascun colore e invoca uno Zombi Misteri Incantato Dorato, quindi si guarisce completamente.</color>",
+			"cost": "\n<size=30>Formula di Fusione: <color=#8B0000>Muro di Noce + Ipnofungo</color>"
+		},
+		{
+			"seedType": 1148,
+			"name": "Ombrello Diamante",
+			"introduce": "<size=30><color=black>Ombrello Diamante è un tycoon tra le piante, creando opportunità per zombie e piante allo stesso modo. \"Massimizzo il loro valore,\" dichiara con un tocco dorato ai suoi occhiali.</color>",
+			"info": "<size=30>Alto rischio, alta ricompensa!\n\n<color=black>Resistenza: </color><color=#8B0000>4000</color>\n<color=black>Speciale: </color><color=#8B0000>Ha le caratteristiche sia di Spicchio Ombrello che di Ombrello Dorato.</color>\n<color=black>Abilità Finale: </color><color=#8B0000>Costi 2500 Monete; respinge tutti gli zombie vicini, trasformando quelli con meno del 25% di HP in statue d'argento del valore di 1000 monete, o statue d'oro se sotto il 10% di HP, che valgono 3000 monete. Gli zombie senza statue lasciano cadere direttamente delle monete.</color>",
+			"cost": "<size=30>Formula di Fusione: <color=#8B0000>Aglio Dorato + Rapa Ombrello (o Ombrello Dorato + Aglio)</color>"
+		},
+		{
+			"seedType": 1149,
+			"name": "Cocomero Estate",
+			"introduce": "<size=36><color=black>Le piante sentono sempre che i cocomeri con la buccia rossa portano con sé l'atmosfera festiva del Capodanno, scoppiettando ed esplodendo di eccitazione. Ma il cocomero spiega: 'Non ho messo fuochi d'artificio nel cocomero! È solo che il cibo sigillato esplode quando si riscalda—e non si può correre nel mangiare un cocomero caldo!'</color>",
+			"info": "<size=36>Scaglia cocomeri infuocati!\n\n<color=black>Danno: </color><color=#8B0000>160/3 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>Infligge Debuff Infuocato.</color>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Cocopulta + Jalapeño</color>"
+		},
+		{
+			"seedType": 1150,
+			"name": "Calamifungo Dorato",
+			"introduce": "<size=34><color=black>Dopo aver lavorato per innumerevoli ore in un'azienda di contabilità, il Calamifungo Dorato ha realizzato il suo spaventoso potenziale di attrazione e ha cambiato carriera per diventare un combattente. 'Onestamente, è molto più divertente che contare i soldi,' commenta. 'Dopotutto, i soldi non crescono sugli alberi, ma in qualche modo lo fanno dalle colture.' Detto ciò, i suoi compagni di pianta spesso finiscono per soffrire delle sue buffonate.</color>",
+			"info": "<size=34>Attrae i proiettili!\n\n<color=black>Speciale: </color><color=#8B0000>Attrae i proiettili che vanno dritti dalle corsie adiacenti e produce 25 Monete per ogni proiettile attratto.</color>",
+			"cost": "\n<size=34>Formula di Fusione: <color=#8B0000>Calamifungo + Calendula</color>"
+		},
+		{
+			"seedType": 1151,
+			"name": "Muro Giga-meccanico",
+			"introduce": "<size=30><color=black>Muro Giga-meccanico è sempre stato appassionato di protezione ambientale. 'Ho un rapporto di amore-odio con gli zombie: inquinano l'ambiente, ma mi portano anche ricchezza. Non è forse il possesso di una proprietà e una roulotte il segno del successo? Il prato è pulito grazie a me!'</color>",
+			"info": "<size=30>Potrebbe essere solo una palla di pesce. Chi lo sa?\n\n<color=black>Resistenza: </color><color=#8B0000>8000</color>\n<color=black>Speciale: </color><color=#8B0000>Quando le gocce di metallo zombie spariscono, ripristina 8000 HP a tutti i Muri Giga-meccanico sul campo. Usare un Muro di Noce su di esso ripristina istantaneamente 8000 HP e evoca uno Zombi Squalomarino. La guarigione può superare la salute massima. Ha la stessa proprietà anti-schiacciamento di Ciliegiosauro; danni ricevuti limitati a 8000 per colpo. Ridirige i danni su se stesso in un'area di 3x3.</color>",
+			"cost": "\n<size=30>Formula di Fusione: <color=#8B0000>Muro di Noce + Frammenti Mecha Giga</color>"
+		},
+		{
+			"seedType": 1152,
+			"name": "Secchioporcino",
+			"introduce": "<size=36><color=black>Secchioporcino ha una preoccupazione costante: è terrorizzato dall'idea che Calamifungo possa accidentalmente attirarlo. 'Dove sono finiti i miei bulloni?' Mentre Crazy Dave si avvicina, sembra che stia per avere una preoccupazione completamente nuova.</color>",
+			"info": "<size=36>I Secchioporcini possono respingere gli zombi.\n\n<color=black>Resistenza: </color><color=#8B0000>1000</color>\n<color=black>Danno: </color><color=#8B0000>80/2 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>I proiettili respingono gli zombi e distruggono le porte schermate con facilità.</color>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Semiporcino + Secchio</color>"
+		},
+		{
+			"seedType": 1153,
+			"name": "Semiporcino Bidirezionale",
+			"introduce": "<size=36><color=black>La testa anteriore dichiara: 'È il mio turno di usare il sopracciglio!' La testa posteriore risponde: 'Immagino che dovremo dividerlo.' Nati a solo due minuti di distanza, la loro eterna battaglia sul sopracciglio non mostra segni di fermarsi.</color>",
+			"info": "<size=36>Spara piselli sia in avanti che indietro.\n\n<color=black>Danno: </color><color=#8B0000>20x3/1.5 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>I piselli sparati all'indietro rimbalzano se nessuno zombi viene colpito.</color>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Malporcino + Sparasemi * 3</color>"
+		},
+		{
+			"seedType": 1154,
+			"name": "Calamifungo Solare",
+			"introduce": "<size=36><color=black>Hai sentito? Calamifungo Solare sta brillando di ricchezza ultimamente! 'Non produco ferro; mi occupo solo della consegna,' dice con orgoglio. 'Tutto questo è il frutto di anni di duro lavoro.' Si dice che abbia persino aperto un'attività oltre il prato!'</color>",
+			"info": "<size=36>Produce oggetti metallici e li trasforma in Sole.\n\n<color=black>Produzione di Sfere </color><color=#8B0000>25/25 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>Produce un oggetto metallico casuale ogni 30 Secondi. Spendendo un oggetto metallico, produrrà 25 Sole.</color>",
+			"cost": "\n<size=36>Formula di Fusione: <color=#8B0000>Girasole + Calamifungo</color>"
+		},
+		{
+			"seedType": 1155,
+			"name": "Golden Rovo",
+			"introduce": "<size=36><color=black>总有人分不清火炬生产的地刺和普通地刺的区别，但火炬地刺本身很清楚：这再明显不过了，我让他们所走的道路成为了一条更加阳光明亮的康庄大道。</color>",
+			"info": "<size=36>火焰地刺？他也许跟地刺没有太多区别。\n\n<color=black>Resistenza: </color><color=#8B0000>300</color>\n<color=black>Speciale: </color><color=#8B0000>？</color>\n<color=black>",
+			"cost": "\n<size=36>"
+		},
+		{
+			"seedType": 1156,
+			"name": "Golden Kelp",
+			"introduce": "<size=36><color=black>火焰缠绕水草一直泡在水里，但这压根不影响它给植物们烤海带吃。呃，味道很奇怪就是了。</color>",
+			"info": "<size=36>火焰缠绕水草？他也许跟缠绕水草没有太多区别。\n\n<color=black>Resistenza: </color><color=#8B0000>300</color>\n<color=black>Speciale: </color><color=#8B0000>？</color>\n<color=black>",
+			"cost": "\n<size=36>"
+		},
+		{
+			"seedType": 1157,
+			"name": "Calamifungo Incantato",
+			"introduce": "<size=32><color=black>Dopo innumerevoli giorni e notti di ricerca, Calamifungo Incantato ha finalmente padroneggiato l'arte del campo magnetico incantato. 'Ora posso persuadere meglio i miei amici zombi a combattere al nostro fianco,' ha detto. 'Alcuni pensano che li minacci con attrezzi di metallo, ma un giorno, la verità verrà alla luce.'</color>",
+			"info": "<size=32>Consuma oggetti metallici e evoca gli zombi corrispondenti per combattere per te.\n\n<color=black>Speciale: </color><color=#8B0000>Usa oggetti metallici per evocare zombi ipnotizzati, utilizza automaticamente i metalli generati da Magnete Solare dietro di sé e quelli consumati dai Calamifungi nello stesso Sistema Magnetico.</color>",
+			"cost": "\n<size=32>Formula di Fusione: <color=#8B0000>Ipnofungo + Calamifungo</color>"
+		},
+		{
+			"seedType": 1158,
+			"name": "Catturaporcino",
+			"introduce": "<size=36><color=black>'Mi hanno di nuovo messo in scatola!' Urla Catturaporcino, che un momento fa era Fungosensore, 'Tutto quello che ho fatto è stato sbagliare a fare una macchina per il caffè invece di un forno!'</color>",
+			"info": "<size=36>Potrebbe esserci un'altra svolta se gli metti un Casco da Rugby?\n\n<color=black>Resistenza: </color><color=#8B0000>2000</color>\n<color=black>Danno: </color><color=#8B0000>40/1.5 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>Raddoppia il danno contro le armature.</color>",
+			"cost": "<size=36>Formula di Fusione: <color=#8B0000>(Fumporcino + Calamifungo) + Secchio</color>"
+		},
+		{
+			"seedType": 1159,
+			"name": "Ruggiporcino",
+			"introduce": "<size=36><color=black>'Mi hanno di nuovo messo in scatola!' Urla Ruggiporcino, che un momento fa era Fungosensore, 'Tutto quello che ho fatto è stato sbagliare a fare una macchina per il caffè invece di un forno!'</color>",
+			"info": "<size=36>Potrebbe esserci un'altra svolta se gli metti un Casco da Rugby?\n\n<color=black>Resistenza: </color><color=#8B0000>2000</color>\n<color=black>Danno: </color><color=#8B0000>40/1.5 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>Raddoppia il danno contro le armature.</color>",
+			"cost": "<size=36>Formula di Fusione: <color=#8B0000>(Fumporcino + Calamifungo) + Secchio</color>"
+		},
+		{
+			"seedType": 1160,
+			"name": "Rugbiporcino",
+			"introduce": "<size=34><color=black>\"Ho sempre sognato di diventare un giocatore di rugby, e ora finalmente ho questo cappello della gloria,\" ha detto Rugbiporcino con orgoglio. \"Ma oggi ho deciso di fare una pausa a bordo campo.\" In realtà, è solo una guardia di sicurezza allo stadio, tenendo lontani i tifosi troppo entusiasti con le sue spore.</color>",
+			"info": "<size=34>Spruzza fumi che penetrano ogni tipo di armatura!\n\n<color=black>Resistenza: </color><color=#8B0000>3000</color>\n<color=black>Danno: </color><color=#8B0000>80/1.5 Secondi</color>\n<color=black>Speciale: </color><color=#8B0000>Causa danno all'armatura e allo zombi dentro l'armatura allo stesso tempo.</color>",
+			"cost": "<size=34>Formula di Fusione: <color=#8B0000>(Fumporcino + Calamifungo + Secchio) + Casco da Rugby</color>"
+		},
+    {
+      "seedType": 1161,
+      "name": "Titan Pea Turret",
+      "introduce": "<size=36><color=black>As one of the ultimate weapons of the Pea family, the Titan Pea Turret is always taught not to lie down without reason. \"But my head is really heavy!\" Sometimes, when being scolded, he complains like this. Of course, he doesn’t know that the Pea elders tell him not to lie down just because it's actually kind of cute when he does.</color>",
+      "info": "<size=36>Unleashes pure pea hell onto zombies!\n\n<color=black>Toughness: </color><color=#8B0000>1000</color>\n<color=black>Damage: </color><color=#8B0000>Initially 20×30/1.5 Seconds</color><color=#8B0000> Max 20×60/1.5 Seconds</color>\n<color=black>Special: </color><color=#8B0000>Firing speed increases the longer the turret fires and has 3 stages. Firing speed returns to normal when its attack resets. Peas may miss Imps due to the turret's height.</color>\n\n<color=black>Fusion Formula: </color><color=#8B0000>Repeater + Threepeater + Repeater + Jicamagic (Place Jicamagic on Threepeater)</color>",
+      "cost": "<size=36>"
+    },
+    {
+      "seedType": 1162,
+      "name": "Explod-o-tato Mine",
+      "introduce": "<size=36><color=black>Explod-o-tato Mine is a top chef, and his \"hash cherries\" and \"potato jam\" are highly praised in the plant world. If he runs out of ingredients, he will cheerfully say: \"I'll go buy some.\"</color>",
+      "info": "<size=36>Splits into 8 Potato Mines in surrounding tiles.\n\n<color=black>Damage: </color><color=#8B0000>1800</color>\n<color=black>Special: </color><color=#8B0000>Spawns Potato Mines in a 3×3 radius upon defeat.</color>\n<color=black>Fusion Formula: </color><color=#8B0000>Potato Mine + Cherry Bomb</color>",
+      "cost": "<size=36>"
+    },
+    {
+      "seedType": 1163,
+      "name": "Chili Mine",
+      "introduce": "<size=36><color=black>Chili Mine is a capable assistant to CExplod-o-tato Mine, but most of her dishes are given low ratings by customers. \"What’s going on—\" Chili Mine feels really guilty but doesn't know why. The truth is, she is not sensitive to spicy flavors and always adds too much chili.</color>",
+      "info": "<size=36>Splits into 7 Potato Mines in her lane. \n\n<color=black>Damage: </color><color=#8B0000>1800</color>\n<color=black>Special: </color><color=#8B0000>Spawns 7 Potato Mines in her lane upon defeat.</color>\n<color=black>Fusion Formula: </color><color=#8B0000>Potato Mine + Jalapeno</color>",
+      "cost": "<size=36>"
+    },
+    {
+      "seedType": 1164,
+      "name": "Pump-Kaboom",
+      "introduce": "<size=36><color=black>Pump-Kaboom is a distant relative of Cherry-nut, but every time Pump-Kaboom meets Cherry-nut, he is always late. \"I want to come early too,\" Pump-Kaboom says, \"but I can’t resist jumping to anything red.\"</color>",
+      "info": "<size=36>A pumpkin that cannot be exploded by cherries!\n\n<color=black>Toughness: </color><color=#8B0000>4000</color>\n<color=black>Special: </color><color=#8B0000>Cannot be damaged by zombie Cherry Bomb explosions and heals instead.</color>\n<color=black>Fusion Formula: </color><color=#8B0000>Pumpkin + Cherry Bomb</color>",
+      "cost": "<size=36>"
+    },
+    {
+      "seedType": 1165,
+      "name": "Snow Commando",
+      "introduce": "<size=36><color=black>As the general commander of the Pea family, Snow Commando has an aura that makes plants and zombies shudder even from miles away. But regarding his proud freezing ability, Super Ice Machine Gunner always keeps quiet about it, until one day a small pea accidentally opened his diary: \"If I had known, I wouldn’t have bet against the fire sniper. Not only did I almost freeze to death in the ice fields, but I also turned into this way. Tonight, I’ll make that guy eat three big bowls of chili—\"</color>",
+      "info": "<size=36>Shoots Snow Peas at zombies, with a small chance of shooting a massive barrage!\n\n<color=black>Damage: </color><color=#8B0000>20×6/1.5 Seconds</color>\n<color=black></color><color=#8B0000>Ultimate: 3×20/0.02 Seconds</color>\n<color=black>Special: </color><color=#8B0000>3% chance to shoot a barrage of Snow Peas each attack.</color>\n<color=black>Fusion Formula: </color><color=#8B0000>Pea Commando + Ice-shroom</color>",
+      "cost": "<size=36>"
+    },
+    {
+      "seedType": 1166,
+      "name": "Volatile Magnet",
+      "introduce": "<size=36><color=black>\"Selling well is also a skill.\" said the Volatile Magnet. Only Magnet-shrooms can turn hate into love. He once hated cherries the most. Actually, he still does, but perhaps he has discovered a business opportunity?</color>",
+      "info": "<size=36>Transmutes metal objects into explosive cherries!\n\n<color=black>Damage: </color><color=#8B0000>300/2.5 Seconds</color>\n<color=black>Special: </color><color=#8B0000>Consumes metal objects and turns them into explosive cherries. Each metal object can be turned into 4 cherries. Metal objects can be actively given to the Volatile Magnet for it to initiate an attack.</color>\n<color=black>Fusion Formula: </color><color=#8B0000>Magnet-shroom + Cherry Bomb</color>",
+      "cost": "<size=36>"
+    },
+    {
+      "seedType": 1167,
+      "name": "Blazer Pea",
+      "introduce": "<size=36><color=black>Other snipers envy Blazer Pea for being a reliable assistant to the commander, even though she is still a little one. \"Talent is one thing, but... I have to thank the commander for cultivating me!~\"Blazer Pea says, but in reality, it's because Snow Commando is naturally cold and always keeps Blazer Pea as a warm-up buddy.</color>",
+      "info": "<size=36>Can lock onto zombies anywhere on the map!\n\n<color=black>Damage: </color><color=#8B0000>300/3 Seconds</color>\n<color=black>Special: </color><color=#8B0000>Attacks cause Enflamed and deal 100 damage to nearby zombies</color>\n<color=black>Fusion Formula: </color><color=#8B0000>Sniper Pea + Jalapeno</color>",
+      "cost": "<size=36>"
+    },
+    {
+      "seedType": 1168,
+      "name": "Pea Commando",
+      "introduce": "<size=36><color=black>Faced with the crazy zombies and powerful teammates, Pea Commando, who came to the yard for more challenges, feels immense pressure, and his temper is getting worse... However, the plants are always shocked by the extreme violent tendencies of the Pea Commando, who fires peas madly from a distance. Gatling Frenzy-shroom has already decided to ask for his contact information.</color>",
+      "info": "<size=36>Shoots Peas at zombies, with a small chance of shooting a massive barrage!\n\n<color=black>Damage: </color><color=#8B0000>20×6/1.5 Seconds\n</color><color=#8B0000>Ultimate: 3×20/0.02 Seconds</color>\n<color=black>Special: </color><color=#8B0000>3% chance to shoot a barrage of Snow Peas each attack.</color>\n<color=black>Fusion Formula: </color><color=#8B0000>Sniper Pea + Peashooter</color>",
+      "cost": "<size=36>"
+    },
+    {
+      "seedType": 1169,
+      "name": "Titan Pumpkin Bunker",
+      "introduce": "<size=36><color=black>Once, a pair of pumpkins dreamed of joining a circus. But after a magnetic mishap left them stuck together, they discovered a better calling: standing their ground as an impenetrable shield. The circus can wait.</color>",
+      "info": "<size=36>Protect two tiles at once!\n\n<color=black>Toughness: </color><color=#8B0000>12000</color>\n<color=black>Special: </color><color=#8B0000>Heals when affected by Cherry and Jack-in-the-Box explosions. Can only be placed on two-tiled plants.</color>\n\n<color=black>Fusion Formula: </color><color=#8B0000>Joker Pumpkin + Magne-shroom + Pump-Kaboom + Jicamagic (Place Jicamagic on Magnet-shroom)</color>",
+      "cost": "<size=36>"
+    },
+    {
+      "seedType": 1170,
+      "name": "Nugget-shroom",
+      "introduce": "<size=36><color=black>Some plants asked: \"Why is the top of Nugget-shroom red?\" Potato Sprout Mushroom then asked: \"Well, let me ask you first...\"</color>",
+      "info": "<size=36>Can reproduce itself!\n\n<color=black>Damage: </color><color=#8B0000>20/1.5 Seconds</color>\n<color=black>Special: </color><color=#8B0000>Spawns a new Nugget-shroom in the same tile after 20 Seconds. Each Nugget-shroom can only reproduce once. Upon death, it deals 300 damage to nearby zombies</color>\n<color=black>Fusion Formula: </color><color=#8B0000>Puff-shroom + Potato Mine</color>",
+      "cost": "<size=36>"
+    },
+    {
+      "seedType": 1171,
+      "name": "Spuddy-shroom",
+      "introduce": "<size=36><color=black>Why does Spuddy-shroom explode after a few attacks? His explanation is quite touching: \"Every attack I make is burning my life!\" But the truth is—he’s just a magician who doesn’t want to do much work. After a few attacks, he decides to use a potato firework to perform a grand \"fungus\" transformation.</color>",
+      "info": "<size=36>Consumes HP to fire high-damage spores!\n\n<color=black>Damage: </color><color=#8B0000>600/3 Seconds</color>\n<color=black>Special: </color><color=#8B0000>Each attack costs 75 HP. If kept alive for 20 seconds after being planted, his red light will turn off with attack power reduced by 90%, but attacks will no longer cost health. Upon death, it deals 600 damage to nearby zombies.</color>\n<color=black>Fusion Formula: </color><color=#8B0000>Scaredy-shroom + Potato Mine</color>",
+      "cost": "<size=36>"
+    },
+    {
+      "seedType": 1172,
+      "name": "Foul-shroom",
+      "introduce": "<size=36><color=black>With a pale skin, a hairstyle that could rival a cathedral dome and a grin full of crooked teeth, Foul-shroom looks like it's auditioning for the villain in a fairytale. Ironically, he usually gets the role of a vampire.”</color>",
+      "info": "<size=36>Sprays poison gas at zombies!\n\n<color=black>Damage: </color><color=#8B0000>20/1.5 Seconds</color>\n<color=black>Special: </color><color=#8B0000>Attack adds one Poison Point to zombies. It also has inherited garlic property.</color>\n<color=black>Fusion Formula: </color><color=#8B0000>Fume-shroom + Garlic</color>",
+      "cost": "<size=36>"
+    },
+    {
+      "seedType": 1173,
+      "name": "Frostburnt Jalapeno",
+      "introduce": "<size=36><color=black>Cold on the outside, fiery on the inside. This is how other plants describe Frostburnt Jalapeno. \"Don’t be fooled by my calm appearance, my explosive energy is beyond your imagination,\" murmurs Frostburnt Jalapeno. Oh, by the way, he's also quite skilled at making ice-cream.</color>",
+      "info": "<size=36>Has both the properties of Ice-shroom and Jalapeno!\n\n<color=black>Damage: </color><color=#8B0000>1800</color>\n<color=black>Toughness: </color><color=#8B0000>32000</color>\n<color=black>Special: </color><color=#8B0000>Loses 20% health every 3 seconds. While present, absorbs damage for all plants. Upon death, triggers Jalapeno in his row and fullscreen Ice-shroom.</color>\n<color=black>Fusion Formula: </color><color=#8B0000>Jalapeno + Ice-shroom</color>",
+      "cost": "<size=36>"
+    },
+    {
+      "seedType": 1174,
+      "name": "Titan Chomper Maw",
+      "introduce": "<size=36><color=black>Titan Chomper Maw won the grand prix in an Gourmet king contest, finishing 10 giga garg cakes in 44 seconds — with 3 of those seconds wasted because he didn’t hear the starting whistle. \"If there’s another event like this, please call me. The buffet near the garden won’t let me in anymore,\" said the Titan Chomper Maw during the interview.</color>",
+      "info": "<size=36>Swallows all zombies that get too close!\n\n<color=black>Damage: </color><color=#8B0000>Instakill</color>\n<color=black>Special: </color><color=#8B0000>Can swallow all zombies in a 1.5 space range (unless immune to Chompers, but including regular gargs), digestion time t=8+3xln(total HP of zombies) Seconds. \nFor reference: Zombie - 24.8 Seconds, Buckethead - 29.9 Seconds, Giga Gargantuar - 34 Seconds, 10 Giga Gargantuars - 41 Seconds</color>\n<color=black>Fusion Formula: </color><color=#8B0000>Chomper + Chomper + Chomper + Jicamagic (Place Jicamagic on the middle Chomper)</color>",
+      "cost": "<size=36>"
+    },
+    {
+      "seedType": 1176,
+      "name": "Hypnoblover",
+      "introduce": "<size=36><color=black>Plants are always curious why Hypnoblover pulls the zombies back. Hypnoblover explains: \"Since Blover always pushes zombies to the opposite direction they face, I believe it's only natural for me to do the same to hypnotized zombies.\"</color>",
+      "info": "<size=36>Can pull back hypnotized(charmed) zombies!\n\n<color=black>Special: </color><color=#8B0000>Pulls all charmed zombies back.</color>\n<color=black>Fusion Formula: </color><color=#8B0000>Hypno-shroom + Blover</color>",
+      "cost": "<size=36>"
+    },
+    {
+      "seedType": 1177,
+      "name": "Twin Bladegrass",
+      "introduce": "<size=36><color=black>Twin Bladegrass' two heads are constantly arguing — one swears spinning is the best approach, while the other insists launching saw blades are superior. Somehow, their teamwork still cuts through the competition.</color>",
+      "info": "<size=36>Attacks nearby zombies with its blades and can also strike at a distance!\n\n<color=black>Special: </color><color=#8B0000>The front head attacks like a regular Bladegrass, while the back head targets all zombies on the screen, firing homing and piercing blades every 1.5 seconds for 10 damage.</color>\n<color=black>Fusion Formula: </color><color=#8B0000>Bladegrass + Bladegrass</color>",
+      "cost": "<size=36>"
+    },
+    {
+      "seedType": 1178,
+      "name": "Boomwood",
+      "introduce": "<size=36><color=black>Boomwood's Afro bounces rhythmically, as if dancing to a beat only it can hear. Some say his groove inspires his fiery creations, while others just appreciate the spectacle — both the style and the explosions leave a lasting impact.</color>",
+      "info": "<size=36>Spawns a seeker cherry drone after igniting a number of projectiles, and turns explosive cherries into drones directly.\n\n<color=black>Special: </color><color=#8B0000>For every 30 peas it passes, it generates a seeking cherry drone. Also converts any explosive cherry that passes through into a cherry drone. There can be up to 3 cherry drones at once. Upon death, it triggers a Cherry Bomb explosion.</color>\n<color=black>Fusion Formula: </color><color=#8B0000>Torchwood + Cherry Bomb</color>",
+      "cost": "<size=36>"
+    }
+  ]
+}

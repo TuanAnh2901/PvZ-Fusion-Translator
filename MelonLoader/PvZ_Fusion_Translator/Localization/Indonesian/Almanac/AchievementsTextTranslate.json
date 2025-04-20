@@ -1,0 +1,387 @@
+{
+  "Welcome": {
+    "achievement": 0,
+    "Name": "Cobain mekanik inti game ini.",
+    "Text": "Plants vs Zombies: Fusion"
+  },
+  "PeaSunflower": {
+    "achievement": 1,
+    "Name": "Temuin Kipli Matahari.",
+    "Text": "Era Fusion Dimulai"
+  },
+  "GatlingPea": {
+    "achievement": 2,
+    "Name": "Temuin Kipli Brondong",
+    "Text": "Upgrade Dulu Biar GG"
+  },
+  "TwinFlower": {
+    "achievement": 3,
+    "Name": "Temuin Bunga Matahari Kembar",
+    "Text": "Ini Bunga Matahari Kembar Kan?"
+  },
+  "SuperGatling": {
+    "achievement": 4,
+    "Name": "Temuin Kipli Rambo",
+    "Text": "Abangnya Lagi Ngamuk"
+  },
+  "CherryPaper": {
+    "achievement": 5,
+    "Name": "Ledakin 4 atau lebih tanaman pake satu Ceri Bom.",
+    "Text": "Ahlinya Ledakan"
+  },
+  "BigWallNut": {
+    "achievement": 6,
+    "Name": "Taruh Kentang di atas Kentang lain.",
+    "Text": "Kok Bisa Kabur?"
+  },
+  "CherryPaper95": {
+    "achievement": 9,
+    "Name": "Ketemu Zompli Brondong Koran Ceri.",
+    "Text": "Diskon Besar Ceri!"
+  },
+  "Puff": {
+    "achievement": 7,
+    "Name": "Gunain Jamur Cupu atau Jamur Gembul buat nyebarin Jamur Bogel.",
+    "Text": "Aku Dari Mana Nih?"
+  },
+  "SunBomb": {
+    "achievement": 8,
+    "Name": "Pake Bom Matahari buat ngeledakin 10 zombi sekaligus.",
+    "Text": "Satu Cahaya Sehari"
+  },
+  "BigWallNut2": {
+    "achievement": 10,
+    "Name": "Pake Kentang buat ngehancurin 10 zombi sekaligus.",
+    "Text": "Kentang Tukang Giling"
+  },
+  "BigWallNut3": {
+    "achievement": 11,
+    "Name": "Pake Kentang buat ngasih damage 20.000 ke zombi yang sama.",
+    "Text": "Kacang Glinding"
+  },
+  "HypnoShroom": {
+    "achievement": 12,
+    "Name": "Pake Jamur Hipno buat ngerasuki zombie.",
+    "Text": "Sorry! Gak Sekarang!"
+  },
+  "JacksonZombie": {
+    "achievement": 13,
+    "Name": "Ketemu Michael Zombi.",
+    "Text": "Michael Dateng Juga"
+  },
+  "ScaredyHypno": {
+    "achievement": 14,
+    "Name": "Pake Jamur Hipno Cupu buat maksa ngerasuki zombi.",
+    "Text": "Dewa Konsep"
+  },
+  "HypnoNut": {
+    "achievement": 15,
+    "Name": "Summon Zombi Kotak Emas dari Kentang Hipno.",
+    "Text": "Kayaknya Enak Nih"
+  },
+  "LilyPad": {
+    "achievement": 16,
+    "Name": "Bikin Teratai numbuhin tanaman.",
+    "Text": "Daun Teratai Muda Baru Nongol"
+  },
+  "ThreePeater": {
+    "achievement": 17,
+    "Name": "Tanem Kipli 3 di jalur pinggir biar nembak 2 kacang per baris.",
+    "Text": "Arah Nembaknya Miring Kiri"
+  },
+  "SquashKelp": {
+    "achievement": 18,
+    "Name": "Temuin Rumput Laut Raksasa",
+    "Text": "Monster Dari Laut Dalam"
+  },
+  "ThreeSpike": {
+    "achievement": 19,
+    "Name": "Pake Penyebar Duri buat meledakin ban.",
+    "Text": "Masih Perlu Duribatu?"
+  },
+  "SunSeaShroom": {
+    "achievement": 20,
+    "Name": "Temuin Jamur Matahari Laut.",
+    "Text": "Ini Jamur Matahari Kan?"
+  },
+  "StarBlover": {
+    "achievement": 21,
+    "Name": "Pake Kipas Bintang buat narik proyektil bintang.",
+    "Text": "Penarik Bintang"
+  },
+  "MagnetShroom": {
+    "achievement": 22,
+    "Name": "Gunain Sistem Magnetik.",
+    "Text": "Pencarian Luas Dulu"
+  },
+  "CornCabbage": {
+    "achievement": 23,
+    "Name": "Temuin Pelontar Lontong.",
+    "Text": "Pelontar Lontong Adalah Bohongmu"
+  },
+  "GarlicCorn": {
+    "achievement": 24,
+    "Name": "Racun Zombie.",
+    "Text": "Siapa Makan Bawang?"
+  },
+  "CabbageUmbrella": {
+    "achievement": 25,
+    "Name": "Pake Payung Kol buat mentalin proyektil ketapel.",
+    "Text": "Lompat-Lompatan Seru"
+  },
+  "GoldMelon": {
+    "achievement": 26,
+    "Name": "Bikin hujan semangka emas dari langit.",
+    "Text": "Hujan semangka!"
+  },
+  "SquashTorch": {
+    "achievement": 27,
+    "Name": "Pake Kayu Bakar Geprek buat ngeluarin Laprek.",
+    "Text": "Lapreknya Menyala Abangkuh!"
+  },
+  "UltimateTorch": {
+    "achievement": 28,
+    "Name": "Temuin Kayu Laprek Jahanam.",
+    "Text": "Laprek kan Pedes, nah Ini Anget"
+  },
+  "Superkelp": {
+    "achievement": 29,
+    "Name": "Temuin Siluman Laut.",
+    "Text": "Laprek Makin GG"
+  },
+  "DarkThreePeater": {
+    "achievement": 30,
+    "Name": "Coba nyalain Kipli 3.",
+    "Text": "Joget Bareng Api"
+  },
+  "AshThreePeater": {
+    "achievement": 31,
+    "Name": "Nyalain api lagi di Kipli 3 Hangus.",
+    "Text": "Tongkat Pembakar"
+  },
+  "SuperThreePeater": {
+    "achievement": 32,
+    "Name": "Biarin Kipli 3 bangkit dari abu.",
+    "Text": "Wah kukira tadi masuk Isekai"
+  },
+  "MagnetCactus": {
+    "achievement": 33,
+    "Name": "Pake Magnet Duri buat ngancurin kapal udara.",
+    "Text": "Kapal Tempur"
+  },
+  "SuperStar": {
+    "achievement": 34,
+    "Name": "Liat meteor jatuh dari langit.",
+    "Text": "Langit Bergerak, Semua Mengikuti"
+  },
+  "UltimateStar": {
+    "achievement": 35,
+    "Name": "Temuin King Bintang.",
+    "Text": "Level 1436"
+  },
+  "MagnetShroom2": {
+    "achievement": 36,
+    "Name": "Sambungin 50 Tanaman ke Sistem Magnetik.",
+    "Text": "Magnet Skuy"
+  },
+  "UltimateStar2": {
+    "achievement": 37,
+    "Name": "Bikin damage meteor King Magnet lebih dari 1800.",
+    "Text": "Anak Bintang"
+  },
+  "HypnoMagnet": {
+    "achievement": 38,
+    "Name": "Summon Gargantuar Robot dari Magnet Hipno.",
+    "Text": "Banjir Baja"
+  },
+  "SunMagnet": {
+    "achievement": 39,
+    "Name": "Pake Magnet Mentari buat bikin objek logam.",
+    "Text": "Mandiri Banget"
+  },
+  "SuperCherryShooter": {
+    "achievement": 40,
+    "Name": "Temuin Kipli Kaboom.",
+    "Text": "Tadi Dia Nembak Bom Ceri?"
+  },
+  "UltimateGatling": {
+    "achievement": 41,
+    "Name": "Temuin King Brondong Ceri.",
+    "Text": "Pembom Halaman"
+  },
+  "HypnoEmperor": {
+    "achievement": 42,
+    "Name": "Temuin Queen Hipno.",
+    "Text": "Ratu Sihir"
+  },
+  "CobCannon": {
+    "achievement": 43,
+    "Name": "Temuin Rudal Jagung.",
+    "Text": "Ketenangan Generasi Lama"
+  },
+  "IceCannon": {
+    "achievement": 44,
+    "Name": "Coba deh Rudal Jagung Beku buat ngebekuin Tanaman.",
+    "Text": "Buat Dunia Menjadi Beku Selayaknya Thomas Slebew~"
+  },
+  "FireCannon": {
+    "achievement": 45,
+    "Name": "Pake Rudal Api buat ngebakar Tanaman.",
+    "Text": "Goreng-goreng, masak-masak, tumis-tumis Taneman~"
+  },
+  "UltimateCannon": {
+    "achievement": 46,
+    "Name": "Temuin Rudal-Nuklir.",
+    "Text": "Waspada Ada Anak Jatuh Dari Langit"
+  },
+  "SuperUmbrella": {
+    "achievement": 47,
+    "Name": "Cari duit pake Payung Kaya.",
+    "Text": "Transmutasi"
+  },
+  "EmeraldUmbrella": {
+    "achievement": 48,
+    "Name": "Pake Payung Sultan buat ngejek trisula.",
+    "Text": "Ayo Hantam Gue!"
+  },
+  "RedEmeraldUmbrella": {
+    "achievement": 49,
+    "Name": "Pake Payung Lindung buat mantulin proyektil zombie.",
+    "Text": "Maaf! Gak Bisa Tiap Hari!"
+  },
+  "Plantern": {
+    "achievement": 50,
+    "Name": "Bikin Level pencahayaan tanaman lebih dari 10.",
+    "Text": "Terang Benderang"
+  },
+  "SuperFume": {
+    "achievement": 51,
+    "Name": "Temuin Gojo",
+    "Text": "Jamur tu Harus Hitam Biar Sangar"
+  },
+  "UltimateFume": {
+    "achievement": 52,
+    "Name": "Temuin King Gojo",
+    "Text": "Jamur! Aku Kembali!"
+  },
+  "UltimteGloom": {
+    "achievement": 53,
+    "Name": "Temuin King Gurita",
+    "Text": "Satu Jamur, Lima Jalur"
+  },
+  "CattailPlant": {
+    "achievement": 54,
+    "Name": "Taburin Pupuk ke Teratai.",
+    "Text": "Kucing Punya Sembilan Nyawa"
+  },
+  "CattailGirl": {
+    "achievement": 55,
+    "Name": "Temuin Kucing Loli.",
+    "Text": "Loh ni Tanaman Cewek?"
+  },
+  "Cattailour": {
+    "achievement": 56,
+    "Name": "Temuin Kucing Darat Magis.",
+    "Text": "Ini Bencana Kucing!"
+  },
+  "WallNut": {
+    "achievement": 57,
+    "Name": "Gunain Kentang buat bertahan dari Zombi.",
+    "Text": "Nyantol"
+  },
+  "SuperChomper": {
+    "achievement": 58,
+    "Name": "Temuin GodZila",
+    "Text": "Kayaknya Susah Dibully."
+  },
+  "UltimateChomper": {
+    "achievement": 59,
+    "Name": "Temuin King GodZila",
+    "Text": "Monster Merah"
+  },
+  "UltimateTallNut": {
+    "achievement": 60,
+    "Name": "Gunain Kentang Obsidian buat bertahan dari ledakan.",
+    "Text": "Tantangan Ember Es"
+  },
+  "SuperMachineNut": {
+    "achievement": 61,
+    "Name": "Sembuhin Zombi Kacang Robot Super sampe HP-nya lebih dari 1 juta.",
+    "Text": "Robot Darah Brutal"
+  },
+  "SuperSunNut": {
+    "achievement": 62,
+    "Name": "Spawn Kentang Raksasa dari Investasi Bodong.",
+    "Text": "Kasih Aku Cahaya"
+  },
+  "UltimatePumpkin": {
+    "achievement": 63,
+    "Name": "Gunain King Drone buat lawan Zombi yang terbang.",
+    "Text": "Labu Kuat Perkasa"
+  },
+  "MelonJump": {
+    "achievement": 64,
+    "Name": "Pake Payung Semangka buat mentalin Pogo Semangka Zombie ke tanah.",
+    "Text": "Langit dan Bumi"
+  },
+  "IronNut": {
+    "achievement": 65,
+    "Name": "Temuin Kentang Ember",
+    "Text": "Ayo Lawan!"
+  },
+  "Sub": {
+    "achievement": 999,
+    "Name": "Tunggu update selanjutnya!",
+    "Text": "Pantau Teruss!"
+  },
+  "WelcomeChallenge": {
+    "achievement": 1000,
+    "Name": "Ini tantangan tingkat lanjut.",
+    "Text": "Lanjutkan dengan Berani"
+  },
+  "Travel": {
+    "achievement": 1001,
+    "Name": "Selesaikan Spesial: Berjuang.",
+    "Text": "Saatnya berpetualang"
+  },
+  "Travel2": {
+    "achievement": 1002,
+    "Name": "Selesaikan Spesial: Pertahanan Terakhir.",
+    "Text": "Daya Tarik Populer"
+  },
+  "Travel3": {
+    "achievement": 1003,
+    "Name": "Selesaikan Spesial: Purgatory.",
+    "Text": "Lolos Tipis Dari Maut"
+  },
+  "Travel_noBuff": {
+    "achievement": 1004,
+    "Name": "Selesaikan Mode Spesial tanpa pilih modifikasi apa pun.",
+    "Text": "Suhu Mode Spesial"
+  },
+  "Travel_noNut": {
+    "achievement": 1005,
+    "Name": "Coba selesaiin Mode Spesial tanpa make King GodZila, Kentang Obsidian, Kentang Robot Super, dan Investasi Bodong.",
+    "Text": "Serangan Itu Adalah Pertahanan Terbaik"
+  },
+  "Travel_sun": {
+    "achievement": 1006,
+    "Name": "Habiskan lebih dari 1 juta Matahari dalam satu ronde Mode Spesial.",
+    "Text": "Matahari Bersinar"
+  },
+  "Travel_fast": {
+    "achievement": 1007,
+    "Name": "Selesaikan Mode Spesial dalam waktu kurang dari 40 menit.",
+    "Text": "Pelari Cepat"
+  },
+  "SuperMachineNut_health": {
+    "achievement": 1008,
+    "Name": "Sembuhin Kentang Robot Super sampe HP-nya lebih dari 100 juta.",
+    "Text": "Emang gak ada kerjaan lain?"
+  },
+  "SuperDamage": {
+    "achievement": 1009,
+    "Name": "Kalahin Gargantuar Obsidian dalam waktu kurang dari 10 detik tanpa Korupsi Buff.",
+    "Text": "OP Abiss"
+  }
+}

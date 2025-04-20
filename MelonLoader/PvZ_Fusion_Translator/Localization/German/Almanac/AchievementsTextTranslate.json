@@ -1,0 +1,387 @@
+{
+  "Welcome": {
+    "achievement": 0,
+    "Name": "Versuch dich an der Kernmechanik dieses Spiels.",
+    "Text": "Plants vs Zombies: Fusion"
+  },
+  "PeaSunflower": {
+    "achievement": 1,
+    "Name": "Entdecke die Erbsen-Sonnenblume.",
+    "Text": "Das Zeitalter der Fusion"
+  },
+  "GatlingPea": {
+    "achievement": 2,
+    "Name": "Entdecke MG-Erbse.",
+    "Text": "Upgrades Leute, Upgrades!"
+  },
+  "TwinFlower": {
+    "achievement": 3,
+    "Name": "Entdecke Doppel-Sonnenblume.",
+    "Text": "Ist das nicht die Doppel-Sonnenblume?"
+  },
+  "SuperGatling": {
+    "achievement": 4,
+    "Name": "Entdecke Pea Commando.",
+    "Text": "Big Brother ist angepisst"
+  },
+  "CherryPaper": {
+    "achievement": 5,
+    "Name": "Lass 4 oder mehr Pflanzen durch eine Kirschbombe hochgehen.",
+    "Text": "Sprengmeister."
+  },
+  "BigWallNut": {
+    "achievement": 6,
+    "Name": "Pack eine Wall-Nuss auf ne zweite Wall-Nuss.",
+    "Text": "könnten wir bitte gehen? wohin? WEG!"
+  },
+  "CherryPaper95": {
+    "achievement": 9,
+    "Name": "Entdecke den Gatling Cherry Newspaper Zombie.",
+    "Text": "Rabatt auf Kirschen!"
+  },
+  "Puff": {
+    "achievement": 7,
+    "Name": "Nutz einen Angsthasen- oder Stinkpilz um den Pustepilz zu verbreiten.",
+    "Text": "Wie bin ich hier her gekommen?"
+  },
+  "SunBomb": {
+    "achievement": 8,
+    "Name": "Lass mindestens 10 Zombies mit einer Solar Mine Hochgehen.",
+    "Text": "Ein Licht am Tag"
+  },
+  "BigWallNut2": {
+    "achievement": 10,
+    "Name": "Deine Giga Nuss soll 10 Zombies gleichzeitg wegzimmern.",
+    "Text": "Dampfwalze"
+  },
+  "BigWallNut3": {
+    "achievement": 11,
+    "Name": "Deine Giga Nuss soll mindestens 20.000 Schaden an einem Zombie anrichten.",
+    "Text": "Drachenrolle von Altschauerberg"
+  },
+  "HypnoShroom": {
+    "achievement": 12,
+    "Name": "Ein Hypnopilz soll einen Zombie hypnotisieren.",
+    "Text": "Heute Nicht!"
+  },
+  "JacksonZombie": {
+    "achievement": 13,
+    "Name": "Entdecke Michael Zombie.",
+    "Text": "Whos Back?"
+  },
+  "ScaredyHypno": {
+    "achievement": 14,
+    "Name": "Nutze den Trippypilz um die Zombies zwangs- zu hypnotisieren.",
+    "Text": "Konzept Gott"
+  },
+  "HypnoNut": {
+    "achievement": 15,
+    "Name": "Erschaffe einen goldenen Mystery-box Zombie mit der Hypnonuss.",
+    "Text": "Wer bin ich?"
+  },
+  "LilyPad": {
+    "achievement": 16,
+    "Name": "Lass das Seerosenblatt eine Pflanze wachsen lassen.",
+    "Text": "Der junge Lotus hat nen Harten im Garten"
+  },
+  "ThreePeater": {
+    "achievement": 17,
+    "Name": "Planze einen Triplinator an den Seitenstreifen, um seine Effizienz um 33% zu senken.",
+    "Text": "Das Projektil hat leichten Linksdrift"
+  },
+  "SquashKelp": {
+    "achievement": 18,
+    "Name": "Entdecke Matschkürbistang.",
+    "Text": "Kreatur der Tiefe"
+  },
+  "ThreeSpike": {
+    "achievement": 19,
+    "Name": "Nutz einen Krautwerfer um reifen zu schlitzen.",
+    "Text": "Wer braucht schon Igelstreifen?"
+  },
+  "SunSeaShroom": {
+    "achievement": 20,
+    "Name": "Entdecke den Sonnenpilz.",
+    "Text": "Sonnenschein am Pool"
+  },
+  "StarBlover": {
+    "achievement": 21,
+    "Name": "Nutz das Sternenwehblatt um Sternenfragmente anzuziehen.",
+    "Text": "U Wende der Sterne"
+  },
+  "MagnetShroom": {
+    "achievement": 22,
+    "Name": "Verwende das Megnetsystem.",
+    "Text": "Klingt stark nach Magie"
+  },
+  "CornCabbage": {
+    "achievement": 23,
+    "Name": "Entdecke das Taco-pult.",
+    "Text": "Taco-pult ist deine Lüge"
+  },
+  "GarlicCorn": {
+    "achievement": 24,
+    "Name": "Vergifte einen Zombie.",
+    "Text": "Wer frisst hier Knobi?"
+  },
+  "CabbageUmbrella": {
+    "achievement": 25,
+    "Name": "Nutze Schirmkohl um Projektile bouncen zu lassen.",
+    "Text": "Jongleur"
+  },
+  "GoldMelon": {
+    "achievement": 26,
+    "Name": "Lass es goldenen Melonen regnen.",
+    "Text": "Melonenhagel."
+  },
+  "SquashTorch": {
+    "achievement": 27,
+    "Name": "Nutze Gequetschtes Zunderholz um einen Matschkürbis zu erschaffen.",
+    "Text": "Heiß"
+  },
+  "UltimateTorch": {
+    "achievement": 28,
+    "Name": "Entdecke Gequetschtes Infernoholz.",
+    "Text": "Des Teufels Küche"
+  },
+  "Superkelp": {
+    "achievement": 29,
+    "Name": "Discover Krakerberus.",
+    "Text": "Horror der Tiefen"
+  },
+  "DarkThreePeater": {
+    "achievement": 30,
+    "Name": "Versuche den Triplinator anzuzünden.",
+    "Text": "Tanz mit dem Feuer"
+  },
+  "AshThreePeater": {
+    "achievement": 31,
+    "Name": "Zünde Verkohlter Triplinator noch ein weiteres mal an.",
+    "Text": "verbrannte Erde"
+  },
+  "SuperThreePeater": {
+    "achievement": 32,
+    "Name": "Lass Triplinator aus der Asche auferstehen.",
+    "Text": "Wiedergeburt aus Flammen"
+  },
+  "MagnetCactus": {
+    "achievement": 33,
+    "Name": "Nutze Magnedorn um Luftschiffe abstürzen zu lassen.",
+    "Text": "Die Macht ist mit dir"
+  },
+  "SuperStar": {
+    "achievement": 34,
+    "Name": "Schaue einem Meteor beim stürzen zu.",
+    "Text": "Let the Sky Fall"
+  },
+  "UltimateStar": {
+    "achievement": 35,
+    "Name": "Entdecke Magnetar.",
+    "Text": "Level 1436"
+  },
+  "MagnetShroom2": {
+    "achievement": 36,
+    "Name": "Verbinde 50 Pflanzen in einem magnetischem System.",
+    "Text": "Magnetsphäre"
+  },
+  "UltimateStar2": {
+    "achievement": 37,
+    "Name": "Lass Magnetar über 1800 Schaden pro Attacke bewirken.",
+    "Text": "Sternen-Schaffung"
+  },
+  "HypnoMagnet": {
+    "achievement": 38,
+    "Name": "Erschaffe Mecha Gargantuar mit dem Hypno Magnet.",
+    "Text": "Torrent of Steel"
+  },
+  "SunMagnet": {
+    "achievement": 39,
+    "Name": "Nutze Solarmagnet um ein Metall Objekt zu produzieren.",
+    "Text": "Selbstversorger"
+  },
+  "SuperCherryShooter": {
+    "achievement": 40,
+    "Name": "Entdecke Explod-o-shooter.",
+    "Text": "Ruhe in Friedrichsheim"
+  },
+  "UltimateGatling": {
+    "achievement": 41,
+    "Name": "Entdecke Gatling Cherrybomber.",
+    "Text": "Teppichsprenger"
+  },
+  "HypnoEmperor": {
+    "achievement": 42,
+    "Name": "Entdecke Kaiserinpilz.",
+    "Text": "Riecht nach Geld"
+  },
+  "CobCannon": {
+    "achievement": 43,
+    "Name": "Entdecke die Kolben Kanone.",
+    "Text": "Krassen Kater-Konter-Kalt-Kühlkörper-Kadenz-Kolben knallen"
+  },
+  "IceCannon": {
+    "achievement": 44,
+    "Name": "Benutze die Cryokanone um pflanzen zu fusionieren.",
+    "Text": "Eiskönigin"
+  },
+  "FireCannon": {
+    "achievement": 45,
+    "Name": "Benutze die Pyrokanone um Pflanzen zu fusionieren.",
+    "Text": "Du willst die Welt brennen sehen"
+  },
+  "UltimateCannon": {
+    "achievement": 46,
+    "Name": "Entdecke die Maisvergessenheit-Kanone.",
+    "Text": "Ich bin der Tod in Person"
+  },
+  "SuperUmbrella": {
+    "achievement": 47,
+    "Name": "Mach Para mit dem Alchemistenschirm.",
+    "Text": "Transmutation"
+  },
+  "EmeraldUmbrella": {
+    "achievement": 48,
+    "Name": "Nutze Midas Schirm um die Zombies anzupissen.",
+    "Text": "Ich weiß du willst mir in die Fresse hauen, aber du kannst nicht!"
+  },
+  "RedEmeraldUmbrella": {
+    "achievement": 49,
+    "Name": "Nutze den Rubinschirm um Zombieprojektile zurück zu werfen.",
+    "Text": "Denk schnell, Vollspast!"
+  },
+  "Plantern": {
+    "achievement": 50,
+    "Name": "Mach ne Pflanze Heller als 10 Lumos.",
+    "Text": "Heller als die Sterne"
+  },
+  "SuperFume": {
+    "achievement": 51,
+    "Name": "Entdecke Unheilbergpilz",
+    "Text": "Myzel-Wacht im Morgengrauen"
+  },
+  "UltimateFume": {
+    "achievement": 52,
+    "Name": "Entdecke Herrscherpilz",
+    "Text": "Dominion"
+  },
+  "UltimteGloom": {
+    "achievement": 53,
+    "Name": "Entdecke Vergessenheitenpilz",
+    "Text": "Radioaktiv"
+  },
+  "CattailPlant": {
+    "achievement": 54,
+    "Name": "Schmeiß Dünger auf ein Seerosenblatt.",
+    "Text": "Katzen haben Neun Leben"
+  },
+  "CattailGirl": {
+    "achievement": 55,
+    "Name": "Entdecke Katzenschwanz-Mädchen.",
+    "Text": "Was macht das Mädchen hier?"
+  },
+  "Cattailour": {
+    "achievement": 56,
+    "Name": "Entdecke Magicat Nettle.",
+    "Text": "Eine Katzastrophe!"
+  },
+  "WallNut": {
+    "achievement": 57,
+    "Name": "Benutze eine Wall-Nuss um dich gegen Zombies zu verteidigen.",
+    "Text": "Du kommst hier nicht vorbei!"
+  },
+  "SuperChomper": {
+    "achievement": 58,
+    "Name": "Entdecke Chewzilla",
+    "Text": "Tough Guy"
+  },
+  "UltimateChomper": {
+    "achievement": 59,
+    "Name": "Entdecke Kirschzilla",
+    "Text": "Kriegsgott"
+  },
+  "UltimateTallNut": {
+    "achievement": 60,
+    "Name": "Nutze Obsidian-Nuss um dich gegen Explosionen zu verteidigen.",
+    "Text": "Ice Bucket Challenge"
+  },
+  "SuperMachineNut": {
+    "achievement": 61,
+    "Name": "Heile Giga-Mech Nut bis seine LP über 1.000.000 sind.",
+    "Text": "Giga ex Machina"
+  },
+  "SuperSunNut": {
+    "achievement": 62,
+    "Name": "Spawne eine Riesen-Nuss aus ner Zwllings Solar-Nuss.",
+    "Text": "Hier kommt die Sonne"
+  },
+  "UltimatePumpkin": {
+    "achievement": 63,
+    "Name": "Nutze den Laser Kürbis um dich gegen luftgebundene Zombies zu verteidigen.",
+    "Text": "Ich verfehle nie"
+  },
+  "MelonJump": {
+    "achievement": 64,
+    "Name": "Nutze eine Schirm-Pflanze um einen Pogo Zombie wieder auf dem Boden der Tatsachen zu holen.",
+    "Text": "Himmel und Erde"
+  },
+  "IronNut": {
+    "achievement": 65,
+    "Name": "Entdecke Eisen-Nuss",
+    "Text": "Hardware Acquired"
+  },
+  "Sub": {
+    "achievement": 999,
+    "Name": "Stay tuned for the next updates!",
+    "Text": "Stay Tuned!"
+  },
+  "WelcomeChallenge": {
+    "achievement": 1000,
+    "Name": "Hier sind ein paar krassere Challanges.",
+    "Text": "Schreite Mutig fort"
+  },
+  "Travel": {
+    "achievement": 1001,
+    "Name": "Beende Odyssey: Überleben.",
+    "Text": "Abenteuer Zeit"
+  },
+  "Travel2": {
+    "achievement": 1002,
+    "Name": "Beende Odyssey: Letzer Widerstand.",
+    "Text": "Heißes Touristenziel"
+  },
+  "Travel3": {
+    "achievement": 1003,
+    "Name": "Beende Odyssey: Fegefeuer.",
+    "Text": "Haben wir den Himmel erreicht?"
+  },
+  "Travel_noBuff": {
+    "achievement": 1004,
+    "Name": "Beende Odyssey Mode ohne Modifier.",
+    "Text": "Odyssey Meister"
+  },
+  "Travel_noNut": {
+    "achievement": 1005,
+    "Name": "Beende Odyssey Modus ohne Kirchzilla, Obsidian Nuss, Giga Mecha-Nuss und Doppel Solar-Nuss.",
+    "Text": "Bare Fight"
+  },
+  "Travel_sun": {
+    "achievement": 1006,
+    "Name": "Zahle mehr als 1.000.000 Sonne in einer Runde Odyssey.",
+    "Text": "Die Sonne als Zahlungsmittel"
+  },
+  "Travel_fast": {
+    "achievement": 1007,
+    "Name": "Beende Odyssey Mode in unter 40 Minuten.",
+    "Text": "Speedrunner"
+  },
+  "SuperMachineNut_health": {
+    "achievement": 1008,
+    "Name": "Heile Giga Mecha-Nuss bis sie über 100.000.000 LP hat.",
+    "Text": "Vallah Nein"
+  },
+  "SuperDamage": {
+    "achievement": 1009,
+    "Name": "Zimmer einen Abyssal Gargantuar in unter 10 Sekunden weg ohne Korruptions-Buff.",
+    "Text": "Absolute Macht"
+  }
+}

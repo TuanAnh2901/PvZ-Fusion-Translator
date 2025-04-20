@@ -1,0 +1,520 @@
+{
+	"zombies": [
+		{
+			"theZombieType": 0,
+			"name": "Zombie",
+			"introduce": "<size=34><color=black>Zombie hasst es, dass sein Name ihn wie einen gewöhnlichen, nun ja, Zombie erscheinen lässt. Er hält sich nicht für einen namenlosen Feind oder einen gewöhnlichen Leichnam. Er ist ein Individuum, verdammt noch mal! Und er wird etwas Außergewöhnliches tun, auch wenn es dich umbringt.</color>",
+			"info": "<size=36>Ein ganz normaler Zombie aus dem Garten.\n\n<color=black>Ausdauer: </color><color=#4B0082>270</color>"
+		},
+		{
+			"theZombieType": 2,
+			"name": "Pylonen-Zombie",
+			"introduce": "<size=36><color=black>Der Pylonen-Zombie hat keine Ahnung, was ein Verkehrskegel ist. Für ihn sieht er aus wie eine Eistüte, und als er merkt, dass er sie nicht essen kann, steckt er sie sich einfach auf den Kopf.</color>",
+			"info": "<size=36>Sein Verkehrskegel-Kopfteil macht ihn doppelt so stark wie normale Zombies.\n\n<color=black>Ausdauer: </color><color=#4B0082>270+370</color>"
+		},
+		{
+			"theZombieType": 3,
+			"name": "Stabhochsprung-Zombie",
+			"introduce": "<size=36><color=black>Einst der beste Hochspringer seiner Stadt, nahm die Karriere von Stabhochsprung-Zombie an dem Tag eine Wendung, als er vergaß, die Kissen hinter dem Hochsprungstand aufzustellen.</color>",
+			"info": "<size=36>Stabhochsprung-Zombie springt mit einer Stange.\n\n<color=black>Ausdauer: </color><color=#4B0082>720</color>\n<color=black>Besonderheit: </color><color=#4B0082>Springt über die erste Pflanze, auf die er trifft.</color>"
+		},
+		{
+			"theZombieType": 4,
+			"name": "Eimer-Zombie",
+			"introduce": "<size=31><color=black>Einst wurde Eimer-Zombie, der eigentlich nur ein Maler war, wegen seines kreativen Umgangs mit einem Eimer als Genie unter den Zombies gepriesen. Jahre sind vergangen, und nun fragen sich die Zombies, ob er immer noch geheime Killertricks in petto hat. Gehen ihm die Ideen aus, oder hat er etwas zu verbergen? Wer weiß das schon?</color>",
+			"info": "<size=34>Sein Eimerhut macht ihn extrem widerstandsfähig gegen Schaden.\n\n<color=black>Ausdauer: </color><color=#4B0082>270+1100</color>"
+		},
+		{
+			"theZombieType": 5,
+			"name": "Zeitung-Zombie",
+			"introduce": "<size=34><color=black>„Man kann ihm nicht vorwerfen, dass er frustriert war; er war gerade dabei, das Kreuzworträtsel zu beenden (das vertikale Wort Nummer 23 ist 'Hirn'), was erklärt, warum er die Zeitung verkehrt herum hielt“.</color>",
+			"info": "<size=36>Seine Zeitung bietet nur begrenzten Schutz.\n\n<color=black>Ausdauer: </color><color=#4B0082>270+200</color>\n<color=black>Besonderheit: </color><color=#4B0082>Reist zunächst normal, wird aber schneller, nachdem er seine Zeitung verloren hat.</color>"
+		},
+		{
+			"theZombieType": 6,
+			"name": "Tanz-Zombie",
+			"introduce": "<size=32><color=black>Tanz-Zombies sportliche Fähigkeiten sind für Zombie-Verhältnisse durchschnittlich. Auf Anraten der Gruppentänzer-Zombies beschließt er, den Weg des Idols einzuschlagen. Jetzt wird sein Popsong „Just Brains“, eine Zusammenarbeit mit Michael Jackson, zu einem Hit.</color>",
+			"info": "<size=34>Nach dem Überspringen beschwört er seine Gruppentänzer-Zombies.\n\n<color=black>Ausdauer: </color><color=#4B0082>720</color>\n<color=black>Besonderheit: </color><color=#4B0082>Beschwört 4 Gruppentänzer-Zombies.</color>"
+		},
+		{
+			"theZombieType": 7,
+			"name": "Gruppentänzer-Zombie",
+			"introduce": "<size=34><color=black>Die vier Brüder, einst gestörte Waisenkinder, entwickelten verdrehte Persönlichkeiten und schikanierten andere an der Zombie-Akademie. Als sie eines Tages sahen, wie Tanz-Zombie freudig auf der Bühne auftrat, veränderte sich ihr Verhalten. Von diesem Moment an traten sie gemeinsam mit ihm auf der Bühne auf.</color>",
+			"info": "<size=36>Über eine Pflanze klettern.\n\n<color=black>Ausdauer: </color><color=#4B0082>270</color>"
+		},
+		{
+			"theZombieType": 8,
+			"name": "Fliegengitter-Zombie",
+			"introduce": "<size=30><color=black>Fliegengitter-Zombie, einst Mitglied einer FBI-Einsatztruppe mit schlechter Laune, aber einem gerechten Herzen, verhandelte nie mit Räubern - er brach einfach Türen auf, um Geiseln zu retten. Nachdem er zu einem Zombie geworden war, blieb sein gütiges Herz dasselbe. Als er sah, wie Zombies einen kleinen Geisterzombie entführten, versuchte er einzubrechen, aber sie beschichteten die Tür mit Klebstoff und hielten seine Hand fest.</color>",
+			"info": "<size=34>Kann Kugeln, die von vorne kommen, abwehren.\n\n<color=black>Ausdauer: </color><color=#4B0082>270+1100</color>"
+		},
+		{
+			"theZombieType": 9,
+			"name": "Football-Zombie",
+			"introduce": "<size=36><color=black>Der Fußball-Zombie ist ein Sportstar unter den Zombies, der von vielen für seine heldenhafte Präsenz auf dem Spielfeld bewundert wird. Viele Unternehmen wollen ihn einstellen, aber seine Gehaltsforderungen sind hoch - ein Jahresgehalt von 10.000 Gehirnen.</color>",
+			"info": "<size=36>Läuft super schnell.\n\n<color=black>Ausdauer: </color><color=#4B0082>270+1400</color>"
+		},
+		{
+			"theZombieType": 10,
+			"name": "Michael-Zombie",
+			"introduce": "<size=36><color=black>Schwarzer Anzug, schwarzer Hut - er ist nicht wegen einer Beerdigung hier. Er ist nur ein Tänzer, und du kannst ihn Michael-Zombie nennen.</color>",
+			"info": "<size=36>Führt den Angriff mit seinen ultimativen Tanzschritten an.\n\n<color=black>Ausdauer: </color><color=#4B0082>720</color>\n<color=black>Besonderheit: </color><color=#4B0082>Beschwört 4 Tanz-Zombies auf einmal.</color>"
+		},
+		{
+			"theZombieType": 11,
+			"name": "Duck Zombie NOT IN GAME",
+			"introduce": "<size=32><color=black>只有特定的僵尸才能成为鸭子救生圈僵尸，不是每只僵尸都能胜任。有些救生圈有点漏气，他们却处理不了，脱身后永远放弃了对脑子的渴求。</color>",
+			"info": "<size=32>可以在水里移动。\n\n<color=black>Ausdauer: </color><color=#4B0082>270</color>"
+		},
+		{
+			"theZombieType": 12,
+			"name": "Coneduck Zombie NOT IN GAME",
+			"introduce": "<size=32><color=black>都说差生文具多，但是路障鸭子并不这么认为，毕竟他不想承认他是个差生。</color>",
+			"info": "<size=32>可以在水里移动。\n\n<color=black>Ausdauer: </color><color=#4B0082>270</color>"
+		},
+		{
+			"theZombieType": 13,
+			"name": "Bucketduck Zombie NOT IN GAME",
+			"introduce": "<size=32><color=black>铁桶鸭子本不想带上那个漏气的游泳圈的，但是没办法，谁叫他戴着那个容易生锈的铁桶呢。</color>",
+			"info": "<size=32>可以在水里移动。\n\n<color=black>Ausdauer: </color><color=#4B0082>270</color>"
+		},
+		{
+			"theZombieType": 14,
+			"name": "Zombarine",
+			"introduce": "<size=34><color=black>Die furchteinflößende Zombarine, die nach bionischen Prinzipien entwickelt wurde, ist sowohl majestätisch als auch einschüchternd - eine begehrte Kriegswaffe für Zombies. „Jetzt müssen wir uns nur noch um das Problem der Algen kümmern, die sich im Propeller verfangen“, sagt Dr. Edgar.</color>",
+			"info": "<size=36>Das bevorzugte Mittel der Zombies gegen Wasserpflanzen.\n\n<color=black>Ausdauer: </color><color=#4B0082>1350</color>"
+		},
+		{
+			"theZombieType": 15,
+			"name": "Gelehrten-Zombie",
+			"introduce": "<size=32><color=black>Der Gelehrten-Zombie liebt Bücher und ist oft in der Bibliothek. Störe ihn nicht beim Lesen, sonst zeigt er dir, was „Wissen ist Macht“ wirklich bedeutet.</color>",
+			"info": "<size=32>Verursacht neben seinen stabilen Büchern enormen Schaden.\n\n<color=black>Schaden: </color><color=#4B0082>400</color>\n<color=black>Ausdauer: </color><color=#4B0082>720+1100</color>\n<color=black>Besonderheit: </color><color=#4B0082>Kurzzeitige Unbesiegbarkeit und erhöhte Bewegungsgeschwindigkeit, nachdem das Buch zerbrochen wurde.</color>"
+		},
+		{
+			"theZombieType": 16,
+			"name": "Zomboni",
+			"introduce": "<size=34><color=black>Der Zombie am Steuer ist ein hervorragender Fahrer, vor allem, wenn man bedenkt, dass nur wenige Zombies von der Eisbahn zur Wiese navigieren können. Jetzt muss er die Strafe bezahlen. Die Eismaschine, die er bedient, ist kein Zamboni, sondern ein Zomboni, hergestellt von Unternehmen B.</color>",
+			"info": "<size=36>Der Zomboni wendet Eis, Dampf und Druck auf Ihre Pflanzen an.\n\n<color=black>Ausdauer: </color><color=#4B0082>1350</color>"
+		},
+		{
+			"theZombieType": 17,
+			"name": "Schnorchel-Zombie",
+			"introduce": "<size=33><color=black>Schnorchel-Zombie hat zwar eine kaputte Maske, aber das hindert ihn nicht daran, zu tauchen und im Wasser zu schwimmen. Sein sogenanntes „Versinken“ ist nicht auf seine Tauchfähigkeiten zurückzuführen; er braucht keine Luft zum Atmen.</color>",
+			"info": "<size=33>Der Schnorchel-Zombie kann unter Wasser schwimmen.\n\n<color=black>Ausdauer: </color><color=#4B0082>270</color>\n<color=black>Besonderheit: </color><color=#4B0082>Taucht unter, um Projektilangriffen auszuweichen.</color>"
+		},
+		{
+			"theZombieType": 18,
+			"name": "Bobschlitten-Zombie",
+			"introduce": "<size=34><color=black>Dieses von Skibegeisterten entwickelte Auto fährt problemlos auf Schnee und Eis und erreicht sogar höhere Geschwindigkeiten als auf Gras. Leider hat es einen Makel: Es kann nur auf vereisten Flächen gestartet werden.</color>",
+			"info": "<size=34>Erscheint nur, wenn Eis auf dem Spielfeld ist.\n\n<color=black>Ausdauer: </color><color=#4B0082>2700</color>\n<color=black>Besonderheit: </color><color=#4B0082>Bewegt sich sehr schnell, wenn er auf dem Eis steht.</color>"
+		},
+		{
+			"theZombieType": 19,
+			"name": "Delfinreiter-Zombie",
+			"introduce": "<size=32><color=black>Delfinreiter-Zombie ist ein Teilzeit-Darsteller und Delfinpfleger in einem Aquarium. Der Delfin, auf dem er reitet, ist ein Zombie, aber anders als typische Zombies hat dieser „Zombie-Delfin“ kein Verlangen nach Gehirnen.</color>",
+			"info": "<size=32>Delfinreiter-Zombies benutzen Delphine, um deine Verteidigung zu umgehen.\n\n<color=black>Ausdauer: </color><color=#4B0082>720</color>\n<color=black>Besonderheit: </color><color=#4B0082>Springt über die erste Pflanze, auf die er trifft.</color>"
+		},
+		{
+			"theZombieType": 20,
+			"name": "Dreizack-Zombie",
+			"introduce": "<size=32><color=black>Der Dreizack-Zombie war einst Speerwerfer, dann Fischer. Nach einem Sturz in den Fluss erwachte er als das, was er jetzt ist.</color>",
+			"info": "<size=32>Wirft einen Dreizack, um deine Pflanzen anzugreifen.\n\n<color=black>Ausdauer: </color><color=#4B0082>720</color>\n<color=black>Besonderheit: </color><color=#4B0082>Wirft einen Dreizack, der den Pflanzen einen Schaden in Höhe von 20% (mindestens 60) ihrer aktuellen Ausdauer zufügt.</color>\n<color=black>Suchbereich: </color><color=#4B0082>3.5 Tiles in Front</color>"
+		},
+		{
+			"theZombieType": 21,
+			"name": "Diamantschachtel-Zombie",
+			"introduce": "<size=34><color=black>Heute enthüllt Diamantschachtel-Zombie ihre schillernde Welt, mit leuchtenden Augen und goldenem Licht, das wie ein Fluss durch die Zeit strömt und neue Welten öffnet.</color>",
+			"info": "<size=34>Ist das... ein Pylonen-Zombie?\n\n<color=black>Ausdauer: </color><color=#4B0082>4400</color>\n<color=black>Besonderheit: </color><color=#4B0082>Verwandelt sich in einen Goldschachtel-Zombie, wenn er stirbt.</color>"
+		},
+		{
+			"theZombieType": 22,
+			"name": "Goldschachtel-Zombie",
+			"introduce": "<size=36><color=black>„Unter der goldenen Schachtel befinden sich weitere Schachteln in verschiedenen Farben. Kannst du erraten, woraus die Schachtel im Inneren besteht?“</color>",
+			"info": "<size=36>Ist das... ein Pylonen-Zombie?\n\n<color=black>Ausdauer: </color><color=#4B0082>2200</color>\n<color=black>Besonderheit: </color><color=#4B0082>Verwandelt sich in einen Silberschachtel-Zombie, wenn er stirbt.</color>"
+		},
+		{
+			"theZombieType": 23,
+			"name": "Silberschachtel-Zombie",
+			"introduce": "<size=34><color=black>Silberschachtel-Zombie hält die Kiste auf seinem Kopf für einen Topf, also muss es auch einer sein. Warum begreifst du angesichts seiner Denkweise nicht seine Perspektive? Und du siehst doch das Ausrufezeichen auf seiner Kiste, oder?</color>",
+			"info": "<size=34>Ist das... ein Pylonen-Zombie?\n\n<color=black>Ausdauer: </color><color=#4B0082>1100</color>\n<color=black>Besonderheit: </color><color=#4B0082>Verwandelt sich in einen Pylonen-Zombie, wenn er stirbt.</color>"
+		},
+		{
+			"theZombieType": 24,
+			"name": "<size=34>Springteufel-Zombie",
+			"introduce": "<size=36><color=black>Obwohl Springteufel-Zombie ein Geisteskranker ist, hat der Zirkus seine Bewerbung angenommen. Seien Sie vorsichtig mit dem, was in seiner Spielzeugkiste ist; es wird Sie sicher erschrecken.</color>",
+			"info": "<size=36>Dieser Zombie birgt eine explosive Überraschung.\n\n<color=black>Ausdauer: </color><color=#4B0082>720</color>\n<color=black>Besonderheit: </color><color=#4B0082>Explodiert manchmal und tötet die umliegenden Pflanzen im Handumdrehen.</color>"
+		},
+		{
+			"theZombieType": 25,
+			"name": "Ballon-Zombie",
+			"introduce": "<size=34><color=black>Ballon-Zombie, Miterschaffer des Zomppelins, erklärt seine Ballons mit: „Das war meine Schlussfolgerung.“ Tatsächlich haben sie sich nur zufällig verheddert.</color>",
+			"info": "<size=34>Der Ballon-Zombie schwebt über dem Kampfgeschehen und ist gegen die meisten Angriffe immun.\n\n<color=black>Ausdauer: </color><color=#4B0082>270+20</color>\n<color=black>Besonderheit: </color><color=#4B0082>Kann während des Fluges von den meisten Pflanzen nicht beschädigt werden.</color>"
+		},
+		{
+			"theZombieType": 26,
+			"name": "Zomppelin",
+			"introduce": "<size=32><color=black>Der Zomppelin, Dr. Edgars neueste Waffe, sorgt für Spekulationen: Wer steuert ihn – der Wicht oder das Luftschiff selbst? „Es ist nur ein Ballon“, sagt Dr. Edgar. „Zombies müssen modern werden. Vielleicht wird er eine Drohne, damit die Niederlage weniger peinlich wird.“</color>",
+			"info": "<size=32>Wirft tödliche Bomben ab, wenn er über Ihre Pflanzen fliegt.\n\n<color=black>Bombenschaden: </color><color=#4B0082>1000</color>\n<color=black>Ausdauer: </color><color=#4B0082>1350</color>"
+		},
+		{
+			"theZombieType": 27,
+			"name": "Walreiter-Yeti",
+			"introduce": "<size=30><color=black>Yeti-Zombies weißer Wal springt beeindruckend, sehr zum Neid des Delfinreiters, der ihn gerne ausleihen würde. Doch Yeti-Zombie lehnt ab. „Er hat keine Kontrolle über den Wal“, sagt Dr. Edgar. „Der Wal schwimmt immer in die falsche Richtung.“</color>",
+			"info": "<size=30>Springt drei Felder nach vorne, dreht sich um und greift deine Pflanzen von hinten an.\n\n<color=black>Ausdauer: </color><color=#4B0082>720</color>\n<color=black>Besonderheit: </color><color=#4B0082>Kann nicht durch Hochwall-Nüsse blockiert werden.</color>"
+		},
+		{
+			"theZombieType": 28,
+			"name": "Buddel-Zombie",
+			"introduce": "<size=32><color=black>Vor langer Zeit verachteten die Buddel-Zombies die Magnet-Pilze, weil sie ständig ihre Werkzeuge konfiszierten. Jetzt hassen sie Miner Pumpkins noch mehr. „Ich bekomme ständig Schläge auf den Kopf, und dann fühle ich mich noch schlechter“, klagt er.</color>",
+			"info": "<size=32>Dieser Zombie gräbt, um deine Verteidigungsanlagen zu umgehen.\n\n<color=black>Ausdauer: </color><color=#4B0082>720</color>\n<color=black>Besonderheit: </color><color=#4B0082>Tunnelt unterirdisch und erscheint auf der linken Seite des Rasens. Anfällig für Magnetpilzen.</color>"
+		},
+		{
+			"theZombieType": 29,
+			"name": "Eisenkopter-Zombie",
+			"introduce": "<size=32><color=black>„Freunde, wusstet ihr von dem Berliner Luftschiff? Es hat mich zu meinem Entwurf inspiriert...“ Alle Zombies wollen sich vor dem Eisenkopter-Zombie verstecken, nicht nur weil er zu viel über das Luftschiff redet, sondern auch weil der Lärm des Propellers seines Ballons unerträglich ist.</color>",
+			"info": "<size=32>Eisenkopter-Zombie hat keine Angst vor Wehblatt!\n\n<color=black>Ausdauer: </color><color=#4B0082>270+2200+500</color>\n<color=black>Besonderheit: </color><color=#4B0082>Der Propeller auf der Oberseite kann Wehblatts Winde ausgleichen.</color>"
+		},
+		{
+			"theZombieType": 30,
+			"name": "Königsclown-Zombie",
+			"introduce": "<size=32><color=black></color>",
+			"info": "<size=36>Königsclown-Zombie kann auch nach seinem Tod explodieren!\n\n<color=black>Ausdauer: </color><color=#4B0082>720+370</color>\n<color=black>Besonderheit: </color><color=#4B0082>Wird nach der Explosion gewalttätig und verdoppelt seine Geschwindigkeit. Hat auch eine Chance, sich selbst zu zerstören und sich in einen Springteufel-Zombie zu verwandeln. Je schneller er explodiert, desto höher ist die Chance, dass er stirbt.</color>"
+		},
+		{
+			"theZombieType": 31,
+			"name": "Katapult-Zombie",
+			"introduce": "<size=36><color=black>Niemand weiß, wie Katapult-Zombie es schafft, mit solcher Präzision zu werfen, aber eines ist sicher: Wenn du ihn siehst, halte dir schnell den Kopf zu!</color>",
+			"info": "<size=36>Katapultiert Basketbälle, um deine Pflanzen anzugreifen.\n\n<color=black>Ausdauer: </color><color=#4B0082>850</color>\n<color=black>Besonderheit: </color><color=#4B0082>Wirft Basketbälle, die 60 Schaden verursachen.</color>"
+		},
+		{
+			"theZombieType": 32,
+			"name": "Pogo-Zombie",
+			"introduce": "<size=34><color=black>Pogo-Zombies lieben es, herumzuhüpfen, weil sie denken, dass ein Sprung in den Himmel dem Fliegen am nächsten kommt. Aber niemand hat ihnen gesagt, dass sie kein Trampolin auf dem Dach benutzen sollen...</color>",
+			"info": "<size=34>Ein Zombie, der über deine Verteidigungsanlagen springen kann.\n\n<color=black>Ausdauer: </color><color=#4B0082>720</color>\n<color=black>Besonderheit: </color><color=#4B0082>Kann über Pflanzen springen</color>"
+		},
+		{
+			"theZombieType": 33,
+			"name": "Leiter-Zombie",
+			"introduce": "<size=32><color=black>Leiter-Zombie hat im Internet gehört, dass er mit einer Leiter und Arbeitskleidung alle Verteidigungsanlagen überwinden kann. Bewaffnet mit einer Leiter und gekleidet wie ein Arbeiter, macht er sich auf den Weg, um die Verteidigungsanlagen zu erobern.</color>",
+			"info": "<size=32>Dieser Zombie benutzt eine Leiter, um Hindernisse zu umgehen.\n\n<color=black>Ausdauer: </color><color=#4B0082>720+720</color>\n<color=black>Besonderheit: </color><color=#4B0082>Kann die Leiter benutzen, um Pflanzenabwehr zu ignorieren.</color>"
+		},
+		{
+			"theZombieType": 34,
+			"name": "Pogomelone-Zombie",
+			"introduce": "<size=29><color=black>„Geschosse explodieren selten zweimal im selben Krater!“ erklärt Pogomelone-Zombie mit Verweis auf die „Kratertheorie“, während er seinen Melonenschalenhut richtet. Doch niemand erwähnt, wie auffällig sein rot-grünes Farbschema ist.</color>",
+			"info": "<size=30>Dieser Zombie lädt sich auf und springt in deine Verteidigung!\n\n<color=black>Ausdauer: </color><color=#4B0082>270+2200</color>\n<color=black>Besonderheit: </color><color=#4B0082>Lädt sich 5 Sekunden lang auf und führt dann einen großen Sprung aus. Während des Sprungs ist er unverwundbar.</color>"
+		},
+		{
+			"theZombieType": 35,
+			"name": "Gargantua",
+			"introduce": "<size=35><color=black>Der Gargantua ist wie ein massives, ungeschicktes Tier, dessen Größe ein Vorteil auf Kosten der Intelligenz ist. Er versteht weder Pflanzen noch Gehirne; er weiß nur, wie man sich unerbittlich vorwärts bewegt. </color>",
+			"info": "<size=35>Ein massiver, sich langsam bewegender Zombie, der mit seiner enormen Größe alles zermalmt, was sich ihm in den Weg stellt.\n\n<color=black>Ausdauer: </color><color=#4B0082>3000</color>"
+		},
+		{
+			"theZombieType": 36,
+			"name": "Giga-Gargantua",
+			"introduce": "<size=35><color=black>Obwohl der Giga-Gargantua auf dem Schlachtfeld Verwüstung anrichtet und seine blutroten Augen allen, die ihm begegnen, Angst einflößen, gibt es ein wenig bekanntes Geheimnis: Das Monster ist aufgrund chronischen Schlafmangels ständig gereizt.</color>",
+			"info": "<size=35>Der wütende Gargantua zermalmt alles, was sich ihm in den Weg stellt, mit furchtbarer Kraft.\n\n<color=black>Ausdauer: </color><color=#4B0082>6000</color>"
+		},
+		{
+			"theZombieType": 37,
+			"name": "Wicht",
+			"introduce": "<size=36><color=black>Wichts schleichen gerne durch enge Räume und treiben oft Unfug. Wundern Sie sich nicht, wenn Sie unerwartet einen herumspringen sehen!</color>",
+			"info": "<size=36>Der kleine und raffinierte Wicht liebt es, sich in enge Räume zu zwängen, was ihn wendig und schwer angreifbar macht.\n\n<color=black>Ausdauer: </color><color=#4B0082>270</color>"
+		},
+		{
+			"theZombieType": 38,
+			"name": "Mecha Gargantua",
+			"introduce": "<size=36><color=black></color>",
+			"info": "<size=36>Eine weitere Erfindung von Dr. Gargantua, die gegen das Einfrieren immun ist und sich ohne zu zögern auf Ihre Verteidigungsanlagen stürzen wird.\n\n<color=black>Ausdauer: </color><color=#4B0082>3000</color>\n<color=black>Besonderheit: </color><color=#4B0082>Unempfindlich gegen Kontrolleffekte, bewegt sich weiter, auch wenn er zurückgeschlagen wird, anfällig für Magnetpilz.</color>"
+		},
+		{
+			"theZombieType": 39,
+			"name": "Mecha Giga-Gargantua",
+			"introduce": "<size=36><color=black></color>",
+			"info": "<size=36>Diese neueste Kreation von Dr. Gargantua ist immun gegen das Einfrieren und stürzt sich direkt auf Ihre Verteidigungsanlagen.\n\n<color=black>Ausdauer: </color><color=#4B0082>6000</color>\n<color=black>Besonderheit: </color><color=#4B0082>Unempfindlich gegen Kontrolleffekte, bewegt sich weiter, auch wenn er zurückgeschlagen wird, anfällig für Magnetpilz.</color>"
+		},
+		{
+			"theZombieType": 40,
+			"name": "Mecha-Nuss Zombie",
+			"introduce": "<size=32>",
+			"info": "<size=27>Eine rollende Bowlingkugel auf der Seite der Zombies.\n\n<color=black>Ausdauer: </color><color=#4B0082>1350</color>\n<color=black>Besonderheit: </color><color=#4B0082>Ändert die Richtung, wenn er auf Pflanzen trifft, und wird an Hängen schneller. Zertrümmert Pflanzen unter 1000 Lebenspunkten, verursacht 1000 Schaden an härteren Pflanzen und wird nach dem Drehen langsamer. Kann durch Schirm-Fusionen aufgehalten werden. Bringt beim Tod 5 Wichts hervor.</color>\n<color=black>Drops: </color><color=#4B0082>1/3 Chance für einen Eisball, Feuerball oder Mechateile.</color>\n\n<color=black>Die Kugeln zerquetschen Pflanzen, blockieren bis zu 30 Kugeln oder halten 30 Sekunden lang. Kann durch Eis-/Feuer-basierte Pflanzenfusionen abgewehrt werden.</color>"
+		},
+		{
+			"theZombieType": 43,
+			"name": "Gepanzert-Gargantua",
+			"introduce": "<size=26><color=black></color>",
+			"info": "<size=34>Bringt jedes Mal, wenn er mit seinem Streitkolben zuschlägt, Wichts hervor!\n\n<color=black>Ausdauer: </color><color=#4B0082>8000+24000</color>\n<color=black>Besonderheit: </color><color=#4B0082>Bewegt sich mit der halben Geschwindigkeit normaler Gargantuars, erleidet nicht mehr als 5000 Schaden bei einem einzigen Treffer, die Zaubereffekte halten nur halb so lange an, wirft bei halbem HP einen Mecha-Nuss-Ball und bringt jedes Mal, wenn er mit seinem Streitkolben auf den Boden schlägt, 1-3 Wichts hervor.</color>"
+		},
+	    {
+            "theZombieType": 45,
+            "name": "Bungee Zombie",
+            "introduce": "<size=36><color=black>Bungee Zombie liebt Risiko. Ich mein, was bringt dir tot zu sein, wenn du nicht ein bisschen lebst?</color>",
+            "info": "<size=36>Descends from the sky and steals a plant\n\n<color=black>Ausdauer: </color><color=#4B0082>720</color>"
+        },
+        {
+            "theZombieType": 47,
+            "name": "Yeti Zombie",
+            "introduce": "<size=36>",
+            "info": "<size=36>Yeti Zombies rennen manchmal einfach weg.\n\n<color=black>Ausdauer: </color><color=#4B0082>1350</color>\n<color=black>Besonderheit: </color><color=#4B0082>Suspends/freezes plants in a 3x3 area around it.</color>"
+        },
+        {
+            "theZombieType": 48,
+            "name": "Nian Zombie",
+            "introduce": "<size=36>",
+            "info": "<size=36>Nian Zombies haben sehr starke Rüstung.\n\n<color=black>Ausdauer: </color><color=#4B0082>8888+8888</color>\n<color=black>Weakness: </color><color=#4B0082>Bambooms</color>"
+        },
+		{
+			"theZombieType": 100,
+			"name": "Erbsenkanonen-Zombie",
+			"introduce": "<size=36><color=black>Die Fähigkeit des Erbsenkanonen-Zombies, aus der Ferne anzugreifen, erschreckt oft die Pflanzen. Die eigentliche Panik geht jedoch von den Zombies aus, die befürchten, dass diejenigen, die vor ihm kämpfen, von hinten angegriffen werden.</color>",
+			"info": "<size=36>Schießt Erbsen, um Ihre Pflanzen anzugreifen.\n\n<color=black>Schaden: </color><color=#4B0082>20</color>\n<color=black>Ausdauer: </color><color=#4B0082>270</color>"
+		},
+		{
+			"theZombieType": 101,
+			"name": "Kirschkanonen-Zombie",
+			"introduce": "<size=34><color=black>Kirschkanonen-Zombie ist ein 17-jähriger Gymnasiast mit einem Pflanzenkopf, der ihm aus dem Nacken wächst. Seine Lieblingsfrucht ist die Kirsche, und wegen seiner päpstlichen Herkunft wird er von den Zombies liebevoll der „Blätterkönig“ genannt.</color>",
+			"info": "<size=34>Schießt Kirschenkugeln, um deine Pflanzen anzugreifen.\n\n<color=black>Schaden: </color><color=#4B0082>60</color>\n<color=black>Ausdauer: </color><color=#4B0082>500</color>"
+		},
+		{
+			"theZombieType": 102,
+			"name": "Explod-o-Kanone Zombie",
+			"introduce": "<size=34><color=black>Explod-o-Kanone Zombie hört gerne „Cherry Bomb“ von The Runaways, was seine feurige Leidenschaft erklären könnte. Allerdings weiß niemand, wie er gelernt hat, Feuerwerkskörper mit seinem Mund zu zünden.</color>",
+			"info": "<size=34>Schießt explosive Kirschen, um Ihre Pflanzen anzugreifen.\n\n<color=black>Schaden: </color><color=#4B0082>1000</color>\n<color=black>Ausdauer: </color><color=#4B0082>500</color>"
+		},
+		{
+			"theZombieType": 103,
+			"name": "Wallnuss-Zombie",
+			"introduce": "<size=36><color=black>Nach einem Angriff der Pflanzen wies Wallnuss-Zombie anstelle von Einschusslöchern Bisswunden an seinem Kopf auf. In einem Interview sagte er: „Vielleicht waren meine Kameraden einfach nur hungrig.“</color>",
+			"info": "<size=36>Es ist eine bewegliche Nuss.\n\n<color=black>Ausdauer: </color><color=#4B0082>270+1100</color>"
+		},
+		{
+			"theZombieType": 104,
+			"name": "<size=31>Kirschkanone Zeitung-Zombie",
+			"introduce": "<size=30><color=black></color>",
+			"info": "<size=36>Wenn seine Zeitung zerbrochen wird, gerät er in einen explosiven Kirschsog.\n\n<color=black>Ausdauer: </color><color=#4B0082>1500+720</color>\n<color=black>Besonderheit: </color><color=#4B0082>Wird vorübergehend unbesiegbar, nachdem seine Zeitung zerbrochen ist, und schießt dann alle 0,75 Sekunden explosive Kirschen ab, nachdem die Zeitung zerbrochen ist.</color>\n<color=black>Explosionsbereich:</color><color=#4B0082>Cross Splash, kann von Nüssen absorbiert werden.</color>"
+		},
+		{
+			"theZombieType": 105,
+			"name": "Mysteriumschachtel-Zombie",
+			"introduce": "<size=36><color=black>？？？</color>",
+			"info": "<size=36>Niemand weiß, was sich in der Kiste verbirgt.\n\n<color=black>Ausdauer: </color><color=#4B0082>270+370</color>\n<color=black>Besonderheit: </color><color=#4B0082>Nachdem die Kiste abfällt, entsteht ein zufälliger Zombie mit 20%/40%/60%/80%/100% der Ausdauer des ursprünglichen Zombies.</color>"
+		},
+		{
+			"theZombieType": 106,
+			"name": "Eisennuss-Zombie",
+			"introduce": "<size=35><color=black>Warum ist Eisennuss-Zombies Kopf aus Eisen? Er aß zu viele eisenhaltige Walnüsse, ohne es zu merken. Doch vielleicht ist es gar nicht so schlimm – jetzt hat er einen Eisenkopf.</color>",
+			"info": "<size=35>Es ist eine bewegende Eisen-Nuss.\n\n<color=black>Ausdauer: </color><color=#4B0082>270+2200</color>\n<color=black>Besonderheit: </color><color=#4B0082>Ein Eimer wird fallen gelassen, wenn er von Kugeln getroffen wird.</color>"
+		},
+		{
+			"theZombieType": 107,
+			"name": "Kirschnuss-Zombie",
+			"introduce": "<size=34><color=black>Echte Männer drehen sich nie um, um Explosionen zu sehen, und Kirschnuss-Zombie passt genau in dieses Schema, denn er fängt Bomben oft mit seinem Gesicht auf.</color>",
+			"info": "<size=34>Hat einen leichten Widerstand gegen explosive Geschosse.\n\n<color=black>Ausdauer: </color><color=#4B0082>270+1100</color>\n<color=black>Besonderheit: </color><color=#4B0082>Erleidet maximal 150 Schaden durch Explosionen.</color>"
+		},
+		{
+			"theZombieType": 108,
+			"name": "Eisenkanone-Zombie",
+			"introduce": "<size=34><color=black>Letztes Jahr zog der Eisenkanone-Zombie eine Tarotkarte, auf der „Der Kaiser“ stand. Seitdem ist er in der Lage, nach Belieben Eisenkugeln zu verschießen.</color>",
+			"info": "<size=34>Feuert hochgradig zerstörerische Geschosse ab.\n\n<color=black>Schaden: </color><color=#4B0082>80</color>\n<color=black>Ausdauer: </color><color=#4B0082>270+1350</color>\n<color=black>Besonderheit: </color><color=#4B0082>Ein Eimer wird fallen gelassen, wenn es durch Kugeln getötet wird.</color>"
+		},
+		{
+			"theZombieType": 109,
+			"name": "Rugbynuss-Zombie",
+			"introduce": "<size=32><color=black>Rugbynuss-Zombie war einst ein ganz normaler Fußball-Zombie, bis er eines Tages mit einer Nuss zusammenstieß, die Dünger verteilte. „Ich weiß nicht, wie dieser Kerl auf meinem Kopf gelandet ist; er erstickt mich!“, klagte Rugbynuss-Zombie.</color>",
+			"info": "<size=32>Stark gepanzerter Zombie, der auch sehr schnell laufen kann.\n\n<color=black>Ausdauer: </color><color=#4B0082>270+4400</color>\n<color=black>Besonderheit: </color><color=#4B0082>Ein Rugby-Helm wird fallen gelassen, wenn er durch Kugeln getötet wird.</color>"
+		},
+		{
+			"theZombieType": 110,
+			"name": "<size=28>Goldenen Mysteriumschachtel-Zombie",
+			"introduce": "<size=36><color=black>？？！</color>",
+			"info": "<size=36>Eine goldene!? Ich frage mich, was in dieser Mysteriumschachtel drin ist...\n\n<color=black>Ausdauer: </color><color=#4B0082>270+720</color>\n<color=black>Besonderheit: </color><color=#4B0082>Nachdem die Kiste herunterfällt, erscheint ein zufälliger Zombie mit voller Ausdauer.</color>"
+		},
+		{
+			"theZombieType": 111,
+			"name": "Frostnuss-Zombie",
+			"introduce": "<size=32><color=black>Der Kopf des Frostnuss-Zombies sorgt für viele Spekulationen. Einige glauben, er wolle sich von der Kälte distanzieren, andere vermuten Dr. Edgars Experimente. Doch nur er weiß, dass die Kopfbedeckung nach dem Verzehr eines blauen Pilzes erschien.</color>",
+			"info": "<size=32>Ein kräftiger Zombie, der auch den Schaden von Eisgeschossen aufheben kann.\n\n<color=black>Ausdauer: </color><color=#4B0082>270+2200</color>\n<color=black>Besonderheit: </color><color=#4B0082>Immunität gegen gefrorene oder Eisgeschosse.</color>"
+		},
+		{
+			"theZombieType": 112,
+			"name": "Explod-o-pult Zombie",
+			"introduce": "<size=35><color=black>Warnung! Bevor er alle seine Basketbälle aufbraucht, solltest du rennen, denn seine explosiven Basketbälle sorgen für Chaos!</color>",
+			"info": "<size=35>Wirft explosive Basketbälle, um deine Verteidigung zu zerstören!\n\n<color=black>Ausdauer: </color><color=#4B0082>1350</color>\n<color=black>Besonderheit: </color><color=#4B0082>Wirft 5 Basketbälle und schleudert dann explosive Basketbälle. Die Explosionen verursachen 100 Schaden an Regenschirmpflanzen.</color>"
+		},
+		{
+			"theZombieType": 113,
+			"name": "Erbsenreiter-Zombie",
+			"introduce": "<size=36><color=black>Was macht diesen Kerl besonders im Vergleich zum Walreiter-Yeti? Erbsenreiter-Zombie antwortet: „Es macht mir einfach Spaß, Bumerang zu spielen“.</color>",
+			"info": "<size=36>Eine Variante des Walreiter-Yeti!\n\n<color=black>Ausdauer: </color><color=#4B0082>720</color>\n<color=black>Besonderheit: </color><color=#4B0082>Schießt vor und nach dem Springen Erbsen auf Ihre Pflanzen.</color>"
+		},
+        {
+            "theZombieType": 114,
+            "name": "Fenster-Tür Buckshooter",
+            "introduce": "<color=black>Fenster-Tür Buckshooter schichtet Eisen-Rüstungen und erstaunt damit den Rest der Zombies. \"Wenn die Magnetpilze enfach unsere Köpfe klauen können, warum bringen wir dann nicht einfach mehr Metall?\" Seine Unlogik behielt einen Wahrheitsgehalt — bis er auf Magblover traf .</color>",
+            "info": "Der Buckshooter Zombie hat eine neue Ausrüstung: eine Fenster-Tür!\n\n<color=black>Damage: </color><color=#4B0082>80</color>\n<color=black>Ausdauer: </color><color=#4B0082>270+1250+1100+1100</color>\n<color=black>Besonderheit: </color><color=#4B0082>Cosntantly shoots iron peas at your plants whilst having decent defense.</color>"
+        },
+        {
+            "theZombieType": 115,
+            "name": "Squash Zombie",
+            "introduce": "<size=32><color=black>\"Hmm? Hmm!\" Die Squash-Zombies stürmen immer ohne Zögern vorwärts und zerquetschen jede Pflanze auf ihrem Weg, und alle Zombies sind von ihrer Selbstlosigkeit bewegt. Aber die Squash-Zombies sind einfach Fans des Neko-Squash, und als sie sahen, wie sie die Endoflamme zerquetschte, konnten sie dem Drang nicht widerstehen, Pflanzen nachzuahmen und zu zerquetschen.</color>",
+            "info": "<size=32>Plättet die erste Pflanze im Weg und stirbt dabei heldenhaft.\n\n<color=black>Ausdauer: </color><color=#4B0082>500</color>\n<color=black>Besonderheit: </color><color=#4B0082>Plättet die erste Pflanze die ihm begegnet.</color>"
+        },
+        {
+            "theZombieType": 116,
+            "name": "Scharfer Squash Zombie",
+            "introduce": "<size=30><color=black>Der Scharfe Squash Zombie ist der Hitzkopf von allen. Sobald er auftaucht, schaufelt er andere Zombies beiseite! Er wollte hoch erhobenen Hauptes stehen und „Asche zu Asche!“ rufen – aber sein Kopf war heißer als er und flog zuerst davon.</color>",
+            "info": "<size=30>Springt und zerstört eine ganze Reihe Pflanzen!\n\n<color=black>Ausdauer: </color><color=#4B0082>1500</color>\n<color=black>Besonderheit: </color><color=#4B0082>Plättet die erste Pflanze, auf die es trifft, und setzt die ganze Gasse in Brand, wobei alle betroffenen Pflanzen zerstört werden. Brennt nicht, wenn es unterkühlt ist. \nEaster Egg Zombie, erscheint nur in Spezialleveln.</color>"
+        },
+        {
+            "theZombieType": 117,
+            "name": "Jalapeno-Zombie",
+            "introduce": "<color=black>Der Jalapeno-Zombie springt mit feuriger Begeisterung in den Pool. Andere Zombies sind allerdings nicht begeistert. \"Toll, jetzt fühlt sich der Pool an wie eine scharfe Suppe …“\"</color>",
+            "info": "Dieser Zombie explodiert und zerstört nach einer Weile eine ganze Reihe Pflanzen.\n\n<color=black>Ausdauer: </color><color=#4B0082>500</color>\n<color=black>Besonderheit: </color><color=#4B0082>Explodiert und zerstört nach einer Weile eine ganze Pflanzenreihe.</color>"
+        },
+        {
+            "theZombieType": 118,
+            "name": "Pea Commando Rugby",
+            "introduce": "<size=32><color=black>Das Letzte, woran sich Pea Commando Rugby vor seinem Tod erinnert, ist, dass er in einen vegetarischen Schlagkäfig gewandert ist und versehentlich eine Wurfmaschine verschluckt hat. Jetzt kann er nicht mehr aufhören, mit rasender Geschwindigkeit Erbsen zu werfen.</color>",
+            "info": "<size=32>Entfesselt gnadenlos einen Erbsenhagel auf Deine Verteidigung!\n\n<color=black>Ausdauer: </color><color=#4B0082>270+1400</color>\n<color=black>Besonderheit: </color><color=#4B0082>Schießt ständig Erbsensalven auf Ihre Pflanzen.</color>"
+        },
+		{
+			"theZombieType": 200,
+			"name": "Haimarine",
+			"introduce": "<size=36><color=black>„Ein hervorragender Taucher sollte nicht nur tauchen, sondern auch ein Super-U-Boot fahren können“, erklärte Haimarine-Zombie, während er die Leistung des U-Boots um einen Gang erhöhte.</color>",
+			"info": "<size=36>Ich habe gehört, dass dieser Zombie mit einem bestimmten Roboterfisch verwandt ist.\n\n<color=black>Ausdauer: </color><color=#4B0082>3000</color>"
+		},
+		{
+			"theZombieType": 201,
+			"name": "Michael-Zomboni",
+			"introduce": "<size=30><color=black>Michael-Zomboni ist nicht nur ein Zombie, sondern Teamarbeit. Zomboni bereitet den Veranstaltungsort vor, Bobschlitten-Zombie sorgt für die Effekte, und Michael-Zombie musste das Auto verlassen, um seine Fans zu begrüßen – doch die Erbsen waren zu aufgeregt.</color>",
+			"info": "<size=30>Extrem hohe Verteidigung und Immunität gegen Verlangsamung.\n\n<color=black>Ausdauer: </color><color=#4B0082>12000</color>\n<color=black>Besonderheit: </color><color=#4B0082>Beim Tod erscheint automatisch ein Michael-Zombie, Zomboni und Bobschlitten-Zombie.</color>"
+		},
+		{
+			"theZombieType": 202,
+			"name": "Gigadreizack-Zombie",
+			"introduce": "<size=32><color=black>„Gigadreizack-Zombie ist ein präziser Fischer und verdient den Titel König der Fischer.“ „Tatsächlich war ich früher Teilzeit-Speerwerfer...“ gesteht er.</color>",
+			"info": "<size=32>Wirft eine große Anzahl von Dreizacken gleichzeitig auf deine Pflanzen.\n\n<color=black>Ausdauer: </color><color=#4B0082>270+7500</color>\n<color=black>Besonderheit: </color><color=#4B0082>Wirft 4 Dreizacken, die jeweils Schaden an Pflanzen verursachen, der 20 % (mindestens 60) ihrer aktuellen Ausdauer entspricht.</color>"
+		},
+		{
+			"theZombieType": 203,
+			"name": "<size=31>MG-Kirsche Zeitung-Zombie",
+			"introduce": "<size=28><color=black>„Ich werde alt...“ klagte MG-Kirsche Zeitung-Zombie, während er die Straße entlangging. Trotz seines zurückgehaltenen Drucks legte er Pflanzen und Zombies nieder. „Nur dieser Typ kann mich noch zum Kämpfen inspirieren...“ murmelte er, als er die Zeitung weglegte und weiterging.</color>",
+			"info": "<size=29>Fügt enormen Schaden zu.\n\n<color=black>Schaden:</color><color=#4B0082>400 → 1000 (Wütend)</color>\n<color=black>Ausdauer: </color><color=#4B0082>1500+1500</color>\n<color=black>Besonderheit: </color><color=#4B0082>Wird vorübergehend unverwundbar, nachdem seine Zeitung zerstört wurde, und beginnt, alle 0,125 Sekunden explosive Kirschen zu schießen.</color>"
+		},
+		{
+			"theZombieType": 204,
+			"name": "Giga Rugbynuss-Zombie",
+			"introduce": "<size=31><color=black>Aus den Schatten tretend, strahlt der Giga Rugbynuss-Zombie Kraft, Kälte und eine düstere Aura aus. Er bewahrt das Geheimnis seiner Stärke beharrlich für sich und behauptet, dass nur die tiefste Dunkelheit ein so gewaltiges Wesen erschaffen kann. \"Wo ist meine Farbe?\" fragte Dr. Edgar, sichtlich verwirrt in seinem Labor.</color>",
+			"info": "<size=31>Ein alter Freund? Vielleicht, vielleicht haben wir ihn schon einmal getroffen.\n\n<color=black>Schaden: </color><color=#4B0082>100</color>\n<color=black>Ausdauer: </color><color=#4B0082>3000+12000</color>"
+		},
+		{
+			"theZombieType": 205,
+			"name": "Kirov Zomppelin",
+			"introduce": "<size=28><color=black>War das ein riesiges Flugobjekt? Nein, es war ein gigantisches Luftschiff mit robuster Hülle und der Fähigkeit, eine Staffel Kämpfer freizusetzen. Selbst wenn es zerstört wird, richtet es weiterhin Verwüstung unter den umliegenden Kreaturen an, sodass andere Zombies Abstand halten, aus Angst, der Absturz könnte ihr Ende bedeuten.</color>",
+			"info": "<size=30>Kirov meldet sich!\n\n<color=black>Ausdauer: </color><color=#4B0082>3000</color>\n<color=black>Besonderheit: </color><color=#4B0082>Ruft jede Sekunde eine Kirov-Drohne herbei. Stürzt beim Tod ab und fügt Pflanzen auf Wichtact enormen Schaden zu.</color>"
+		},
+		{
+			"theZombieType": 206,
+			"name": "Kirov-Drohne",
+			"introduce": "<size=35><color=black>Das ist kein gewöhnliches Flugzeug; es ist ein spezielles Flugzeug, das durch Wasserdruck komprimiert wurde. Während die genaue Methode der Komprimierung ein Rätsel bleibt, entspricht seine Kampfstärke der von herkömmlichen Bombern.</color>",
+			"info": "<size=35>Kirov-Drohnen fliegen schneller und lassen Bomben über die Pflanzen fallen, über die sie fliegen.\n\n<color=black>Bombenschaden: </color><color=#4B0082>1000</color>\n<color=black>Ausdauer: </color><color=#4B0082>200</color>"
+		},
+		{
+			"theZombieType": 207,
+			"name": "Superstar-Zombie",
+			"introduce": "<size=28><color=black>Superstar-Zombie, ein legendäres Idol in der Zombie-Welt, hat hohe Ansprüche an sich selbst. Nach seinem Abschluss an Edgars Tanzakademie meisterte er den Super Moonwalk, das „sechste Wunder der Zombie-Welt“, und erlangte eine große Fangemeinde.</color>",
+			"info": "<size=30>Ein schnell bewegender Zombie, der in deine Verteidigung gleitet, ein schwer zu besiegender Gegner.\n\n<color=black>Ausdauer: </color><color=#4B0082>3000</color>\n<color=black>Besonderheit: </color><color=#4B0082>Gleitet ins Schlachtfeld, reduziert beim Gleiten den Schaden um 90 % und ruft danach Tanz-Zombies herbei.</color>"
+		},
+		{
+			"theZombieType": 208,
+			"name": "Unsterblicher Gespenst",
+			"introduce": "<size=30><color=black>Dieses Monster hat die härtesten Bedingungen überlebt und besitzt enorme Stärke. Es meidet Gehirne und streift umher, um einen abgelegenen Ort zu finden.</color>",
+			"info": "<size=30>Ein Gespenst von vor tausend Jahren mit immenser Stärke.\n\n<color=black>Ausdauer: </color><color=#4B0082>3000</color>\n<color=black>Schaden: </color><color=#4B0082>500</color>\n<color=black>Besonderheit: </color><color=#4B0082>Stürmt gelegentlich eine kurze Strecke, fügt Pflanzen auf seinem Weg 500 Schaden zu und erneut beim Verlassen. Beim Tod fügt er Pflanzen in einem 3×3-Bereich 500 Schaden zu, ausgenommen Kürbis-geschützte Pflanzen.</color>"
+		},
+		{
+			"theZombieType": 209,
+			"name": "Pogo Königsclown-Zombie",
+			"introduce": "<size=32><color=black>\"Ich wollte nur mit diesem Look im Trend liegen,\" sagt Pogo Königsclown-Zombie mit einem Achselzucken, wann immer sein cooler Auftritt erwähnt wird. Aber jeder weiß, dass er einst eine Liebesgeschichte hatte, die ihn tief geprägt hat.</color></size>",
+			"info": "<size=32>Die Bombe ist in seinem Pogo-Stick versteckt.\n\n<color=black>Ausdauer: </color><color=#4B0082>270+3000</color>\n<color=black>Besonderheit: </color><color=#4B0082>Wenn er stirbt, während er hüpft, explodiert er und verwandelt sich in einen Königsclown-Zombie.</color></size>"
+		},
+		{
+			"theZombieType": 210,
+			"name": "Giga Mechanuss-Zombie",
+			"introduce": "<size=36><color=black>\"Fischbällchen? Mecha-Rüstung? Das ist alles, was zählt,\" sagt Giga Mechanuss-Zombie. Mit einem Wichtdrucksvollen mechanischen Anzug fühlt er, dass das alles ist, was er wirklich braucht.</color></size>",
+			"info": "<size=36>Der Giga Mechanuss-Zombie kann die Richtung wechseln.\n\n<color=black>Ausdauer: </color><color=#4B0082>3000</color></size>"
+		},
+		{
+			"theZombieType": 212,
+			"name": "Abyssal Gargantua",
+			"introduce": "<size=26><color=black>Die abyssale Obsidianrüstung darf nur von einem Körper getragen werden, der durch Frost und Flamme gehärtet wurde. In größter Gefahr könnte ihr Träger im schlimmsten Schlachtfeld erscheinen. „Wecke nicht den Riesen, der unter der Erde schläft“, warnt man die Pflanzen.</color>",
+			"info": "<size=30>Eine alte, unheimliche und heimtückische Bedrohung.\n\n<color=black>Ausdauer: </color><color=#4B0082>8000+24000</color>\n<color=black>Besonderheit: </color><color=#4B0082>Gewährt allen Zombies auf dem Bildschirm eine Schadensreduktion von 90 %, ruft Abyssal Wichts herbei, wenn er den Boden zerschmettert, und übernimmt andere Eigenschaften des Gepanzert-Gargantua.</color>"
+		},
+		{
+			"theZombieType": 213,
+			"name": "Abyssal Wicht",
+			"introduce": "<size=32><color=black>Mit einem auffälligen Auftritt mit geflügelten Klingen und einer Todesrolle hat der Abyssal Wicht diesen Stunt sorgfältig für die Rolle des Mini-Pterosauriers im neuesten Hollytomb-Hit Jurassic Zombies entworfen. Niemand weiß jedoch, dass er eigentlich nur versehentlich herausgeschleudert wurde.</color>",
+			"info": "<size=32>Der Abyssal Wicht kann leicht in deine Verteidigung eindringen.\n\n<color=black>Schaden: </color><color=#4B0082>200</color>\n<color=black>Ausdauer: </color><color=#4B0082>1500</color>"
+		},
+		{
+			"theZombieType": 214,
+			"name": "MG Explod-o-rider Zombie",
+			"introduce": "<size=32><color=black>MG Explod-o-rider Zombie wacht immer in schlechter Laune auf – besonders, wenn ein Kollege auf einem Wal ihn zur Arbeit schleppt. Von Wut getrieben, ist er bereit, alle Pflanzen auf seinem Weg zu sprengen, bevor er sich wieder schlafen legt.</color>",
+			"info": "<size=32>Springt in deine Verteidigung und zerstört sie von hinten, indem er explosive Kirschen abfeuert!\n\n<color=black>Ausdauer: </color><color=#4B0082>1500</color>\n<color=black>Besonderheit: </color><color=#4B0082>Beginnt 3 Sekunden nach dem Betreten deines Rasens, explosive Kirschen zu schießen.</color>"
+		},
+		{
+			"theZombieType": 215,
+			"name": "<size=29>Diamant Mysteriumschachtel-Zombie",
+			"introduce": "<size=36><color=black>！！！</color>",
+			"info": "<size=36>Lässt zufällig einen deiner schlimmsten Albträume erscheinen – oder vielleicht einen Segen?\n\n<color=black>Ausdauer: </color><color=#4B0082>20000+1100</color>"
+		},
+        {
+            "theZombieType": 216,
+            "name": "Trident Hwacha",
+            "introduce": "<color=black>Der Trident Hwacha Zombie ist ein \"Perfektionist\" der Untoten. er denkt dass sein Gefährt etwas schäbig ist, also ballert er Dreizacke rein. Aber dank seiner perfektionistischen Natur wird er nicht aufhören, bis alles voll ist.</color>",
+            "info": "Feuert bei jeder Runde eine Dreizack Salve auf deinen Garten ab!\n\n<color=black>Ausdauer: </color><color=#4B0082>1350+4400</color>\n<color=black>Besonderheit: </color><color=#4B0082>Bei jedem Angriff schießt er in schneller Folge 14 Dreizacke ab, und nach einer kurzen Pause feuert er weitere 14 Dreizacke ab, also insgesamt zwei Salven. Die Dreizacke zielen nicht direkt auf Pflanzen, sondern werden in einem festen Winkel und mit einer festen Geschwindigkeit abgefeuert und fügen allen Pflanzen, die sie treffen, Schaden zu.</color>"
+        },
+        {
+            "theZombieType": 217, 
+            "name": "Super Dancing Zombie",
+            "introduce": "<color=black>Alle Zombies sind erstaunt über die unglaublichen Stabhochsprungfähigkeiten des Supertanzzombies. „Ach, das ist einfach mein Talent“, sagt der Supertanzzombie. Aber die Wahrheit ist, dass er zwei Jobs pro Tag hat, und wie man so schön sagt: „Doppelter Job, doppelter Sprung.“</color>",
+            "info": "Kann über 2 Pflanzen springen.\n\n<color=black>Ausdauer: </color><color=#4B0082>3000</color>Besonderheit: </color><color=#4B0082>Kann über 2 Pflanzen springen, wird aber von Tall-Nuts blockiert</color>"
+        },
+        {
+            "theZombieType": 218,
+            "name": "Pozeidon",
+            "introduce": "<color=black></color>",
+            "info": "Ballert nen göttlichen Dreizack auf deinen Garten!\n\n<color=black>Ausdauer: </color><color=#4B0082>8000+24000</color>\n<color=black>Besonderheit: </color><color=#4B0082>Erscheint nur im Fegefeuermodus, nachdem der entsprechende Modifikator ausgewählt wurde. Immun gegen Hypnos und Chompers und erleidet bei jedem Treffer nicht mehr als 5000 Schaden. Während der Anwesenheit greifen alle Giga-Dreizack-Zombies kontinuierlich an und alle Dreizacke verursachen jetzt den fünffachen Schaden. Seine Dreizacke werden in einem festen Winkel geworfen, können die meisten Pflanzen sofort töten (der Schaden kann umgeleitet werden) und blockieren beim Auftreffen Projektile bis zu maximal 300 Schüssen oder verschwinden nach 30 Sekunden. Wenn sie nicht zerstört werden, verursachen sie beim Verschwinden großen Schaden an nahegelegenen Pflanzen.</color>"
+        },
+        {
+            "theZombieType": 219,
+            "name": "Ultra Mecha-nut",
+            "introduce": "<color=black>Die Ultra-Mecha-Nut sollte eine kleinere, präzisere Giga-Mecha-Nut sein, wurde aber durch eine Verwechslung der Blaupausen viel größer. Die Ingenieure haben das zu spät gemerkt und haben ihr <i>rollendes</i> Schicksal akzeptiert.</color>",
+            "info": "Blockt Schaden für alle Zombies auf dem Rasen!\n\n<color=black>Ausdauer: </color><color=#4B0082>12000</color>\n<color=black>Besonderheit: </color><color=#4B0082>Erscheint nur im Fegefeuermodus, nachdem der entsprechende Modifikator ausgewählt wurde. Immun gegen Hypnos und Chompers und erleidet bei jedem Treffer nicht mehr als 5000 Schaden. Der Ultra Mecha-Nut Zombie absorbiert Schaden für alle Zombies (außer Mystery-Box-Zombies). Er hat einen Unbesiegbarkeitsrahmen und erleidet nur alle 0,2 Sekunden Schaden.</color>"
+        },
+        {
+            "theZombieType": 220, 
+            "name": "Giga Rugby Striker",
+            "introduce": "<color=black></color>",
+            "info": "Giga Rugby Striker kann Ihre Verteidigung mit Leichtigkeit zerstören!\n\n<color=black>Damage: </color><color=#4B0082>200</color>\n<color=black>Zähigkeit: </color><color=#4B0082>8000+24000</color>\n<color=black>Eigenschaften: </color><color=#4B0082>Erscheint nur im Fegefeuermodus, nachdem der entsprechende Modifikator ausgewählt wurde. Immun gegen Rückschläge, Hypnos und Chompers; erleidet maximal 5000 Schaden pro Treffer. Deaktiviert die Pflanzenheilung und wandelt sie in 0,1x Schaden gegen ihn um. Tötet nicht defensive Pflanzen sofort und verwandelt sie in Giga-Rugby-verrückte Zombies. Alle 3 Sekunden (stapelbar): 1. Verdoppelt Angriffskraft. 2. Stellt 6000 Rüstungspunkte wieder her. 3. Erhöht die Geschwindigkeit um 0,3 (max. 3). Spawn-Geschwindigkeit: 0,9 - 1,8.</color>"
+        },
+        {
+            "theZombieType": 221, 
+            "name": "Skystrider Mecha",
+            "introduce": "<color=black></color>",
+            "info": "Skystrider Mecha feuert Bomben ab und beschwört Kirovs, um Ihre Verteidigung zu zerstören.\n\n<color=black>Ausdauer: </color><color=#4B0082>12000</color>\n<color=black>Eigenschaften: </color><color=#4B0082>Erscheint nur im Fegefeuer-Modus, nachdem der entsprechende Modifikator ausgewählt wurde. Immun gegen Rückschläge, Hypnos, Chompers und Magnethorns Flugzeugabschuss. Erleidet maximal 5000 Schaden pro Treffer. An Land stürmt es vorwärts und zerquetscht Pflanzen wie ein Zomboni. Bei 2/3 HP wird es kurzzeitig unbesiegbar, dann hebt es ab, beschwört alle 3 Sekunden einen Kirov Zompellin und wirft 3x3 Sprengbomben ab (wie Jack-in-the-Box, wirkungslos gegen Joker Pumpkin).</color>"
+        },
+        {
+            "theZombieType": 222, 
+            "name": "Jackson Worldwide",
+            "introduce": "Hat zu viel Gurkensahne in der Hood produziert",
+            "info": "Jackson Worldwide hat sein gesamtes Leben der Leidenschaft für Bühnenauftritte und Tourneen gewidmet.\n\n<color=black>Ausdauer: </color><color=#4B0082>32000</color>\n<color=black>Eigenschaften: </color><color=#4B0082>Erscheint nur im Fegefeuer-Modus, nachdem der entsprechende Modifikator ausgewählt wurde. Immun gegen Hypnos und Chompers und erleidet bei jedem Treffer nicht mehr als 5000 Schaden, bevor die Schadensreduzierung berücksichtigt wird. Verleiht Zombies in der Nähe Kryo-Immunität und beschwört alle paar Sekunden 4 Superstar-Zombies. Lässt beim Tod 2 Michael Zombonis und einen Superstar-Zombie erscheinen.</color>"
+        },
+        {
+            "theZombieType": 223, 
+            "name": "Professor Cherryz",
+            "introduce": "<color=black></color>",
+            "info": "<size=26>Prof. Cherryz ist besessen vom Studium wissenschaftlicher Artefakte, insbesondere Sprengstoffe; Gerüchten zufolge war Cherrizilla ursprünglich seine Schöpfung...\n\n<color=black>Ausdauer: </color><color=#4B0082>1200+12000+1500</color>\n<color=black>Merkmale: </color><color=#4B0082>Erscheint nur im Fegefeuer-Modus, nachdem der entsprechende Modifikator ausgewählt wurde. Immun gegen Rückschläge, Hypnos und Chompers, erleidet maximal 5000 Schaden pro Treffer. Professor Cherryz ist unverwundbar, bis seine Zeitung zerstört wird. Wenn er sie verliert, wird er kurzzeitig unbesiegbar und verwandelt bis zu 30 Zombies in wütende Cherryshooter-Zeitungs-Zombies. Dann feuert er eine Kirschsalve ab, die Kirschen in die letzte Säule katapultiert, während er nach vorne beschleunigt. Er stoppt erst, wenn er auf Spikeweed trifft, das seine Zeitung sofort zerstört, wenn sie noch intakt ist.</color>"
+        }
+    ]
+}

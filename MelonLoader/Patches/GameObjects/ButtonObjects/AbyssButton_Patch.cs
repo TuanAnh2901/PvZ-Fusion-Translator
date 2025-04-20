@@ -1,4 +1,5 @@
-﻿using HarmonyLib;
+﻿#if FIX
+using HarmonyLib;
 using Il2Cpp;
 using Il2CppTMPro;
 using PvZ_Fusion_Translator.AssetStore;
@@ -15,12 +16,13 @@ namespace PvZ_Fusion_Translator.Patches.GameObjects.ButtonObjects
         {
             StringStore.TranslateTextTransform(__instance.transform, true);
             Transform parentTransform = __instance.transform.parent.transform;
-			if (__instance.name == "Goback")
-			{
-				Transform backgroundTransform = parentTransform.Find("Background");
-				backgroundTransform.Find("Name").GetComponent<TMP_Text>().autoSizeTextContainer = true;
-				backgroundTransform.Find("Shadow").GetComponent<TMP_Text>().autoSizeTextContainer = true;
-			}
+            if (__instance.name == "Goback")
+            {
+                Transform backgroundTransform = parentTransform.Find("Background");
+                backgroundTransform.Find("Name").GetComponent<TMP_Text>().autoSizeTextContainer = true;
+                backgroundTransform.Find("Shadow").GetComponent<TMP_Text>().autoSizeTextContainer = true;
+            }
         }
     }
 }
+#endif

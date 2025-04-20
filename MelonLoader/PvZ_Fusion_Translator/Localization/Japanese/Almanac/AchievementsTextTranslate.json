@@ -1,0 +1,387 @@
+{
+    "Welcome": {
+        "achievement": 0,
+        "Name": "ゲームの基本メカニクスを試してみよう。",
+        "Text": "植物vsゾンビ：融合エディション"
+    },
+    "PeaSunflower": {
+        "achievement": 1,
+        "Name": "ピーヒマワリを発見。",
+        "Text": "融合時代"
+    },
+    "GatlingPea": {
+        "achievement": 2,
+        "Name": "エンドウガトリングを発見。",
+        "Text": "アップグレード"
+    },
+    "TwinFlower": {
+        "achievement": 3,
+        "Name": "双子ヒマワリを発見。",
+        "Text": "双子ヒマワリで決まり"
+    },
+    "SuperGatling": {
+        "achievement": 4,
+        "Name": "エンドウ大将を発見。",
+        "Text": "兄貴がとても怒っている"
+    },
+    "CherryPaper": {
+        "achievement": 5,
+        "Name": "ゾンビの爆発チェリーで4つ以上の植物を一度に爆破。",
+        "Text": "爆破の達人"
+    },
+    "BigWallNut": {
+        "achievement": 6,
+        "Name": "壁ナッツを別の壁ナッツの上に置く。",
+        "Text": "どうやって逃げたんだ？"
+    },
+    "CherryPaper95": {
+        "achievement": 9,
+        "Name": "ガトリング新聞ゾンビと遭遇。",
+        "Text": "チェリーの大セール！"
+    },
+    "Puff": {
+        "achievement": 7,
+        "Name": "ビクビクキノコまたはガスキノコでパフキノコを広げる。",
+        "Text": "私はどうやって生まれたのか"
+    },
+    "SunBomb": {
+        "achievement": 8,
+        "Name": "太陽爆弾で一度に10体のゾンビを爆破。",
+        "Text": "一日一光"
+    },
+    "BigWallNut2": {
+        "achievement": 10,
+        "Name": "壁ナッツで一度に10体のゾンビを潰す。",
+        "Text": "蒸気ローラー"
+    },
+    "BigWallNut3": {
+        "achievement": 11,
+        "Name": "同じゾンビに壁ナッツで20,000のダメージを与える。",
+        "Text": "壁ローラー"
+    },
+    "HypnoShroom": {
+        "achievement": 12,
+        "Name": "ヒプノキノコでゾンビを魅了。",
+        "Text": "今日はやめておきます"
+    },
+    "JacksonZombie": {
+        "achievement": 13,
+        "Name": "マイケルゾンビと遭遇。",
+        "Text": "マイケルも登場！"
+    },
+    "ScaredyHypno": {
+        "achievement": 14,
+        "Name": "フラフラキノコでゾンビを強制的に魅了。",
+        "Text": "念の神"
+    },
+    "HypnoNut": {
+        "achievement": 15,
+        "Name": "ヒプノナッツから金の謎の箱ゾンビゾンビを召喚。",
+        "Text": "おいしそう"
+    },
+    "LilyPad": {
+        "achievement": 16,
+        "Name": "スイレンの葉で植物を作る。",
+        "Text": "若い蓮がその尖った先をついに見せた"
+    },
+    "ThreePeater": {
+        "achievement": 17,
+        "Name": "エッジのレーンにスリーピーターを植え、そのレーンで攻撃ごとに豆を2つ発射させる。",
+        "Text": "弾道が左に傾いている"
+    },
+    "SquashKelp": {
+        "achievement": 18,
+        "Name": "スクワッシュケルプを発見。",
+        "Text": "深海の生物"
+    },
+    "ThreeSpike": {
+        "achievement": 19,
+        "Name": "ウィードスプレッダーでタイヤを破裂させる。",
+        "Text": "なぜスパイクロックがまだ必要なんだ？"
+    },
+    "SunSeaShroom": {
+        "achievement": 20,
+        "Name": "海陽キノコを発見。",
+        "Text": "これって太陽キノコじゃないの？"
+    },
+    "StarBlover": {
+        "achievement": 21,
+        "Name": "スターブロバーで星の弾を引き寄せる。",
+        "Text": "スイングバイ"
+    },
+    "MagnetShroom": {
+        "achievement": 22,
+        "Name": "磁気システムを活用する。",
+        "Text": "幅優先探索"
+    },
+    "CornCabbage": {
+        "achievement": 23,
+        "Name": "タコスパルトを発見。",
+        "Text": "タコスは嘘"
+    },
+    "GarlicCorn": {
+        "achievement": 24,
+        "Name": "ゾンビを毒する。",
+        "Text": "誰がニンニクを食べてるの？"
+    },
+    "CabbageUmbrella": {
+        "achievement": 25,
+        "Name": "キャベツの傘でカタパルトの弾を跳ね返す。",
+        "Text": "弾む楽しさ"
+    },
+    "GoldMelon": {
+        "achievement": 26,
+        "Name": "金のメロンの雨を空から降らせる。",
+        "Text": "メロンの雨"
+    },
+    "SquashTorch": {
+        "achievement": 27,
+        "Name": "スクワッシュの炎木でスクワッシュ作る。",
+        "Text": "スクワッシュ焼き"
+    },
+    "UltimateTorch": {
+        "achievement": 28,
+        "Name": "スクワッシュの地獄木を発見。",
+        "Text": "この辛いスクワッシュは熱い"
+    },
+    "Superkelp": {
+        "achievement": 29,
+        "Name": "三頭のクラーケンを発見。",
+        "Text": "スクワッシュが強くなった"
+    },
+    "DarkThreePeater": {
+        "achievement": 30,
+        "Name": "スリーピーターを点火してみる。",
+        "Text": "火と踊る"
+    },
+    "AshThreePeater": {
+        "achievement": 31,
+        "Name": "スリーピーターにもう一度火をつける。",
+        "Text": "燃える棒"
+    },
+    "SuperThreePeater": {
+        "achievement": 32,
+        "Name": "スリーピーターを灰から蘇らせる。",
+        "Text": "炎の中からの再生"
+    },
+    "MagnetCactus": {
+        "achievement": 33,
+        "Name": "磁力サボテンで飛空艇を撃墜する。",
+        "Text": "アイジス巡洋艦"
+    },
+    "SuperStar": {
+        "achievement": 34,
+        "Name": "天から流星が落ちるのを見守る。",
+        "Text": "天地は動く"
+    },
+    "UltimateStar": {
+        "achievement": 35,
+        "Name": "マグネターを発見。",
+        "Text": "レベル1436"
+    },
+    "MagnetShroom2": {
+        "achievement": 36,
+        "Name": "50の植物を磁気システムでつなげる。",
+        "Text": "磁気圏"
+    },
+    "UltimateStar2": {
+        "achievement": 37,
+        "Name": "マグネターの隕石のダメージを1800以上にする。",
+        "Text": "星の子"
+    },
+    "HypnoMagnet": {
+        "achievement": 38,
+        "Name": "魅惑磁石キノコからメカ・ガーガンチュアを召喚。",
+        "Text": "スチール・トレント"
+    },
+    "SunMagnet": {
+        "achievement": 39,
+        "Name": "太陽磁石キノコで金属物を作成。",
+        "Text": "自給自足"
+    },
+    "SuperCherryShooter": {
+        "achievement": 40,
+        "Name": "チェリー爆弾シューターを発見。",
+        "Text": "手榴弾を撃ったのか？"
+    },
+    "UltimateGatling": {
+        "achievement": 41,
+        "Name": "チェリー爆弾ガトリングを発見。",
+        "Text": "絨毯爆撃"
+    },
+    "HypnoEmperor": {
+        "achievement": 42,
+        "Name": "魅帝王キノコを発見。",
+        "Text": "大魔法使い"
+    },
+    "CobCannon": {
+        "achievement": 43,
+        "Name": "トウモロコシ大砲を発見。",
+        "Text": "老世代の落ち着き"
+    },
+    "IceCannon": {
+        "achievement": 44,
+        "Name": "氷の大砲を使って植物を融合する。",
+        "Text": "氷河期"
+    },
+    "FireCannon": {
+        "achievement": 45,
+        "Name": "炎の大砲を使って植物を融合する。",
+        "Text": "世界が燃えるのを見よ"
+    },
+    "UltimateCannon": {
+        "achievement": 46,
+        "Name": "終焉大砲を発見。",
+        "Text": "核攻撃"
+    },
+    "SuperUmbrella": {
+        "achievement": 47,
+        "Name": "ダイヤモンドの傘でお金像を作る。",
+        "Text": "錬金術"
+    },
+    "EmeraldUmbrella": {
+        "achievement": 48,
+        "Name": "エメラルドの傘でトライデントを誘い出す。",
+        "Text": "来て、私を打って！"
+    },
+    "RedEmeraldUmbrella": {
+        "achievement": 49,
+        "Name": "ルビーの傘ででゾンビの弾を反射する。",
+        "Text": "差出人に返送"
+    },
+    "Plantern": {
+        "achievement": 50,
+        "Name": "植物の光レベルを10以上にする。",
+        "Text": "明るく照らされて"
+    },
+    "SuperFume": {
+        "achievement": 51,
+        "Name": "氷山キノコを発見。",
+        "Text": "暗いキノコ"
+    },
+    "UltimateFume": {
+        "achievement": 52,
+        "Name": "制覇キノコを発見。",
+        "Text": "ノコ！戻ってきた！"
+    },
+    "UltimteGloom": {
+        "achievement": 53,
+        "Name": "崩壊キノコを発見。",
+        "Text": "1つのキノコ、5レーン"
+    },
+    "CattailPlant": {
+        "achievement": 54,
+        "Name": "スイレンの葉に肥料を与える。",
+        "Text": "猫には九命がある"
+    },
+    "CattailGirl": {
+        "achievement": 55,
+        "Name": "ガマの少女を発見。",
+        "Text": "この植物は美少女？"
+    },
+    "Cattailour": {
+        "achievement": 56,
+        "Name": "猫神を発見。",
+        "Text": "猫神降臨"
+    },
+    "WallNut": {
+        "achievement": 57,
+        "Name": "壁ナッツでゾンビから守る。",
+        "Text": "ハードウェア"
+    },
+    "SuperChomper": {
+        "achievement": 58,
+        "Name": "チョンプジラを発見。",
+        "Text": "酷い人"
+    },
+    "UltimateChomper": {
+        "achievement": 59,
+        "Name": "チェリージラを発見。",
+        "Text": "赤い怪物"
+    },
+    "UltimateTallNut": {
+        "achievement": 60,
+        "Name": "黒曜石の背の高いナッツでで爆発から守る。",
+        "Text": "アイス・バケツ・チャレンジ"
+    },
+    "SuperMachineNut": {
+        "achievement": 61,
+        "Name": "超級メカ・ナッツの耐久力が100万を超えるまで回復させる。",
+        "Text": "これは魚の玉か？"
+    },
+    "SuperSunNut": {
+        "achievement": 62,
+        "Name": "双子太陽ナッツから巨大なナッツを召喚。",
+        "Text": "あなたは私の太陽"
+    },
+    "UltimatePumpkin": {
+        "achievement": 63,
+        "Name": "レーザーパンプキンを使って空中のゾンビから守る。",
+        "Text": "レーザーショー"
+    },
+    "MelonJump": {
+        "achievement": 64,
+        "Name": "傘の葉の融合を使ってポゴスイカゾンビを空中で跳ね返す。",
+        "Text": "天地の間"
+    },
+    "IronNut": {
+        "achievement": 65,
+        "Name": "バックナッツを発見。",
+        "Text": "かかってこい！"
+    },
+    "Sub": {
+        "achievement": 999,
+        "Name": "次回の更新をお楽しみに。",
+        "Text": "次の更新をお楽しみに！"
+    },
+    "WelcomeChallenge": {
+        "achievement": 1000,
+        "Name": "これからの上級チャレンジを挑戦してみよう。",
+        "Text": "勇敢に挑戦せよ"
+    },
+    "Travel": {
+        "achievement": 1001,
+        "Name": "旅行：サバイバルを完了。",
+        "Text": "冒険の時間"
+    },
+    "Travel2": {
+        "achievement": 1002,
+        "Name": "旅行：ラストスタンドを完了。",
+        "Text": "人気の観光地"
+    },
+    "Travel3": {
+        "achievement": 1003,
+        "Name": "旅行：煉獄を完了。",
+        "Text": "九死に一生"
+    },
+    "Travel_noBuff": {
+        "achievement": 1004,
+        "Name": "強化を選択せずに旅行モードを完了。",
+        "Text": "世界旅行者"
+    },
+    "Travel_noNut": {
+        "achievement": 1005,
+        "Name": "チェリージラ、黒曜石の背の高いナッツ、超級メカ・ナッツ、双子太陽ナッツを使わずに旅行モードを完了。",
+        "Text": "最良の防御は攻撃だ"
+    },
+    "Travel_sun": {
+        "achievement": 1006,
+        "Name": "旅行モードで1回のラウンドで100万太陽を使う。",
+        "Text": "何千もの光"
+    },
+    "Travel_fast": {
+        "achievement": 1007,
+        "Name": "旅行モードを40分以内で完了。",
+        "Text": "スピードランナー"
+    },
+    "SuperMachineNut_health": {
+        "achievement": 1008,
+        "Name": "超級メカ・ナッツの耐久力が1億を超えるまで回復させる。",
+        "Text": "何もすることがないときに何をしてるんだ？"
+    },
+    "SuperDamage": {
+        "achievement": 1009,
+        "Name": "腐敗化の強化を使わずに黒曜石ガーガンチュアを10秒以内で倒す。",
+        "Text": "絶対的な力"
+    }
+}

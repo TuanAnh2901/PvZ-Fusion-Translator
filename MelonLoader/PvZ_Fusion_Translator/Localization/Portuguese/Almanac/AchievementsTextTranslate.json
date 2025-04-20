@@ -1,0 +1,387 @@
+{
+  "Welcome": {
+    "achievement": 0,
+    "Name": "Experimente a mecânica principal do jogo.",
+    "Text": "Plantas vs Zumbis\nFusion"
+  },
+  "PeaSunflower": {
+    "achievement": 1,
+    "Name": "Descubra os irmãos Disparassóis.",
+    "Text": "Dupla Dinâmica"
+  },
+  "GatlingPea": {
+    "achievement": 2,
+    "Name": "Descubra a Metralhervilha.",
+    "Text": "Fazendo uma\nmelhoria"
+  },
+  "TwinFlower": {
+    "achievement": 3,
+    "Name": "Descubra as Girassóis Gêmeas.",
+    "Text": "Ganhando em dobro"
+  },
+  "SuperGatling": {
+    "achievement": 4,
+    "Name": "Descubra o Coronelervilha.",
+    "Text": "O irmão mais velho"
+  },
+  "CherryPaper": {
+    "achievement": 5,
+    "Name": "Exploda 4 ou mais plantas com uma única explosão das Cerejas-Bomba.",
+    "Text": "Especialista\nem demolição"
+  },
+  "BigWallNut": {
+    "achievement": 6,
+    "Name": "Coloque uma Noz em cima de outra Noz.",
+    "Text": "Como ela fugiu?"
+  },
+  "CherryPaper95": {
+    "achievement": 9,
+    "Name": "Encontre o Zumbi Metralhacerejas do Jornal.",
+    "Text": "Promoção de cerejas"
+  },
+  "Puff": {
+    "achievement": 7,
+    "Name": "Use um Medogumelo ou Gasogumelo para espalhar Soprogumelos.",
+    "Text": "De onde eu vim?"
+  },
+  "SunBomb": {
+    "achievement": 8,
+    "Name": "Use a Bomba Solar para explodir 10 zumbis de uma vez.",
+    "Text": "Apenas raios de sol\ne borboletas"
+  },
+  "BigWallNut2": {
+    "achievement": 10,
+    "Name": "Use uma Noz-Colosso para esmagar 10 zumbis de uma vez.",
+    "Text": "Rolo compressor"
+  },
+  "BigWallNut3": {
+    "achievement": 11,
+    "Name": "Use uma Noz para causar 20.000 de dano no mesmo zumbi.",
+    "Text": "Somos nozes"
+  },
+  "HypnoShroom": {
+    "achievement": 12,
+    "Name": "Use um Hipnogumelo para hipnotizar um zumbi.",
+    "Text": "Lado errado"
+  },
+  "JacksonZombie": {
+    "achievement": 13,
+    "Name": "Encontre o Zumbi Michael.",
+    "Text": "Thriller"
+  },
+  "ScaredyHypno": {
+    "achievement": 14,
+    "Name": "Use o Psicogumelo para hipnotizar zumbis à força.",
+    "Text": "Deus do conceito"
+  },
+  "HypnoNut": {
+    "achievement": 15,
+    "Name": "Invoque um Zumbi Caixa de Mistério Dourada com a Noz-Hipnótica.",
+    "Text": "Investida inversa"
+  },
+  "LilyPad": {
+    "achievement": 16,
+    "Name": "Faça a Vitória-Régia gerar uma planta.",
+    "Text": "Carta na manga"
+  },
+  "ThreePeater": {
+    "achievement": 17,
+    "Name": "Plante uma Triplervilha nas bordas, fazendo-o disparar 2 ervilhas em sua fileira.",
+    "Text": "Sem desperdícios"
+  },
+  "SquashKelp": {
+    "achievement": 18,
+    "Name": "Descubra a Esmaganhalga.",
+    "Text": "Três chances"
+  },
+  "ThreeSpike": {
+    "achievement": 19,
+    "Name": "Use a Triplerva-Espinho para estourar pneus.",
+    "Text": "Três é demais"
+  },
+  "SunSeaShroom": {
+    "achievement": 20,
+    "Name": "Descubra o Solargumelo Marinho.",
+    "Text": "Esse não é o Solargumelo?"
+  },
+  "StarBlover": {
+    "achievement": 21,
+    "Name": "Use a Estrelada para atrair projéteis estelares.",
+    "Text": "Colecionadora\nde estrelas"
+  },
+  "MagnetShroom": {
+    "achievement": 22,
+    "Name": "Utilize o Sistema Magnético.",
+    "Text": "Maior largura\nde banda"
+  },
+  "CornCabbage": {
+    "achievement": 23,
+    "Name": "Descubra o Tacopulta.",
+    "Text": "Isso é sobre tacos"
+  },
+  "GarlicCorn": {
+    "achievement": 24,
+    "Name": "Envenene um zumbi.",
+    "Text": "Mau hálito"
+  },
+  "CabbageUmbrella": {
+    "achievement": 25,
+    "Name": "Use o Couve Guarda-Chuva para rebater projéteis de catapultas.",
+    "Text": "Rebatida divertida"
+  },
+  "GoldMelon": {
+    "achievement": 26,
+    "Name": "Deixe uma chuva de melancias dourados cair do céu.",
+    "Text": "Belos melões\nde ouro"
+  },
+  "SquashTorch": {
+    "achievement": 27,
+    "Name": "Use o Tronco Esmagador para produzir um Esmagador Dourado.",
+    "Text": "Tá pegando fogo"
+  },
+  "UltimateTorch": {
+    "achievement": 28,
+    "Name": "Descubra o Inferno Esquentador.",
+    "Text": "Vingador\nmais forte"
+  },
+  "Superkelp": {
+    "achievement": 29,
+    "Name": "Descubra a Emaranhidra.",
+    "Text": "Criatura das\nprofundezas"
+  },
+  "DarkThreePeater": {
+    "achievement": 30,
+    "Name": "Tente incendiar uma Triplervilha.",
+    "Text": "A dança do fogo"
+  },
+  "AshThreePeater": {
+    "achievement": 31,
+    "Name": "Tente incendiar uma Queimadervilha.",
+    "Text": "Quente até o talo"
+  },
+  "SuperThreePeater": {
+    "achievement": 32,
+    "Name": "Faça uma Cinzervilha renascer das cinzas.",
+    "Text": "Renascendo\ndas cinzas"
+  },
+  "MagnetCactus": {
+    "achievement": 33,
+    "Name": "Use o Eletrocacto para derrubar dirigíveis.",
+    "Text": "Eletromagneticamente"
+  },
+  "SuperStar": {
+    "achievement": 34,
+    "Name": "Veja um meteoro cair do céu.",
+    "Text": "Faça um pedido"
+  },
+  "UltimateStar": {
+    "achievement": 35,
+    "Name": "Descubra a Supernova.",
+    "Text": "Que a Força\nesteja com você"
+  },
+  "MagnetShroom2": {
+    "achievement": 36,
+    "Name": "Conecte 50 Plantas em um único Sistema Magnético.",
+    "Text": "Uma rede no jardim"
+  },
+  "UltimateStar2": {
+    "achievement": 37,
+    "Name": "Faça o dano estelar do Supernova exceder 1800.",
+    "Text": "Vindo das estrelas"
+  },
+  "HypnoMagnet": {
+    "achievement": 38,
+    "Name": "Convoque um Devorador Biônico de um Atrativogumelo.",
+    "Text": "Gigantes de aço"
+  },
+  "SunMagnet": {
+    "achievement": 39,
+    "Name": "Use o Ímãgumelo Solar para produzir um objeto metálico.",
+    "Text": "Autossuficiente"
+  },
+  "SuperCherryShooter": {
+    "achievement": 40,
+    "Name": "Descubra o Disparabombas.",
+    "Text": "Disparo explosivo"
+  },
+  "UltimateGatling": {
+    "achievement": 41,
+    "Name": "Descubra o Metralhabombas.",
+    "Text": "Bombardeiro\nno jardim"
+  },
+  "HypnoEmperor": {
+    "achievement": 42,
+    "Name": "Descubra a Imperatrizgumelo.",
+    "Text": "Uma Imperatriz\npoderosa"
+  },
+  "CobCannon": {
+    "achievement": 43,
+    "Name": "Descubra o Canhão de Milho.",
+    "Text": "Geração mais velha"
+  },
+  "IceCannon": {
+    "achievement": 44,
+    "Name": "Use o Canhão de Gelo para fusionar plantas com Cryo.",
+    "Text": "A era do gelo"
+  },
+  "FireCannon": {
+    "achievement": 45,
+    "Name": "Use o Canhão de Magma para fusionar plantas com Pyro.",
+    "Text": "Aquecimento global"
+  },
+  "UltimateCannon": {
+    "achievement": 46,
+    "Name": "Descubra o Canhão Obliterador.",
+    "Text": "Ataque nuclear"
+  },
+  "SuperUmbrella": {
+    "achievement": 47,
+    "Name": "Ganhe dinheiro usando o Diamante Guarda-Chuva.",
+    "Text": "Só no lucro"
+  },
+  "EmeraldUmbrella": {
+    "achievement": 48,
+    "Name": "Use o Esmeralda Guarda-Chuva para atrair tridentes.",
+    "Text": "Um alvo fácil"
+  },
+  "RedEmeraldUmbrella": {
+    "achievement": 49,
+    "Name": "Use o Rubi Guarda-Chuva para refletir projéteis de zumbis.",
+    "Text": "Hoje não"
+  },
+  "Plantern": {
+    "achievement": 50,
+    "Name": "Faça o nível de lumos de uma Planta ser maior que 10.",
+    "Text": "A Iluminada"
+  },
+  "SuperFume": {
+    "achievement": 51,
+    "Name": "Descubra o Trevagumelo.",
+    "Text": "Não me faça rir,\nestou sombrio hoje"
+  },
+  "UltimateFume": {
+    "achievement": 52,
+    "Name": "Descubra o Cataclismogumelo.",
+    "Text": "Um grande cataclismo"
+  },
+  "UltimteGloom": {
+    "achievement": 53,
+    "Name": "Descubra o Colapsogumelo.",
+    "Text": "O motivo do colapso"
+  },
+  "CattailPlant": {
+    "achievement": 54,
+    "Name": "Use Fertilizante em uma Vitória-Régia.",
+    "Text": "Gatos têm\nsete vidas"
+  },
+  "CattailGirl": {
+    "achievement": 55,
+    "Name": "Descubra a Shironeko D'água.",
+    "Text": "A Garota Mágica\nShironeko"
+  },
+  "Cattailour": {
+    "achievement": 56,
+    "Name": "Descubra a Charme-de-Gato.",
+    "Text": "Com charme,\ncom encanto"
+  },
+  "WallNut": {
+    "achievement": 57,
+    "Name": "Use o Noz-Obstáculo para se defender de zumbis.",
+    "Text": "Osso duro de roer"
+  },
+  "SuperChomper": {
+    "achievement": 58,
+    "Name": "Descubra a Carnívorazilla.",
+    "Text": "Resistência a\nbaixo custo"
+  },
+  "UltimateChomper": {
+    "achievement": 59,
+    "Name": "Descubra o Cerejazilla.",
+    "Text": "Aquilo que\nme fortalece"
+  },
+  "UltimateTallNut": {
+    "achievement": 60,
+    "Name": "Use o Noz-Obsidiana para defender contra explosões.",
+    "Text": "Entrando numa fria"
+  },
+  "SuperMachineNut": {
+    "achievement": 61,
+    "Name": "Cure o Noz-Mechatron até sua saúde exceder 1 milhão.",
+    "Text": "É de mais de oito mil"
+  },
+  "SuperSunNut": {
+    "achievement": 62,
+    "Name": "Crie uma Mega-Noz com o Imperador Noz-Solar.",
+    "Text": "Um banho de sol"
+  },
+  "UltimatePumpkin": {
+    "achievement": 63,
+    "Name": "Use a Abóbora Laser para defender contra zumbis aéreos.",
+    "Text": "Barreira Cascuda"
+  },
+  "MelonJump": {
+    "achievement": 64,
+    "Name": "Use qualquer Planta Guarda-chuva para derrubar um Zumbi Melancipogo.",
+    "Text": "Céu e Terra"
+  },
+  "IronNut": {
+    "achievement": 65,
+    "Name": "Descubra o Noz-Metálica.",
+    "Text": "Agora ferrou"
+  },
+  "Sub": {
+    "achievement": 999,
+    "Name": "Fique ligado para as próximas atualizações!",
+    "Text": "Fique ligado!"
+  },
+  "WelcomeChallenge": {
+    "achievement": 1000,
+    "Name": "Batalhe nesses desafios avançados.",
+    "Text": "Siga em frente"
+  },
+  "Travel": {
+    "achievement": 1001,
+    "Name": "Conclua a Odisseia: Sobrevivência.",
+    "Text": "Hora de viajar"
+  },
+  "Travel2": {
+    "achievement": 1002,
+    "Name": "Conclua a Odisseia: Último Batalhão.",
+    "Text": "Na mira\ndo inimigo"
+  },
+  "Travel3": {
+    "achievement": 1003,
+    "Name": "Conclua a Odisseia: Purgatório.",
+    "Text": "Purificação"
+  },
+  "Travel_noBuff": {
+    "achievement": 1004,
+    "Name": "Conclua o Modo Odisseia sem selecionar nenhum Bônus de Odisseia.",
+    "Text": "Mestre da Odisseia"
+  },
+  "Travel_noNut": {
+    "achievement": 1005,
+    "Name": "Conclua o Modo Odisseia sem usar Cerejazilla, Noz-Obsidiana, Noz-Mechatron e Imperador Noz-Solar.",
+    "Text": "A melhor defesa\né o ataque"
+  },
+  "Travel_sun": {
+    "achievement": 1006,
+    "Name": "Gaste mais de 1 milhão de Sóis em uma única rodada do Modo Odisseia.",
+    "Text": "Sol radiante"
+  },
+  "Travel_fast": {
+    "achievement": 1007,
+    "Name": "Conclua o Modo Odisseia em menos de 40 minutos.",
+    "Text": "Velocista"
+  },
+  "SuperMachineNut_health": {
+    "achievement": 1008,
+    "Name": "Cure o Noz-Mechatron até sua saúde exceder 100 milhões.",
+    "Text": "Medicina\navançada"
+  },
+  "SuperDamage": {
+    "achievement": 1009,
+    "Name": "Derrote um Devorador Abissal em menos de 10 segundos sem o Bônus de Corrupção.",
+    "Text": "Poder absoluto"
+  }
+}
