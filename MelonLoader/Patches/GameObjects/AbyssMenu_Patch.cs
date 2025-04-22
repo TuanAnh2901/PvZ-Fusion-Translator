@@ -62,6 +62,7 @@ namespace PvZ_Fusion_Translator.Patches.GameObjects
 }
 #endif
 
+//#if VTACode
 using HarmonyLib;
 using Il2Cpp;
 using Il2CppTMPro;
@@ -259,3 +260,4 @@ namespace PvZ_Fusion_Translator.Patches.Managers
 
     }
 }
+//#endif

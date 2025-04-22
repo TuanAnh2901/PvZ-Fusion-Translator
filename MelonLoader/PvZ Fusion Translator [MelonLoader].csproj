@@ -18,51 +18,51 @@
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugEnglish|AnyCPU'">
-		<GamePath>D:\Games\[Series] PvZ Mods\(Fangame) Fusion\(Latest - Solo)\Game Files</GamePath>
+		<GamePath>D:\PvZ Fusion\Game Files</GamePath>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugEnglish|x64'">
-	  <GamePath>D:\Games\[Series] PvZ Mods\(Fangame) Fusion\(Latest - Solo)\Game Files</GamePath>
+	  <GamePath>D:\PvZ Fusion\Game Files</GamePath>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugEnglish|ARM64'">
-	  <GamePath>D:\Games\[Series] PvZ Mods\(Fangame) Fusion\(Latest - Solo)\Game Files</GamePath>
+	  <GamePath>D:\PvZ Fusion\Game Files</GamePath>
 	</PropertyGroup>
 		
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseEnglish|AnyCPU'">
-		<GamePath>D:\Games\[Series] PvZ Mods\(Fangame) Fusion\(Latest - Solo)\Game Files</GamePath>
+		<GamePath>D:\PvZ Fusion\Game Files</GamePath>
 	</PropertyGroup>
 		
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseEnglish|x64'">
-	  <GamePath>D:\Games\[Series] PvZ Mods\(Fangame) Fusion\(Latest - Solo)\Game Files</GamePath>
+	  <GamePath>D:\PvZ Fusion\Game Files</GamePath>
 	</PropertyGroup>
 		
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseEnglish|ARM64'">
-	  <GamePath>D:\Games\[Series] PvZ Mods\(Fangame) Fusion\(Latest - Solo)\Game Files</GamePath>
+	  <GamePath>D:\PvZ Fusion\Game Files</GamePath>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseOther|AnyCPU'">
-	  <GamePath>D:\Games\[Series] PvZ Mods\(Fangame) Fusion\(Latest - Solo)\Game Files</GamePath>
+	  <GamePath>D:\PvZ Fusion\Game Files</GamePath>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseOther|x64'">
-	  <GamePath>D:\Games\[Series] PvZ Mods\(Fangame) Fusion\(Latest - Solo)\Game Files</GamePath>
+	  <GamePath>D:\PvZ Fusion\Game Files</GamePath>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseOther|ARM64'">
-	  <GamePath>D:\Games\[Series] PvZ Mods\(Fangame) Fusion\(Latest - Solo)\Game Files</GamePath>
+	  <GamePath>D:\PvZ Fusion\Game Files</GamePath>
 	</PropertyGroup>
 	
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseMulti|AnyCPU'">
-		<GamePath>D:\Games\[Series] PvZ Mods\(Fangame) Fusion\(Latest - Multi)\Game Files</GamePath>
+		<GamePath>D:\PvZ Fusion\Game Files</GamePath>
 	</PropertyGroup>
 	
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseMulti|x64'">
-	  <GamePath>D:\Games\[Series] PvZ Mods\(Fangame) Fusion\(Latest - Multi)\Game Files</GamePath>
+	  <GamePath>D:\PvZ Fusion\Game Files</GamePath>
 	</PropertyGroup>
 	
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseMulti|ARM64'">
-	  <GamePath>D:\Games\[Series] PvZ Mods\(Fangame) Fusion\(Latest - Multi)\Game Files</GamePath>
+	  <GamePath>D:\PvZ Fusion\Game Files</GamePath>
 	</PropertyGroup>
 	
 	<ItemGroup>
@@ -84,6 +84,9 @@
 	<ItemGroup>
 		<Reference Include="AudioImportLib">
 			<HintPath>$(GamePath)\Mods\AudioImportLib.dll</HintPath>
+		</Reference>
+		<Reference Include="Newtonsoft.Json">
+			<HintPath>$(GamePath)\Mods\Newtonsoft.Json.dll</HintPath>
 		</Reference>
 		<Reference Include="Assembly-CSharp">
 			<HintPath>$(GamePath)\MelonLoader\Il2CppAssemblies\Assembly-CSharp.dll</HintPath>
@@ -504,10 +507,6 @@
 		<Compile Include="Patches\Managers\UIMgr_Patch.cs" />
 		<Compile Include="Patches\GameObjects\MinorObjects\Zombie_Patch.cs" />
 		<Compile Include="Utils.cs" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 	</ItemGroup>
 	
 	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
