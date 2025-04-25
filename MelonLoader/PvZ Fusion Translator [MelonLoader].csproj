@@ -452,6 +452,7 @@
 		<Compile Include="Log.cs" />
 		<Compile Include="ModFeatures.cs" />
 		<Compile Include="AssetStore\AudioStore.cs" />
+		<Compile Include="Patches\GameObjects\AbyssCheckSellMenu_Patch.cs" />
 		<Compile Include="Patches\GameObjects\ButtonObjects\AbyssBuffButton_Patch.cs" />
 		<Compile Include="Patches\GameObjects\ButtonObjects\AbyssLevelEnter_Patch.cs" />
 		<Compile Include="Patches\GameObjects\ButtonObjects\BaseMenu_Patch.cs" />
@@ -466,6 +467,7 @@
 		<Compile Include="Patches\GameObjects\AbyssDevelopMenu_Patch.cs" />
 		<Compile Include="Patches\GameObjects\AbyssMenu2_Patch.cs" />
 		<Compile Include="Patches\GameObjects\AbyssMenu_Patch.cs" />
+		<Compile Include="Patches\GameObjects\AbyssManager_Patch.cs" />
 		<Compile Include="Patches\Managers\CustomLevelShower_Patch.cs" />
 		<Compile Include="Patches\Managers\SaveMenu_Patch.cs" />
 		<Compile Include="Patches\GameObjects\TravelBuffOptionButton_Patch.cs" />
