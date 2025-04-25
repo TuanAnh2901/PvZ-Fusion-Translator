@@ -33,6 +33,17 @@ namespace PvZ_Fusion_Translator.Patches.Managers
 
 
         [HarmonyPatch(nameof(AbyssLevelEnter.SetLevel))]
+        [HarmonyPrefix]
+        private static void SetLevelPrefix(AbyssLevelEnter __instance, int level, AbyssMenu abyssMenu)
+        {
+            // 拦截原始的格式化字符串，替换为翻译后的版本
+            string originalFormat = "第{0}关";
+            string translatedFormat = StringStore.TranslateText(originalFormat, false);
+            
+            // 在这里不设置文本，因为原始方法会设置，我们只需在Postfix中处理字体
+        }
+
+        [HarmonyPatch(nameof(AbyssLevelEnter.SetLevel))]
         [HarmonyPostfix]
         private static void SetLevel(AbyssLevelEnter __instance)
         {
