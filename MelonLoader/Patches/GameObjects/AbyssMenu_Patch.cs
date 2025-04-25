@@ -85,7 +85,7 @@ namespace PvZ_Fusion_Translator.Patches.Managers
         //     {
         //         TMP_FontAsset fontAsset = FontStore.LoadTMPFont(Utils.Language.ToString());
 
-        //         foreach (TextMeshProUGUI txt in __instance.levelInfo)
+                 //foreach (TextMeshProUGUI txt in __instance.levelInfo)
         //         {
         //             txt.text = StringStore.TranslateText(txt.text, false);
         //             txt.font = fontAsset;

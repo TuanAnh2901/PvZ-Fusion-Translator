@@ -14,6 +14,7 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Configurations>Debug;DebugEnglish;ReleaseMulti;ReleaseEnglish;DebugTesting;ReleaseOther;DebugObfuscate;ReleaseObfuscate</Configurations>
 		<GamePath>D:\PvZ Fusion\Game Files</GamePath>
+		<TransPath>D:\VSCode\PvZ-Fusion-Translator\MelonLoader\PvZ_Fusion_Translator</TransPath>
 		<Platforms>AnyCPU;ARM64;x64</Platforms>
 	</PropertyGroup>
 
@@ -512,6 +513,6 @@
 	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
 		<Exec Command="COPY &quot;$(TargetPath)&quot; &quot;$(GamePath)\Mods&quot;" />
 		<!-- Copy essential folders and files -->
-		<Exec Command="XCOPY &quot;$(ProjectDir)PvZ_Fusion_Translator&quot; &quot;$(GamePath)\Mods\PvZ_Fusion_Translator&quot; /E /I /Y" />
+		<Exec Command="XCOPY &quot;$(TransPath)&quot; &quot;$(GamePath)\Mods\PvZ_Fusion_Translator&quot; /E /I /Y" />
 	</Target>
 </Project>

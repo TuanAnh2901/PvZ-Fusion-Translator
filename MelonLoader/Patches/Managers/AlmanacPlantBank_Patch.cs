@@ -3,6 +3,8 @@ using Il2Cpp;
 using Il2CppTMPro;
 using PvZ_Fusion_Translator.AssetStore;
 using UnityEngine;
+using UnityEngine.TextCore.Text;
+using UnityEngine.UI;
 using static PvZ_Fusion_Translator.FileLoader;
 
 namespace PvZ_Fusion_Translator.Patches.Managers
@@ -105,5 +107,37 @@ namespace PvZ_Fusion_Translator.Patches.Managers
 			}
 			return true;
 		}
+
+		[HarmonyPatch(typeof(AlmanacPlantBank), "Start")]
+		public class AlmanacPlantBankPatch
+		{
+			static void Postfix(AlmanacPlantBank __instance)
+			{
+				if (__instance.skinButton != null)
+				{
+					// Load custom font for localization
+					TMP_FontAsset fontAsset = FontStore.LoadTMPFont(Utils.Language.ToString());
+
+					// Locate all TextMeshProUGUI components in skinButton
+					TextMeshProUGUI[] textComponents = __instance.skinButton.GetComponentsInChildren<TextMeshProUGUI>(true);
+
+					foreach (TextMeshProUGUI txt in textComponents)
+					{
+						if (txt.text.Contains("换肤")) // Check for the specific text
+						{
+							// Translate and replace the text
+							txt.text = StringStore.TranslateText(txt.text, false);
+							txt.font = fontAsset; // Set the new font
+						}
+					}
+				}
+
+				else
+				{
+					Debug.LogWarning("SkinButton is null!");
+				}
+			}
+		}
+
 	}
 }
